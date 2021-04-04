@@ -1,0 +1,86 @@
+package PageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public abstract class BasePage
+{
+     WebDriver driver;
+
+    public BasePage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+
+    }
+
+    public void ExplicityWaitIsClickable(WebElement elementString)
+    {
+        {
+            try
+
+            {
+
+                for (int i=0;i<3;i++)
+                    try
+                    {
+                        WebDriverWait wait = new WebDriverWait(driver, 10);
+                        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(elementString));
+                        element.click();
+                        break;
+                    }
+                    catch (Exception e)
+                    {
+                        try {
+                            Thread.sleep(500);
+                        } catch (InterruptedException e1) {
+                            e1.printStackTrace();
+                        }
+
+                    }
+            }
+            catch(Exception e)
+            {
+                System.err.println("\nError : ExplicityWaitIsClickable failed\n");
+            }
+        }
+
+
+    }
+    public void clear (WebElement el)
+    {
+        el.clear();
+    }
+    public void filltext(WebElement sk ,String text)
+    {
+        sk.clear();
+        sk.sendKeys(text);
+    }
+    public void click (WebElement el)
+    {
+        el.click();
+    }
+    public static boolean ElementDisplay(WebElement elementString)
+    {
+        WebElement webElement= (elementString);
+
+        if (webElement.isDisplayed()) return true;
+        else return false;
+        //return ElementIsDisplyed(elementString);
+    }
+    public String getText(WebElement el) {
+        return el.getText();
+    }
+
+    public void sleep(long mills) {
+        try {
+            Thread.sleep(mills);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+}

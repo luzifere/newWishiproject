@@ -1,0 +1,5 @@
+TestsObjects/setup.class
+PageObjects/LoginPage.class
+TestsObjects/LoginTest.class
+TestsObjects/LoginTest1.class
+PageObjects/BasePage.class
