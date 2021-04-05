@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 32.704 s <<< FAILURE! - in TestSuite
-TestsObjects.LoginTest1.FillEmailWithOutToFillPassword  Time elapsed: 0.497 s  <<< FAILURE!
-java.lang.AssertionError: expected [Password is required1] but found [Password is required]
-	at TestsObjects.LoginTest1.FillEmailWithOutToFillPassword(LoginTest1.java:32)
-
-TestsObjects.LoginTest1.FillEmailWithOutToFillPassword  Time elapsed: 0.433 s  <<< FAILURE!
-java.lang.AssertionError: expected [Password is required1] but found [Password is required]
-	at TestsObjects.LoginTest1.FillEmailWithOutToFillPassword(LoginTest1.java:32)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.457 s - in TestSuite

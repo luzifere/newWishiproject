@@ -1,5 +1,6 @@
 package PageObjects;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -79,6 +80,7 @@ public class LoginPage extends BasePage
 
 
     }
+    @Step("enter password:{password}")
     public void Fillpassword(String pass)
     {
         {
@@ -138,6 +140,7 @@ public class LoginPage extends BasePage
 
         }
     }
+
     public String PasswordRequired()
     {
 
@@ -178,6 +181,7 @@ public class LoginPage extends BasePage
 
 
     }
+    @Step("enter name:{name}")
     public void Fillusername(String user)
     {
         {

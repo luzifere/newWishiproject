@@ -3,13 +3,19 @@ package TestsObjects;
 import PageObjects.BasePage;
 import PageObjects.LoginPage;
 import PageObjects.SignUpPage;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Random;
-
+@Epic("SignUp")
 public class SignUpTest extends setup
 {
+    @Story("Do correct signup")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 1, groups = {"sanity-group"})
     public void DoSignUp()
     {

@@ -1,5 +1,6 @@
 package PageObjects;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -106,6 +107,7 @@ public class SignUpPage extends BasePage
 
 
     }
+    @Step("enter password:{password}")
     public void Fillpassword(String pass)
     {
         {
@@ -124,6 +126,7 @@ public class SignUpPage extends BasePage
 
 
     }
+    @Step("enter fullname:{fullname}")
     public void FillFullName(String name)
     {
         {
@@ -142,6 +145,7 @@ public class SignUpPage extends BasePage
 
 
     }
+    @Step("enter email:{Email}")
     public void FillEmail(String email)
     {
         {

@@ -1,5 +1,6 @@
 TestsObjects/setup.class
+PageObjects/SignUpPage.class
 PageObjects/LoginPage.class
 TestsObjects/LoginTest.class
-TestsObjects/LoginTest1.class
+TestsObjects/SignUpTest.class
 PageObjects/BasePage.class

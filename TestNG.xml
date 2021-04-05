@@ -9,7 +9,7 @@
         </groups>
        <classes>
            <class name="TestsObjects.LoginTest"/>
-           <class name="TestsObjects.LoginTest1">
+           <class name="TestsObjects.SignUpTest">
            </class>
        </classes>
     </test>
