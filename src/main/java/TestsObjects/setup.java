@@ -1,26 +1,32 @@
 package TestsObjects;
 
+import dataProvider.ConfigFileReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
+@Listeners(TestsObjects.Listener.class)
 public class setup
 {
     WebDriver driver;
+    protected ConfigFileReader configFileReader;
+
+
 
     @BeforeClass (groups = {"sanity-group"})
-    public void testing()
-    {
-        //System.setProperty("webdriver.chrome.driver", "/Users/yinonwishi/Desktop/CromeDriver/chromedriver");
+    protected void setup(ITestContext testContext) {
         WebDriverManager.chromedriver().setup();
-        driver= new ChromeDriver();
+        driver = new ChromeDriver();
+        testContext.setAttribute("WebDriver", this.driver);
         driver.get("https://qa.wishi.me/");
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         Point point = new Point(0, -1000);

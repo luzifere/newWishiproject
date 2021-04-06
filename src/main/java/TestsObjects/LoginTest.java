@@ -1,16 +1,17 @@
 package TestsObjects;
 
-import io.qameta.allure.Epic;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import PageObjects.LoginPage;
 
+@Listeners(TestsObjects.Listener.class)
 @Epic("Login")
+@Feature("do login")
 public class LoginTest extends setup
 {
+       @Attachment
        @Story("Fill pass without fill email")
        @Severity(SeverityLevel.NORMAL)
        @Test(priority = 3, groups = {"sanity-group"})
@@ -25,6 +26,7 @@ public class LoginTest extends setup
             String actual = login.EmaileRequired();
            Assert.assertEquals(actual,expected);
         }
+    @Attachment
     @Story("Fill Email WithOut To Fill Password")
     @Severity(SeverityLevel.NORMAL)
     @Test(priority = 4,groups={"sanity-group"})

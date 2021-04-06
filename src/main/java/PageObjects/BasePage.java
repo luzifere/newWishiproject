@@ -1,14 +1,22 @@
 package PageObjects;
 
+import io.qameta.allure.Attachment;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public abstract class BasePage
-{
-     WebDriver driver;
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public abstract class BasePage {
+    static WebDriver driver;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -16,23 +24,17 @@ public abstract class BasePage
 
     }
 
-    public void ExplicityWaitIsClickable(WebElement elementString)
-    {
+    public void ExplicityWaitIsClickable(WebElement elementString) {
         {
-            try
+            try {
 
-            {
-
-                for (int i=0;i<3;i++)
-                    try
-                    {
+                for (int i = 0; i < 3; i++)
+                    try {
                         WebDriverWait wait = new WebDriverWait(driver, 10);
                         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(elementString));
                         element.click();
                         break;
-                    }
-                    catch (Exception e)
-                    {
+                    } catch (Exception e) {
                         try {
                             Thread.sleep(500);
                         } catch (InterruptedException e1) {
@@ -40,36 +42,35 @@ public abstract class BasePage
                         }
 
                     }
-            }
-            catch(Exception e)
-            {
+            } catch (Exception e) {
                 System.err.println("\nError : ExplicityWaitIsClickable failed\n");
             }
         }
 
 
     }
-    public void clear (WebElement el)
-    {
+
+    public void clear(WebElement el) {
         el.clear();
     }
-    public void filltext(WebElement sk ,String text)
-    {
+
+    public void filltext(WebElement sk, String text) {
         sk.clear();
         sk.sendKeys(text);
     }
-    public void click (WebElement el)
-    {
+
+    public void click(WebElement el) {
         el.click();
     }
-    public static boolean ElementDisplay(WebElement elementString)
-    {
-        WebElement webElement= (elementString);
+
+    public static boolean ElementDisplay(WebElement elementString) {
+        WebElement webElement = (elementString);
 
         if (webElement.isDisplayed()) return true;
         else return false;
         //return ElementIsDisplyed(elementString);
     }
+
     public String getText(WebElement el) {
         return el.getText();
     }
@@ -83,4 +84,37 @@ public abstract class BasePage
         }
     }
 
+    public static void TakeScreenShot() throws IOException {
+		/*
+		Random num = new Random();
+		int number = 35600;
+		for (int counter = 58000; counter<=100000;counter++)
+			number = num.nextInt(7000);
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		// Now you can do whatever you need to do with it, for example copy somewhere
+		try {
+			FileUtils.copyFile(scrFile, new File("/Users/yinonwishi/Downloads/screenshoots/"+number+".png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 */
+        String folder_name = "/Users/yinonwishi/Downloads/screenshoots/";
+        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        // Now you can do whatever you need to do with it, for example copy somewhere
+        SimpleDateFormat df = new SimpleDateFormat("dd-mm-yyyy__hh_mm_ssaa");
+        new File(folder_name).mkdir();
+        String file_name = df.format(new Date()) + ".png";
+        FileUtils.copyFile(scrFile, new File(folder_name + "/" + file_name));
+
+    }
+
+    public static class AllureAttachment {
+
+        @Attachment(value = "Page Screenshot", type = "image/png", fileExtension = ".png")
+        public static byte[] attachScreenshot(WebDriver driver) {
+            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        }
+
+    }
 }

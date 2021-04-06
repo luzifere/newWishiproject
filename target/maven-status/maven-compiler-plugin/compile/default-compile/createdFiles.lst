@@ -2,5 +2,8 @@ TestsObjects/setup.class
 PageObjects/SignUpPage.class
 PageObjects/LoginPage.class
 TestsObjects/LoginTest.class
+TestsObjects/Listener.class
+PageObjects/BasePage$AllureAttachment.class
 TestsObjects/SignUpTest.class
 PageObjects/BasePage.class
+dataProvider/ConfigFileReader.class

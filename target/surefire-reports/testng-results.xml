@@ -1,44 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-05T17:18:19 IDT" name="Suite" finished-at="2021-04-05T17:18:37 IDT" duration-ms="18331">
+  <suite started-at="2021-04-06T19:38:06 IDT" name="Suite" finished-at="2021-04-06T19:40:01 IDT" duration-ms="114630">
     <groups>
       <group name="sanity-group">
-        <method signature="LoginTest.FillEmailWithOutToFillPassword()[pri:4, instance:TestsObjects.LoginTest@3ae66c85]" name="FillEmailWithOutToFillPassword" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillPasswordWithOutToFillEmail()[pri:3, instance:TestsObjects.LoginTest@3ae66c85]" name="FillPasswordWithOutToFillEmail" class="TestsObjects.LoginTest"/>
-        <method signature="SignUpTest.DoSignUp()[pri:1, instance:TestsObjects.SignUpTest@16943e88]" name="DoSignUp" class="TestsObjects.SignUpTest"/>
+        <method signature="LoginTest.FillEmailWithOutToFillPassword()[pri:4, instance:TestsObjects.LoginTest@70e02081]" name="FillEmailWithOutToFillPassword" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillPasswordWithOutToFillEmail()[pri:3, instance:TestsObjects.LoginTest@70e02081]" name="FillPasswordWithOutToFillEmail" class="TestsObjects.LoginTest"/>
+        <method signature="SignUpTest.DoSignUp()[pri:1, instance:TestsObjects.SignUpTest@9d200de]" name="DoSignUp" class="TestsObjects.SignUpTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test started-at="2021-04-05T17:18:19 IDT" name="Test" finished-at="2021-04-05T17:18:37 IDT" duration-ms="18331">
+    <test started-at="2021-04-06T19:38:06 IDT" name="Test" finished-at="2021-04-06T19:40:01 IDT" duration-ms="114630">
       <class name="TestsObjects.LoginTest">
-        <test-method is-config="true" signature="testing()[pri:0, instance:TestsObjects.LoginTest@3ae66c85]" started-at="2021-04-05T17:18:19 IDT" name="testing" finished-at="2021-04-05T17:18:34 IDT" duration-ms="14544" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:TestsObjects.LoginTest@70e02081]" started-at="2021-04-06T19:38:06 IDT" name="setup" finished-at="2021-04-06T19:38:15 IDT" duration-ms="9453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73017a80]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testing -->
-        <test-method signature="FillPasswordWithOutToFillEmail()[pri:3, instance:TestsObjects.LoginTest@3ae66c85]" started-at="2021-04-05T17:18:34 IDT" name="FillPasswordWithOutToFillEmail" finished-at="2021-04-05T17:18:34 IDT" duration-ms="646" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="FillPasswordWithOutToFillEmail()[pri:3, instance:TestsObjects.LoginTest@70e02081]" started-at="2021-04-06T19:38:15 IDT" name="FillPasswordWithOutToFillEmail" finished-at="2021-04-06T19:38:17 IDT" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPasswordWithOutToFillEmail -->
-        <test-method signature="FillEmailWithOutToFillPassword()[pri:4, instance:TestsObjects.LoginTest@3ae66c85]" started-at="2021-04-05T17:18:34 IDT" name="FillEmailWithOutToFillPassword" finished-at="2021-04-05T17:18:36 IDT" duration-ms="1419" status="PASS">
+        <test-method signature="FillEmailWithOutToFillPassword()[pri:4, instance:TestsObjects.LoginTest@70e02081]" started-at="2021-04-06T19:38:19 IDT" name="FillEmailWithOutToFillPassword" finished-at="2021-04-06T19:38:19 IDT" duration-ms="584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillEmailWithOutToFillPassword -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.LoginTest@3ae66c85]" started-at="2021-04-05T17:18:36 IDT" name="close" finished-at="2021-04-05T17:18:36 IDT" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.LoginTest@70e02081]" started-at="2021-04-06T19:38:21 IDT" name="close" finished-at="2021-04-06T19:38:21 IDT" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestsObjects.LoginTest -->
       <class name="TestsObjects.SignUpTest">
-        <test-method is-config="true" signature="testing()[pri:0, instance:TestsObjects.SignUpTest@16943e88]" started-at="2021-04-05T17:18:19 IDT" name="testing" finished-at="2021-04-05T17:18:33 IDT" duration-ms="14341" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:TestsObjects.SignUpTest@9d200de]" started-at="2021-04-06T19:38:06 IDT" name="setup" finished-at="2021-04-06T19:38:27 IDT" duration-ms="21130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73017a80]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testing -->
-        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.SignUpTest@16943e88]" started-at="2021-04-05T17:18:33 IDT" name="DoSignUp" finished-at="2021-04-05T17:18:37 IDT" duration-ms="3775" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DoSignUp -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.SignUpTest@16943e88]" started-at="2021-04-05T17:18:37 IDT" name="close" finished-at="2021-04-05T17:18:37 IDT" duration-ms="154" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.SignUpTest@9d200de]" started-at="2021-04-06T19:40:00 IDT" name="close" finished-at="2021-04-06T19:40:01 IDT" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
