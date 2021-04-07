@@ -5,6 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
 
@@ -37,6 +38,10 @@ public class AllureAttachments {
                 .map(LogEntry::toString)
                 .collect(Collectors.joining(System.lineSeparator()));
         return StringUtils.isBlank(consoleLogs) ? "No Console Logs Found" : consoleLogs;
+    }
+    @Attachment(value = "Element Screenshot", type = "image/png", fileExtension = ".png")
+    public static byte[] attachElementScreenshot(WebElement element) {
+        return element.getScreenshotAs(OutputType.BYTES);
     }
 }
 
