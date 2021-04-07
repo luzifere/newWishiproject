@@ -10,11 +10,11 @@ import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import utilitis.Listener;
 
 import java.util.concurrent.TimeUnit;
 
-@Listeners(TestsObjects.Listener.class)
+@Listeners(Listener.class)
 public class setup
 {
     WebDriver driver;
@@ -28,7 +28,7 @@ public class setup
         driver = new ChromeDriver();
         testContext.setAttribute("WebDriver", this.driver);
         driver.get("https://qa.wishi.me/");
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         Point point = new Point(0, -1000);
         driver.manage().window().setPosition(point);
         Dimension dimension = new Dimension(1600, 1200);

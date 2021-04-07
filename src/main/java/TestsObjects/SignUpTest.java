@@ -1,15 +1,14 @@
 package TestsObjects;
 
-import PageObjects.BasePage;
-import PageObjects.LoginPage;
 import PageObjects.SignUpPage;
 import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import utilitis.Listener;
 
 import java.util.Random;
-@Listeners(TestsObjects.Listener.class)
+@Listeners(Listener.class)
 
 @Epic("SignUp")
 public class SignUpTest extends setup
@@ -37,6 +36,8 @@ public class SignUpTest extends setup
         String actual = sign.LetsGetButtonDisplayed();
         System.out.println(actual);
         Assert.assertEquals(actual,expected);
+
+
 
     }
 

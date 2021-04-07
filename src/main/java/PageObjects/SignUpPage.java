@@ -5,26 +5,25 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class SignUpPage extends BasePage
-{
+public class SignUpPage extends BasePage {
     public SignUpPage(WebDriver driver) {
         super(driver);
     }
-    @FindBy(xpath="//div//a[contains(text(), 'Sign up')]")
+
+    @FindBy(xpath = "//div//a[contains(text(), 'Sign up')]")
     WebElement SignButton;
-    @FindBy(xpath="//div//input[@id='name']")
+    @FindBy(xpath = "//div//input[@id='name']")
     WebElement FullName;
-    @FindBy(xpath="//div//input[@id='password']")
+    @FindBy(xpath = "//div//input[@id='password']")
     WebElement password;
-    @FindBy(xpath="//div//input[@id='email']")
+    @FindBy(xpath = "//div//input[@id='email']")
     WebElement Email;
-    @FindBy(xpath="//button[@id='submit']")
+    @FindBy(xpath = "//button[@id='submit']")
     WebElement SignUpPUBtn;
-    @FindBy(xpath="//div//button[@class='d-none d-sm-flex btn btn-warning']")
+    @FindBy(xpath = "//div//button[@class='d-none d-sm-flex btn btn-warning']")
     WebElement LetsGet;
 
-    public void ClickSignUpButton  ()
-    {
+    public void ClickSignUpButton() {
         {
             try {
                 //click(btnLogin);
@@ -38,21 +37,14 @@ public class SignUpPage extends BasePage
 
 
     }
-    public void ClickSignUpPUBtnButton  ()
-    {
-        {
-            try {
-                //click(btnLogin);
-                ExplicityWaitIsClickable(SignUpPUBtn);
 
-            } catch (Exception e) {
-                System.err.println("\nError : ClickSignUpPUBtn failed\n");
-                throw e;
-            }
-        }
+    public void ClickSignUpPUBtnButton() {
+
+        ExplicityWaitIsClickable(SignUpPUBtn);
 
 
     }
+
     public void Clearpassword()
     {
         {

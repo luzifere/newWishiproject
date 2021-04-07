@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" allow-return-values="true" >
     <listeners>
-        <listener class-name="TestsObjects.Listener"></listener>
+        <listener class-name="utilitis.Listener"></listener>
     </listeners>
     <test verbose="10" thread-count="5" preserve-order="true" name="Test" parallel="classes">
         <groups>

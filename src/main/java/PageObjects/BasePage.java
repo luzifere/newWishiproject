@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -85,20 +86,7 @@ public abstract class BasePage {
     }
 
     public static void TakeScreenShot() throws IOException {
-		/*
-		Random num = new Random();
-		int number = 35600;
-		for (int counter = 58000; counter<=100000;counter++)
-			number = num.nextInt(7000);
-		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		// Now you can do whatever you need to do with it, for example copy somewhere
-		try {
-			FileUtils.copyFile(scrFile, new File("/Users/yinonwishi/Downloads/screenshoots/"+number+".png"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		 */
+
         String folder_name = "/Users/yinonwishi/Downloads/screenshoots/";
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         // Now you can do whatever you need to do with it, for example copy somewhere
@@ -109,12 +97,5 @@ public abstract class BasePage {
 
     }
 
-    public static class AllureAttachment {
 
-        @Attachment(value = "Page Screenshot", type = "image/png", fileExtension = ".png")
-        public static byte[] attachScreenshot(WebDriver driver) {
-            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-        }
-
-    }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="115.963" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="70.46" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="/Users/yinonwishi/.cache/selenium/chromedriver/mac64/89.0.4389.23/chromedriver"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IL"/>
     <property name="allure.link.issue.pattern" value="https://example.org/issue/{}"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire/surefirebooter12476419887199420528.jar /Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire 2021-04-06T19-38-04_105-jvmRun1 surefire13201533201229305142tmp surefire_016744847754420546266tmp"/>
+    <property name="sun.java.command" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire/surefirebooter17796921556992032651.jar /Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire 2021-04-07T16-11-19_875-jvmRun1 surefire16413726358491841088tmp surefire_06157260791520575645tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/test-classes:/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/classes:/Users/yinonwishi/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/yinonwishi/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yinonwishi/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/yinonwishi/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/yinonwishi/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/yinonwishi/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/yinonwishi/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/yinonwishi/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/yinonwishi/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/yinonwishi/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/yinonwishi/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/yinonwishi/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/yinonwishi/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/yinonwishi/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/yinonwishi/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/yinonwishi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yinonwishi/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/yinonwishi/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yinonwishi/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yinonwishi/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/yinonwishi/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yinonwishi/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yinonwishi/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yinonwishi/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/yinonwishi/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/yinonwishi/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:"/>
@@ -33,7 +33,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire/surefirebooter12476419887199420528.jar"/>
+    <property name="surefire.real.class.path" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire/surefirebooter17796921556992032651.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="15.0.2+7"/>
@@ -58,35 +58,59 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="FillPasswordWithOutToFillEmail" classname="TestsObjects.LoginTest" time="3.038">
+  <testcase name="FillPasswordWithOutToFillEmail" classname="TestsObjects.LoginTest" time="0.638">
     <system-out><![CDATA[This is onStart method/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire-reports/Suite
+New Test Started DoSignUp
 New Test Started FillPasswordWithOutToFillEmail
 Test Successfully Finished  FillPasswordWithOutToFillEmail
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (resolved driver for Chrome 89)
-[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/89.0.4389.23/chromedriver
-[TestNG-test=Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (resolved driver for Chrome 89)
+    <system-err><![CDATA[[TestNG-test=Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (resolved driver for Chrome 89)
 [TestNG-test=Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/89.0.4389.23/chromedriver
-Starting ChromeDriver 89.0S.t43a8r9t.i2n3g  (Ch6r1bo0m8eeDeri2vce50r 08294.0b.ab430089.4e243 8d(62b11bb00883eced2bc5002d4abca5b07094e-r48edf2sb/1bb0r8a3cdbdacn579c-hr-ehfesa/dbsr/a4nc3h8-9h@e{a#d2s9/43849}@){ #2o9n4 }p)o rotn  3p7o3r5t1 
-1O4n9l9y7 
-lOocnally  clooncnaelc ctoinonnesc tiaornes  aalrleo waeldl.o
-wPelde.a
-sPele asseee  hsttepes: /h/tchtrposme:d/ri/vcehrr.cohmroemdiurmi.voregr/s.eccuhrritoym-ciounmsi.deorragt/isonesc uforri stuyg-gecsotinosnis done kreeaptiingo nChsr ofmeoDrri vseru gsgaefes.t
-iCohnrosm eDorni vkere ewpaisn sgta rCtherd osmueccessfuDllry.
-iver safe.
-ChromeDriver was started successfully.
-Apr 06, 2021 7:38:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (resolved driver for Chrome 89)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/89.0.4389.23/chromedriver
+StSatratrtiinngg  CChhrromomeeDrDirveri v8e9r. 08.94.308.94.3892.233  ((661b10b808eeee2c25c50002042bab004e48d2b1b048b3acbd0bd0a4ce54789d-2rbe1fbs0/8b3rcadnbcdha-ch5e7a9ds-/r4ef3s8/9b@r{a#n2c9h4-}h)ea dosn/ 43p8o9r@t{ #329947}11)
+ Oonnl ypo rlto c1a6l70 7c
+oOnnnleyc tlioocnasl  acroen naelcltoiwoends .a
+rPel eaalsle owseede.
+ Phlteatspes s:e/e/ chhrtotmpesd:r/i/vcerh.crhormomeiudmr.iorvge/sre.cucrhitryo-mcoinusimd.eorartigo/nss efocr usruiggteys-ticonosn osni dkeerepaitnigo nCsh rfoomre Dsruigvgeers tsiaonfse .on
+ keeCpihngr oCmhreoDmriveeDrr iwvaesr  sstaafret.e
+d CsucchersosmfeulDrlyi.v
+er was started successfully.
+Apr 07, 2021 4:11:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Apr 06, 2021 7:38:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 07, 2021 4:11:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillEmailWithOutToFillPassword" classname="TestsObjects.LoginTest" time="2.407">
+  <testcase name="FillEmailWithOutToFillPassword" classname="TestsObjects.LoginTest" time="0.513">
     <system-out><![CDATA[New Test Started FillEmailWithOutToFillPassword
 Test Successfully Finished  FillEmailWithOutToFillPassword
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+]]></system-err>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.SignUpTest" time="50.963">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//button[@class=&apos;d-none d-sm-flex btn btn-warning&apos;]&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;yinons-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:140c:3dd:1f17:5d57%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.2.3&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:50325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bce7087554059ef1d9ce51dc73d8eeb1&#10;*** Element info: {Using=xpath, value=//div//button[@class=&apos;d-none d-sm-flex btn btn-warning&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[@class='d-none d-sm-flex btn btn-warning']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:140c:3dd:1f17:5d57%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:50325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bce7087554059ef1d9ce51dc73d8eeb1
+*** Element info: {Using=xpath, value=//div//button[@class='d-none d-sm-flex btn btn-warning']}
+	at TestsObjects.SignUpTest.DoSignUp(SignUpTest.java:36)
+]]></failure>
+    <system-out><![CDATA[Test Failed  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[
+Error : LetsGetButtonDisplayed failed
+
 ]]></system-err>
   </testcase>
 </testsuite>

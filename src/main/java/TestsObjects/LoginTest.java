@@ -5,13 +5,14 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import PageObjects.LoginPage;
+import utilitis.Listener;
 
-@Listeners(TestsObjects.Listener.class)
+@Listeners(Listener.class)
 @Epic("Login")
 @Feature("do login")
 public class LoginTest extends setup
 {
-       @Attachment
+
        @Story("Fill pass without fill email")
        @Severity(SeverityLevel.NORMAL)
        @Test(priority = 3, groups = {"sanity-group"})
