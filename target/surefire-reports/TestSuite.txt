@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 70.46 s <<< FAILURE! - in TestSuite
-TestsObjects.SignUpTest.DoSignUp  Time elapsed: 50.963 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[@class='d-none d-sm-flex btn btn-warning']"}
-  (Session info: chrome=89.0.4389.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:140c:3dd:1f17:5d57%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:50325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bce7087554059ef1d9ce51dc73d8eeb1
-*** Element info: {Using=xpath, value=//div//button[@class='d-none d-sm-flex btn btn-warning']}
-	at TestsObjects.SignUpTest.DoSignUp(SignUpTest.java:36)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.678 s - in TestSuite

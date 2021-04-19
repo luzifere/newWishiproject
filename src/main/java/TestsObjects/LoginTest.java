@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 import PageObjects.LoginPage;
 import utilitis.Listener;
 
+import static io.restassured.RestAssured.given;
+
 @Listeners(Listener.class)
 @Epic("Login")
 @Feature("do login")
@@ -33,6 +35,7 @@ public class LoginTest extends setup
     @Test(priority = 4,groups={"sanity-group"})
     public void FillEmailWithOutToFillPassword()
     {
+        /*
         LoginPage login = new LoginPage(driver);
         login.Closebuttonoflogin();
         login.ClickLoginButton();
@@ -40,6 +43,17 @@ public class LoginTest extends setup
         login.Clickloginbuttonn();
         String expected = "Password is required";
         String actual = login.PasswordRequired();
-        Assert.assertEquals(actual,expected);
+        /*
+         */
+       // Assert.assertEquals(actual,expected);
+        String body  = given()
+                .body("{\"client\": \"sdfsfd\",\r\n  \"email\": \"my1sdfsdfsdf@yinon.com\",\r\n  \"password\": \"12345\"}")
+                .when().log().all()
+                .post("https://api-stage.wishi.me/api/slim/user/signup/email")
+                .then()
+                .log().all()
+                .statusCode(200)
+        .extract().body().path("");
+
     }
     }

@@ -2,6 +2,9 @@ package TestsObjects;
 
 import dataProvider.ConfigFileReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.specification.RequestSpecification;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +31,12 @@ public class setup
         driver = new ChromeDriver();
         testContext.setAttribute("WebDriver", this.driver);
         driver.get("https://qa.wishi.me/");
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        RestAssured.baseURI = "https://api-stage.wishi.me/api/slim/";
+        RestAssured.useRelaxedHTTPSValidation();
+        RequestSpecification requestSpecification = new RequestSpecBuilder()
+                .addHeader("Content-Type", "application/json").build();
+        RestAssured.requestSpecification = requestSpecification;
+        //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         Point point = new Point(0, -1000);
         driver.manage().window().setPosition(point);
         Dimension dimension = new Dimension(1600, 1200);
