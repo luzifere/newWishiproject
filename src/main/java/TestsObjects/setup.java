@@ -26,16 +26,17 @@ public class setup
 
 
     @BeforeClass (groups = {"sanity-group"})
-    protected void setup(ITestContext testContext) {
+    protected void setupCapability(ITestContext testContext) {
+        configFileReader= new ConfigFileReader();
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         testContext.setAttribute("WebDriver", this.driver);
-        driver.get("https://qa.wishi.me/");
+        //driver.get("https://qa.wishi.me/");
+        driver.get(configFileReader.getApplicationUrl());
         RestAssured.baseURI = "https://api-stage.wishi.me/api/slim/";
         RestAssured.useRelaxedHTTPSValidation();
-        RequestSpecification requestSpecification = new RequestSpecBuilder()
+        RestAssured.requestSpecification = new RequestSpecBuilder()
                 .addHeader("Content-Type", "application/json").build();
-        RestAssured.requestSpecification = requestSpecification;
         //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         Point point = new Point(0, -1000);
         driver.manage().window().setPosition(point);

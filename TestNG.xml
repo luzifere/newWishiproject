@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" allow-return-values="true" >
     <listeners>
-        <listener class-name="utilitis.Listener"></listener>
+        <listener class-name="utilitis.Listener"/>
     </listeners>
-    <test verbose="10" thread-count="5" preserve-order="true" name="Test" parallel="classes">
+    <test verbose="10" thread-count="15" preserve-order="true" name="Test" parallel="classes">
         <groups>
             <run>
                 <include name="sanity-group"/>

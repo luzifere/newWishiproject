@@ -12,48 +12,54 @@ import static io.restassured.RestAssured.given;
 @Listeners(Listener.class)
 @Epic("Login")
 @Feature("do login")
-public class LoginTest extends setup
-{
+public class LoginTest extends setup {
+    String expected = "Password is required";
+    String expected1 = "Email is required";
 
-       @Story("Fill pass without fill email")
-       @Severity(SeverityLevel.NORMAL)
-       @Test(priority = 3, groups = {"sanity-group"})
-        public void FillPasswordWithOutToFillEmail() {
-            LoginPage login = new LoginPage(driver);
-            login.ClickLoginButton();
-            login.Clearpassword();
-            login.Clearusername();
-            login.Fillpassword("156523784");
-            login.Clickloginbuttonn();
-            String expected = "Email is required";
-            String actual = login.EmaileRequired();
-           Assert.assertEquals(actual,expected);
-        }
+    @Story("Fill pass without fill email")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 1, groups = {"sanity-group"})
+    public void FillPasswordWithOutToFillEmail()
+    {
+        LoginPage login = new LoginPage(driver);
+        login.ClickLoginButton();
+        login.Clearpassword();
+        login.Clearusername();
+        login.Fillpassword("156523784");
+        login.Clickloginbuttonn();
+        String actual = login.EmaileRequired();
+        Assert.assertEquals(actual, expected1);
+        login.Closebuttonoflogin();
+    }
+
     @Attachment
     @Story("Fill Email WithOut To Fill Password")
     @Severity(SeverityLevel.NORMAL)
-    @Test(priority = 4,groups={"sanity-group"})
+    @Test(priority = 2, groups = {"sanity-group"})
     public void FillEmailWithOutToFillPassword()
     {
-        /*
         LoginPage login = new LoginPage(driver);
-        login.Closebuttonoflogin();
         login.ClickLoginButton();
         login.Fillusername("yinon@wishi.me");
         login.Clickloginbuttonn();
-        String expected = "Password is required";
         String actual = login.PasswordRequired();
-        /*
-         */
-       // Assert.assertEquals(actual,expected);
-        String body  = given()
-                .body("{\"client\": \"sdfsfd\",\r\n  \"email\": \"my1sdfsdfsdf@yinon.com\",\r\n  \"password\": \"12345\"}")
-                .when().log().all()
-                .post("https://api-stage.wishi.me/api/slim/user/signup/email")
-                .then()
-                .log().all()
-                .statusCode(200)
-        .extract().body().path("");
+        Assert.assertEquals(actual, expected);
+        login.Closebuttonoflogin();
+    }
+    @Attachment
+    @Story("ClickLoginwWithOutToFillAnyFields")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 3,groups={"sanity-group"})
+    public void ClickLoginwWithOutToFillAnyFields()
+    {
+        LoginPage login = new LoginPage(driver);
+        login.ClickLoginButton();
+        login.Clickloginbuttonn();
+        String actual = login.EmaileRequired();
+        Assert.assertEquals(actual, expected1);
+        String actualP = login.PasswordRequired();
+        Assert.assertEquals(actualP, expected);
+        login.Closebuttonoflogin();
 
     }
-    }
+}

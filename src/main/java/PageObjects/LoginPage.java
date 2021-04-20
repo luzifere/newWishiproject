@@ -6,55 +6,48 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-public class LoginPage extends BasePage
-{
+public class LoginPage extends BasePage {
     @FindBy(xpath = "//a[text()[contains(.,'Log in')]]")
     WebElement btnLogin;
-    @FindBy(xpath="//div//input[@id='password']")
+    @FindBy(xpath = "//div//input[@id='password']")
     WebElement password;
-    @FindBy(xpath="//div//input[@id='email']")
+    @FindBy(xpath = "//div//input[@id='email']")
     WebElement userName;
-    @FindBy(xpath="//div//button[@id='submit']")
+    @FindBy(xpath = "//div//button[@id='submit']")
     WebElement LoginButtonOfModel;
-    @FindBy(xpath="//div[text()[contains(.,'Email is required')]]")
+    @FindBy(xpath = "//div[text()[contains(.,'Email is required')]]")
     WebElement EmaileRequired;
-    @FindBy(xpath="//div//button[@class='close']")
+    @FindBy(xpath = "//div//button[@class='close']")
     WebElement ButtonOfCloseLogin;
-    @FindBy(xpath="//div[text()[contains(.,'Password is required')]]")
+    @FindBy(xpath = "//div[text()[contains(.,'Password is required')]]")
     WebElement PasswordRequired;
 
-    public LoginPage(WebDriver driver)
-    {
+    public LoginPage(WebDriver driver) {
         super(driver);
     }
 
 
-    public void ClickLoginButton ()
+    public void ClickLoginButton() {
         {
-            {
-                try {
-                    //click(btnLogin);
-                    ExplicityWaitIsClickable(btnLogin);
+            try {
+                //click(btnLogin);
+                ExplicityWaitIsClickable(btnLogin);
 
-                } catch (Exception e) {
-                    System.err.println("\nError : ClickLoginButton failed\n");
-                    throw e;
-                }
+            } catch (Exception e) {
+                System.err.println("\nError : ClickLoginButton failed\n");
+                throw e;
             }
-
-
         }
-    public void Clearpassword()
-    {
-        {
-            try
 
-            {
+
+    }
+
+    public void Clearpassword() {
+        {
+            try {
                 clear(password);
 
-            }
-            catch(Exception e)
-            {
+            } catch (Exception e) {
                 System.err.println("\nError : Clearpassword failed\n");
                 throw e;
             }
@@ -62,17 +55,13 @@ public class LoginPage extends BasePage
 
 
     }
-    public void Clearusername()
-    {
-        {
-            try
 
-            {
+    public void Clearusername() {
+        {
+            try {
                 clear(userName);
 
-            }
-            catch(Exception e)
-            {
+            } catch (Exception e) {
                 System.err.println("\nError : Clearusername failed\n");
                 throw e;
             }
@@ -80,18 +69,14 @@ public class LoginPage extends BasePage
 
 
     }
-    @Step("enter password:{password}")
-    public void Fillpassword(String pass)
-    {
-        {
-            try
 
-            {
+    @Step("enter password:{password}")
+    public void Fillpassword(String pass) {
+        {
+            try {
                 filltext(password, pass);
 
-            }
-            catch(Exception e)
-            {
+            } catch (Exception e) {
                 System.err.println("\nError : Fillpassword failed\n");
                 throw e;
             }
@@ -100,17 +85,12 @@ public class LoginPage extends BasePage
 
     }
 
-    public void Clickloginbuttonn()
-    {
+    public void Clickloginbuttonn() {
         {
-            try
+            try {
+                ExplicityWaitIsClickable(LoginButtonOfModel);
 
-            {
-                click(LoginButtonOfModel);
-
-            }
-            catch(Exception e)
-            {
+            } catch (Exception e) {
                 System.err.println("\nError : Clickloginbuttonn failed\n");
                 throw e;
             }
@@ -118,81 +98,31 @@ public class LoginPage extends BasePage
 
 
     }
-    public String EmaileRequired()
-    {
 
-        {
-            {
-                try
-
-                {
-                    return getText(EmaileRequired);
-                    //Assert.assertTrue(ElementDisplay(EmaileRequired));
-
-                }
-                catch(Exception e)
-                {
-                    System.err.println("\nError : EmaileRequired failed\n");
-                    throw e;
-                }
-            }
-
-
-        }
+    public String EmaileRequired() {
+        return getText(EmaileRequired);
+        //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
 
-    public String PasswordRequired()
-    {
-
-        {
-            {
-                try
-
-                {
-                    return getText(PasswordRequired);
+    public String PasswordRequired() {
 
 
-                }
-                catch(Exception e)
-                {
-                    System.err.println("\nError : EmaileRequired failed\n");
-                    throw e;
-                }
-            }
-
-
-        }
-    }
-    public void Closebuttonoflogin()
-    {
-        {
-            try
-
-            {
-                click(ButtonOfCloseLogin);
-
-            }
-            catch(Exception e)
-            {
-                System.err.println("\nError : Closebuttonoflogin failed\n");
-                throw e;
-            }
-        }
+        return getText(PasswordRequired);
 
 
     }
+
+    public void Closebuttonoflogin() {
+        ExplicityWaitIsClickable(ButtonOfCloseLogin);
+    }
+
     @Step("enter name:{name}")
-    public void Fillusername(String user)
-    {
+    public void Fillusername(String user) {
         {
-            try
-
-            {
+            try {
                 filltext(userName, user);
 
-            }
-            catch(Exception e)
-            {
+            } catch (Exception e) {
                 System.err.println("\nError : Fillusername failed\n");
                 throw e;
             }
