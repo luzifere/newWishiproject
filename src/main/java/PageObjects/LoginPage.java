@@ -1,6 +1,7 @@
 package PageObjects;
 
 import io.qameta.allure.Step;
+import org.apache.tools.ant.taskdefs.Sleep;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -21,6 +22,10 @@ public class LoginPage extends BasePage {
     WebElement ButtonOfCloseLogin;
     @FindBy(xpath = "//div[text()[contains(.,'Password is required')]]")
     WebElement PasswordRequired;
+    @FindBy(xpath = "//div[text()[contains(.,'The password you entered is incorrect')]]")
+    WebElement PasswordIncorrect;
+    @FindBy(xpath = "//div[text()[contains(.,'Invalid email')]]")
+    WebElement InvalidEmail;
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -29,87 +34,47 @@ public class LoginPage extends BasePage {
 
     public void ClickLoginButton() {
         {
-            try {
-                //click(btnLogin);
-                ExplicityWaitIsClickable(btnLogin);
-
-            } catch (Exception e) {
-                System.err.println("\nError : ClickLoginButton failed\n");
-                throw e;
-            }
+            ExplicityWaitIsClickable(btnLogin);
         }
-
-
     }
 
     public void Clearpassword() {
-        {
-            try {
-                clear(password);
-
-            } catch (Exception e) {
-                System.err.println("\nError : Clearpassword failed\n");
-                throw e;
-            }
-        }
-
-
+        clear(password);
     }
 
+
     public void Clearusername() {
-        {
-            try {
-                clear(userName);
-
-            } catch (Exception e) {
-                System.err.println("\nError : Clearusername failed\n");
-                throw e;
-            }
-        }
-
-
+        clear(userName);
     }
 
     @Step("enter password:{password}")
     public void Fillpassword(String pass) {
-        {
-            try {
-                filltext(password, pass);
-
-            } catch (Exception e) {
-                System.err.println("\nError : Fillpassword failed\n");
-                throw e;
-            }
-        }
-
-
+        filltext(password, pass);
     }
 
     public void Clickloginbuttonn() {
-        {
-            try {
-                ExplicityWaitIsClickable(LoginButtonOfModel);
-
-            } catch (Exception e) {
-                System.err.println("\nError : Clickloginbuttonn failed\n");
-                throw e;
-            }
-        }
-
-
+        ExplicityWaitIsClickable(LoginButtonOfModel);
     }
 
     public String EmaileRequired() {
+        WaitElementDosplayed(EmaileRequired);
         return getText(EmaileRequired);
-        //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
 
     public String PasswordRequired() {
-
-
+        WaitElementDosplayed(PasswordRequired);
         return getText(PasswordRequired);
+    }
 
+    public String PasswordIncorrect() {
+       //sleep(1500);
+        WaitElementDosplayed(PasswordIncorrect);
+        return getText(PasswordIncorrect);
+    }
 
+    public String InvalidEmail() {
+        WaitElementDosplayed(InvalidEmail);
+        return getText(InvalidEmail);
     }
 
     public void Closebuttonoflogin() {
@@ -119,16 +84,8 @@ public class LoginPage extends BasePage {
     @Step("enter name:{name}")
     public void Fillusername(String user) {
         {
-            try {
-                filltext(userName, user);
-
-            } catch (Exception e) {
-                System.err.println("\nError : Fillusername failed\n");
-                throw e;
-            }
+            filltext(userName, user);
         }
-
-
     }
 
 

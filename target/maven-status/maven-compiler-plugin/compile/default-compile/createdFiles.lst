@@ -3,6 +3,7 @@ PageObjects/SignUpPage.class
 PageObjects/LoginPage.class
 TestsObjects/LoginTest.class
 utilitis/Listener.class
+TestsObjects/RestAssured.class
 utilitis/AllureAttachments$AllureAttachmentHtml.class
 TestsObjects/SignUpTest.class
 PageObjects/BasePage.class

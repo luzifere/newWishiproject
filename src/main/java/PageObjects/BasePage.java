@@ -20,7 +20,7 @@ public abstract class BasePage {
     static WebDriver driver;
 
     public BasePage(WebDriver driver) {
-        this.driver = driver;
+        BasePage.driver = driver;
         PageFactory.initElements(driver, this);
 
     }
@@ -31,7 +31,8 @@ public abstract class BasePage {
 
                 for (int i = 0; i < 3; i++)
                     try {
-                        WebDriverWait wait = new WebDriverWait(driver, 10);
+                        WebDriverWait wait;
+                        wait = new WebDriverWait(driver, 10);
                         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(elementString));
                         element.click();
                         break;
@@ -67,8 +68,7 @@ public abstract class BasePage {
     public static boolean ElementDisplay(WebElement elementString) {
         WebElement webElement = (elementString);
 
-        if (webElement.isDisplayed()) return true;
-        else return false;
+        return webElement.isDisplayed();
         //return ElementIsDisplyed(elementString);
     }
 
@@ -90,11 +90,16 @@ public abstract class BasePage {
         String folder_name = "/Users/yinonwishi/Downloads/screenshoots/";
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         // Now you can do whatever you need to do with it, for example copy somewhere
-        SimpleDateFormat df = new SimpleDateFormat("dd-mm-yyyy__hh_mm_ssaa");
+        SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy__hh_mm_ssaa");
         new File(folder_name).mkdir();
         String file_name = df.format(new Date()) + ".png";
         FileUtils.copyFile(scrFile, new File(folder_name + "/" + file_name));
 
+    }
+    public void WaitElementDosplayed(WebElement element)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOf(element));
     }
 
 
