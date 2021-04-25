@@ -26,6 +26,8 @@ public class LoginPage extends BasePage {
     WebElement PasswordIncorrect;
     @FindBy(xpath = "//div[text()[contains(.,'Invalid email')]]")
     WebElement InvalidEmail;
+    @FindBy(xpath = "//div[text()[contains(.,'Inbox')]]")
+    WebElement inbox;
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -86,6 +88,12 @@ public class LoginPage extends BasePage {
         {
             filltext(userName, user);
         }
+    }
+    public void LoginSucceeded(){
+        WaitElementDosplayed(inbox);
+
+
+
     }
 
 

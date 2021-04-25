@@ -103,4 +103,19 @@ public class LoginTest extends setup {
         login.Closebuttonoflogin();
 
     }
+    @Attachment
+    @Story("FillCorrectPasswordWithWrongEmail")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 6,groups={"sanity-group"})
+    public void DoLogin()
+    {
+        LoginPage login = new LoginPage(driver);
+        login.ClickLoginButton();
+        login.Clearpassword();
+        login.Clearusername();
+        login.Fillusername("wishi.test@wishi.com");
+        login.Fillpassword("123456");
+        login.Clickloginbuttonn();
+        login.LoginSucceeded();
+    }
 }
