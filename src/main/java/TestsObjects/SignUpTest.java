@@ -25,7 +25,8 @@ public class SignUpTest extends setup
     String expectedIEp = "please enter a valid email address";
     String expectedMC = "name may only contain letters, whitespace, and the ' or - special characters";
 
-
+    @Story("Fill Email Witout Shtudel")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 2,groups={"sanity-group"})
     public void FillEmailWitoutShtudel()
     {
@@ -48,7 +49,8 @@ public class SignUpTest extends setup
 
 
     }
-
+    @Story("Fill Email Without Dot Com")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 3,groups={"sanity-group"})
     public void FillEmailWithoutDotCom()
     {
@@ -71,7 +73,8 @@ public class SignUpTest extends setup
         sign.Closebuttonofsignup();
 
     }
-
+    @Story("Fill Pssword With Lessthan 6 Characters")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 4,groups={"sanity-group"})
     public void FillPsswordWithLessthan6Characters()
     {
@@ -94,6 +97,8 @@ public class SignUpTest extends setup
         sign.Closebuttonofsignup();
 
     }
+    @Story("Fill Mail With Special Carecters")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 5,groups={"sanity-group"})
     public void FillMailWithSpecialCarecters()
     {
@@ -116,6 +121,8 @@ public class SignUpTest extends setup
         sign.Closebuttonofsignup();
 
     }
+    @Story("Fill Mail With Hebrew Carecters")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 6,groups={"sanity-group"})
     public void FillMailWithHebrewCarecters()
     {
@@ -138,6 +145,8 @@ public class SignUpTest extends setup
         sign.Closebuttonofsignup();
 
     }
+    @Story("Fill Name With Special Carecters")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 7,groups={"sanity-group"})
     public void FillNameWithSpecialCarecters()
     {
@@ -160,6 +169,8 @@ public class SignUpTest extends setup
         sign.Closebuttonofsignup();
 
     }
+    @Story("Fill Name With Hebrew Carecters")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 8,groups={"sanity-group"})
     public void FillNameWithHebrewCarecters()
     {
@@ -177,11 +188,13 @@ public class SignUpTest extends setup
         sign.Clearpassword();
         sign.Fillpassword("123456");
         sign.ClickSignUpPUBtnButton();
-        String actual = sign.namemaycontain1();
+        String actual = sign.namemaycontain();
         Assert.assertEquals(actual, expectedMC);
         sign.Closebuttonofsignup();
 
     }
+    @Story("Fill Name WithOut Last Name")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 9,groups={"sanity-group"})
     public void FillNameWithOutLastName()
     {
@@ -230,6 +243,8 @@ public class SignUpTest extends setup
         Assert.assertEquals(actual,expected);
         Assert.assertEquals(actual,expected);
     }
+    @Story("Create User")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 11,groups={"sanity-group"})
     public void CreateUser()
 

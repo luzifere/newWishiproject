@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="36.446" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="44.945" tests="16" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="15"/>
+    <property name="java.specification.version" value="16"/>
     <property name="webdriver.chrome.driver" value="/Users/yinonwishi/.cache/selenium/chromedriver/mac64/90.0.4430.24/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/test-classes:/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/classes:/Users/yinonwishi/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-beta-2/selenium-java-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-beta-2/selenium-api-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/Users/yinonwishi/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/yinonwishi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/yinonwishi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/yinonwishi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/yinonwishi/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/yinonwishi/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/yinonwishi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-beta-2/selenium-devtools-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-beta-2/selenium-http-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-beta-2/selenium-json-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v86/4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v87/4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v88/4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v89/4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-buffer/4.1.58.Final/netty-buffer-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-http/4.1.58.Final/netty-codec-http-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec/4.1.58.Final/netty-codec-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler/4.1.58.Final/netty-handler-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-common/4.1.58.Final/netty-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.58.Final/netty-transport-native-kqueue-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.58.Final/netty-transport-native-unix-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport/4.1.58.Final/netty-transport-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-resolver/4.1.58.Final/netty-resolver-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api/1.0.0/opentelemetry-api-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-context/1.0.0/opentelemetry-context-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.0.0/opentelemetry-exporter-logging-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.0.0-alpha/opentelemetry-sdk-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.0.0/opentelemetry-sdk-common-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.0.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.0.0/opentelemetry-sdk-trace-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.0.0-alpha/opentelemetry-api-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.0.0/opentelemetry-sdk-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.0.0-alpha/opentelemetry-semconv-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client/2.12.2/async-http-client-2.12.2.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.2/async-http-client-netty-utils-2.12.2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-socks/4.1.53.Final/netty-codec-socks-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler-proxy/4.1.53.Final/netty-handler-proxy-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.53.Final/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar:/Users/yinonwishi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/yinonwishi/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/yinonwishi/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-beta-2/selenium-support-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/yinonwishi/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/yinonwishi/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/yinonwishi/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/yinonwishi/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/yinonwishi/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/yinonwishi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/yinonwishi/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/yinonwishi/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yinonwishi/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yinonwishi/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/yinonwishi/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yinonwishi/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yinonwishi/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yinonwishi/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yinonwishi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yinonwishi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/yinonwishi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/yinonwishi/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/yinonwishi/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
     <property name="user.timezone" value="Asia/Jerusalem"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="15"/>
+    <property name="java.vm.specification.version" value="16"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IL"/>
     <property name="allure.link.issue.pattern" value="https://example.org/issue/{}"/>
-    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire/surefirebooter5786893949506040317.jar /Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire 2021-04-25T21-04-25_688-jvmRun1 surefire18232609918434825006tmp surefire_01647307230960140354tmp"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-16.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire/surefirebooter12955445399150889670.jar /Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire 2021-04-29T13-20-57_810-jvmRun1 surefire2861715415941137916tmp surefire_08607586464289396878tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/test-classes:/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/classes:/Users/yinonwishi/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-beta-2/selenium-java-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-beta-2/selenium-api-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/Users/yinonwishi/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/yinonwishi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/yinonwishi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/yinonwishi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/yinonwishi/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/yinonwishi/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/yinonwishi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-beta-2/selenium-devtools-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-beta-2/selenium-http-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-beta-2/selenium-json-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v86/4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v87/4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v88/4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v89/4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-buffer/4.1.58.Final/netty-buffer-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-http/4.1.58.Final/netty-codec-http-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec/4.1.58.Final/netty-codec-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler/4.1.58.Final/netty-handler-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-common/4.1.58.Final/netty-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.58.Final/netty-transport-native-kqueue-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.58.Final/netty-transport-native-unix-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport/4.1.58.Final/netty-transport-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-resolver/4.1.58.Final/netty-resolver-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api/1.0.0/opentelemetry-api-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-context/1.0.0/opentelemetry-context-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.0.0/opentelemetry-exporter-logging-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.0.0-alpha/opentelemetry-sdk-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.0.0/opentelemetry-sdk-common-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.0.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.0.0/opentelemetry-sdk-trace-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.0.0-alpha/opentelemetry-api-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.0.0/opentelemetry-sdk-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.0.0-alpha/opentelemetry-semconv-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client/2.12.2/async-http-client-2.12.2.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.2/async-http-client-netty-utils-2.12.2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-socks/4.1.53.Final/netty-codec-socks-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler-proxy/4.1.53.Final/netty-handler-proxy-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.53.Final/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar:/Users/yinonwishi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/yinonwishi/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/yinonwishi/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-beta-2/selenium-support-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/yinonwishi/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/yinonwishi/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/yinonwishi/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/yinonwishi/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/yinonwishi/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/yinonwishi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/yinonwishi/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/yinonwishi/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yinonwishi/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yinonwishi/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/yinonwishi/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yinonwishi/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yinonwishi/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yinonwishi/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yinonwishi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yinonwishi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/yinonwishi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/yinonwishi/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/yinonwishi/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:"/>
-    <property name="allure.results.directory" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/allure-results"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/allure-results"/>
     <property name="user.home" value="/Users/yinonwishi"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-01-19"/>
-    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-16.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
     <property name="allure.link.tms.pattern" value="https://example.org/tms/{}"/>
     <property name="basedir" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject"/>
@@ -33,95 +33,147 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire/surefirebooter5786893949506040317.jar"/>
+    <property name="surefire.real.class.path" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire/surefirebooter12955445399150889670.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="java.runtime.version" value="16+36"/>
     <property name="user.name" value="yinonwishi"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="11.2.3"/>
+    <property name="os.version" value="10.16"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="US-ASCII"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="sun.nio.ch.bugLevel" value=""/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
     <property name="localRepository" value="/Users/yinonwishi/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="suiteXmlFile-TestNG.xml" value="true"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/xz/jk5hy2jd3sb1_2b_tghyzylw0000gn/T/"/>
-    <property name="java.version" value="15.0.2"/>
+    <property name="java.version" value="16"/>
     <property name="user.dir" value="/Users/yinonwishi/newWishiproject/workspace/newWishiproject"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.library.path" value="/Users/yinonwishi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="N/A"/>
-    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="16+36"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="59.0"/>
+    <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="FillEmailWitoutShtudel" classname="TestsObjects.SignUpTest" time="0.79">
+  <testcase name="FillPasswordWithOutToFillEmail" classname="TestsObjects.LoginTest" time="1.18">
     <system-out><![CDATA[This is onStart method/Users/yinonwishi/newWishiproject/workspace/newWishiproject/target/surefire-reports/Suite
-New Test Started FillEmailWitoutShtudel
 New Test Started FillPasswordWithOutToFillEmail
-Test Successfully Finished  FillEmailWitoutShtudel
+Test Successfully Finished  FillPasswordWithOutToFillEmail
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/90.0.4430.24/chromedriver
 [TestNG-test=Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
 [TestNG-test=Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/90.0.4430.24/chromedriver
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 14957
-Only local connections are allowed.
-Please see https://chromeSdrtiavrert.icnhgro mCihurmo.omregD/rsievceurr i9t0y.-c0o.n4s4i3d0e.r2a4t i(o4ncs6 fdo8r5 0sfu0g8g7esdtai4on6s7 do9n2 k6eee8peidndgb 7C6h5ro5me0Daerdi6v5e5r9 9s1a-free.fs
-/branch-heads/4430@{#429})C horonm eport 2D36r1i7
-vOenrl yw alsoc astla rctoendnecti osnusc caerses faulllloyw.e
-d.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 25, 2021 9:04:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76Starti5ng 5C0hraomeedDr6i5v5e9r91 -9r0ef.s/b0r.a4nc4h-30h.ea2d4s (/44c463d08@50{#4f20897}d)a4 6o7nd 92p6oer8te d4d1b17462550aed655
+9O91n-lrye fsl/obcraaln ccho-nhneeacds/t4i430@{#4o29}) nons p ort 4a3r9e5 1a
+lOlnolwye dl.o
+cPalle acsoen nsectieons eare al lhowtetdp.
+Psle:a//scher osmederei vehrt.tcphsr:o/m/icuhmr.oomregd/rsievceur.rcihrtoym-icuomn.soirdge/rsaetciuornist yf-ocro nssuigdgeersattiioonnss  ofnor  kseuegpgiensgt iCohnrso moenD rkieveeprin g sCahrfoeme.D
+river safe.
+ChromeDriver was Cshtraormteed Dsurccievsesfru llwy.a
+s started successfully.
+Apr 29, 2021 1:21:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Apr 25, 2021 9:04:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 29, 2021 1:21:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Apr 25, 2021 9:04:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 29, 2021 1:21:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
-Apr 25, 2021 9:04:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 90 of 89
-Apr 25, 2021 9:04:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 29, 2021 1:21:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
-Apr 25, 2021 9:04:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 29, 2021 1:21:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 90 of 89
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+Apr 29, 2021 1:21:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillEmailWithOutToFillPassword" classname="TestsObjects.LoginTest" time="0.364">
+    <system-out><![CDATA[New Test Started FillEmailWithOutToFillPassword
+New Test Started FillEmailWitoutShtudel
+Test Successfully Finished  FillEmailWithOutToFillPassword
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+]]></system-err>
+  </testcase>
+  <testcase name="ClickLoginwWithOutToFillAnyFields" classname="TestsObjects.LoginTest" time="0.603">
+    <system-out><![CDATA[New Test Started ClickLoginwWithOutToFillAnyFields
+Test Successfully Finished  ClickLoginwWithOutToFillAnyFields
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+]]></system-err>
+  </testcase>
+  <testcase name="FillCorrectEmailWithWrongPassword" classname="TestsObjects.LoginTest" time="1.112">
+    <system-out><![CDATA[New Test Started FillEmailWithoutDotCom
+Test Successfully Finished  FillCorrectEmailWithWrongPassword
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+]]></system-err>
+  </testcase>
+  <testcase name="FillCorrectPasswordWithWrongEmail" classname="TestsObjects.LoginTest" time="2.124">
+    <system-out><![CDATA[New Test Started FillCorrectPasswordWithWrongEmail
+Test Successfully Finished  FillCorrectPasswordWithWrongEmail
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillEmailWithoutDotCom" classname="TestsObjects.SignUpTest" time="1.027">
-    <system-out><![CDATA[New Test Started FillCorrectEmailWithWrongPassword
-Test Successfully Finished  FillEmailWithoutDotCom
+  <testcase name="DoLogin" classname="TestsObjects.LoginTest" time="0.395">
+    <system-out><![CDATA[New Test Started FillMailWithSpecialCarecters
+Test Successfully Finished  DoLogin
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+  </testcase>
+  <testcase name="FillEmailWitoutShtudel" classname="TestsObjects.SignUpTest" time="1.426">
+    <system-out><![CDATA[New Test Started FillCorrectEmailWithWrongPassword
+Test Successfully Finished  FillEmailWitoutShtudel
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillPsswordWithLessthan6Characters" classname="TestsObjects.SignUpTest" time="0.374">
-    <system-out><![CDATA[New Test Started FillCorrectPasswordWithWrongEmail
+  <testcase name="FillEmailWithoutDotCom" classname="TestsObjects.SignUpTest" time="0.024">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  FillEmailWithoutDotCom
+]]></system-out>
+  </testcase>
+  <testcase name="FillPsswordWithLessthan6Characters" classname="TestsObjects.SignUpTest" time="1.651">
+    <system-out><![CDATA[New Test Started FillPsswordWithLessthan6Characters
 Test Successfully Finished  FillPsswordWithLessthan6Characters
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillMailWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="0.333">
-    <system-out><![CDATA[New Test Started DoLogin
-Test Successfully Finished  FillMailWithSpecialCarecters
+  <testcase name="FillMailWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.747">
+    <system-out><![CDATA[Test Successfully Finished  FillMailWithSpecialCarecters
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+    <system-err><![CDATA[[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillMailWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="1.922">
-    <system-out><![CDATA[Test Successfully Finished  FillMailWithHebrewCarecters
+  <testcase name="FillMailWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="2.242">
+    <system-out><![CDATA[New Test Started FillMailWithHebrewCarecters
+Test Successfully Finished  FillMailWithHebrewCarecters
 ]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
   </testcase>
-  <testcase name="FillNameWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.052">
+  <testcase name="FillNameWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.549">
     <system-out><![CDATA[New Test Started FillNameWithSpecialCarecters
 Test Successfully Finished  FillNameWithSpecialCarecters
 ]]></system-out>
@@ -130,7 +182,7 @@ Test Successfully Finished  FillNameWithSpecialCarecters
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillNameWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="1.691">
+  <testcase name="FillNameWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="2.409">
     <system-out><![CDATA[New Test Started FillNameWithHebrewCarecters
 name may only contain letters, whitespace, and the ' or - special characters
 Test Successfully Finished  FillNameWithHebrewCarecters
@@ -140,7 +192,7 @@ Test Successfully Finished  FillNameWithHebrewCarecters
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillNameWithOutLastName" classname="TestsObjects.SignUpTest" time="1.165">
+  <testcase name="FillNameWithOutLastName" classname="TestsObjects.SignUpTest" time="1.582">
     <system-out><![CDATA[New Test Started FillNameWithOutLastName
 Test Successfully Finished  FillNameWithOutLastName
 ]]></system-out>
@@ -149,7 +201,7 @@ Test Successfully Finished  FillNameWithOutLastName
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.SignUpTest" time="4.168">
+  <testcase name="DoSignUp" classname="TestsObjects.SignUpTest" time="3.94">
     <system-out><![CDATA[New Test Started DoSignUp
 LET'S GET STYLING
 Test Successfully Finished  DoSignUp
@@ -159,7 +211,7 @@ Test Successfully Finished  DoSignUp
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="CreateUser" classname="TestsObjects.SignUpTest" time="4.756">
+  <testcase name="CreateUser" classname="TestsObjects.SignUpTest" time="5.539">
     <system-out><![CDATA[New Test Started CreateUser
 Request method:	POST
 Request URI:	https://api-stage.wishi.me/api/slim/user/signup/email
@@ -174,14 +226,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "freez+700@wishitest.me558264",
+    "email": "freez+700@wishitest.me428718",
     "full_name": "nadav Carmel",
     "first_name": "Erased",
     "last_name": "Caramel",
     "password": "q1w2easd3r4!"
 }
 HTTP/1.1 200 OK
-Date: Sun, 25 Apr 2021 18:05:00 GMT
+Date: Thu, 29 Apr 2021 10:21:40 GMT
 Server: Apache/2.2.22 (Debian)
 X-Powered-By: PHP/5.6.30-1~dotdeb+7.1
 Content-Length: 207
@@ -191,18 +243,18 @@ Content-Type: application/json
 
 {
     "message": "success",
-    "user_uuid": "c06750d1-a5f0-11eb-a",
-    "token": "a2290184d84cce7bb45be40d8dd87f2e",
-    "user_name": "erasedcaramel57",
+    "user_uuid": "b06252f4-a8d4-11eb-a",
+    "token": "872b3b07b495ce068dac68e122dcd67f",
+    "user_name": "erasedcaramel89",
     "first_name": "Erased",
     "last_name": "Caramel",
     "first_booking": true,
     "brand": null
 }
-uuid is c06750d1-a5f0-11eb-a
-api getUser is  https://api-stage.wishi.me/api/slim/user/c06750d1-a5f0-11eb-a
+uuid is b06252f4-a8d4-11eb-a
+api getUser is  https://api-stage.wishi.me/api/slim/user/b06252f4-a8d4-11eb-a
 Request method:	GET
-Request URI:	https://api-stage.wishi.me/api/slim/user/c06750d1-a5f0-11eb-a
+Request URI:	https://api-stage.wishi.me/api/slim/user/b06252f4-a8d4-11eb-a
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -214,7 +266,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 25 Apr 2021 18:05:03 GMT
+Date: Thu, 29 Apr 2021 10:21:44 GMT
 Server: Apache/2.2.22 (Debian)
 X-Powered-By: PHP/5.6.30-1~dotdeb+7.1
 Content-Length: 1788
@@ -227,7 +279,7 @@ Content-Type: application/json
     "height": null,
     "phone_number": null,
     "device_id": null,
-    "user_uuid": "c06750d1-a5f0-11eb-a",
+    "user_uuid": "b06252f4-a8d4-11eb-a",
     "first_name": "Erased",
     "last_name": "Caramel",
     "followers_cnt": "0",
@@ -237,8 +289,8 @@ Content-Type: application/json
     "city": null,
     "location": "",
     "age": 0,
-    "user_name": "erasedcaramel57",
-    "email": "freez+700@wishitest.me558264",
+    "user_name": "erasedcaramel89",
+    "email": "freez+700@wishitest.me428718",
     "campaign": null,
     "birthday_permission": [
         ""
@@ -311,54 +363,5 @@ Content-Type: application/json
 }
 Test Successfully Finished  CreateUser
 ]]></system-out>
-  </testcase>
-  <testcase name="FillPasswordWithOutToFillEmail" classname="TestsObjects.LoginTest" time="0.185">
-    <system-out><![CDATA[New Test Started FillEmailWithoutDotCom
-Test Successfully Finished  FillPasswordWithOutToFillEmail
-]]></system-out>
-  </testcase>
-  <testcase name="FillEmailWithOutToFillPassword" classname="TestsObjects.LoginTest" time="1.109">
-    <system-out><![CDATA[New Test Started FillEmailWithOutToFillPassword
-Test Successfully Finished  FillEmailWithOutToFillPassword
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-]]></system-err>
-  </testcase>
-  <testcase name="ClickLoginwWithOutToFillAnyFields" classname="TestsObjects.LoginTest" time="0.49">
-    <system-out><![CDATA[New Test Started ClickLoginwWithOutToFillAnyFields
-Test Successfully Finished  ClickLoginwWithOutToFillAnyFields
-]]></system-out>
-  </testcase>
-  <testcase name="FillCorrectEmailWithWrongPassword" classname="TestsObjects.LoginTest" time="0.906">
-    <system-out><![CDATA[New Test Started FillPsswordWithLessthan6Characters
-Test Successfully Finished  FillCorrectEmailWithWrongPassword
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-]]></system-err>
-  </testcase>
-  <testcase name="FillCorrectPasswordWithWrongEmail" classname="TestsObjects.LoginTest" time="1.05">
-    <system-out><![CDATA[New Test Started FillMailWithSpecialCarecters
-Test Successfully Finished  FillCorrectPasswordWithWrongEmail
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-]]></system-err>
-  </testcase>
-  <testcase name="DoLogin" classname="TestsObjects.LoginTest" time="1.411">
-    <system-out><![CDATA[New Test Started FillMailWithHebrewCarecters
-Test Successfully Finished  DoLogin
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-[TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-]]></system-err>
   </testcase>
 </testsuite>

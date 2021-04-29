@@ -170,23 +170,24 @@ public class SignUpPage extends BasePage {
 
     }
 
-    public String namemaycontain() {
+    public String namemaycontain1() {
         List<WebElement> list = driver.findElements(By.xpath("//div[@class='invalid-feedback']"));
         System.out.println(list.size());
 
-        String text = null;
         for (WebElement elements : list) {
-            if (elements.getText().contains("name may only contain letters")) {
-                WaitElementDosplayed(elements);
-               text = getText(elements);
-                System.out.println(text);
+            WaitElementDosplayed(elements);
+            String elementtext = elements.getText();
+            if (elementtext.contains("name may only contain letters")) {
+                return elementtext;
             }
 
 
         }
-        return text;
+
+        return null;
     }
-    public String namemaycontain1() {
+
+    public String namemaycontain() {
 
         String text = null;
         {

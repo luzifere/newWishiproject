@@ -2,122 +2,122 @@
 <testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-25T21:04:27 IDT" name="Suite" finished-at="2021-04-25T21:05:03 IDT" duration-ms="35197">
+  <suite started-at="2021-04-29T13:21:01 IDT" name="Suite" finished-at="2021-04-29T13:21:44 IDT" duration-ms="42958">
     <groups>
       <group name="sanity-group">
-        <method signature="LoginTest.ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@256aa5f2]" name="ClickLoginwWithOutToFillAnyFields" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.DoLogin()[pri:6, instance:TestsObjects.LoginTest@256aa5f2]" name="DoLogin" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@256aa5f2]" name="FillCorrectEmailWithWrongPassword" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@256aa5f2]" name="FillCorrectPasswordWithWrongEmail" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@256aa5f2]" name="FillEmailWithOutToFillPassword" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@256aa5f2]" name="FillPasswordWithOutToFillEmail" class="TestsObjects.LoginTest"/>
-        <method signature="SignUpTest.CreateUser()[pri:11, instance:TestsObjects.SignUpTest@6411d3c8]" name="CreateUser" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@6411d3c8]" name="DoSignUp" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@6411d3c8]" name="FillEmailWithoutDotCom" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@6411d3c8]" name="FillEmailWitoutShtudel" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@6411d3c8]" name="FillMailWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@6411d3c8]" name="FillMailWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@6411d3c8]" name="FillNameWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@6411d3c8]" name="FillNameWithOutLastName" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@6411d3c8]" name="FillNameWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@6411d3c8]" name="FillPsswordWithLessthan6Characters" class="TestsObjects.SignUpTest"/>
+        <method signature="LoginTest.ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@1549bba7]" name="ClickLoginwWithOutToFillAnyFields" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.DoLogin()[pri:6, instance:TestsObjects.LoginTest@1549bba7]" name="DoLogin" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@1549bba7]" name="FillCorrectEmailWithWrongPassword" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@1549bba7]" name="FillCorrectPasswordWithWrongEmail" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@1549bba7]" name="FillEmailWithOutToFillPassword" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@1549bba7]" name="FillPasswordWithOutToFillEmail" class="TestsObjects.LoginTest"/>
+        <method signature="SignUpTest.CreateUser()[pri:11, instance:TestsObjects.SignUpTest@3e4f80cb]" name="CreateUser" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@3e4f80cb]" name="DoSignUp" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@3e4f80cb]" name="FillEmailWithoutDotCom" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@3e4f80cb]" name="FillEmailWitoutShtudel" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@3e4f80cb]" name="FillMailWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@3e4f80cb]" name="FillMailWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@3e4f80cb]" name="FillNameWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@3e4f80cb]" name="FillNameWithOutLastName" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@3e4f80cb]" name="FillNameWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@3e4f80cb]" name="FillPsswordWithLessthan6Characters" class="TestsObjects.SignUpTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test started-at="2021-04-25T21:04:27 IDT" name="Test" finished-at="2021-04-25T21:05:03 IDT" duration-ms="35197">
+    <test started-at="2021-04-29T13:21:01 IDT" name="Test" finished-at="2021-04-29T13:21:44 IDT" duration-ms="42958">
       <class name="TestsObjects.LoginTest">
-        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.LoginTest@256aa5f2]" started-at="2021-04-25T21:04:28 IDT" name="setupCapability" finished-at="2021-04-25T21:04:41 IDT" duration-ms="13910" status="PASS">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.LoginTest@1549bba7]" started-at="2021-04-29T13:21:01 IDT" name="setupCapability" finished-at="2021-04-29T13:21:16 IDT" duration-ms="14504" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@74abbb]]>
+                <![CDATA[org.testng.TestRunner@f4cfd90]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupCapability -->
-        <test-method signature="FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@256aa5f2]" started-at="2021-04-25T21:04:41 IDT" name="FillPasswordWithOutToFillEmail" finished-at="2021-04-25T21:04:42 IDT" duration-ms="984" status="PASS">
+        <test-method signature="FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@1549bba7]" started-at="2021-04-29T13:21:16 IDT" name="FillPasswordWithOutToFillEmail" finished-at="2021-04-29T13:21:17 IDT" duration-ms="1206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPasswordWithOutToFillEmail -->
-        <test-method signature="FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@256aa5f2]" started-at="2021-04-25T21:04:42 IDT" name="FillEmailWithOutToFillPassword" finished-at="2021-04-25T21:04:44 IDT" duration-ms="1111" status="PASS">
+        <test-method signature="FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@1549bba7]" started-at="2021-04-29T13:21:17 IDT" name="FillEmailWithOutToFillPassword" finished-at="2021-04-29T13:21:18 IDT" duration-ms="781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillEmailWithOutToFillPassword -->
-        <test-method signature="ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@256aa5f2]" started-at="2021-04-25T21:04:44 IDT" name="ClickLoginwWithOutToFillAnyFields" finished-at="2021-04-25T21:04:44 IDT" duration-ms="492" status="PASS">
+        <test-method signature="ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@1549bba7]" started-at="2021-04-29T13:21:18 IDT" name="ClickLoginwWithOutToFillAnyFields" finished-at="2021-04-29T13:21:18 IDT" duration-ms="601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickLoginwWithOutToFillAnyFields -->
-        <test-method signature="FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@256aa5f2]" started-at="2021-04-25T21:04:44 IDT" name="FillCorrectEmailWithWrongPassword" finished-at="2021-04-25T21:04:46 IDT" duration-ms="1932" status="PASS">
+        <test-method signature="FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@1549bba7]" started-at="2021-04-29T13:21:18 IDT" name="FillCorrectEmailWithWrongPassword" finished-at="2021-04-29T13:21:21 IDT" duration-ms="2538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCorrectEmailWithWrongPassword -->
-        <test-method signature="FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@256aa5f2]" started-at="2021-04-25T21:04:46 IDT" name="FillCorrectPasswordWithWrongEmail" finished-at="2021-04-25T21:04:47 IDT" duration-ms="1427" status="PASS">
+        <test-method signature="FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@1549bba7]" started-at="2021-04-29T13:21:21 IDT" name="FillCorrectPasswordWithWrongEmail" finished-at="2021-04-29T13:21:23 IDT" duration-ms="2123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCorrectPasswordWithWrongEmail -->
-        <test-method signature="DoLogin()[pri:6, instance:TestsObjects.LoginTest@256aa5f2]" started-at="2021-04-25T21:04:47 IDT" name="DoLogin" finished-at="2021-04-25T21:04:49 IDT" duration-ms="1746" status="PASS">
+        <test-method signature="DoLogin()[pri:6, instance:TestsObjects.LoginTest@1549bba7]" started-at="2021-04-29T13:21:23 IDT" name="DoLogin" finished-at="2021-04-29T13:21:25 IDT" duration-ms="2080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.LoginTest@256aa5f2]" started-at="2021-04-25T21:04:49 IDT" name="close" finished-at="2021-04-25T21:04:49 IDT" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.LoginTest@1549bba7]" started-at="2021-04-29T13:21:25 IDT" name="close" finished-at="2021-04-29T13:21:25 IDT" duration-ms="421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestsObjects.LoginTest -->
       <class name="TestsObjects.SignUpTest">
-        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:28 IDT" name="setupCapability" finished-at="2021-04-25T21:04:40 IDT" duration-ms="12258" status="PASS">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:01 IDT" name="setupCapability" finished-at="2021-04-29T13:21:17 IDT" duration-ms="16300" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@74abbb]]>
+                <![CDATA[org.testng.TestRunner@f4cfd90]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupCapability -->
-        <test-method signature="FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:40 IDT" name="FillEmailWitoutShtudel" finished-at="2021-04-25T21:04:42 IDT" duration-ms="2271" status="PASS">
+        <test-method signature="FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:17 IDT" name="FillEmailWitoutShtudel" finished-at="2021-04-29T13:21:20 IDT" duration-ms="2397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillEmailWitoutShtudel -->
-        <test-method signature="FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:42 IDT" name="FillEmailWithoutDotCom" finished-at="2021-04-25T21:04:45 IDT" duration-ms="2822" status="PASS">
+        <test-method signature="FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:20 IDT" name="FillEmailWithoutDotCom" finished-at="2021-04-29T13:21:23 IDT" duration-ms="3262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillEmailWithoutDotCom -->
-        <test-method signature="FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:45 IDT" name="FillPsswordWithLessthan6Characters" finished-at="2021-04-25T21:04:46 IDT" duration-ms="1284" status="PASS">
+        <test-method signature="FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:23 IDT" name="FillPsswordWithLessthan6Characters" finished-at="2021-04-29T13:21:25 IDT" duration-ms="1650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPsswordWithLessthan6Characters -->
-        <test-method signature="FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:46 IDT" name="FillMailWithSpecialCarecters" finished-at="2021-04-25T21:04:48 IDT" duration-ms="1384" status="PASS">
+        <test-method signature="FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:25 IDT" name="FillMailWithSpecialCarecters" finished-at="2021-04-29T13:21:26 IDT" duration-ms="1747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillMailWithSpecialCarecters -->
-        <test-method signature="FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:48 IDT" name="FillMailWithHebrewCarecters" finished-at="2021-04-25T21:04:50 IDT" duration-ms="1921" status="PASS">
+        <test-method signature="FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:26 IDT" name="FillMailWithHebrewCarecters" finished-at="2021-04-29T13:21:29 IDT" duration-ms="2241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillMailWithHebrewCarecters -->
-        <test-method signature="FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:50 IDT" name="FillNameWithSpecialCarecters" finished-at="2021-04-25T21:04:51 IDT" duration-ms="1052" status="PASS">
+        <test-method signature="FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:29 IDT" name="FillNameWithSpecialCarecters" finished-at="2021-04-29T13:21:30 IDT" duration-ms="1548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillNameWithSpecialCarecters -->
-        <test-method signature="FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:51 IDT" name="FillNameWithHebrewCarecters" finished-at="2021-04-25T21:04:52 IDT" duration-ms="1692" status="PASS">
+        <test-method signature="FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:30 IDT" name="FillNameWithHebrewCarecters" finished-at="2021-04-29T13:21:33 IDT" duration-ms="2407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillNameWithHebrewCarecters -->
-        <test-method signature="FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:52 IDT" name="FillNameWithOutLastName" finished-at="2021-04-25T21:04:54 IDT" duration-ms="1165" status="PASS">
+        <test-method signature="FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:33 IDT" name="FillNameWithOutLastName" finished-at="2021-04-29T13:21:34 IDT" duration-ms="1581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillNameWithOutLastName -->
-        <test-method signature="DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:54 IDT" name="DoSignUp" finished-at="2021-04-25T21:04:58 IDT" duration-ms="4169" status="PASS">
+        <test-method signature="DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:34 IDT" name="DoSignUp" finished-at="2021-04-29T13:21:38 IDT" duration-ms="3940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method signature="CreateUser()[pri:11, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:04:58 IDT" name="CreateUser" finished-at="2021-04-25T21:05:02 IDT" duration-ms="4747" status="PASS">
+        <test-method signature="CreateUser()[pri:11, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:38 IDT" name="CreateUser" finished-at="2021-04-29T13:21:44 IDT" duration-ms="5527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateUser -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.SignUpTest@6411d3c8]" started-at="2021-04-25T21:05:02 IDT" name="close" finished-at="2021-04-25T21:05:03 IDT" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.SignUpTest@3e4f80cb]" started-at="2021-04-29T13:21:44 IDT" name="close" finished-at="2021-04-29T13:21:44 IDT" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
