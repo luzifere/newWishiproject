@@ -233,9 +233,12 @@ public class SignUpTest extends setup
         sign.ClearFullName();
         sign.FillFullName( "test test");
         sign.ClearEmail();
-        sign.FillEmail("wishitestyinon@wishitest.com" + number);
+        String newusermaile = this.configFileReader.getnewusermaile();
+        sign.FillEmail(newusermaile+ number);
+        //sign.FillEmail("wishitestyinon@wishitest.com" + number);
         sign.Clearpassword();
-        sign.Fillpassword("123456");
+        String password = this.configFileReader.getpassword();
+        sign.Fillpassword(password);
         sign.ClickSignUpPUBtnButton();
         String expected = "LET'S GET STYLING";
         String actual = sign.LetsGetButtonDisplayed();
