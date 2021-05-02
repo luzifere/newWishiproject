@@ -41,8 +41,8 @@ public class SignUpTest extends setup
         sign.ClearEmail();
         sign.FillEmail("wishitestyinonwishitest.com" + number);
         sign.Clearpassword();
-        sign.Fillpassword("123456");
-        sign.ClickSignUpPUBtnButton();
+        String password = this.configFileReader.getpassword();
+        sign.Fillpassword(password);
         String actual = sign.InvalidEmailP();
         Assert.assertEquals(actual, expectedIE);
         sign.Closebuttonofsignup();
@@ -66,7 +66,8 @@ public class SignUpTest extends setup
         sign.ClearEmail();
         sign.FillEmail("wishitest@yinonwishitestcom" + number);
         sign.Clearpassword();
-        sign.Fillpassword("123456");
+        String password = this.configFileReader.getpassword();
+        sign.Fillpassword(password);
         sign.ClickSignUpPUBtnButton();
         String actual = sign.InvalidEmailp();
         Assert.assertEquals(actual, expectedIEp);
