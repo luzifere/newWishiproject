@@ -11,7 +11,7 @@ public class ConfigFileReader
     private Properties properties;
 
     //private final String propertyFilePath= "configs//ConfigurationProd.properties";
-    private final String propertyFilePath = "/Users/yinonwishi/newWishiproject/workspace/newWishiproject/src/main/java/configs/Configuration.properties";
+    private final String propertyFilePath = System.getProperty("user.dir") +"/src/main/java/configs/Configuration.properties";
 
     public ConfigFileReader(){
         BufferedReader reader;
