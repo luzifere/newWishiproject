@@ -104,10 +104,10 @@ public class LoginTest extends setup {
 
     }
     @Attachment
-    @Story("FillCorrectPasswordWithWrongEmail")
+    @Story("Fill Heb Letters Email")
     @Severity(SeverityLevel.NORMAL)
     @Test(priority = 6,groups={"sanity-group"})
-    public void FillCorrectPasswordWithHebLettersEmail()
+    public void FillHebLettersEmail()
     {
         LoginPage login = new LoginPage(driver);
         login.ClickLoginButton();
