@@ -1,0 +1,41 @@
+[ {
+  "uid" : "3d4e58bd5a6fed91",
+  "name" : "FillPasswordWithOutToFillEmail",
+  "time" : {
+    "start" : 1617547468031,
+    "stop" : 1617547468587,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89646de37da21fe2",
+  "name" : "FillEmailWithOutToFillPassword",
+  "time" : {
+    "start" : 1617547468666,
+    "stop" : 1617547469201,
+    "duration" : 535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9546332e17460c44",
+  "name" : "DoSignUp",
+  "time" : {
+    "start" : 1617548938567,
+    "stop" : 1617548942095,
+    "duration" : 3528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70d9e2120a134ed6",
+  "name" : "FillPasswordWithOutToFillEmail",
+  "time" : {
+    "start" : 1617040863802,
+    "stop" : 1617040864450,
+    "duration" : 648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

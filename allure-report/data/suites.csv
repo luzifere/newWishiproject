@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Apr 04 17:44:28 IDT 2021","Sun Apr 04 17:44:28 IDT 2021","556","Default Suite","newWishiproject","TestsObjects.LoginTest","TestsObjects.LoginTest","FillPasswordWithOutToFillEmail","FillPasswordWithOutToFillEmail",""
+"passed","Sun Apr 04 17:44:28 IDT 2021","Sun Apr 04 17:44:29 IDT 2021","535","Default Suite","newWishiproject","TestsObjects.LoginTest","TestsObjects.LoginTest","FillEmailWithOutToFillPassword","FillEmailWithOutToFillPassword",""
+"passed","Sun Apr 04 18:08:58 IDT 2021","Sun Apr 04 18:09:02 IDT 2021","3528","Default Suite","newWishiproject","TestsObjects.SignUpTest","TestsObjects.SignUpTest","DoSignUp","DoSignUp",""
+"passed","Mon Mar 29 21:01:03 IDT 2021","Mon Mar 29 21:01:04 IDT 2021","648","Suite","Test","TestsObjects.LoginTest1","TestsObjects.LoginTest1","FillPasswordWithOutToFillEmail","FillPasswordWithOutToFillEmail",""

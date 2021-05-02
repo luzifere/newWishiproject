@@ -1,0 +1,92 @@
+{
+  "uid" : "8b2d37bb80d9e06f",
+  "name" : "FillPasswordWithOutToFillEmail",
+  "fullName" : "TestsObjects.LoginTest1.FillPasswordWithOutToFillEmail",
+  "historyId" : "c49f3778291cf522dc36fd5de4c45f2f",
+  "time" : {
+    "start" : 1617039148095,
+    "stop" : 1617039148730,
+    "duration" : 635
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "testing",
+    "time" : {
+      "start" : 1617039131055,
+      "stop" : 1617039148093,
+      "duration" : 17038
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1617039148734,
+      "stop" : 1617039148904,
+      "duration" : 170
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestsObjects.LoginTest1"
+  }, {
+    "name" : "testClass",
+    "value" : "TestsObjects.LoginTest1"
+  }, {
+    "name" : "testMethod",
+    "value" : "FillPasswordWithOutToFillEmail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsObjects.LoginTest1"
+  }, {
+    "name" : "host",
+    "value" : "yinons-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "5224@yinons-MacBook-Pro-2.local.TestNG-test=Test-2(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b2d37bb80d9e06f.json",
+  "parameterValues" : [ ]
+}

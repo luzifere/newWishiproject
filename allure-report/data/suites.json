@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "TestsObjects.LoginTest1",
+        "children" : [ {
+          "name" : "FillPasswordWithOutToFillEmail",
+          "uid" : "70d9e2120a134ed6",
+          "parentUid" : "53767bdbfb8843c453d251c603f5d8e3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617040863802,
+            "stop" : 1617040864450,
+            "duration" : 648
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "53767bdbfb8843c453d251c603f5d8e3"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  }, {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "newWishiproject",
+      "children" : [ {
+        "name" : "TestsObjects.LoginTest",
+        "children" : [ {
+          "name" : "FillPasswordWithOutToFillEmail",
+          "uid" : "3d4e58bd5a6fed91",
+          "parentUid" : "e129ba172fbc007838b212033349514a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617547468031,
+            "stop" : 1617547468587,
+            "duration" : 556
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "FillEmailWithOutToFillPassword",
+          "uid" : "89646de37da21fe2",
+          "parentUid" : "e129ba172fbc007838b212033349514a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617547468666,
+            "stop" : 1617547469201,
+            "duration" : 535
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e129ba172fbc007838b212033349514a"
+      }, {
+        "name" : "TestsObjects.SignUpTest",
+        "children" : [ {
+          "name" : "DoSignUp",
+          "uid" : "9546332e17460c44",
+          "parentUid" : "0c70c5ae818f03c2b7d65eb2d5cd8aef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617548938567,
+            "stop" : 1617548942095,
+            "duration" : 3528
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0c70c5ae818f03c2b7d65eb2d5cd8aef"
+      } ],
+      "uid" : "e47eec35fc50004a5d357c4245a06b15"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

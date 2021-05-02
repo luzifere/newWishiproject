@@ -1,0 +1,92 @@
+{
+  "uid" : "554d164eb40398ca",
+  "name" : "DoSignUp",
+  "fullName" : "TestsObjects.SignUpTest.DoSignUp",
+  "historyId" : "aaad6d2e3ba0e82e2b13aade5ddaf2c1",
+  "time" : {
+    "start" : 1617547884170,
+    "stop" : 1617547885285,
+    "duration" : 1115
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "testing",
+    "time" : {
+      "start" : 1617547869940,
+      "stop" : 1617547884091,
+      "duration" : 14151
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1617547885399,
+      "stop" : 1617547885599,
+      "duration" : 200
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestsObjects.SignUpTest"
+  }, {
+    "name" : "testClass",
+    "value" : "TestsObjects.SignUpTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "DoSignUp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "newWishiproject"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsObjects.SignUpTest"
+  }, {
+    "name" : "host",
+    "value" : "yinons-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "8297@yinons-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "554d164eb40398ca.json",
+  "parameterValues" : [ ]
+}

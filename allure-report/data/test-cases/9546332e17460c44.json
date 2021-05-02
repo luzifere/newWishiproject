@@ -1,0 +1,155 @@
+{
+  "uid" : "9546332e17460c44",
+  "name" : "DoSignUp",
+  "fullName" : "TestsObjects.SignUpTest.DoSignUp",
+  "historyId" : "aaad6d2e3ba0e82e2b13aade5ddaf2c1",
+  "time" : {
+    "start" : 1617548938567,
+    "stop" : 1617548942095,
+    "duration" : 3528
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "testing",
+    "time" : {
+      "start" : 1617548926939,
+      "stop" : 1617548938298,
+      "duration" : 11359
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1617548942180,
+      "stop" : 1617548942411,
+      "duration" : 231
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestsObjects.SignUpTest"
+  }, {
+    "name" : "testClass",
+    "value" : "TestsObjects.SignUpTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "DoSignUp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "newWishiproject"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsObjects.SignUpTest"
+  }, {
+    "name" : "host",
+    "value" : "yinons-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "8480@yinons-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b79345ed55da1514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617548809601,
+        "stop" : 1617548812968,
+        "duration" : 3367
+      }
+    }, {
+      "uid" : "554d164eb40398ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617547884170,
+        "stop" : 1617547885285,
+        "duration" : 1115
+      }
+    }, {
+      "uid" : "8662205dd49e7eff",
+      "status" : "broken",
+      "statusDetails" : "\nCannot inject @Test annotated Method [DoSignUp] with [class java.lang.String, class java.lang.String, class java.lang.String].\nFor more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "time" : {
+        "start" : 1617547797231,
+        "stop" : 1617547797234,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "2bfda2ce3c169d55",
+      "status" : "broken",
+      "statusDetails" : "\nCannot inject @Test annotated Method [DoSignUp] with [class java.lang.String, class java.lang.String, class java.lang.String].\nFor more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "time" : {
+        "start" : 1617547620965,
+        "stop" : 1617547620968,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "826aa5677cfd1b53",
+      "status" : "broken",
+      "statusDetails" : "\nCannot inject @Test annotated Method [DoSignUp] with [class java.lang.String, class java.lang.String, class java.lang.String].\nFor more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "time" : {
+        "start" : 1617547435192,
+        "stop" : 1617547435209,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "af85a039da6d6e08",
+      "status" : "broken",
+      "statusDetails" : "\nCannot inject @Test annotated Method [DoSignUp] with [class java.lang.String, class java.lang.String, class java.lang.String].\nFor more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "time" : {
+        "start" : 1617547279892,
+        "stop" : 1617547279896,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "780a1fdf9e39a70a",
+      "status" : "broken",
+      "statusDetails" : "\nCannot inject @Test annotated Method [DoSignUp] with [class java.lang.String, class java.lang.String, class java.lang.String].\nFor more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "time" : {
+        "start" : 1617547237107,
+        "stop" : 1617547237110,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9546332e17460c44.json",
+  "parameterValues" : [ ]
+}
