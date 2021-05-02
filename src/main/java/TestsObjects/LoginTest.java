@@ -107,6 +107,24 @@ public class LoginTest extends setup {
     @Story("FillCorrectPasswordWithWrongEmail")
     @Severity(SeverityLevel.NORMAL)
     @Test(priority = 6,groups={"sanity-group"})
+    public void FillCorrectPasswordWithHebLettersEmail()
+    {
+        LoginPage login = new LoginPage(driver);
+        login.ClickLoginButton();
+        login.Clearpassword();
+        login.Clearusername();
+        login.Fillusername("ששששש@wishi.me");
+        login.Fillpassword("156523784");
+        login.Clickloginbuttonn();
+        String actual = login.InvalidEmail();
+        Assert.assertEquals(actual, expected1IE);
+        login.Closebuttonoflogin();
+
+    }
+    @Attachment
+    @Story("FillCorrectPasswordWithWrongEmail")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 7,groups={"sanity-group"})
     public void DoLogin()
     {
         LoginPage login = new LoginPage(driver);
