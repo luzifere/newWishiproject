@@ -159,10 +159,12 @@ public class SignUpTest extends setup
         sign.ClickSignUpButton();
         sign.ClearFullName();
         sign.FillFullName( "!@#$% test");
-        sign.ClearEmail();
-        sign.FillEmail("wishit@estyinonwishitest.com" + number);
+        String newusermaile = this.configFileReader.getnewusermaile();
+        sign.FillEmail(newusermaile+ number);
+        //sign.FillEmail("wishitestyinon@wishitest.com" + number);
         sign.Clearpassword();
-        sign.Fillpassword("123456");
+        String password = this.configFileReader.getpassword();
+        sign.Fillpassword(password);
         sign.ClickSignUpPUBtnButton();
         String actual = sign.invalid_characters();
         Assert.assertEquals(actual, expectedIC);
