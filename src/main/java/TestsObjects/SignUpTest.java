@@ -88,7 +88,8 @@ public class SignUpTest extends setup
         sign.ClearFullName();
         sign.FillFullName( "test test");
         sign.ClearEmail();
-        sign.FillEmail("wishites@tyinonwishitest.com" + number);
+        String newusermaile = this.configFileReader.getnewusermaile();
+        sign.FillEmail(newusermaile+ number);
         sign.Clearpassword();
         sign.Fillpassword("12345");
         sign.ClickSignUpPUBtnButton();
@@ -114,7 +115,8 @@ public class SignUpTest extends setup
         sign.ClearEmail();
         sign.FillEmail("!@#$%@nwishitest.com" + number);
         sign.Clearpassword();
-        sign.Fillpassword("123456");
+        String password = this.configFileReader.getpassword();
+        sign.Fillpassword(password);
         sign.ClickSignUpPUBtnButton();
         String actual = sign.invalid_characters();
         Assert.assertEquals(actual, expectedIC);
@@ -138,7 +140,8 @@ public class SignUpTest extends setup
         sign.ClearEmail();
         sign.FillEmail("aדגגכדכ@stme.sdf" + number);
         sign.Clearpassword();
-        sign.Fillpassword("123456");
+        String password = this.configFileReader.getpassword();
+        sign.Fillpassword(password);
         sign.ClickSignUpPUBtnButton();
         String actual = sign.InvalidEmailp();
         Assert.assertEquals(actual, expectedIEp);
@@ -161,7 +164,6 @@ public class SignUpTest extends setup
         sign.FillFullName( "!@#$% test");
         String newusermaile = this.configFileReader.getnewusermaile();
         sign.FillEmail(newusermaile+ number);
-        //sign.FillEmail("wishitestyinon@wishitest.com" + number);
         sign.Clearpassword();
         String password = this.configFileReader.getpassword();
         sign.Fillpassword(password);
