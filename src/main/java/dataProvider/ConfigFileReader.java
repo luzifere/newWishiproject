@@ -11,11 +11,8 @@ public class ConfigFileReader
     private Properties properties;
 
     //private final String propertyFilePath= "configs//ConfigurationProd.properties";
-<<<<<<< HEAD
     private final String PropertyFilePath = System.getProperty("user.dir") +"/src/main/java/configs/Configuration.properties";
-=======
     private final String propertyFilePath = System.getProperty("user.dir") +"/src/main/java/configs/Configuration.properties";
->>>>>>> use_DPUN_for_signup
 
     public ConfigFileReader(){
         BufferedReader reader;
