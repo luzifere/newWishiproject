@@ -11,12 +11,12 @@ public class ConfigFileReader
     private Properties properties;
 
     //private final String propertyFilePath= "configs//ConfigurationProd.properties";
-    private final String propertyFilePath = System.getProperty("user.dir") +"/src/main/java/configs/Configuration.properties";
+    private final String PropertyFilePath = System.getProperty("user.dir") +"/src/main/java/configs/Configuration.properties";
 
     public ConfigFileReader(){
         BufferedReader reader;
         try {
-            reader = new BufferedReader(new FileReader(propertyFilePath));
+            reader = new BufferedReader(new FileReader(PropertyFilePath));
             properties = new Properties();
             try {
                 properties.load(reader);
@@ -26,7 +26,7 @@ public class ConfigFileReader
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
+            throw new RuntimeException("Configuration.properties not found at " + PropertyFilePath);
         }
     }
 
