@@ -43,6 +43,7 @@ public class SignUpTest extends setup
         sign.Clearpassword();
         String password = this.configFileReader.getpassword();
         sign.Fillpassword(password);
+        sign.ClickSignUpPUBtnButton();
         String actual = sign.InvalidEmailP();
         Assert.assertEquals(actual, expectedIE);
         sign.Closebuttonofsignup();
