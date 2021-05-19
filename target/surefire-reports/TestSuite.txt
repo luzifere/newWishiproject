@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 55.326 s <<< FAILURE! - in TestSuite
-TestsObjects.SignUpTest.FillEmailWitoutShtudel  Time elapsed: 5.471 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(), 'Please enter a valid email address')]' (tried for 10 second(s) with 500 milliseconds interval)
-	at TestsObjects.SignUpTest.FillEmailWitoutShtudel(SignUpTest.java:46)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(), 'Please enter a valid email address')]"}
-  (Session info: chrome=90.0.4430.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:c55:63d4:a20a:64d4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a3b2c5d09d7e5ea335c48b746117c969, findElement {using=xpath, value=//div[contains(text(), 'Please enter a valid email address')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:60408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a3b2c5d09d7e5ea335c48b746117c969
-	at TestsObjects.SignUpTest.FillEmailWitoutShtudel(SignUpTest.java:46)
-
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.873 s - in TestSuite

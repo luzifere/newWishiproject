@@ -23,7 +23,7 @@ public class SignUpTest extends setup
     String expectedM6C = "Password must have at least 6 characters";
     String expectedIE = "Please enter a valid email address";
     String expectedIEp = "please enter a valid email address";
-    String expectedMC = "name may only contain letters, whitespace, and the - or ' special characters";
+    String expectedMC = "name may only contain letters, whitespace, and the ' or - special characters";
 
     @Story("Fill Email Witout Shtudel")
     @Severity(SeverityLevel.CRITICAL)
