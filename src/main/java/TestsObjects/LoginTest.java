@@ -122,7 +122,7 @@ public class LoginTest extends setup {
 
     }
     @Attachment
-    @Story("FillCorrectPasswordWithWrongEmail")
+    @Story("DoLogin")
     @Severity(SeverityLevel.NORMAL)
     @Test(priority = 7,groups={"sanity-group"})
     public void DoLogin()

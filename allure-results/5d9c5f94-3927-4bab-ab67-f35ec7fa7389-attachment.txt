@@ -1,0 +1,1 @@
+[2021-06-13T09:43:58.046Z] [SEVERE] https://qa.wishi.me/manifest.json 0 Manifest: Line: 1, column: 1, Syntax error.
