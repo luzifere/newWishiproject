@@ -2,6 +2,7 @@ package PageObjects;
 
 import org.apache.tools.ant.taskdefs.Sleep;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,7 +24,7 @@ public class OnBoardingPage extends BasePage {
     List<WebElement> bodytype;
     @FindBy(xpath = "//*[label]")
     WebElement bodyType;
-    @FindBy(xpath = "//*[@id='skip']")
+    @FindBy(xpath = "(//button[contains(text(), 'SKIP')])[1]")
     WebElement skipbutton;
     @FindBy(xpath = "(//button[contains(text(), 'NEXT')])[1]")
     WebElement nextbutton;
@@ -77,21 +78,21 @@ public class OnBoardingPage extends BasePage {
     WebElement loveiteclectic;
     @FindBy(xpath = "//label[@for='Tomboy0']")
     WebElement hellnotomboy;
-    @FindBy(xpath = "//label[@for='Tomboy0']")
+    @FindBy(xpath = "//label[@for='Tomboy1']")
     WebElement somtimetomboy;
-    @FindBy(xpath = "//label[@for='Tomboy0']")
+    @FindBy(xpath = "//label[@for='Tomboy2']")
     WebElement loveittomboy;
     @FindBy(xpath = "//label[@for='minimal0']")
     WebElement hellnominimal;
-    @FindBy(xpath = "//label[@for='minimal0']")
+    @FindBy(xpath = "//label[@for='minimal1']")
     WebElement somtimeminimal;
-    @FindBy(xpath = "//label[@for='minimal0']")
+    @FindBy(xpath = "//label[@for='minimal2']")
     WebElement loveitminimal;
     @FindBy(xpath = "//label[@for='Feminine0']")
     WebElement hellnofeminime;
-    @FindBy(xpath = "//label[@for='Feminine0']")
+    @FindBy(xpath = "//label[@for='Feminine1']")
     WebElement somtimefeminime;
-    @FindBy(xpath = "//label[@for='Feminine0']")
+    @FindBy(xpath = "//label[@for='Feminine2']")
     WebElement loveitfeminime;
     @FindBy(xpath = "(//div[@class='row']/..//div[@class='answers row']//label)[1]")
     WebElement rhellno;
@@ -99,6 +100,8 @@ public class OnBoardingPage extends BasePage {
     WebElement rsomtime;
     @FindBy(xpath = "(//div[@class='row']/..//div[@class='answers row']//label)[3]")
     WebElement rloveit;
+    @FindBy(xpath = "(//div[@class='row']/..//div[@class='answers row']//label)[3]")
+    WebElement meetyoutmatch;
 
 
 
@@ -290,6 +293,19 @@ public class OnBoardingPage extends BasePage {
     public void SelectLoveItFeminime() {
         WaitElementDosplayed(loveitfeminime);
         click(loveitfeminime);
+    }
+    public void SelectBrands(String text)
+    {
+        String Elemet = ("//div[@id='brand_text1']");
+        Elemet = Elemet.replace("text1", text);
+        WebElement BrandsButton = driver.findElement(By.xpath(Elemet));
+        WaitElementDosplayed(BrandsButton);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", BrandsButton);
+        click(BrandsButton);
+    }
+    public void ClickMeetMatch() {
+        WaitElementDosplayed(meetyoutmatch);
+        click(meetyoutmatch);
     }
 
 }

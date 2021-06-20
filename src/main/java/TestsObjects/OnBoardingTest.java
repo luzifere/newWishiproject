@@ -79,16 +79,58 @@ public class OnBoardingTest extends setup {
     public void SelctStyle() {
         OnBoardingPage ob = new OnBoardingPage(driver);
         ob.SelectHellNoChick();
+        ob.ClickBack();
+        ob.SelectLoveItChick();
         ob.SelectLoveItBoho();
+        ob.ClickBack();
+        ob.SelectHellNoBoho();
         ob.SelectSomtimeClassic();
+        ob.ClickBack();
+        ob.SelectLoveItClassic();
         ob.SelectHellNoRock();
+        ob.ClickBack();
+        ob.SelectSomtimeRock();
         ob.SelectLoveItTrendy();
+        ob.ClickBack();
+        ob.SelectHellNoTrendy();
         ob.SelectSomtimeStreetWear();
-        ob.SelectHellNoSexy();
+        ob.ClickBack();
+        ob.SelectLoveItStreetWear();
+        ob.ClickSkip();
+        ob.ClickBack();
+        ob.SelectSomtimeSexy();
         ob.SelectSomtimeElectic();
+        ob.ClickBack();
+        ob.SelectHellNoElectic();
         ob.SelectLoveItTomboy();
+        ob.ClickBack();
+        ob.SelectSomtimeTomboy();
         ob.SelectSomtimeMinimal();
+        ob.ClickBack();
+        ob.SelectHellNoMinimal();
         ob.SelectHellNoFeminime();
+        ob.ClickBack();
+        ob.SelectLoveItFeminime();
+    }
+    @Attachment
+    @Story("Select Brands")
+    @Severity(SeverityLevel.CRITICAL)
+    @Test(priority = 5, groups = {"sanity-group"})
+    public void SelectBrands()
+    {
+        OnBoardingPage ob = new OnBoardingPage(driver);
+        ob.SelectBrands("Vince");
+        ob.SelectBrands("Acne Studios");
+        ob.SelectBrands("A.L.C");
+        ob.SelectBrands("Michael Kors");
+        ob.SelectBrands("Free People");
+        ob.SelectBrands("Rag & Bone");
+        ob.SelectBrands("Rag & Bone");
+        ob.SelectBrands("Rag & Bone");
+        ob.SelectBrands("Saint Laurent");
+        ob.ClickMeetMatch();
+    }
+
 
     }
-}
+
