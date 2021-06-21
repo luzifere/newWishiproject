@@ -119,7 +119,8 @@ public class OnBoardingNaturalTest extends setup {
     public void SelectBrands()
     {
         OnBoardingPage ob = new OnBoardingPage(driver);
-        ob.SelectBrands("Vince");
+        ob.BrandsPageLoaded();
+       // ob.sleep(2000);
         ob.SelectBrands("Acne Studios");
         ob.SelectBrands("A.L.C");
         ob.SelectBrands("Michael Kors");
@@ -128,6 +129,7 @@ public class OnBoardingNaturalTest extends setup {
         ob.SelectBrands("Rag & Bone");
         ob.SelectBrands("Rag & Bone");
         ob.SelectBrands("Saint Laurent");
+        ob.SelectBrands("Vince");
         ob.ClickMeetMatch();
     }
 

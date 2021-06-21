@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="56.405" tests="29" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="60.264" tests="27" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="/Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IL"/>
     <property name="allure.link.issue.pattern" value="https://example.org/issue/{}"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter6540104944408415596.jar /Users/yinonwishi/newWishiproject/target/surefire 2021-06-21T13-55-17_681-jvmRun1 surefire18180727088695637391tmp surefire_015810309750682825204tmp"/>
+    <property name="sun.java.command" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter9665741965005827134.jar /Users/yinonwishi/newWishiproject/target/surefire 2021-06-21T15-47-03_061-jvmRun1 surefire10793261284351467729tmp surefire_02932245551379695534tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/yinonwishi/newWishiproject/target/test-classes:/Users/yinonwishi/newWishiproject/target/classes:/Users/yinonwishi/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-beta-2/selenium-java-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-beta-2/selenium-api-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/Users/yinonwishi/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/yinonwishi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/yinonwishi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/yinonwishi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/yinonwishi/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/yinonwishi/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/yinonwishi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-beta-2/selenium-devtools-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-beta-2/selenium-http-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-beta-2/selenium-json-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v86/4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v87/4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v88/4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v89/4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-buffer/4.1.58.Final/netty-buffer-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-http/4.1.58.Final/netty-codec-http-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec/4.1.58.Final/netty-codec-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler/4.1.58.Final/netty-handler-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-common/4.1.58.Final/netty-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.58.Final/netty-transport-native-kqueue-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.58.Final/netty-transport-native-unix-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport/4.1.58.Final/netty-transport-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-resolver/4.1.58.Final/netty-resolver-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api/1.0.0/opentelemetry-api-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-context/1.0.0/opentelemetry-context-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.0.0/opentelemetry-exporter-logging-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.0.0-alpha/opentelemetry-sdk-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.0.0/opentelemetry-sdk-common-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.0.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.0.0/opentelemetry-sdk-trace-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.0.0-alpha/opentelemetry-api-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.0.0/opentelemetry-sdk-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.0.0-alpha/opentelemetry-semconv-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client/2.12.2/async-http-client-2.12.2.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.2/async-http-client-netty-utils-2.12.2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-socks/4.1.53.Final/netty-codec-socks-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler-proxy/4.1.53.Final/netty-handler-proxy-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.53.Final/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar:/Users/yinonwishi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/yinonwishi/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/yinonwishi/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-beta-2/selenium-support-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/yinonwishi/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/yinonwishi/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/yinonwishi/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/yinonwishi/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/yinonwishi/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/yinonwishi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/yinonwishi/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/yinonwishi/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yinonwishi/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yinonwishi/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/yinonwishi/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yinonwishi/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yinonwishi/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yinonwishi/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yinonwishi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yinonwishi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/yinonwishi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/yinonwishi/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/yinonwishi/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:"/>
@@ -33,7 +33,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter6540104944408415596.jar"/>
+    <property name="surefire.real.class.path" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter9665741965005827134.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="15.0.2+7"/>
@@ -59,219 +59,139 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="FillPasswordWithOutToFillEmail" classname="TestsObjects.LoginTest" time="3.851">
+  <testcase name="FillEmailWitoutShtudel" classname="TestsObjects.SignUpTest" time="2.486">
     <system-out><![CDATA[This is onStart method/Users/yinonwishi/newWishiproject/target/surefire-reports/Suite
+New Test Started DoSignUp
 New Test Started FillEmailWitoutShtudel
-New Test Started FillPasswordWithOutToFillEmail
-New Test Started DoSignUp
-New Test Started DoSignUp
-New Test Started DoSignUp
-Test Successfully Finished  FillPasswordWithOutToFillEmail
+Test Successfully Finished  FillEmailWitoutShtudel
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
+[TestNG-test=Test-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+[TestNG-test=Test-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
 [TestNG-test=Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
 [TestNG-test=Test-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-[TestNG-test=Test-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
-[TestNG-test=Test-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-StarStitSnatgra trCihtnrigon mg eCDhrrCoimveehrD rr9oSi1tv.aerr0t .mi49n4e1g7.D 20Cr..hi41rv40oe7m1r2e  .(D91ar1f0i.51v0 2e.(ra4a9 0f49751b22.f.a801.970400143b 7f0(2d8a.fd715010253a1209 3d0(4dbaf18f865572203a49a80361ba0cf1dd8c37dda0133e5a022ed32d4518c5652ac35154cdd8d7673a66ac1cec929db5b3-c-arer5ee2fdf5s7cs/branch-heads/4472@{5d#716c496b/-6recb2f9rsba/}-nbr)cr ehao-fnhnsce /hapb-dohrsr/eat4a 4d17sn22/6@44{c47#h7
-1-2O4h@n6{el2}y#) 1l ooanc4d ap6lo 2scr}/otn4 n14e47c32t)6@i 4{oo
-#Onn1s 4p 6a2nro}elr) yt  ao lln3ol 0cop8waoreltd  c.4
-o06nP199ln
-1ee
-OacnOtsnleiyl oysn esle  o acrlhaetol t cpacslol:an/onl/w eeccchdt.ri
-ooPmnlesed oaransirnveee e csrate.lielcoo hnwrhse da.r
-ePt ltaeplasls:oe/w e/sdce.he
- rPholtmtepdsr:i/ve/eacrsh.ecr ohsrmeoeemd irhuitmvt.eporsr.g/:s/e/ccuhrriotmy-ecdornisviedre.rcahtrioonmsi ufmo.ro rsgu/gsgeecsutriiotnys- coonn skiedeeSpritantagir otCnihsrn ogm eCDhrrivoer safe.m
-eDrivoerm 9i1u.m0..o4r4g7/2s.ec1u0r1i t(ya-fcons5i2dcahe9rr0aobmtfii8uo7nm0s.3o 0rfdogdr1/ 5ss2eu3cg4ug8re6isatt1yico-dnc3soa neos25ind ekeeping ChromeDriver sfafe.o
-r suggestions on keeping ChrormateiDroinvse rf osra fseug.g
-estiCohnCrhso rmooenmD erDkireveievprei nrw ga ws stCaahsr rtosetmde aDrsrtuiecvdce esc5dsfC7u6rcl 9slbay-f.re
-e.f
-s/bCrharhnorcmohem-heDDeraridvsie/v4re4 rw7 2aws@sa {s#sut 1cas4rct6te2eas}drs )tfs euuodnlc lpcyeo .rs
-stsu f4ucl1cl9e3ys.6s
+SSSttatarartrtitiningng g C ChChrhroromomSemDeterDaDirrrvitievivrene rgr9   19C9.1h10.r..0o40.m.4e444D747r272i.2.1v.e101r001 11 9  (1((a.aa0fff.554542227aaa299.091b00f081bb7 ff0(88a77f03503023da00d9dd1dd05121b5f5238234784306843a6801ad6c1addc113d5ca32ead32e45283c56a5ace1d52c7dd56763ccca599edbb27--56rrccee59ffdbss7-//6rbbcerr9faabsnnc-c/hrbe-rfhesaha/nbdc-srh/ha-4nehc4ae7hda-2ds@hs//e{44#a44d1774s22@6/@{4{#4#7114246@26{2}2}#)})1 ) 4o 6oo2nn} n )p  poooponrr rttp  ot13r90 t38 212169956
+883O
 
-fOnuly llolcayl. 
-connections are allowed.
+4nOO
+lnnOylln yyll  oyllc ooalccloaa clcla  lcc ooocnnonnnenecectctnitionioenonsnss   aaarrrecee t  aaialolllnloloswow ewdaee.ddr
+e..P 
+
+lPaPelllaleesoaaewss eees d ess.ee 
+eehPe thl tehtptastts:pep/ss /:s://e/e/cc chhrhhorrtmotoempmdeserd:id/rvr/ieicvrveh.errcro.h.cmrceohhdriromvieumr..orcgh/rsoemciuruimt.y-ocrogn/sisdeecruatriiotnys- cfoorn ssuigdgmeersitauitomin.oson rosgn / fskoeerceu prisinutggy g-CcehosrnotsmiieodDernrisav teiro rnsosa mffeioo.urn
+m  .skouregegg/pesistneicgou nCrs hiotrnyo -mkceeeoDpnrisinviegdr e Crshaarftoeimo.enD
+rsi vCfoerhr rs usogagmfeeeCsD.htr
+riioovCnmehserrD o rmoweinaDv srek ires evtwpeaairrsn t gwes adtCs ah srrsuttoceamcdreet Dsesrsduif cvucselrlue ycss.sac
+ffeuesl.ls
+yfu.
+lClhyr.
+omeDriver was started successfully.
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 45282
+Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 21, 2021 3:47:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 21, 2021 3:47:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 21, 2021 3:47:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 21, 2021 3:47:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 21, 2021 3:47:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 91 of 89
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 91 of 89
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
-Jun 21, 2021 1:55:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 21, 2021 3:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
-[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-3] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-[TestNG-test=Test-3] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-]]></system-err>
-  </testcase>
-  <testcase name="FillEmailWithOutToFillPassword" classname="TestsObjects.LoginTest" time="1.988">
-    <system-out><![CDATA[New Test Started FillEmailWithOutToFillPassword
-Test Successfully Finished  FillEmailWithOutToFillPassword
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-2] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-[TestNG-test=Test-3] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="ClickLoginwWithOutToFillAnyFields" classname="TestsObjects.LoginTest" time="0.385">
-    <system-out><![CDATA[New Test Started FillEmailWithoutDotCom
-Test Successfully Finished  ClickLoginwWithOutToFillAnyFields
-]]></system-out>
-  </testcase>
-  <testcase name="FillCorrectEmailWithWrongPassword" classname="TestsObjects.LoginTest" time="0.469">
-    <system-out><![CDATA[New Test Started SelectFamale
-Test Successfully Finished  FillCorrectEmailWithWrongPassword
-]]></system-out>
-  </testcase>
-  <testcase name="FillCorrectPasswordWithWrongEmail" classname="TestsObjects.LoginTest" time="0.811">
+  <testcase name="FillEmailWithoutDotCom" classname="TestsObjects.SignUpTest" time="0.068">
     <system-out><![CDATA[New Test Started SelctStyle
-petite
-6
-[[[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]]]
-Test Successfully Finished  FillCorrectPasswordWithWrongEmail
-]]></system-out>
-  </testcase>
-  <testcase name="FillHebLettersEmail" classname="TestsObjects.LoginTest" time="0.065">
-    <system-out><![CDATA[New Test Started FillMailWithSpecialCarecters
-Test Successfully Finished  FillHebLettersEmail
-]]></system-out>
-  </testcase>
-  <testcase name="DoLogin" classname="TestsObjects.LoginTest" time="1.701">
-    <system-out><![CDATA[New Test Started SelectBrands
-Test Successfully Finished  DoLogin
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-]]></system-err>
-  </testcase>
-  <testcase name="FillEmailWitoutShtudel" classname="TestsObjects.SignUpTest" time="0.582">
-    <system-out><![CDATA[New Test Started ClickLoginwWithOutToFillAnyFields
-Test Successfully Finished  FillEmailWitoutShtudel
-]]></system-out>
-  </testcase>
-  <testcase name="FillEmailWithoutDotCom" classname="TestsObjects.SignUpTest" time="0.072">
-    <system-out><![CDATA[New Test Started SelectBodytype
+New Test Started DoSignUp
 Test Successfully Finished  FillEmailWithoutDotCom
 ]]></system-out>
   </testcase>
-  <testcase name="FillPsswordWithLessthan6Characters" classname="TestsObjects.SignUpTest" time="0.194">
-    <system-out><![CDATA[New Test Started SelctStyle
-tall
+  <testcase name="FillPsswordWithLessthan6Characters" classname="TestsObjects.SignUpTest" time="1.472">
+    <system-out><![CDATA[New Test Started FillPsswordWithLessthan6Characters
+Test Failed  SelctStyle
+New Test Started DoSignUp
 Test Successfully Finished  FillPsswordWithLessthan6Characters
-6
 ]]></system-out>
-  </testcase>
-  <testcase name="FillMailWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.935">
-    <system-out><![CDATA[Test Successfully Finished  FillMailWithSpecialCarecters
-]]></system-out>
-  </testcase>
-  <testcase name="FillMailWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="0.207">
-    <system-out><![CDATA[New Test Started SelectBrands
-Test Failed  SelectBrands
-Test Failed  SelectBrands
-Test Successfully Finished  FillMailWithHebrewCarecters
-]]></system-out>
-  </testcase>
-  <testcase name="FillNameWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.425">
-    <system-out><![CDATA[New Test Started SelectBrands
-Test Successfully Finished  FillNameWithSpecialCarecters
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 [TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+[TestNG-test=Test-3] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-3] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-3] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillNameWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="2.275">
-    <system-out><![CDATA[New Test Started FillNameWithHebrewCarecters
-Test Failed  SelectBrands
-Test Failed  SelectBrands
-name may only contain letters, whitespace, and the ' or - special characters
-Test Successfully Finished  FillNameWithHebrewCarecters
+  <testcase name="FillMailWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="0.187">
+    <system-out><![CDATA[New Test Started FillEmailWithOutToFillPassword
+Test Successfully Finished  FillMailWithSpecialCarecters
 ]]></system-out>
-    <system-err><![CDATA[Exception in thread "TestNG-test=Test-1" org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d85c4221c6f407136ad4913c270a776, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:59881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d85c4221c6f407136ad4913c270a776
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:355)
-	at utilitis.AllureAttachments$AllureAttachment.attachScreenshot(AllureAttachments.java:20)
-	at utilitis.Listener.onTestFailure(Listener.java:36)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
-	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:832)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
+  </testcase>
+  <testcase name="FillMailWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="0.431">
+    <system-out><![CDATA[New Test Started FillCorrectEmailWithWrongPassword
+Test Successfully Finished  FillMailWithHebrewCarecters
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+]]></system-err>
+  </testcase>
+  <testcase name="FillNameWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.783">
+    <system-out><![CDATA[New Test Started FillNameWithSpecialCarecters
+Test Successfully Finished  FillNameWithSpecialCarecters
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 [TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
 [TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillNameWithOutLastName" classname="TestsObjects.SignUpTest" time="1.165">
-    <system-out><![CDATA[New Test Started FillNameWithOutLastName
-Test Successfully Finished  FillNameWithOutLastName
+  <testcase name="FillNameWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="0.378">
+    <system-out><![CDATA[name may only contain letters, whitespace, and the ' or - special characters
+Test Successfully Finished  FillNameWithHebrewCarecters
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
 ]]></system-err>
   </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.SignUpTest" time="3.133">
+  <testcase name="FillNameWithOutLastName" classname="TestsObjects.SignUpTest" time="0.81">
+    <system-out><![CDATA[Test Successfully Finished  FillNameWithOutLastName
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.SignUpTest" time="3.183">
     <system-out><![CDATA[New Test Started DoSignUp
 LET'S GET STYLING
 Test Successfully Finished  DoSignUp
@@ -281,7 +201,7 @@ Test Successfully Finished  DoSignUp
 [TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="CreateUser" classname="TestsObjects.SignUpTest" time="5.327">
+  <testcase name="CreateUser" classname="TestsObjects.SignUpTest" time="5.045">
     <system-out><![CDATA[New Test Started CreateUser
 Request method:	POST
 Request URI:	https://api-stage.wishi.me/api/slim/user/signup/email
@@ -296,14 +216,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "freez+700@wishitest.me282922",
+    "email": "freez+700@wishitest.me556413",
     "full_name": "nadav Carmel",
     "first_name": "Erased",
     "last_name": "Caramel",
     "password": "q1w2easd3r4!"
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jun 2021 10:56:11 GMT
+Date: Mon, 21 Jun 2021 12:48:00 GMT
 Server: Apache/2.2.22 (Debian)
 X-Powered-By: PHP/5.6.30-1~dotdeb+7.1
 Content-Length: 207
@@ -313,18 +233,18 @@ Content-Type: application/json
 
 {
     "message": "success",
-    "user_uuid": "4aa004c4-d27f-11eb-a",
-    "token": "d0526c4237e7bba288ee2090a89c7720",
-    "user_name": "erasedcaramel22",
+    "user_uuid": "e91aeb6b-d28e-11eb-a",
+    "token": "d6fa7013ea4f9fd87a574dc9d09f1fe2",
+    "user_name": "erasedcaramel76",
     "first_name": "Erased",
     "last_name": "Caramel",
     "first_booking": true,
     "brand": null
 }
-uuid is 4aa004c4-d27f-11eb-a
-api getUser is  https://api-stage.wishi.me/api/slim/user/4aa004c4-d27f-11eb-a
+uuid is e91aeb6b-d28e-11eb-a
+api getUser is  https://api-stage.wishi.me/api/slim/user/e91aeb6b-d28e-11eb-a
 Request method:	GET
-Request URI:	https://api-stage.wishi.me/api/slim/user/4aa004c4-d27f-11eb-a
+Request URI:	https://api-stage.wishi.me/api/slim/user/e91aeb6b-d28e-11eb-a
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -336,7 +256,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 21 Jun 2021 10:56:14 GMT
+Date: Mon, 21 Jun 2021 12:48:03 GMT
 Server: Apache/2.2.22 (Debian)
 X-Powered-By: PHP/5.6.30-1~dotdeb+7.1
 Content-Length: 1756
@@ -349,7 +269,7 @@ Content-Type: application/json
     "height": null,
     "phone_number": null,
     "device_id": null,
-    "user_uuid": "4aa004c4-d27f-11eb-a",
+    "user_uuid": "e91aeb6b-d28e-11eb-a",
     "first_name": "Erased",
     "last_name": "Caramel",
     "followers_cnt": "0",
@@ -359,8 +279,8 @@ Content-Type: application/json
     "city": null,
     "location": "",
     "age": 0,
-    "user_name": "erasedcaramel22",
-    "email": "freez+700@wishitest.me282922",
+    "user_name": "erasedcaramel76",
+    "email": "freez+700@wishitest.me556413",
     "campaign": null,
     "birthday_permission": [
         ""
@@ -434,157 +354,172 @@ Content-Type: application/json
 Test Successfully Finished  CreateUser
 ]]></system-out>
   </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingNaturalTest" time="1.33">
-    <system-out><![CDATA[New Test Started FillCorrectEmailWithWrongPassword
+  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingMaleTest" time="0.904">
+    <system-out><![CDATA[New Test Started FillEmailWithoutDotCom
 LET'S GET STYLING
 Test Successfully Finished  DoSignUp
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
-[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-]]></system-err>
   </testcase>
-  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingNaturalTest" time="1.297">
+  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingMaleTest" time="1.643">
     <system-out><![CDATA[New Test Started SelectFamale
 Test Successfully Finished  SelectFamale
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingMaleTest" time="0.031">
+    <failure message="element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;Hipster2&quot; class=&quot;form-check-label&quot;&gt;...&lt;/label&gt; is not clickable at point (976, 691). Other element would receive the click: &lt;label title=&quot;&quot; for=&quot;Edgy2&quot; class=&quot;form-check-label&quot;&gt;...&lt;/label&gt;&#10;  (Session info: chrome=91.0.4472.106)&#10;Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;&#10;System info: host: &apos;yinons-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:143c:809:59a5:7856%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2f9c396dadaccf6d55fd111d585709d7, clickElement {id=7d3e4aa2-459b-4a41-afab-b03c1e609b8c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on MAC (2f9c396dadaccf6d55fd111d585709d7)] -&gt; xpath: //label[@for=&apos;Hipster2&apos;]]&#10;Session ID: 2f9c396dadaccf6d55fd111d585709d7" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <label title="" for="Hipster2" class="form-check-label">...</label> is not clickable at point (976, 691). Other element would receive the click: <label title="" for="Edgy2" class="form-check-label">...</label>
+  (Session info: chrome=91.0.4472.106)
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f9c396dadaccf6d55fd111d585709d7, clickElement {id=7d3e4aa2-459b-4a41-afab-b03c1e609b8c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (2f9c396dadaccf6d55fd111d585709d7)] -> xpath: //label[@for='Hipster2']]
+Session ID: 2f9c396dadaccf6d55fd111d585709d7
+	at TestsObjects.OnBoardingMaleTest.SelctStyle(OnBoardingMaleTest.java:77)
+]]></failure>
+    <system-out><![CDATA[New Test Started FillMailWithSpecialCarecters
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingMaleTest" time="0.192">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;brands-list container&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='brands-list container']' (tried for 10 second(s) with 500 milliseconds interval)
+	at TestsObjects.OnBoardingMaleTest.SelectBrands(OnBoardingMaleTest.java:89)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='brands-list container']"}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f9c396dadaccf6d55fd111d585709d7, findElement {using=xpath, value=//div[@class='brands-list container']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f9c396dadaccf6d55fd111d585709d7
+	at TestsObjects.OnBoardingMaleTest.SelectBrands(OnBoardingMaleTest.java:89)
+]]></failure>
+    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+]]></system-err>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingFemaleTest" time="0.44">
+    <system-out><![CDATA[New Test Started SelectBrands
+New Test Started FillPasswordWithOutToFillEmail
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="SelectBodytype" classname="TestsObjects.OnBoardingNaturalTest" time="1.586">
-    <system-out><![CDATA[New Test Started SelectBodytype
-tall
-6
-[[[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]]]
-petite
-6
-petite
-6
-[[[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]]]
-[[[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]]]
+  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingFemaleTest" time="0.632">
+    <system-out><![CDATA[New Test Started FillMailWithHebrewCarecters
+Test Successfully Finished  SelectFamale
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+]]></system-err>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.OnBoardingFemaleTest" time="0.906">
+    <system-out><![CDATA[New Test Started ClickLoginwWithOutToFillAnyFields
 fit
 6
-[[[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]]]
+tall
+6
+[[[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]]]
+petite
+6
+[[[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]]]
 Test Successfully Finished  SelectBodytype
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingFemaleTest" time="1.257">
+    <system-out><![CDATA[New Test Started FillCorrectPasswordWithWrongEmail
+Test Successfully Finished  SelctStyle
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 [TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingNaturalTest" time="3.13">
-    <system-out><![CDATA[Test Successfully Finished  SelctStyle
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-]]></system-err>
-  </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingMaleTest" time="0.495">
-    <system-out><![CDATA[New Test Started SelectFamale
-LET'S GET STYLING
-Test Successfully Finished  DoSignUp
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
-]]></system-err>
-  </testcase>
-  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingMaleTest" time="0.052">
-    <system-out><![CDATA[New Test Started FillPsswordWithLessthan6Characters
-Test Successfully Finished  SelectFamale
-]]></system-out>
-  </testcase>
-  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingMaleTest" time="0.104">
-    <system-out><![CDATA[New Test Started SelctStyle
-Test Successfully Finished  SelctStyle
-]]></system-out>
-  </testcase>
-  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingMaleTest" time="1.79">
-    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.106)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;&#10;System info: host: &apos;yinons-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:143c:809:59a5:7856%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [64aa09dd4ab8c53f0a5dea5fcebcb515, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=bfbe93bc-703f-4b1b-8662-8665195556ce, element-6066-11e4-a52e-4f735466cecf=bfbe93bc-703f-4b1b-8662-8665195556ce}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:59882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 64aa09dd4ab8c53f0a5dea5fcebcb515" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=91.0.4472.106)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64aa09dd4ab8c53f0a5dea5fcebcb515, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=bfbe93bc-703f-4b1b-8662-8665195556ce, element-6066-11e4-a52e-4f735466cecf=bfbe93bc-703f-4b1b-8662-8665195556ce}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:59882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64aa09dd4ab8c53f0a5dea5fcebcb515
-	at TestsObjects.OnBoardingMaleTest.SelectBrands(OnBoardingMaleTest.java:95)
-]]></failure>
-    <system-out><![CDATA[New Test Started FillMailWithHebrewCarecters
-Test Failed  SelectBrands
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
-]]></system-err>
-  </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingFemaleTest" time="0.376">
-    <system-out><![CDATA[New Test Started FillCorrectPasswordWithWrongEmail
-LET'S GET STYLING
-Test Successfully Finished  DoSignUp
-]]></system-out>
-  </testcase>
-  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingFemaleTest" time="0.622">
+  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingFemaleTest" time="0.074">
     <system-out><![CDATA[New Test Started FillHebLettersEmail
-fit
-6
-[[[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (78f9c190e384e03c9569fc3dd514ee90)] -> xpath: //*[label]]]
-Test Successfully Finished  SelectFamale
+Test Successfully Finished  SelectBrands
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+  </testcase>
+  <testcase name="FillPasswordWithOutToFillEmail" classname="TestsObjects.LoginTest" time="0.785">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  FillPasswordWithOutToFillEmail
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="SelectBodytype" classname="TestsObjects.OnBoardingFemaleTest" time="1.016">
-    <system-out><![CDATA[New Test Started DoLogin
-[[[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]]]
+  <testcase name="FillEmailWithOutToFillPassword" classname="TestsObjects.LoginTest" time="0.523">
+    <system-out><![CDATA[New Test Started SelectBodytype
 petite
 6
-[[[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ffb3d737b2d25e436de1fadd3eb0e59b)] -> xpath: //*[label]]]
-Test Successfully Finished  SelectBodytype
+[[[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (9dbb0c0ce98b1cdbde38ff7d3140c566)] -> xpath: //*[label]]]
+Test Successfully Finished  FillEmailWithOutToFillPassword
 ]]></system-out>
-    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
-[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
-[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 ]]></system-err>
   </testcase>
-  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingFemaleTest" time="1.142">
-    <system-out><![CDATA[New Test Started FillNameWithSpecialCarecters
-Test Successfully Finished  SelctStyle
+  <testcase name="ClickLoginwWithOutToFillAnyFields" classname="TestsObjects.LoginTest" time="0.154">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  ClickLoginwWithOutToFillAnyFields
 ]]></system-out>
-    <system-err><![CDATA[Exception in thread "TestNG-test=Test-3" org.openqa.selenium.NoSuchSessionException: invalid session id
+  </testcase>
+  <testcase name="FillCorrectEmailWithWrongPassword" classname="TestsObjects.LoginTest" time="0.608">
+    <system-out><![CDATA[New Test Started FillNameWithHebrewCarecters
+Test Successfully Finished  FillCorrectEmailWithWrongPassword
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+]]></system-err>
+  </testcase>
+  <testcase name="FillCorrectPasswordWithWrongEmail" classname="TestsObjects.LoginTest" time="0.834">
+    <system-out><![CDATA[New Test Started SelectBrands
+Test Successfully Finished  FillCorrectPasswordWithWrongEmail
+]]></system-out>
+  </testcase>
+  <testcase name="FillHebLettersEmail" classname="TestsObjects.LoginTest" time="1.617">
+    <system-out><![CDATA[New Test Started FillNameWithOutLastName
+Test Failed  DoSignUp
+Test Failed  SelectBrands
+Test Successfully Finished  FillHebLettersEmail
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.LoginTest" time="0.071">
+    <system-out><![CDATA[New Test Started SelectNatural
+Test Successfully Finished  DoLogin
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingNaturalTest" time="1.614">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div//button[@class=&apos;d-none d-sm-flex btn btn-warning&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div//button[@class='d-none d-sm-flex btn btn-warning']' (tried for 10 second(s) with 500 milliseconds interval)
+	at TestsObjects.OnBoardingNaturalTest.DoSignUp(OnBoardingNaturalTest.java:40)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[@class='d-none d-sm-flex btn btn-warning']"}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
 System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d85c4221c6f407136ad4913c270a776, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:59881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d85c4221c6f407136ad4913c270a776
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:355)
-	at utilitis.AllureAttachments$AllureAttachment.attachScreenshot(AllureAttachments.java:20)
-	at utilitis.Listener.onTestFailure(Listener.java:36)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
-	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:832)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
+Command: [593626e67218478968127b3fb917eff3, findElement {using=xpath, value=//div//button[@class='d-none d-sm-flex btn btn-warning']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 593626e67218478968127b3fb917eff3
+	at TestsObjects.OnBoardingNaturalTest.DoSignUp(OnBoardingNaturalTest.java:40)
+]]></failure>
+    <system-out><![CDATA[New Test Started DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-4] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 [TestNG-test=Test-5] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
 ]]></system-err>
   </testcase>

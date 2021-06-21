@@ -4,6 +4,7 @@ TestsObjects/LoginTest.class
 TestsObjects/RestAssured.class
 utilitis/AllureAttachments$AllureAttachmentHtml.class
 TestsObjects/ChatTest.class
+PageObjects/BasePage$1.class
 TestsObjects/OnBoardingNaturalTest.class
 TestsObjects/OnBoardingFemaleTest.class
 TestsObjects/OnBoardingMaleTest.class

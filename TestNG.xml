@@ -4,16 +4,17 @@
     <listeners>
         <listener class-name="utilitis.Listener"/>
     </listeners>
-    <test verbose="10" thread-count="15" preserve-order="true" name="Test" parallel="classes">
+    <test verbose="1" thread-count="1" preserve-order="true" name="Test" parallel="classes">
         <groups>
             <run>
                 <include name="sanity-group"/>
             </run>
         </groups>
        <classes>
-           <class name="TestsObjects.LoginTest"/>
+
            <class name="TestsObjects.SignUpTest"/>
            <class name="TestsObjects.OnBoardingFemaleTest"/>
+           <class name="TestsObjects.LoginTest"/>
            <class name="TestsObjects.OnBoardingMaleTest"/>
            <class name="TestsObjects.OnBoardingNaturalTest">
            </class>

@@ -1,17 +1,47 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 29, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 56.405 s <<< FAILURE! - in TestSuite
-TestsObjects.OnBoardingMaleTest.SelectBrands  Time elapsed: 1.79 s  <<< FAILURE!
-org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
+Tests run: 27, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 60.264 s <<< FAILURE! - in TestSuite
+TestsObjects.OnBoardingMaleTest.SelctStyle  Time elapsed: 0.031 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <label title="" for="Hipster2" class="form-check-label">...</label> is not clickable at point (976, 691). Other element would receive the click: <label title="" for="Edgy2" class="form-check-label">...</label>
   (Session info: chrome=91.0.4472.106)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
 System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64aa09dd4ab8c53f0a5dea5fcebcb515, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=bfbe93bc-703f-4b1b-8662-8665195556ce, element-6066-11e4-a52e-4f735466cecf=bfbe93bc-703f-4b1b-8662-8665195556ce}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:59882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64aa09dd4ab8c53f0a5dea5fcebcb515
-	at TestsObjects.OnBoardingMaleTest.SelectBrands(OnBoardingMaleTest.java:95)
+Command: [2f9c396dadaccf6d55fd111d585709d7, clickElement {id=7d3e4aa2-459b-4a41-afab-b03c1e609b8c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (2f9c396dadaccf6d55fd111d585709d7)] -> xpath: //label[@for='Hipster2']]
+Session ID: 2f9c396dadaccf6d55fd111d585709d7
+	at TestsObjects.OnBoardingMaleTest.SelctStyle(OnBoardingMaleTest.java:77)
+
+TestsObjects.OnBoardingNaturalTest.DoSignUp  Time elapsed: 1.614 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div//button[@class='d-none d-sm-flex btn btn-warning']' (tried for 10 second(s) with 500 milliseconds interval)
+	at TestsObjects.OnBoardingNaturalTest.DoSignUp(OnBoardingNaturalTest.java:40)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[@class='d-none d-sm-flex btn btn-warning']"}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [593626e67218478968127b3fb917eff3, findElement {using=xpath, value=//div//button[@class='d-none d-sm-flex btn btn-warning']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 593626e67218478968127b3fb917eff3
+	at TestsObjects.OnBoardingNaturalTest.DoSignUp(OnBoardingNaturalTest.java:40)
+
+TestsObjects.OnBoardingMaleTest.SelectBrands  Time elapsed: 0.192 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='brands-list container']' (tried for 10 second(s) with 500 milliseconds interval)
+	at TestsObjects.OnBoardingMaleTest.SelectBrands(OnBoardingMaleTest.java:89)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='brands-list container']"}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f9c396dadaccf6d55fd111d585709d7, findElement {using=xpath, value=//div[@class='brands-list container']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f9c396dadaccf6d55fd111d585709d7
+	at TestsObjects.OnBoardingMaleTest.SelectBrands(OnBoardingMaleTest.java:89)
 

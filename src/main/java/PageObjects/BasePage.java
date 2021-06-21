@@ -4,7 +4,9 @@ import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -104,5 +106,17 @@ public abstract class BasePage {
         jse.executeScript("window.scrollBy(0,450)", "");
     }
 
-
+public void PageLoaded( WebDriver driver)
+{
+    {
+            ExpectedCondition<Boolean> pageLoadCondition = new
+                    ExpectedCondition<Boolean>() {
+                        public Boolean apply(WebDriver driver) {
+                            return ((JavascriptExecutor)driver).executeScript("return document.readyState").equals("complete");
+                        }
+                    };
+            WebDriverWait wait = new WebDriverWait(driver, 30);
+            wait.until(pageLoadCondition);
+        }
+    }
 }
