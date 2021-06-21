@@ -11,56 +11,30 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-public class OnBoardingMaleTest extends setup {
+public class ReversOnBoardingMaleTest extends setup {
 
 
-    @Attachment
-    @Story("Do correct signup")
-    @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 1, groups = {"sanity-group"})
-    public void DoSignUp() {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
-        SignUpPage sign = new SignUpPage(driver);
-        sign.ClickSignUpButton();
-        sign.ClearFullName();
-        sign.FillFullName("test test");
-        sign.ClearEmail();
-        String newusermaile = this.configFileReader.getnewusermaile();
-        sign.FillEmail(newusermaile + number);
-        //sign.FillEmail("wishitestyinon@wishitest.com" + number);
-        sign.Clearpassword();
-        String password = this.configFileReader.getpassword();
-        sign.Fillpassword(password);
-        sign.ClickSignUpPUBtnButton();
-        String expected = "LET'S GET STYLING";
-        String actual = sign.LetsGetButtonDisplayed();
-        System.out.println(actual);
-        Assert.assertEquals(actual, expected);
-        Assert.assertEquals(actual, expected);
-
-    }
 
     @Attachment
     @Story("Select Famale")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 2, groups = {"sanity-group"})
-    public void SelectFamale() {
+    @Test(priority = 1, groups = {"sanity-group"})
+    public void SelectMale() {
         OnBoardingPage ob = new OnBoardingPage(driver);
+        ob.ClickReversOnBoarding();
         ob.LetsGet();
         ob.SelectFamale();
         ob.BodyTypePageLoaded();
         ob.ClickBack();
         ob.SelectMale();
+
     }
 
     @Attachment
     @Story("Select Style")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 3, groups = {"sanity-group"})
+    @Test(priority = 2, groups = {"sanity-group"})
     public void SelctStyle() {
         OnBoardingPage ob = new OnBoardingPage(driver);
         ob.SelectHellNoStreetStyle();
@@ -82,7 +56,7 @@ public class OnBoardingMaleTest extends setup {
     @Attachment
     @Story("Select Brands")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 4, groups = {"sanity-group"})
+    @Test(priority = 3, groups = {"sanity-group"})
     public void SelectBrands()
     {
         OnBoardingPage ob = new OnBoardingPage(driver);
@@ -97,7 +71,36 @@ public class OnBoardingMaleTest extends setup {
         ob.SelectBrands("Rag & Bone");
         ob.SelectBrands("Saint Laurent");
         ob.SelectBrands("Vince");
+
         ob.ClickMeetMatch();
+    }
+    @Attachment
+    @Story("Do correct signup")
+    @Severity(SeverityLevel.CRITICAL)
+    @Test(priority = 4, groups = {"sanity-group"})
+    public void DoSignUp() {
+
+        Random num = new Random();
+        int number = 1000000;
+        for (int counter = 5800000; counter <= 10000000; counter++)
+            number = num.nextInt(700000);
+        SignUpPage sign = new SignUpPage(driver);
+        sign.ClearFullName();
+        sign.FillFullName("test test");
+        sign.ClearEmail();
+        String newusermaile = this.configFileReader.getnewusermaile();
+        sign.FillEmail(newusermaile + number);
+        //sign.FillEmail("wishitestyinon@wishitest.com" + number);
+        sign.Clearpassword();
+        String password = this.configFileReader.getpassword();
+        sign.Fillpassword(password);
+        sign.ClickSignUpPUBtnButton();
+        String expected = "Your Stylists Match!";
+        String actual = sign.YourStylistsMatchDisplayed();
+        System.out.println(actual);
+        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(actual, expected);
+
     }
 
 

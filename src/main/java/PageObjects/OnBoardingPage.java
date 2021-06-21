@@ -128,6 +128,8 @@ public class OnBoardingPage extends BasePage {
     WebElement meetyoutmatch;
     @FindBy(xpath = "//div[@class='brands-list container']")
     WebElement brandslist;
+    @FindBy(xpath = "(//button[@id='styling-button'])[1]")
+    WebElement reversletsstart;
 
 
 
@@ -382,6 +384,10 @@ public class OnBoardingPage extends BasePage {
     public void SelectLoveItElegant() {
         WaitElementDosplayed(loveitelegant);
         click(loveitelegant);
+    }
+    public void ClickReversOnBoarding() {
+        WaitElementDosplayed(reversletsstart);
+        click(reversletsstart);
     }
 
     public void SelectBrands(String text)

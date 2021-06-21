@@ -39,6 +39,8 @@ public class SignUpPage extends BasePage {
     WebElement ButtonOfClosesignup;
     @FindBy(xpath = "//div[@class='invalid-feedback']")
     WebElement Warning;
+    @FindBy(xpath = "//div[contains(text(), 'Your Stylists Match!')]")
+    WebElement YourStylistsMatch;
 
 
     public void ClickSignUpButton() {
@@ -135,6 +137,13 @@ public class SignUpPage extends BasePage {
 
         WaitElementDosplayed(LetsGet);
         return getText(LetsGet);
+        //Assert.assertTrue(ElementDisplay(EmaileRequired));
+    }
+    public String YourStylistsMatchDisplayed() {
+
+
+        WaitElementDosplayed(YourStylistsMatch);
+        return getText(YourStylistsMatch);
         //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
 
