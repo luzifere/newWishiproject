@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">17 methods,   17 passed</span>
+                    <span class="method-stats">29 methods, 1 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingMaleTest" class="method navigator-link" hash-for-method="SelectBrands">SelectBrands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,6 +129,21 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestsObjects.LoginTest" class="method navigator-link" hash-for-method="DoLogin">DoLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingMaleTest" class="method navigator-link" hash-for-method="DoSignUp">DoSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingFemaleTest" class="method navigator-link" hash-for-method="DoSignUp">DoSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingNaturalTest" class="method navigator-link" hash-for-method="DoSignUp">DoSignUp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,6 +216,46 @@
                         <a href="#" panel-name="suite-Suite" title="TestsObjects.SignUpTest" class="method navigator-link" hash-for-method="FillPsswordWithLessthan6Characters">FillPsswordWithLessthan6Characters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingNaturalTest" class="method navigator-link" hash-for-method="SelctStyle">SelctStyle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingMaleTest" class="method navigator-link" hash-for-method="SelctStyle">SelctStyle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingFemaleTest" class="method navigator-link" hash-for-method="SelctStyle">SelctStyle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingFemaleTest" class="method navigator-link" hash-for-method="SelectBodytype">SelectBodytype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingNaturalTest" class="method navigator-link" hash-for-method="SelectBodytype">SelectBodytype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingFemaleTest" class="method navigator-link" hash-for-method="SelectFamale">SelectFamale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingNaturalTest" class="method navigator-link" hash-for-method="SelectFamale">SelectFamale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestsObjects.OnBoardingMaleTest" class="method navigator-link" hash-for-method="SelectFamale">SelectFamale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -199,6 +268,127 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestsObjects.OnBoardingMaleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectBrands">
+                  </a> <!-- SelectBrands -->
+                  <span class="method-name">SelectBrands</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;
+System info: host: &apos;yinons-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:143c:809:59a5:7856%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64aa09dd4ab8c53f0a5dea5fcebcb515, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=bfbe93bc-703f-4b1b-8662-8665195556ce, element-6066-11e4-a52e-4f735466cecf=bfbe93bc-703f-4b1b-8662-8665195556ce}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:59882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64aa09dd4ab8c53f0a5dea5fcebcb515
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:555)
+	at PageObjects.OnBoardingPage.SelectBrands(OnBoardingPage.java:393)
+	at TestsObjects.OnBoardingMaleTest.SelectBrands(OnBoardingMaleTest.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestsObjects.OnBoardingMaleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DoSignUp">
+                  </a> <!-- DoSignUp -->
+                  <span class="method-name">DoSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelctStyle">
+                  </a> <!-- SelctStyle -->
+                  <span class="method-name">SelctStyle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectFamale">
+                  </a> <!-- SelectFamale -->
+                  <span class="method-name">SelectFamale</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestsObjects.OnBoardingFemaleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DoSignUp">
+                  </a> <!-- DoSignUp -->
+                  <span class="method-name">DoSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelctStyle">
+                  </a> <!-- SelctStyle -->
+                  <span class="method-name">SelctStyle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectBodytype">
+                  </a> <!-- SelectBodytype -->
+                  <span class="method-name">SelectBodytype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectFamale">
+                  </a> <!-- SelectFamale -->
+                  <span class="method-name">SelectFamale</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -252,6 +442,42 @@
                   <a name="FillPasswordWithOutToFillEmail">
                   </a> <!-- FillPasswordWithOutToFillEmail -->
                   <span class="method-name">FillPasswordWithOutToFillEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestsObjects.OnBoardingNaturalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DoSignUp">
+                  </a> <!-- DoSignUp -->
+                  <span class="method-name">DoSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelctStyle">
+                  </a> <!-- SelctStyle -->
+                  <span class="method-name">SelctStyle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectBodytype">
+                  </a> <!-- SelectBodytype -->
+                  <span class="method-name">SelectBodytype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectFamale">
+                  </a> <!-- SelectFamale -->
+                  <span class="method-name">SelectFamale</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -356,6 +582,9 @@
     &lt;classes&gt;
       &lt;class name=&quot;TestsObjects.LoginTest&quot;/&gt;
       &lt;class name=&quot;TestsObjects.SignUpTest&quot;/&gt;
+      &lt;class name=&quot;TestsObjects.OnBoardingFemaleTest&quot;/&gt;
+      &lt;class name=&quot;TestsObjects.OnBoardingMaleTest&quot;/&gt;
+      &lt;class name=&quot;TestsObjects.OnBoardingNaturalTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -369,7 +598,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -450,6 +679,22 @@
                 <span class="method-in-group-name">FillPsswordWithLessthan6Characters</span>
                 <br/>
               </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelctStyle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectBodytype</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectBrands</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectFamale</span>
+                <br/>
+              </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -467,80 +712,128 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(17);
+data.addRows(29);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'CreateUser')
-data.setCell(0, 2, 'TestsObjects.SignUpTest')
-data.setCell(0, 3, 4955);
+data.setCell(0, 1, 'DoSignUp')
+data.setCell(0, 2, 'TestsObjects.OnBoardingFemaleTest')
+data.setCell(0, 3, 9767);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'DoSignUp')
-data.setCell(1, 2, 'TestsObjects.SignUpTest')
-data.setCell(1, 3, 3156);
+data.setCell(1, 2, 'TestsObjects.OnBoardingMaleTest')
+data.setCell(1, 3, 8645);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'FillEmailWithoutDotCom')
-data.setCell(2, 2, 'TestsObjects.SignUpTest')
-data.setCell(2, 3, 2612);
+data.setCell(2, 1, 'DoSignUp')
+data.setCell(2, 2, 'TestsObjects.OnBoardingNaturalTest')
+data.setCell(2, 3, 8152);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'FillCorrectPasswordWithWrongEmail')
-data.setCell(3, 2, 'TestsObjects.LoginTest')
-data.setCell(3, 3, 2133);
+data.setCell(3, 1, 'FillEmailWitoutShtudel')
+data.setCell(3, 2, 'TestsObjects.SignUpTest')
+data.setCell(3, 3, 6925);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'FillMailWithHebrewCarecters')
-data.setCell(4, 2, 'TestsObjects.SignUpTest')
-data.setCell(4, 3, 1868);
+data.setCell(4, 1, 'SelctStyle')
+data.setCell(4, 2, 'TestsObjects.OnBoardingFemaleTest')
+data.setCell(4, 3, 6482);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'FillCorrectEmailWithWrongPassword')
-data.setCell(5, 2, 'TestsObjects.LoginTest')
-data.setCell(5, 3, 1851);
+data.setCell(5, 1, 'SelctStyle')
+data.setCell(5, 2, 'TestsObjects.OnBoardingNaturalTest')
+data.setCell(5, 3, 6461);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'FillHebLettersEmail')
-data.setCell(6, 2, 'TestsObjects.LoginTest')
-data.setCell(6, 3, 1831);
+data.setCell(6, 1, 'CreateUser')
+data.setCell(6, 2, 'TestsObjects.SignUpTest')
+data.setCell(6, 3, 5318);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'FillNameWithHebrewCarecters')
+data.setCell(7, 1, 'FillEmailWithoutDotCom')
 data.setCell(7, 2, 'TestsObjects.SignUpTest')
-data.setCell(7, 3, 1802);
+data.setCell(7, 3, 4437);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'DoLogin')
-data.setCell(8, 2, 'TestsObjects.LoginTest')
-data.setCell(8, 3, 1666);
+data.setCell(8, 1, 'SelctStyle')
+data.setCell(8, 2, 'TestsObjects.OnBoardingMaleTest')
+data.setCell(8, 3, 4409);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'FillEmailWitoutShtudel')
-data.setCell(9, 2, 'TestsObjects.SignUpTest')
-data.setCell(9, 3, 1515);
+data.setCell(9, 1, 'FillPasswordWithOutToFillEmail')
+data.setCell(9, 2, 'TestsObjects.LoginTest')
+data.setCell(9, 3, 3721);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'FillMailWithSpecialCarecters')
+data.setCell(10, 1, 'FillMailWithHebrewCarecters')
 data.setCell(10, 2, 'TestsObjects.SignUpTest')
-data.setCell(10, 3, 1448);
+data.setCell(10, 3, 3340);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'FillPsswordWithLessthan6Characters')
 data.setCell(11, 2, 'TestsObjects.SignUpTest')
-data.setCell(11, 3, 1382);
+data.setCell(11, 3, 3277);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'FillNameWithSpecialCarecters')
-data.setCell(12, 2, 'TestsObjects.SignUpTest')
-data.setCell(12, 3, 1240);
+data.setCell(12, 1, 'SelectBodytype')
+data.setCell(12, 2, 'TestsObjects.OnBoardingNaturalTest')
+data.setCell(12, 3, 3150);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'FillNameWithOutLastName')
+data.setCell(13, 1, 'DoSignUp')
 data.setCell(13, 2, 'TestsObjects.SignUpTest')
-data.setCell(13, 3, 1237);
+data.setCell(13, 3, 3134);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'FillPasswordWithOutToFillEmail')
-data.setCell(14, 2, 'TestsObjects.LoginTest')
-data.setCell(14, 3, 933);
+data.setCell(14, 1, 'FillMailWithSpecialCarecters')
+data.setCell(14, 2, 'TestsObjects.SignUpTest')
+data.setCell(14, 3, 3126);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'ClickLoginwWithOutToFillAnyFields')
-data.setCell(15, 2, 'TestsObjects.LoginTest')
-data.setCell(15, 3, 716);
+data.setCell(15, 1, 'SelectFamale')
+data.setCell(15, 2, 'TestsObjects.OnBoardingFemaleTest')
+data.setCell(15, 3, 2866);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'FillEmailWithOutToFillPassword')
-data.setCell(16, 2, 'TestsObjects.LoginTest')
-data.setCell(16, 3, 618);
+data.setCell(16, 1, 'SelectBodytype')
+data.setCell(16, 2, 'TestsObjects.OnBoardingFemaleTest')
+data.setCell(16, 3, 2866);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'DoLogin')
+data.setCell(17, 2, 'TestsObjects.LoginTest')
+data.setCell(17, 3, 2825);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'SelectFamale')
+data.setCell(18, 2, 'TestsObjects.OnBoardingNaturalTest')
+data.setCell(18, 3, 2643);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'FillCorrectPasswordWithWrongEmail')
+data.setCell(19, 2, 'TestsObjects.LoginTest')
+data.setCell(19, 3, 2621);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'FillNameWithSpecialCarecters')
+data.setCell(20, 2, 'TestsObjects.SignUpTest')
+data.setCell(20, 3, 2568);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'FillHebLettersEmail')
+data.setCell(21, 2, 'TestsObjects.LoginTest')
+data.setCell(21, 3, 2468);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'FillCorrectEmailWithWrongPassword')
+data.setCell(22, 2, 'TestsObjects.LoginTest')
+data.setCell(22, 3, 2298);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'SelectFamale')
+data.setCell(23, 2, 'TestsObjects.OnBoardingMaleTest')
+data.setCell(23, 3, 2278);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'FillNameWithHebrewCarecters')
+data.setCell(24, 2, 'TestsObjects.SignUpTest')
+data.setCell(24, 3, 2270);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'SelectBrands')
+data.setCell(25, 2, 'TestsObjects.OnBoardingMaleTest')
+data.setCell(25, 3, 2259);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'FillEmailWithOutToFillPassword')
+data.setCell(26, 2, 'TestsObjects.LoginTest')
+data.setCell(26, 3, 1988);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'FillNameWithOutLastName')
+data.setCell(27, 2, 'TestsObjects.SignUpTest')
+data.setCell(27, 3, 1171);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'ClickLoginwWithOutToFillAnyFields')
+data.setCell(28, 2, 'TestsObjects.LoginTest')
+data.setCell(28, 3, 974);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -568,130 +861,279 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setupCapability(org.testng.TestRunner@30d25c03)</span>
+                <span class="method-name">setupCapability(org.testng.TestRunner@59f93db8)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingMaleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupCapability(org.testng.TestRunner@59f93db8)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingFemaleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupCapability(org.testng.TestRunner@59f93db8)</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setupCapability(org.testng.TestRunner@30d25c03)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">setupCapability(org.testng.TestRunner@59f93db8)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingNaturalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupCapability(org.testng.TestRunner@59f93db8)</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FillEmailWitoutShtudel</span>
-                <span class="method-start">17272 ms</span>
+                <span class="method-start">19159 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FillPasswordWithOutToFillEmail</span>
-                <span class="method-start">17272 ms</span>
+                <span class="method-start">19313 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingFemaleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DoSignUp</span>
+                <span class="method-start">19384 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingNaturalTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DoSignUp</span>
+                <span class="method-start">19653 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingMaleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DoSignUp</span>
+                <span class="method-start">19654 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FillEmailWithOutToFillPassword</span>
-                <span class="method-start">18340 ms</span>
+                <span class="method-start">23508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickLoginwWithOutToFillAnyFields</span>
+                <span class="method-start">25500 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FillEmailWithoutDotCom</span>
-                <span class="method-start">18790 ms</span>
+                <span class="method-start">26086 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">ClickLoginwWithOutToFillAnyFields</span>
-                <span class="method-start">18962 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">FillCorrectEmailWithWrongPassword</span>
-                <span class="method-start">19680 ms</span>
+                <span class="method-start">26475 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestsObjects.OnBoardingNaturalTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">FillPsswordWithLessthan6Characters</span>
-                <span class="method-start">21404 ms</span>
+                <span class="method-name">SelectFamale</span>
+                <span class="method-start">27807 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingMaleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SelectFamale</span>
+                <span class="method-start">28303 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FillCorrectPasswordWithWrongEmail</span>
-                <span class="method-start">21535 ms</span>
+                <span class="method-start">28775 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingFemaleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SelectFamale</span>
+                <span class="method-start">29153 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingNaturalTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SelectBodytype</span>
+                <span class="method-start">30451 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">FillMailWithSpecialCarecters</span>
-                <span class="method-start">22788 ms</span>
+                <span class="method-name">FillPsswordWithLessthan6Characters</span>
+                <span class="method-start">30525 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingMaleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SelctStyle</span>
+                <span class="method-start">30583 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FillHebLettersEmail</span>
-                <span class="method-start">23670 ms</span>
+                <span class="method-start">31397 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingFemaleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SelectBodytype</span>
+                <span class="method-start">32020 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingNaturalTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SelctStyle</span>
+                <span class="method-start">33603 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">FillMailWithHebrewCarecters</span>
-                <span class="method-start">24238 ms</span>
+                <span class="method-name">FillMailWithSpecialCarecters</span>
+                <span class="method-start">33804 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">DoLogin</span>
-                <span class="method-start">25503 ms</span>
+                <span class="method-start">33871 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestsObjects.OnBoardingFemaleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">FillNameWithSpecialCarecters</span>
-                <span class="method-start">26107 ms</span>
+                <span class="method-name">SelctStyle</span>
+                <span class="method-start">34887 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingMaleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SelectBrands</span>
+                <span class="method-start">34994 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">close</span>
-                <span class="method-start">27171 ms</span>
+                <span class="method-start">36697 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">FillNameWithHebrewCarecters</span>
-                <span class="method-start">27349 ms</span>
+                <span class="method-name">FillMailWithHebrewCarecters</span>
+                <span class="method-start">36932 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingMaleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">38724 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingNaturalTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">FillNameWithOutLastName</span>
-                <span class="method-start">29153 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">DoSignUp</span>
-                <span class="method-start">30391 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">CreateUser</span>
-                <span class="method-start">33550 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SelectBrands</span>
+                <span class="method-start">40065 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close</span>
-                <span class="method-start">38515 ms</span>
+                <span class="method-start">40229 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FillNameWithSpecialCarecters</span>
+                <span class="method-start">40274 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingFemaleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SelectBrands</span>
+                <span class="method-start">41370 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FillNameWithHebrewCarecters</span>
+                <span class="method-start">42843 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.OnBoardingFemaleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">43090 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsObjects.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FillNameWithOutLastName</span>
+                <span class="method-start">45114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DoSignUp</span>
+                <span class="method-start">46286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateUser</span>
+                <span class="method-start">49421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">54740 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

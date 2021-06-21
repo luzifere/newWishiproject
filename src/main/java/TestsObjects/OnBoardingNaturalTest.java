@@ -45,10 +45,10 @@ public class OnBoardingNaturalTest extends setup {
     }
 
     @Attachment
-    @Story("Select Famale")
+    @Story("Select Natural")
     @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 2, groups = {"sanity-group"})
-    public void SelectFamale() {
+    public void SelectNatural() {
         OnBoardingPage ob = new OnBoardingPage(driver);
         ob.LetsGet();
         ob.SelectFamale();

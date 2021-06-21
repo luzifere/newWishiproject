@@ -1,4 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.873 s - in TestSuite
+Tests run: 29, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 56.405 s <<< FAILURE! - in TestSuite
+TestsObjects.OnBoardingMaleTest.SelectBrands  Time elapsed: 1.79 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64aa09dd4ab8c53f0a5dea5fcebcb515, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=bfbe93bc-703f-4b1b-8662-8665195556ce, element-6066-11e4-a52e-4f735466cecf=bfbe93bc-703f-4b1b-8662-8665195556ce}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:59882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64aa09dd4ab8c53f0a5dea5fcebcb515
+	at TestsObjects.OnBoardingMaleTest.SelectBrands(OnBoardingMaleTest.java:95)
+

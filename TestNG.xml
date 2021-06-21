@@ -12,7 +12,10 @@
         </groups>
        <classes>
            <class name="TestsObjects.LoginTest"/>
-           <class name="TestsObjects.SignUpTest">
+           <class name="TestsObjects.SignUpTest"/>
+           <class name="TestsObjects.OnBoardingFemaleTest"/>
+           <class name="TestsObjects.OnBoardingMaleTest"/>
+           <class name="TestsObjects.OnBoardingNaturalTest">
            </class>
        </classes>
     </test>
