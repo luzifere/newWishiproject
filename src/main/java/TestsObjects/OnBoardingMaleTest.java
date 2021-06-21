@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-public class OnBoardingTest extends setup {
+public class OnBoardingMaleTest extends setup {
 
 
     @Attachment
@@ -51,74 +51,42 @@ public class OnBoardingTest extends setup {
     public void SelectFamale() {
         OnBoardingPage ob = new OnBoardingPage(driver);
         ob.LetsGet();
-        ob.SelectMale();
-        ob.ClickBack();
         ob.SelectFamale();
         ob.BodyTypePageLoaded();
-
+        ob.ClickBack();
+        ob.SelectMale();
     }
 
     @Attachment
     @Story("Select Bodytype")
     @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 3, groups = {"sanity-group"})
-    public void SelectBodytype() {
-        OnBoardingPage ob = new OnBoardingPage(driver);
-        ob.ClickSkip();
-        ob.ClickBack();
-        ob.SelectBodyType("petite");
-        ob.SelectBodyType("fit");
-        ob.SelectBodyType("tall");
-        ob.SelectBodyType("petite");
-        ob.ClickNext();
-    }
-    @Attachment
-    @Story("Select Bodytype")
-    @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 4, groups = {"sanity-group"})
     public void SelctStyle() {
         OnBoardingPage ob = new OnBoardingPage(driver);
-        ob.SelectHellNoChick();
+        ob.SelectHellNoStreetStyle();
         ob.ClickBack();
-        ob.SelectLoveItChick();
-        ob.SelectLoveItBoho();
+        ob.SelectLoveItStreetStyle();
+        ob.SelectLoveItRugged();
         ob.ClickBack();
-        ob.SelectHellNoBoho();
-        ob.SelectSomtimeClassic();
+        ob.SelectHellNoRugged();
+        ob.SelectLoveItEdgy();
         ob.ClickBack();
-        ob.SelectLoveItClassic();
-        ob.SelectHellNoRock();
+        ob.SelectSomtimeEdgy();
+        ob.SelectLoveItHipster();
         ob.ClickBack();
-        ob.SelectSomtimeRock();
-        ob.SelectLoveItTrendy();
+        ob.SelectLoveItHipster();
+        ob.SelectSomtimeElegant();
         ob.ClickBack();
-        ob.SelectHellNoTrendy();
-        ob.SelectSomtimeStreetWear();
-        ob.ClickBack();
-        ob.SelectLoveItStreetWear();
-        ob.ClickSkip();
-        ob.ClickBack();
-        ob.SelectSomtimeSexy();
-        ob.SelectSomtimeElectic();
-        ob.ClickBack();
-        ob.SelectHellNoElectic();
-        ob.SelectLoveItTomboy();
-        ob.ClickBack();
-        ob.SelectSomtimeTomboy();
-        ob.SelectSomtimeMinimal();
-        ob.ClickBack();
-        ob.SelectHellNoMinimal();
-        ob.SelectHellNoFeminime();
-        ob.ClickBack();
-        ob.SelectLoveItFeminime();
+        ob.SelectSomtimeElegant();
     }
     @Attachment
     @Story("Select Brands")
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 5, groups = {"sanity-group"})
+    @Test(priority = 4, groups = {"sanity-group"})
     public void SelectBrands()
     {
         OnBoardingPage ob = new OnBoardingPage(driver);
+        ob.BrandsPageLoaded();
         ob.SelectBrands("Vince");
         ob.SelectBrands("Acne Studios");
         ob.SelectBrands("A.L.C");

@@ -94,14 +94,40 @@ public class OnBoardingPage extends BasePage {
     WebElement somtimefeminime;
     @FindBy(xpath = "//label[@for='Feminine2']")
     WebElement loveitfeminime;
-    @FindBy(xpath = "(//div[@class='row']/..//div[@class='answers row']//label)[1]")
-    WebElement rhellno;
-    @FindBy(xpath = "(//div[@class='row']/..//div[@class='answers row']//label)[2]")
-    WebElement rsomtime;
-    @FindBy(xpath = "(//div[@class='row']/..//div[@class='answers row']//label)[3]")
-    WebElement rloveit;
-    @FindBy(xpath = "(//div[@class='row']/..//div[@class='answers row']//label)[3]")
+    @FindBy(xpath = "//label[@for='streetstyle0']")
+    WebElement hellnostreetstyle;
+    @FindBy(xpath = "//label[@for='streetstyle1']")
+    WebElement somtimestreetstyle;
+    @FindBy(xpath = "//label[@for='streetstyle2']")
+    WebElement loveitstreetstyle;
+    @FindBy(xpath = "//label[@for='Rugged0']")
+    WebElement hellnorugged;
+    @FindBy(xpath = "//label[@for='Rugged1']")
+    WebElement somtimerugged;
+    @FindBy(xpath = "//label[@for='Rugged2']")
+    WebElement loveitrugged;
+    @FindBy(xpath = "//label[@for='Edgy0']")
+    WebElement hellnoedgy;
+    @FindBy(xpath = "//label[@for='Edgy1']")
+    WebElement somtimeedgy;
+    @FindBy(xpath = "//label[@for='Edgy2']")
+    WebElement loveitedgy;
+    @FindBy(xpath = "//label[@for='Hipster0']")
+    WebElement hellnohipster;
+    @FindBy(xpath = "//label[@for='Hipster1']")
+    WebElement somtimehipster;
+    @FindBy(xpath = "//label[@for='Hipster2']")
+    WebElement loveithipster;
+    @FindBy(xpath = "//label[@for='Elegant0']")
+    WebElement hellnoelegant;
+    @FindBy(xpath = "//label[@for='Elegant1']")
+    WebElement somtimeelegant;
+    @FindBy(xpath = "//label[@for='Elegant2']")
+    WebElement loveitelegant;
+    @FindBy(xpath = "//div//button[contains(text(), 'MEET MY MATCH')]")
     WebElement meetyoutmatch;
+    @FindBy(xpath = "//div[@class='brands-list container']")
+    WebElement brandslist;
 
 
 
@@ -144,6 +170,9 @@ public class OnBoardingPage extends BasePage {
     public void BodyTypePageLoaded() {
         WaitElementDosplayed(bodyType);
     }
+    public void BrandsPageLoaded() {
+        WaitElementDosplayed(brandslist);
+    }
 
     public void SelectBodyType(String text) {
         System.out.println(text);
@@ -151,12 +180,12 @@ public class OnBoardingPage extends BasePage {
         System.out.println(bodytype);
 
         for (WebElement element : bodytype) {
-            System.out.println(element);
-            System.out.println(element.getText());
+            //System.out.println(element);
+            //System.out.println(element.getText());
             if (element.getText().toLowerCase().contains(text))
             {
-                System.out.println(element.getText());
-                System.out.println(element);
+                //System.out.println(element.getText());
+                //System.out.println(element);
                 WaitElementDosplayed(element);
                 click(element);
             }
@@ -294,6 +323,67 @@ public class OnBoardingPage extends BasePage {
         WaitElementDosplayed(loveitfeminime);
         click(loveitfeminime);
     }
+    public void SelectHellNoStreetStyle() {
+        WaitElementDosplayed(hellnostreetstyle);
+        click(hellnostreetstyle);
+    }
+    public void SelectSomtimeStreetStyle() {
+        WaitElementDosplayed(somtimestreetstyle);
+        click(somtimestreetstyle);
+    }
+    public void SelectLoveItStreetStyle() {
+        WaitElementDosplayed(loveitstreetstyle);
+        click(loveitstreetstyle);
+    }
+    public void SelectHellNoRugged() {
+        WaitElementDosplayed(hellnorugged);
+        click(hellnorugged);
+    }
+    public void SelectSomtimeRugged() {
+        WaitElementDosplayed(somtimerugged);
+        click(somtimerugged);
+    }
+    public void SelectLoveItRugged() {
+        WaitElementDosplayed(loveitrugged);
+        click(loveitrugged);
+    }
+    public void SelectHellNoEdgy() {
+        WaitElementDosplayed(hellnoedgy);
+        click(hellnoedgy);
+    }
+    public void SelectSomtimeEdgy() {
+        WaitElementDosplayed(somtimeedgy);
+        click(somtimeedgy);
+    }
+    public void SelectLoveItEdgy() {
+        WaitElementDosplayed(loveitedgy);
+        click(loveitedgy);
+    }
+    public void SelectHellNoHipster() {
+        WaitElementDosplayed(hellnohipster);
+        click(hellnohipster);
+    }
+    public void SelectSomtimeHipster() {
+        WaitElementDosplayed(somtimehipster);
+        click(somtimehipster);
+    }
+    public void SelectLoveItHipster() {
+        WaitElementDosplayed(loveithipster);
+        click(loveithipster);
+    }
+    public void SelectHellNoElegant() {
+        WaitElementDosplayed(hellnoelegant);
+        click(hellnoelegant);
+    }
+    public void SelectSomtimeElegant() {
+        WaitElementDosplayed(somtimeelegant);
+        click(somtimeelegant);
+    }
+    public void SelectLoveItElegant() {
+        WaitElementDosplayed(loveitelegant);
+        click(loveitelegant);
+    }
+
     public void SelectBrands(String text)
     {
         String Elemet = ("//div[@id='brand_text1']");
@@ -301,6 +391,7 @@ public class OnBoardingPage extends BasePage {
         WebElement BrandsButton = driver.findElement(By.xpath(Elemet));
         WaitElementDosplayed(BrandsButton);
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", BrandsButton);
+        WaitElementDosplayed(BrandsButton);
         click(BrandsButton);
     }
     public void ClickMeetMatch() {
