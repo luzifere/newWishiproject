@@ -129,9 +129,16 @@ public class OnBoardingFemaleTest extends setup {
         ob.SelectBrands("Rag & Bone");
         ob.SelectBrands("Rag & Bone");
         ob.SelectBrands("Saint Laurent");
+        ob.SelectBrands("Nanushka");
+        ob.SelectBrands("Ulla Johnson");
+        ob.SelectBrands("NILI LOTAN");
         ob.SelectBrands("Vince");
-
         ob.ClickMeetMatch();
+        String expected = "Your Stylists Match!";
+        SignUpPage sign= new SignUpPage(driver);
+        String actual = sign.YourStylistsMatchDisplayed();
+        System.out.println(actual);
+        Assert.assertEquals(actual, expected);
     }
 
 

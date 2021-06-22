@@ -70,6 +70,9 @@ public class ReversOnBoardingMaleTest extends setup {
         ob.SelectBrands("Rag & Bone");
         ob.SelectBrands("Rag & Bone");
         ob.SelectBrands("Saint Laurent");
+        //ob.SelectBrands("Nanushka");
+        //ob.SelectBrands("Ulla Johnson");
+        //ob.SelectBrands("NILI LOTAN");
         ob.SelectBrands("Vince");
 
         ob.ClickMeetMatch();

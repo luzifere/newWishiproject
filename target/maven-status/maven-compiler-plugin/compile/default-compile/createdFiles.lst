@@ -1,3 +1,5 @@
+TestsObjects/ReversOnBoardingMaleTest.class
+TestsObjects/ReversOnBoardingFemaleTest.class
 TestsObjects/setup.class
 PageObjects/LoginPage.class
 TestsObjects/LoginTest.class
@@ -15,5 +17,6 @@ PageObjects/SignUpPage.class
 utilitis/Listener.class
 PageObjects/OnBoardingPage.class
 TestsObjects/SignUpTest.class
+TestsObjects/ReversOnBoardingNaturalTest.class
 dataProvider/ConfigFileReader.class
 utilitis/AllureAttachments$AllureAttachment.class

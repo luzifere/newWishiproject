@@ -1,413 +1,370 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="27" passed="24" failed="3" skipped="0">
+<testng-results ignored="0" total="45" passed="45" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-21T15:47:05 IDT" name="Suite" finished-at="2021-06-21T15:48:04 IDT" duration-ms="58660">
+  <suite started-at="2021-06-21T17:45:47 IDT" name="Suite" finished-at="2021-06-21T17:49:01 IDT" duration-ms="193846">
     <groups>
       <group name="sanity-group">
-        <method signature="LoginTest.ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@49ec6a9f]" name="ClickLoginwWithOutToFillAnyFields" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.DoLogin()[pri:7, instance:TestsObjects.LoginTest@49ec6a9f]" name="DoLogin" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@49ec6a9f]" name="FillCorrectEmailWithWrongPassword" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@49ec6a9f]" name="FillCorrectPasswordWithWrongEmail" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@49ec6a9f]" name="FillEmailWithOutToFillPassword" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillHebLettersEmail()[pri:6, instance:TestsObjects.LoginTest@49ec6a9f]" name="FillHebLettersEmail" class="TestsObjects.LoginTest"/>
-        <method signature="LoginTest.FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@49ec6a9f]" name="FillPasswordWithOutToFillEmail" class="TestsObjects.LoginTest"/>
-        <method signature="OnBoardingFemaleTest.DoSignUp()[pri:1, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" name="DoSignUp" class="TestsObjects.OnBoardingFemaleTest"/>
-        <method signature="OnBoardingFemaleTest.SelctStyle()[pri:4, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" name="SelctStyle" class="TestsObjects.OnBoardingFemaleTest"/>
-        <method signature="OnBoardingFemaleTest.SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" name="SelectBodytype" class="TestsObjects.OnBoardingFemaleTest"/>
-        <method signature="OnBoardingFemaleTest.SelectBrands()[pri:5, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" name="SelectBrands" class="TestsObjects.OnBoardingFemaleTest"/>
-        <method signature="OnBoardingFemaleTest.SelectFamale()[pri:2, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" name="SelectFamale" class="TestsObjects.OnBoardingFemaleTest"/>
-        <method signature="OnBoardingMaleTest.DoSignUp()[pri:1, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" name="DoSignUp" class="TestsObjects.OnBoardingMaleTest"/>
-        <method signature="OnBoardingMaleTest.SelctStyle()[pri:3, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" name="SelctStyle" class="TestsObjects.OnBoardingMaleTest"/>
-        <method signature="OnBoardingMaleTest.SelectBrands()[pri:4, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" name="SelectBrands" class="TestsObjects.OnBoardingMaleTest"/>
-        <method signature="OnBoardingMaleTest.SelectFamale()[pri:2, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" name="SelectFamale" class="TestsObjects.OnBoardingMaleTest"/>
-        <method signature="OnBoardingNaturalTest.DoSignUp()[pri:1, instance:TestsObjects.OnBoardingNaturalTest@5f7da3d3]" name="DoSignUp" class="TestsObjects.OnBoardingNaturalTest"/>
-        <method signature="OnBoardingNaturalTest.SelctStyle()[pri:4, instance:TestsObjects.OnBoardingNaturalTest@5f7da3d3]" name="SelctStyle" class="TestsObjects.OnBoardingNaturalTest"/>
-        <method signature="OnBoardingNaturalTest.SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingNaturalTest@5f7da3d3]" name="SelectBodytype" class="TestsObjects.OnBoardingNaturalTest"/>
-        <method signature="OnBoardingNaturalTest.SelectBrands()[pri:5, instance:TestsObjects.OnBoardingNaturalTest@5f7da3d3]" name="SelectBrands" class="TestsObjects.OnBoardingNaturalTest"/>
-        <method signature="OnBoardingNaturalTest.SelectNatural()[pri:2, instance:TestsObjects.OnBoardingNaturalTest@5f7da3d3]" name="SelectNatural" class="TestsObjects.OnBoardingNaturalTest"/>
-        <method signature="SignUpTest.CreateUser()[pri:11, instance:TestsObjects.SignUpTest@64b3b1ce]" name="CreateUser" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@64b3b1ce]" name="DoSignUp" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@64b3b1ce]" name="FillEmailWithoutDotCom" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@64b3b1ce]" name="FillEmailWitoutShtudel" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@64b3b1ce]" name="FillMailWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@64b3b1ce]" name="FillMailWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@64b3b1ce]" name="FillNameWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@64b3b1ce]" name="FillNameWithOutLastName" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@64b3b1ce]" name="FillNameWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
-        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@64b3b1ce]" name="FillPsswordWithLessthan6Characters" class="TestsObjects.SignUpTest"/>
+        <method signature="LoginTest.ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@656922a0]" name="ClickLoginwWithOutToFillAnyFields" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.DoLogin()[pri:7, instance:TestsObjects.LoginTest@656922a0]" name="DoLogin" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@656922a0]" name="FillCorrectEmailWithWrongPassword" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@656922a0]" name="FillCorrectPasswordWithWrongEmail" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@656922a0]" name="FillEmailWithOutToFillPassword" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillHebLettersEmail()[pri:6, instance:TestsObjects.LoginTest@656922a0]" name="FillHebLettersEmail" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@656922a0]" name="FillPasswordWithOutToFillEmail" class="TestsObjects.LoginTest"/>
+        <method signature="OnBoardingFemaleTest.DoSignUp()[pri:1, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" name="DoSignUp" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingFemaleTest.SelctStyle()[pri:4, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" name="SelctStyle" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingFemaleTest.SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" name="SelectBodytype" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingFemaleTest.SelectBrands()[pri:5, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" name="SelectBrands" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingFemaleTest.SelectFamale()[pri:2, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" name="SelectFamale" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingMaleTest.DoSignUp()[pri:1, instance:TestsObjects.OnBoardingMaleTest@2440022a]" name="DoSignUp" class="TestsObjects.OnBoardingMaleTest"/>
+        <method signature="OnBoardingMaleTest.SelctStyle()[pri:3, instance:TestsObjects.OnBoardingMaleTest@2440022a]" name="SelctStyle" class="TestsObjects.OnBoardingMaleTest"/>
+        <method signature="OnBoardingMaleTest.SelectBrands()[pri:4, instance:TestsObjects.OnBoardingMaleTest@2440022a]" name="SelectBrands" class="TestsObjects.OnBoardingMaleTest"/>
+        <method signature="OnBoardingMaleTest.SelectFamale()[pri:2, instance:TestsObjects.OnBoardingMaleTest@2440022a]" name="SelectFamale" class="TestsObjects.OnBoardingMaleTest"/>
+        <method signature="OnBoardingNaturalTest.DoSignUp()[pri:1, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" name="DoSignUp" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="OnBoardingNaturalTest.SelctStyle()[pri:4, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" name="SelctStyle" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="OnBoardingNaturalTest.SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" name="SelectBodytype" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="OnBoardingNaturalTest.SelectBrands()[pri:5, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" name="SelectBrands" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="OnBoardingNaturalTest.SelectNatural()[pri:2, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" name="SelectNatural" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingFemaleTest.DoSignUp()[pri:5, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" name="DoSignUp" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingFemaleTest.SelctStyle()[pri:3, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" name="SelctStyle" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingFemaleTest.SelectBodytype()[pri:2, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" name="SelectBodytype" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingFemaleTest.SelectBrands()[pri:4, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" name="SelectBrands" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingFemaleTest.SelectFamale()[pri:1, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" name="SelectFamale" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingMaleTest.DoSignUp()[pri:4, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" name="DoSignUp" class="TestsObjects.ReversOnBoardingMaleTest"/>
+        <method signature="ReversOnBoardingMaleTest.SelctStyle()[pri:2, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" name="SelctStyle" class="TestsObjects.ReversOnBoardingMaleTest"/>
+        <method signature="ReversOnBoardingMaleTest.SelectBrands()[pri:3, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" name="SelectBrands" class="TestsObjects.ReversOnBoardingMaleTest"/>
+        <method signature="ReversOnBoardingMaleTest.SelectMale()[pri:1, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" name="SelectMale" class="TestsObjects.ReversOnBoardingMaleTest"/>
+        <method signature="ReversOnBoardingNaturalTest.DoSignUp()[pri:5, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" name="DoSignUp" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingNaturalTest.SelctStyle()[pri:3, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" name="SelctStyle" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingNaturalTest.SelectBodytype()[pri:2, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" name="SelectBodytype" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingNaturalTest.SelectBrands()[pri:4, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" name="SelectBrands" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingNaturalTest.SelectNatural()[pri:1, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" name="SelectNatural" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="SignUpTest.CreateUser()[pri:11, instance:TestsObjects.SignUpTest@61f6d381]" name="CreateUser" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@61f6d381]" name="DoSignUp" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@61f6d381]" name="FillEmailWithoutDotCom" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@61f6d381]" name="FillEmailWitoutShtudel" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@61f6d381]" name="FillMailWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@61f6d381]" name="FillMailWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@61f6d381]" name="FillNameWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@61f6d381]" name="FillNameWithOutLastName" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@61f6d381]" name="FillNameWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@61f6d381]" name="FillPsswordWithLessthan6Characters" class="TestsObjects.SignUpTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test started-at="2021-06-21T15:47:05 IDT" name="Test" finished-at="2021-06-21T15:48:04 IDT" duration-ms="58660">
+    <test started-at="2021-06-21T17:45:47 IDT" name="Test" finished-at="2021-06-21T17:49:01 IDT" duration-ms="193846">
       <class name="TestsObjects.OnBoardingNaturalTest">
-        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.OnBoardingNaturalTest@5f7da3d3]" started-at="2021-06-21T15:47:05 IDT" name="setupCapability" finished-at="2021-06-21T15:47:39 IDT" duration-ms="33652" status="PASS">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" started-at="2021-06-21T17:46:37 IDT" name="setupCapability" finished-at="2021-06-21T17:46:49 IDT" duration-ms="11999" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5d5c04f9]]>
+                <![CDATA[org.testng.TestRunner@27329d2a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupCapability -->
-        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.OnBoardingNaturalTest@5f7da3d3]" started-at="2021-06-21T15:47:39 IDT" name="DoSignUp" finished-at="2021-06-21T15:47:51 IDT" duration-ms="11680" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div//button[@class='d-none d-sm-flex btn btn-warning']' (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div//button[@class='d-none d-sm-flex btn btn-warning']' (tried for 10 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at PageObjects.BasePage.WaitElementDosplayed(BasePage.java:101)
-at PageObjects.SignUpPage.LetsGetButtonDisplayed(SignUpPage.java:136)
-at TestsObjects.OnBoardingNaturalTest.DoSignUp(OnBoardingNaturalTest.java:40)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[@class='d-none d-sm-flex btn btn-warning']"}
-  (Session info: chrome=91.0.4472.106)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [593626e67218478968127b3fb917eff3, findElement {using=xpath, value=//div//button[@class='d-none d-sm-flex btn btn-warning']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 593626e67218478968127b3fb917eff3
-at jdk.internal.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1259)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:388)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy27.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-... 18 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" started-at="2021-06-21T17:46:49 IDT" name="DoSignUp" finished-at="2021-06-21T17:46:53 IDT" duration-ms="3642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectNatural()[pri:2, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" started-at="2021-06-21T17:46:53 IDT" name="SelectNatural" finished-at="2021-06-21T17:46:54 IDT" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectNatural -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" started-at="2021-06-21T17:46:54 IDT" name="SelectBodytype" finished-at="2021-06-21T17:46:55 IDT" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" started-at="2021-06-21T17:46:55 IDT" name="SelctStyle" finished-at="2021-06-21T17:46:57 IDT" duration-ms="2086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" started-at="2021-06-21T17:46:57 IDT" name="SelectBrands" finished-at="2021-06-21T17:46:58 IDT" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.OnBoardingNaturalTest@737db7f8]" started-at="2021-06-21T17:46:58 IDT" name="close" finished-at="2021-06-21T17:46:58 IDT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- TestsObjects.OnBoardingNaturalTest -->
-      <class name="TestsObjects.LoginTest">
-        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.LoginTest@49ec6a9f]" started-at="2021-06-21T15:47:05 IDT" name="setupCapability" finished-at="2021-06-21T15:47:41 IDT" duration-ms="36170" status="PASS">
+      <class name="TestsObjects.ReversOnBoardingNaturalTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" started-at="2021-06-21T17:48:03 IDT" name="setupCapability" finished-at="2021-06-21T17:48:15 IDT" duration-ms="12608" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5d5c04f9]]>
+                <![CDATA[org.testng.TestRunner@27329d2a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupCapability -->
-        <test-method signature="FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@49ec6a9f]" started-at="2021-06-21T15:47:41 IDT" name="FillPasswordWithOutToFillEmail" finished-at="2021-06-21T15:47:43 IDT" duration-ms="1229" status="PASS">
+        <test-method signature="SelectNatural()[pri:1, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" started-at="2021-06-21T17:48:15 IDT" name="SelectNatural" finished-at="2021-06-21T17:48:18 IDT" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectNatural -->
+        <test-method signature="SelectBodytype()[pri:2, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" started-at="2021-06-21T17:48:18 IDT" name="SelectBodytype" finished-at="2021-06-21T17:48:18 IDT" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:3, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" started-at="2021-06-21T17:48:18 IDT" name="SelctStyle" finished-at="2021-06-21T17:48:21 IDT" duration-ms="2669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:4, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" started-at="2021-06-21T17:48:21 IDT" name="SelectBrands" finished-at="2021-06-21T17:48:22 IDT" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="DoSignUp()[pri:5, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" started-at="2021-06-21T17:48:22 IDT" name="DoSignUp" finished-at="2021-06-21T17:48:25 IDT" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.ReversOnBoardingNaturalTest@7d57dbb5]" started-at="2021-06-21T17:48:25 IDT" name="close" finished-at="2021-06-21T17:48:25 IDT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.ReversOnBoardingNaturalTest -->
+      <class name="TestsObjects.ReversOnBoardingFemaleTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" started-at="2021-06-21T17:47:20 IDT" name="setupCapability" finished-at="2021-06-21T17:47:32 IDT" duration-ms="11848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27329d2a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="SelectFamale()[pri:1, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" started-at="2021-06-21T17:47:32 IDT" name="SelectFamale" finished-at="2021-06-21T17:47:34 IDT" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:2, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" started-at="2021-06-21T17:47:34 IDT" name="SelectBodytype" finished-at="2021-06-21T17:47:34 IDT" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:3, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" started-at="2021-06-21T17:47:34 IDT" name="SelctStyle" finished-at="2021-06-21T17:47:37 IDT" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:4, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" started-at="2021-06-21T17:47:37 IDT" name="SelectBrands" finished-at="2021-06-21T17:47:38 IDT" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="DoSignUp()[pri:5, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" started-at="2021-06-21T17:47:38 IDT" name="DoSignUp" finished-at="2021-06-21T17:47:41 IDT" duration-ms="2906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.ReversOnBoardingFemaleTest@5f2de715]" started-at="2021-06-21T17:47:41 IDT" name="close" finished-at="2021-06-21T17:47:41 IDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.ReversOnBoardingFemaleTest -->
+      <class name="TestsObjects.LoginTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.LoginTest@656922a0]" started-at="2021-06-21T17:46:58 IDT" name="setupCapability" finished-at="2021-06-21T17:47:11 IDT" duration-ms="12867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27329d2a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@656922a0]" started-at="2021-06-21T17:47:11 IDT" name="FillPasswordWithOutToFillEmail" finished-at="2021-06-21T17:47:12 IDT" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPasswordWithOutToFillEmail -->
-        <test-method signature="FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@49ec6a9f]" started-at="2021-06-21T15:47:43 IDT" name="FillEmailWithOutToFillPassword" finished-at="2021-06-21T15:47:44 IDT" duration-ms="1345" status="PASS">
+        <test-method signature="FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@656922a0]" started-at="2021-06-21T17:47:12 IDT" name="FillEmailWithOutToFillPassword" finished-at="2021-06-21T17:47:12 IDT" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillEmailWithOutToFillPassword -->
-        <test-method signature="ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@49ec6a9f]" started-at="2021-06-21T15:47:44 IDT" name="ClickLoginwWithOutToFillAnyFields" finished-at="2021-06-21T15:47:45 IDT" duration-ms="1065" status="PASS">
+        <test-method signature="ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@656922a0]" started-at="2021-06-21T17:47:12 IDT" name="ClickLoginwWithOutToFillAnyFields" finished-at="2021-06-21T17:47:13 IDT" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickLoginwWithOutToFillAnyFields -->
-        <test-method signature="FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@49ec6a9f]" started-at="2021-06-21T15:47:45 IDT" name="FillCorrectEmailWithWrongPassword" finished-at="2021-06-21T15:47:48 IDT" duration-ms="2795" status="PASS">
+        <test-method signature="FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@656922a0]" started-at="2021-06-21T17:47:13 IDT" name="FillCorrectEmailWithWrongPassword" finished-at="2021-06-21T17:47:15 IDT" duration-ms="2430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCorrectEmailWithWrongPassword -->
-        <test-method signature="FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@49ec6a9f]" started-at="2021-06-21T15:47:48 IDT" name="FillCorrectPasswordWithWrongEmail" finished-at="2021-06-21T15:47:50 IDT" duration-ms="2124" status="PASS">
+        <test-method signature="FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@656922a0]" started-at="2021-06-21T17:47:15 IDT" name="FillCorrectPasswordWithWrongEmail" finished-at="2021-06-21T17:47:17 IDT" duration-ms="1709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCorrectPasswordWithWrongEmail -->
-        <test-method signature="FillHebLettersEmail()[pri:6, instance:TestsObjects.LoginTest@49ec6a9f]" started-at="2021-06-21T15:47:50 IDT" name="FillHebLettersEmail" finished-at="2021-06-21T15:47:52 IDT" duration-ms="1995" status="PASS">
+        <test-method signature="FillHebLettersEmail()[pri:6, instance:TestsObjects.LoginTest@656922a0]" started-at="2021-06-21T17:47:17 IDT" name="FillHebLettersEmail" finished-at="2021-06-21T17:47:18 IDT" duration-ms="1716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillHebLettersEmail -->
-        <test-method signature="DoLogin()[pri:7, instance:TestsObjects.LoginTest@49ec6a9f]" started-at="2021-06-21T15:47:52 IDT" name="DoLogin" finished-at="2021-06-21T15:47:54 IDT" duration-ms="1689" status="PASS">
+        <test-method signature="DoLogin()[pri:7, instance:TestsObjects.LoginTest@656922a0]" started-at="2021-06-21T17:47:18 IDT" name="DoLogin" finished-at="2021-06-21T17:47:20 IDT" duration-ms="1634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.LoginTest@49ec6a9f]" started-at="2021-06-21T15:47:54 IDT" name="close" finished-at="2021-06-21T15:47:54 IDT" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.LoginTest@656922a0]" started-at="2021-06-21T17:47:20 IDT" name="close" finished-at="2021-06-21T17:47:20 IDT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestsObjects.LoginTest -->
-      <class name="TestsObjects.SignUpTest">
-        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:05 IDT" name="setupCapability" finished-at="2021-06-21T15:47:30 IDT" duration-ms="24452" status="PASS">
+      <class name="TestsObjects.ReversOnBoardingMaleTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" started-at="2021-06-21T17:47:41 IDT" name="setupCapability" finished-at="2021-06-21T17:47:55 IDT" duration-ms="14086" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5d5c04f9]]>
+                <![CDATA[org.testng.TestRunner@27329d2a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupCapability -->
-        <test-method signature="FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:30 IDT" name="FillEmailWitoutShtudel" finished-at="2021-06-21T15:47:32 IDT" duration-ms="2309" status="PASS">
+        <test-method signature="SelectMale()[pri:1, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" started-at="2021-06-21T17:47:55 IDT" name="SelectMale" finished-at="2021-06-21T17:47:57 IDT" duration-ms="1618" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillEmailWitoutShtudel -->
-        <test-method signature="FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:32 IDT" name="FillEmailWithoutDotCom" finished-at="2021-06-21T15:47:36 IDT" duration-ms="4320" status="PASS">
+        </test-method> <!-- SelectMale -->
+        <test-method signature="SelctStyle()[pri:2, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" started-at="2021-06-21T17:47:57 IDT" name="SelctStyle" finished-at="2021-06-21T17:47:58 IDT" duration-ms="1625" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillEmailWithoutDotCom -->
-        <test-method signature="FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:36 IDT" name="FillPsswordWithLessthan6Characters" finished-at="2021-06-21T15:47:40 IDT" duration-ms="3853" status="PASS">
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:3, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" started-at="2021-06-21T17:47:58 IDT" name="SelectBrands" finished-at="2021-06-21T17:47:59 IDT" duration-ms="1244" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillPsswordWithLessthan6Characters -->
-        <test-method signature="FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:40 IDT" name="FillMailWithSpecialCarecters" finished-at="2021-06-21T15:47:43 IDT" duration-ms="2463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillMailWithSpecialCarecters -->
-        <test-method signature="FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:43 IDT" name="FillMailWithHebrewCarecters" finished-at="2021-06-21T15:47:45 IDT" duration-ms="2655" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillMailWithHebrewCarecters -->
-        <test-method signature="FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:45 IDT" name="FillNameWithSpecialCarecters" finished-at="2021-06-21T15:47:47 IDT" duration-ms="1784" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillNameWithSpecialCarecters -->
-        <test-method signature="FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:47 IDT" name="FillNameWithHebrewCarecters" finished-at="2021-06-21T15:47:50 IDT" duration-ms="3084" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillNameWithHebrewCarecters -->
-        <test-method signature="FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:50 IDT" name="FillNameWithOutLastName" finished-at="2021-06-21T15:47:54 IDT" duration-ms="4044" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillNameWithOutLastName -->
-        <test-method signature="DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:54 IDT" name="DoSignUp" finished-at="2021-06-21T15:47:58 IDT" duration-ms="3185" status="PASS">
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="DoSignUp()[pri:4, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" started-at="2021-06-21T17:47:59 IDT" name="DoSignUp" finished-at="2021-06-21T17:48:03 IDT" duration-ms="3242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method signature="CreateUser()[pri:11, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:47:58 IDT" name="CreateUser" finished-at="2021-06-21T15:48:03 IDT" duration-ms="5039" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.ReversOnBoardingMaleTest@5922d3e9]" started-at="2021-06-21T17:48:03 IDT" name="close" finished-at="2021-06-21T17:48:03 IDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.ReversOnBoardingMaleTest -->
+      <class name="TestsObjects.SignUpTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:25 IDT" name="setupCapability" finished-at="2021-06-21T17:48:40 IDT" duration-ms="15097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27329d2a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:40 IDT" name="FillEmailWitoutShtudel" finished-at="2021-06-21T17:48:41 IDT" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillEmailWitoutShtudel -->
+        <test-method signature="FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:41 IDT" name="FillEmailWithoutDotCom" finished-at="2021-06-21T17:48:44 IDT" duration-ms="2561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillEmailWithoutDotCom -->
+        <test-method signature="FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:44 IDT" name="FillPsswordWithLessthan6Characters" finished-at="2021-06-21T17:48:45 IDT" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPsswordWithLessthan6Characters -->
+        <test-method signature="FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:45 IDT" name="FillMailWithSpecialCarecters" finished-at="2021-06-21T17:48:46 IDT" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillMailWithSpecialCarecters -->
+        <test-method signature="FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:46 IDT" name="FillMailWithHebrewCarecters" finished-at="2021-06-21T17:48:48 IDT" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillMailWithHebrewCarecters -->
+        <test-method signature="FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:48 IDT" name="FillNameWithSpecialCarecters" finished-at="2021-06-21T17:48:49 IDT" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillNameWithSpecialCarecters -->
+        <test-method signature="FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:49 IDT" name="FillNameWithHebrewCarecters" finished-at="2021-06-21T17:48:52 IDT" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillNameWithHebrewCarecters -->
+        <test-method signature="FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:52 IDT" name="FillNameWithOutLastName" finished-at="2021-06-21T17:48:53 IDT" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillNameWithOutLastName -->
+        <test-method signature="DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:53 IDT" name="DoSignUp" finished-at="2021-06-21T17:48:56 IDT" duration-ms="2912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="CreateUser()[pri:11, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:48:56 IDT" name="CreateUser" finished-at="2021-06-21T17:49:01 IDT" duration-ms="4867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateUser -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.SignUpTest@64b3b1ce]" started-at="2021-06-21T15:48:03 IDT" name="close" finished-at="2021-06-21T15:48:03 IDT" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.SignUpTest@61f6d381]" started-at="2021-06-21T17:49:01 IDT" name="close" finished-at="2021-06-21T17:49:01 IDT" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestsObjects.SignUpTest -->
       <class name="TestsObjects.OnBoardingFemaleTest">
-        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" started-at="2021-06-21T15:47:05 IDT" name="setupCapability" finished-at="2021-06-21T15:47:36 IDT" duration-ms="31199" status="PASS">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" started-at="2021-06-21T17:45:47 IDT" name="setupCapability" finished-at="2021-06-21T17:45:59 IDT" duration-ms="12162" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5d5c04f9]]>
+                <![CDATA[org.testng.TestRunner@27329d2a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupCapability -->
-        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" started-at="2021-06-21T15:47:36 IDT" name="DoSignUp" finished-at="2021-06-21T15:47:42 IDT" duration-ms="5416" status="PASS">
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" started-at="2021-06-21T17:45:59 IDT" name="DoSignUp" finished-at="2021-06-21T17:46:03 IDT" duration-ms="4373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" started-at="2021-06-21T15:47:42 IDT" name="SelectFamale" finished-at="2021-06-21T15:47:43 IDT" duration-ms="1609" status="PASS">
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" started-at="2021-06-21T17:46:04 IDT" name="SelectFamale" finished-at="2021-06-21T17:46:05 IDT" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFamale -->
-        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" started-at="2021-06-21T15:47:43 IDT" name="SelectBodytype" finished-at="2021-06-21T15:47:45 IDT" duration-ms="1422" status="PASS">
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" started-at="2021-06-21T17:46:05 IDT" name="SelectBodytype" finished-at="2021-06-21T17:46:06 IDT" duration-ms="889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBodytype -->
-        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" started-at="2021-06-21T15:47:45 IDT" name="SelctStyle" finished-at="2021-06-21T15:47:49 IDT" duration-ms="4249" status="PASS">
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" started-at="2021-06-21T17:46:06 IDT" name="SelctStyle" finished-at="2021-06-21T17:46:09 IDT" duration-ms="2905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelctStyle -->
-        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" started-at="2021-06-21T15:47:49 IDT" name="SelectBrands" finished-at="2021-06-21T15:47:50 IDT" duration-ms="915" status="PASS">
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" started-at="2021-06-21T17:46:09 IDT" name="SelectBrands" finished-at="2021-06-21T17:46:09 IDT" duration-ms="806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBrands -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.OnBoardingFemaleTest@6884f0d9]" started-at="2021-06-21T15:47:50 IDT" name="close" finished-at="2021-06-21T15:47:50 IDT" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.OnBoardingFemaleTest@44784e2f]" started-at="2021-06-21T17:46:09 IDT" name="close" finished-at="2021-06-21T17:46:10 IDT" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestsObjects.OnBoardingFemaleTest -->
       <class name="TestsObjects.OnBoardingMaleTest">
-        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" started-at="2021-06-21T15:47:05 IDT" name="setupCapability" finished-at="2021-06-21T15:47:28 IDT" duration-ms="22715" status="PASS">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.OnBoardingMaleTest@2440022a]" started-at="2021-06-21T17:46:10 IDT" name="setupCapability" finished-at="2021-06-21T17:46:29 IDT" duration-ms="19685" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5d5c04f9]]>
+                <![CDATA[org.testng.TestRunner@27329d2a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupCapability -->
-        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" started-at="2021-06-21T15:47:28 IDT" name="DoSignUp" finished-at="2021-06-21T15:47:33 IDT" duration-ms="5115" status="PASS">
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.OnBoardingMaleTest@2440022a]" started-at="2021-06-21T17:46:29 IDT" name="DoSignUp" finished-at="2021-06-21T17:46:33 IDT" duration-ms="3663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" started-at="2021-06-21T15:47:33 IDT" name="SelectFamale" finished-at="2021-06-21T15:47:35 IDT" duration-ms="1640" status="PASS">
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.OnBoardingMaleTest@2440022a]" started-at="2021-06-21T17:46:33 IDT" name="SelectFamale" finished-at="2021-06-21T17:46:34 IDT" duration-ms="1023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFamale -->
-        <test-method signature="SelctStyle()[pri:3, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" started-at="2021-06-21T15:47:35 IDT" name="SelctStyle" finished-at="2021-06-21T15:47:38 IDT" duration-ms="3308" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <label title="" for="Hipster2" class="form-check-label">...</label> is not clickable at point (976, 691). Other element would receive the click: <label title="" for="Edgy2" class="form-check-label">...</label>
-  (Session info: chrome=91.0.4472.106)
-Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2f9c396dadaccf6d55fd111d585709d7, clickElement {id=7d3e4aa2-459b-4a41-afab-b03c1e609b8c}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (2f9c396dadaccf6d55fd111d585709d7)] -> xpath: //label[@for='Hipster2']]
-Session ID: 2f9c396dadaccf6d55fd111d585709d7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label title="" for="Hipster2" class="form-check-label">...</label> is not clickable at point (976, 691). Other element would receive the click: <label title="" for="Edgy2" class="form-check-label">...</label>
-  (Session info: chrome=91.0.4472.106)
-Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2f9c396dadaccf6d55fd111d585709d7, clickElement {id=7d3e4aa2-459b-4a41-afab-b03c1e609b8c}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (2f9c396dadaccf6d55fd111d585709d7)] -> xpath: //label[@for='Hipster2']]
-Session ID: 2f9c396dadaccf6d55fd111d585709d7
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:239)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at com.sun.proxy.$Proxy27.click(Unknown Source)
-at PageObjects.BasePage.click(BasePage.java:64)
-at PageObjects.OnBoardingPage.SelectLoveItHipster(OnBoardingPage.java:372)
-at TestsObjects.OnBoardingMaleTest.SelctStyle(OnBoardingMaleTest.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="SelctStyle()[pri:3, instance:TestsObjects.OnBoardingMaleTest@2440022a]" started-at="2021-06-21T17:46:34 IDT" name="SelctStyle" finished-at="2021-06-21T17:46:35 IDT" duration-ms="1563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelctStyle -->
-        <test-method signature="SelectBrands()[pri:4, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" started-at="2021-06-21T15:47:40 IDT" name="SelectBrands" finished-at="2021-06-21T15:47:51 IDT" duration-ms="10383" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='brands-list container']' (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='brands-list container']' (tried for 10 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at PageObjects.BasePage.WaitElementDosplayed(BasePage.java:101)
-at PageObjects.OnBoardingPage.BrandsPageLoaded(OnBoardingPage.java:174)
-at TestsObjects.OnBoardingMaleTest.SelectBrands(OnBoardingMaleTest.java:89)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='brands-list container']"}
-  (Session info: chrome=91.0.4472.106)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2f9c396dadaccf6d55fd111d585709d7, findElement {using=xpath, value=//div[@class='brands-list container']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:55287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2f9c396dadaccf6d55fd111d585709d7
-at jdk.internal.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1259)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:388)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy27.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-... 18 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="SelectBrands()[pri:4, instance:TestsObjects.OnBoardingMaleTest@2440022a]" started-at="2021-06-21T17:46:35 IDT" name="SelectBrands" finished-at="2021-06-21T17:46:37 IDT" duration-ms="1249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBrands -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.OnBoardingMaleTest@26b95b0b]" started-at="2021-06-21T15:47:54 IDT" name="close" finished-at="2021-06-21T15:47:54 IDT" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.OnBoardingMaleTest@2440022a]" started-at="2021-06-21T17:46:37 IDT" name="close" finished-at="2021-06-21T17:46:37 IDT" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
