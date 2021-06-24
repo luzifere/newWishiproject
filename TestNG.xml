@@ -20,6 +20,7 @@
            <class name="TestsObjects.ReversOnBoardingFemaleTest"/>
            <class name="TestsObjects.ReversOnBoardingMaleTest"/>
            <class name="TestsObjects.ReversOnBoardingNaturalTest">
+           <class name="TestsObjects.BookingsTests">
            </class>
        </classes>
     </test>
