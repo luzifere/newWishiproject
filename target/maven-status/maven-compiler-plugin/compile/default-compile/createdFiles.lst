@@ -3,6 +3,8 @@ TestsObjects/ReversOnBoardingFemaleTest.class
 TestsObjects/setup.class
 PageObjects/LoginPage.class
 TestsObjects/LoginTest.class
+TestsObjects/BookingsTests.class
+PageObjects/BookingsPage.class
 TestsObjects/RestAssured.class
 utilitis/AllureAttachments$AllureAttachmentHtml.class
 TestsObjects/ChatTest.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="195.481" tests="45" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="199.084" tests="45" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="/Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IL"/>
     <property name="allure.link.issue.pattern" value="https://example.org/issue/{}"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter4577080939534379287.jar /Users/yinonwishi/newWishiproject/target/surefire 2021-06-21T17-45-44_733-jvmRun1 surefire7486131587473461137tmp surefire_013026840743845338617tmp"/>
+    <property name="sun.java.command" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter6516229386958386087.jar /Users/yinonwishi/newWishiproject/target/surefire 2021-06-23T07-57-52_528-jvmRun1 surefire3658999401361201616tmp surefire_015259943000973042541tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/yinonwishi/newWishiproject/target/test-classes:/Users/yinonwishi/newWishiproject/target/classes:/Users/yinonwishi/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-beta-2/selenium-java-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-beta-2/selenium-api-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/Users/yinonwishi/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/yinonwishi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/yinonwishi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/yinonwishi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/yinonwishi/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/yinonwishi/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/yinonwishi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-beta-2/selenium-devtools-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-beta-2/selenium-http-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-beta-2/selenium-json-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v86/4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v87/4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v88/4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v89/4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-buffer/4.1.58.Final/netty-buffer-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-http/4.1.58.Final/netty-codec-http-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec/4.1.58.Final/netty-codec-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler/4.1.58.Final/netty-handler-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-common/4.1.58.Final/netty-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.58.Final/netty-transport-native-kqueue-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.58.Final/netty-transport-native-unix-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport/4.1.58.Final/netty-transport-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-resolver/4.1.58.Final/netty-resolver-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api/1.0.0/opentelemetry-api-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-context/1.0.0/opentelemetry-context-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.0.0/opentelemetry-exporter-logging-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.0.0-alpha/opentelemetry-sdk-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.0.0/opentelemetry-sdk-common-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.0.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.0.0/opentelemetry-sdk-trace-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.0.0-alpha/opentelemetry-api-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.0.0/opentelemetry-sdk-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.0.0-alpha/opentelemetry-semconv-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client/2.12.2/async-http-client-2.12.2.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.2/async-http-client-netty-utils-2.12.2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-socks/4.1.53.Final/netty-codec-socks-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler-proxy/4.1.53.Final/netty-handler-proxy-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.53.Final/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar:/Users/yinonwishi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/yinonwishi/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/yinonwishi/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-beta-2/selenium-support-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/yinonwishi/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/yinonwishi/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/yinonwishi/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/yinonwishi/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/yinonwishi/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/yinonwishi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/yinonwishi/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/yinonwishi/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yinonwishi/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yinonwishi/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/yinonwishi/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yinonwishi/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yinonwishi/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yinonwishi/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yinonwishi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yinonwishi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/yinonwishi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/yinonwishi/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/yinonwishi/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:"/>
@@ -33,7 +33,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter4577080939534379287.jar"/>
+    <property name="surefire.real.class.path" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter6516229386958386087.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="15.0.2+7"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingFemaleTest" time="4.403">
+  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingFemaleTest" time="3.866">
     <system-out><![CDATA[This is onStart method/Users/yinonwishi/newWishiproject/target/surefire-reports/Suite
 New Test Started DoSignUp
 LET'S GET STYLING
@@ -67,176 +67,204 @@ Test Successfully Finished  DoSignUp
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 38322
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 2951
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 21, 2021 5:45:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 23, 2021 7:57:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 5:45:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:57:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 5:45:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:57:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingFemaleTest" time="1.174">
+  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingFemaleTest" time="0.935">
     <system-out><![CDATA[New Test Started SelectFamale
 Test Successfully Finished  SelectFamale
 ]]></system-out>
   </testcase>
-  <testcase name="SelectBodytype" classname="TestsObjects.OnBoardingFemaleTest" time="0.896">
+  <testcase name="SelectBodytype" classname="TestsObjects.OnBoardingFemaleTest" time="0.884">
     <system-out><![CDATA[New Test Started SelectBodytype
 petite
 6
-[[[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]]]
 fit
 6
-[[[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]]]
 tall
 6
-[[[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]]]
 petite
 6
-[[[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (ad6536bab8fe52a8bfab832f04929819)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (23f1be3663b8f3bba2a24ecb39df442d)] -> xpath: //*[label]]]
 Test Successfully Finished  SelectBodytype
 ]]></system-out>
   </testcase>
-  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingFemaleTest" time="2.898">
+  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingFemaleTest" time="2.254">
     <system-out><![CDATA[New Test Started SelctStyle
 Test Successfully Finished  SelctStyle
 ]]></system-out>
   </testcase>
-  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingFemaleTest" time="0.805">
+  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingFemaleTest" time="2.137">
     <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
 Test Successfully Finished  SelectBrands
 ]]></system-out>
   </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingMaleTest" time="3.65">
+  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingMaleTest" time="4.551">
     <system-out><![CDATA[New Test Started DoSignUp
 LET'S GET STYLING
 Test Successfully Finished  DoSignUp
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 8556
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 8174
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 21, 2021 5:46:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 23, 2021 7:58:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 5:46:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:58:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 5:46:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:58:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingMaleTest" time="1.023">
+  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingMaleTest" time="1.048">
     <system-out><![CDATA[New Test Started SelectFamale
 Test Successfully Finished  SelectFamale
 ]]></system-out>
   </testcase>
-  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingMaleTest" time="1.56">
+  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingMaleTest" time="1.528">
     <system-out><![CDATA[New Test Started SelctStyle
 Test Successfully Finished  SelctStyle
 ]]></system-out>
   </testcase>
-  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingMaleTest" time="1.247">
+  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingMaleTest" time="1.816">
     <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
 Test Successfully Finished  SelectBrands
 ]]></system-out>
   </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingNaturalTest" time="3.637">
+  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingNaturalTest" time="3.265">
     <system-out><![CDATA[New Test Started DoSignUp
 LET'S GET STYLING
 Test Successfully Finished  DoSignUp
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 19723
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 16928
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 21, 2021 5:46:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 23, 2021 7:58:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 5:46:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:58:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 5:46:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:58:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="SelectNatural" classname="TestsObjects.OnBoardingNaturalTest" time="1.651">
+  <testcase name="SelectNatural" classname="TestsObjects.OnBoardingNaturalTest" time="1.495">
     <system-out><![CDATA[New Test Started SelectNatural
 Test Successfully Finished  SelectNatural
 ]]></system-out>
   </testcase>
-  <testcase name="SelectBodytype" classname="TestsObjects.OnBoardingNaturalTest" time="0.84">
+  <testcase name="SelectBodytype" classname="TestsObjects.OnBoardingNaturalTest" time="0.83">
     <system-out><![CDATA[New Test Started SelectBodytype
 petite
 6
-[[[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]]]
 fit
 6
-[[[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]]]
 tall
 6
-[[[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]]]
 petite
 6
-[[[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (b48bd6f62f5b738f9b527d5f389b6f07)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //*[label]]]
 Test Successfully Finished  SelectBodytype
 ]]></system-out>
   </testcase>
-  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingNaturalTest" time="2.084">
+  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingNaturalTest" time="2.502">
+    <failure message="element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;Rock0&quot; class=&quot;form-check-label&quot;&gt;...&lt;/label&gt; is not clickable at point (622, 315). Other element would receive the click: &lt;img src=&quot;https://s3.amazonaws.com/media-dev.wishi.me/uploads/moodboards/classic_female.jpg&quot; class=&quot;&quot;&gt;&#10;  (Session info: chrome=91.0.4472.114)&#10;Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;&#10;System info: host: &apos;yinons-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:143c:809:59a5:7856%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d1e137f4cad6e0d63888b09138f62e5c, clickElement {id=c362c7ba-53ed-4f47-8bbe-69f3f7ae9f98}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:53273}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -&gt; xpath: //label[@for=&apos;Rock0&apos;]]&#10;Session ID: d1e137f4cad6e0d63888b09138f62e5c" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <label title="" for="Rock0" class="form-check-label">...</label> is not clickable at point (622, 315). Other element would receive the click: <img src="https://s3.amazonaws.com/media-dev.wishi.me/uploads/moodboards/classic_female.jpg" class="">
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1e137f4cad6e0d63888b09138f62e5c, clickElement {id=c362c7ba-53ed-4f47-8bbe-69f3f7ae9f98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:53273}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (d1e137f4cad6e0d63888b09138f62e5c)] -> xpath: //label[@for='Rock0']]
+Session ID: d1e137f4cad6e0d63888b09138f62e5c
+	at TestsObjects.OnBoardingNaturalTest.SelctStyle(OnBoardingNaturalTest.java:90)
+]]></failure>
     <system-out><![CDATA[New Test Started SelctStyle
-Test Successfully Finished  SelctStyle
+Test Failed  SelctStyle
 ]]></system-out>
   </testcase>
-  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingNaturalTest" time="0.888">
+  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingNaturalTest" time="10.825">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;brands-list container&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='brands-list container']' (tried for 10 second(s) with 500 milliseconds interval)
+	at TestsObjects.OnBoardingNaturalTest.SelectBrands(OnBoardingNaturalTest.java:122)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='brands-list container']"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1e137f4cad6e0d63888b09138f62e5c, findElement {using=xpath, value=//div[@class='brands-list container']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:53273}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1e137f4cad6e0d63888b09138f62e5c
+	at TestsObjects.OnBoardingNaturalTest.SelectBrands(OnBoardingNaturalTest.java:122)
+]]></failure>
     <system-out><![CDATA[New Test Started SelectBrands
-Test Successfully Finished  SelectBrands
+Test Failed  SelectBrands
 ]]></system-out>
   </testcase>
-  <testcase name="FillPasswordWithOutToFillEmail" classname="TestsObjects.LoginTest" time="0.604">
+  <testcase name="FillPasswordWithOutToFillEmail" classname="TestsObjects.LoginTest" time="0.622">
     <system-out><![CDATA[New Test Started FillPasswordWithOutToFillEmail
 Test Successfully Finished  FillPasswordWithOutToFillEmail
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 27615
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 41717
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 21, 2021 5:47:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 23, 2021 7:59:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 5:47:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:59:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 5:47:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:59:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillEmailWithOutToFillPassword" classname="TestsObjects.LoginTest" time="0.504">
+  <testcase name="FillEmailWithOutToFillPassword" classname="TestsObjects.LoginTest" time="0.418">
     <system-out><![CDATA[New Test Started FillEmailWithOutToFillPassword
 Test Successfully Finished  FillEmailWithOutToFillPassword
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
 ]]></system-err>
   </testcase>
-  <testcase name="ClickLoginwWithOutToFillAnyFields" classname="TestsObjects.LoginTest" time="0.376">
+  <testcase name="ClickLoginwWithOutToFillAnyFields" classname="TestsObjects.LoginTest" time="0.463">
     <system-out><![CDATA[New Test Started ClickLoginwWithOutToFillAnyFields
 Test Successfully Finished  ClickLoginwWithOutToFillAnyFields
 ]]></system-out>
   </testcase>
-  <testcase name="FillCorrectEmailWithWrongPassword" classname="TestsObjects.LoginTest" time="2.43">
+  <testcase name="FillCorrectEmailWithWrongPassword" classname="TestsObjects.LoginTest" time="1.763">
     <system-out><![CDATA[New Test Started FillCorrectEmailWithWrongPassword
 Test Successfully Finished  FillCorrectEmailWithWrongPassword
 ]]></system-out>
@@ -244,7 +272,7 @@ Test Successfully Finished  FillCorrectEmailWithWrongPassword
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillCorrectPasswordWithWrongEmail" classname="TestsObjects.LoginTest" time="1.71">
+  <testcase name="FillCorrectPasswordWithWrongEmail" classname="TestsObjects.LoginTest" time="1.672">
     <system-out><![CDATA[New Test Started FillCorrectPasswordWithWrongEmail
 Test Successfully Finished  FillCorrectPasswordWithWrongEmail
 ]]></system-out>
@@ -252,7 +280,7 @@ Test Successfully Finished  FillCorrectPasswordWithWrongEmail
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillHebLettersEmail" classname="TestsObjects.LoginTest" time="1.715">
+  <testcase name="FillHebLettersEmail" classname="TestsObjects.LoginTest" time="1.676">
     <system-out><![CDATA[New Test Started FillHebLettersEmail
 Test Successfully Finished  FillHebLettersEmail
 ]]></system-out>
@@ -260,7 +288,7 @@ Test Successfully Finished  FillHebLettersEmail
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="DoLogin" classname="TestsObjects.LoginTest" time="1.633">
+  <testcase name="DoLogin" classname="TestsObjects.LoginTest" time="1.576">
     <system-out><![CDATA[New Test Started DoLogin
 Test Successfully Finished  DoLogin
 ]]></system-out>
@@ -268,52 +296,52 @@ Test Successfully Finished  DoLogin
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="SelectFamale" classname="TestsObjects.ReversOnBoardingFemaleTest" time="1.493">
+  <testcase name="SelectFamale" classname="TestsObjects.ReversOnBoardingFemaleTest" time="1.505">
     <system-out><![CDATA[New Test Started SelectFamale
 Test Successfully Finished  SelectFamale
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 18463
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 4454
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 21, 2021 5:47:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 23, 2021 7:59:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 5:47:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:59:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 5:47:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:59:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
 ]]></system-err>
   </testcase>
-  <testcase name="SelectBodytype" classname="TestsObjects.ReversOnBoardingFemaleTest" time="0.827">
+  <testcase name="SelectBodytype" classname="TestsObjects.ReversOnBoardingFemaleTest" time="0.804">
     <system-out><![CDATA[New Test Started SelectBodytype
 petite
 6
-[[[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]]]
 fit
 6
-[[[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]]]
 tall
 6
-[[[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]]]
 petite
 6
-[[[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (bc5f72679d4f9056740c8255e4d4b3d7)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (7dce88993962d71a41c5749d038b2e72)] -> xpath: //*[label]]]
 Test Successfully Finished  SelectBodytype
 ]]></system-out>
   </testcase>
-  <testcase name="SelctStyle" classname="TestsObjects.ReversOnBoardingFemaleTest" time="2.655">
+  <testcase name="SelctStyle" classname="TestsObjects.ReversOnBoardingFemaleTest" time="2.14">
     <system-out><![CDATA[New Test Started SelctStyle
 Test Successfully Finished  SelctStyle
 ]]></system-out>
   </testcase>
-  <testcase name="SelectBrands" classname="TestsObjects.ReversOnBoardingFemaleTest" time="0.824">
+  <testcase name="SelectBrands" classname="TestsObjects.ReversOnBoardingFemaleTest" time="0.991">
     <system-out><![CDATA[New Test Started SelectBrands
 Test Successfully Finished  SelectBrands
 ]]></system-out>
   </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.ReversOnBoardingFemaleTest" time="2.905">
+  <testcase name="DoSignUp" classname="TestsObjects.ReversOnBoardingFemaleTest" time="3.119">
     <system-out><![CDATA[New Test Started DoSignUp
 Your Stylists Match!
 Test Successfully Finished  DoSignUp
@@ -323,35 +351,35 @@ Test Successfully Finished  DoSignUp
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="SelectMale" classname="TestsObjects.ReversOnBoardingMaleTest" time="1.471">
+  <testcase name="SelectMale" classname="TestsObjects.ReversOnBoardingMaleTest" time="1.494">
     <system-out><![CDATA[New Test Started SelectMale
 Test Successfully Finished  SelectMale
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 8288
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 13911
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 21, 2021 5:47:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 23, 2021 7:59:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 5:47:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:59:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 5:47:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 7:59:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
 ]]></system-err>
   </testcase>
-  <testcase name="SelctStyle" classname="TestsObjects.ReversOnBoardingMaleTest" time="1.618">
+  <testcase name="SelctStyle" classname="TestsObjects.ReversOnBoardingMaleTest" time="1.534">
     <system-out><![CDATA[New Test Started SelctStyle
 Test Successfully Finished  SelctStyle
 ]]></system-out>
   </testcase>
-  <testcase name="SelectBrands" classname="TestsObjects.ReversOnBoardingMaleTest" time="1.243">
+  <testcase name="SelectBrands" classname="TestsObjects.ReversOnBoardingMaleTest" time="1.22">
     <system-out><![CDATA[New Test Started SelectBrands
 Test Successfully Finished  SelectBrands
 ]]></system-out>
   </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.ReversOnBoardingMaleTest" time="3.242">
+  <testcase name="DoSignUp" classname="TestsObjects.ReversOnBoardingMaleTest" time="2.85">
     <system-out><![CDATA[New Test Started DoSignUp
 Your Stylists Match!
 Test Successfully Finished  DoSignUp
@@ -361,83 +389,97 @@ Test Successfully Finished  DoSignUp
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="SelectNatural" classname="TestsObjects.ReversOnBoardingNaturalTest" time="2.062">
+  <testcase name="SelectNatural" classname="TestsObjects.ReversOnBoardingNaturalTest" time="1.55">
     <system-out><![CDATA[New Test Started SelectNatural
 Test Successfully Finished  SelectNatural
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 30823
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 37625
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 21, 2021 5:48:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 23, 2021 8:00:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 5:48:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 8:00:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 5:48:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 8:00:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
 ]]></system-err>
   </testcase>
-  <testcase name="SelectBodytype" classname="TestsObjects.ReversOnBoardingNaturalTest" time="0.862">
+  <testcase name="SelectBodytype" classname="TestsObjects.ReversOnBoardingNaturalTest" time="0.814">
     <system-out><![CDATA[New Test Started SelectBodytype
 petite
 6
-[[[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]]]
 fit
 6
-[[[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]]]
 tall
 6
-[[[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]]]
 petite
 6
-[[[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (de3c16d6ce6e83d2790d4d56bde0a870)] -> xpath: //*[label]]]
+[[[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]], [[ChromeDriver: chrome on MAC (f139a92c9249f37f4165b3eadaf2d4ae)] -> xpath: //*[label]]]
 Test Successfully Finished  SelectBodytype
 ]]></system-out>
   </testcase>
-  <testcase name="SelctStyle" classname="TestsObjects.ReversOnBoardingNaturalTest" time="2.667">
+  <testcase name="SelctStyle" classname="TestsObjects.ReversOnBoardingNaturalTest" time="2.2">
     <system-out><![CDATA[New Test Started SelctStyle
 Test Successfully Finished  SelctStyle
 ]]></system-out>
   </testcase>
-  <testcase name="SelectBrands" classname="TestsObjects.ReversOnBoardingNaturalTest" time="0.987">
+  <testcase name="SelectBrands" classname="TestsObjects.ReversOnBoardingNaturalTest" time="1.019">
     <system-out><![CDATA[New Test Started SelectBrands
 Test Successfully Finished  SelectBrands
 ]]></system-out>
   </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.ReversOnBoardingNaturalTest" time="2.952">
+  <testcase name="DoSignUp" classname="TestsObjects.ReversOnBoardingNaturalTest" time="16.554">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: (//div[contains(text(), &apos;leo stylist&apos;)])[1]&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//div[contains(text(), 'leo stylist')])[1]' (tried for 10 second(s) with 500 milliseconds interval)
+	at TestsObjects.ReversOnBoardingNaturalTest.DoSignUp(ReversOnBoardingNaturalTest.java:140)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(text(), 'leo stylist')])[1]"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: 'fe80:0:0:0:143c:809:59a5:7856%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f139a92c9249f37f4165b3eadaf2d4ae, findElement {using=xpath, value=(//div[contains(text(), 'leo stylist')])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, goog:chromeOptions: {debuggerAddress: localhost:53978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f139a92c9249f37f4165b3eadaf2d4ae
+	at TestsObjects.ReversOnBoardingNaturalTest.DoSignUp(ReversOnBoardingNaturalTest.java:140)
+]]></failure>
     <system-out><![CDATA[New Test Started DoSignUp
 Your Stylists Match!
-Test Successfully Finished  DoSignUp
+Test Failed  DoSignUp
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillEmailWitoutShtudel" classname="TestsObjects.SignUpTest" time="1.101">
+  <testcase name="FillEmailWitoutShtudel" classname="TestsObjects.SignUpTest" time="1.022">
     <system-out><![CDATA[New Test Started FillEmailWitoutShtudel
 Test Successfully Finished  FillEmailWitoutShtudel
 ]]></system-out>
     <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
 [TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 36405
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 43228
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 21, 2021 5:48:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 23, 2021 8:00:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 21, 2021 5:48:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 8:00:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 91, so returning the closest version found: 89
-Jun 21, 2021 5:48:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 23, 2021 8:00:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 91 of 89
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillEmailWithoutDotCom" classname="TestsObjects.SignUpTest" time="2.561">
+  <testcase name="FillEmailWithoutDotCom" classname="TestsObjects.SignUpTest" time="2.06">
     <system-out><![CDATA[New Test Started FillEmailWithoutDotCom
 Test Successfully Finished  FillEmailWithoutDotCom
 ]]></system-out>
@@ -446,7 +488,7 @@ Test Successfully Finished  FillEmailWithoutDotCom
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillPsswordWithLessthan6Characters" classname="TestsObjects.SignUpTest" time="1.118">
+  <testcase name="FillPsswordWithLessthan6Characters" classname="TestsObjects.SignUpTest" time="1.159">
     <system-out><![CDATA[New Test Started FillPsswordWithLessthan6Characters
 Test Successfully Finished  FillPsswordWithLessthan6Characters
 ]]></system-out>
@@ -455,7 +497,7 @@ Test Successfully Finished  FillPsswordWithLessthan6Characters
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillMailWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.144">
+  <testcase name="FillMailWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.171">
     <system-out><![CDATA[New Test Started FillMailWithSpecialCarecters
 Test Successfully Finished  FillMailWithSpecialCarecters
 ]]></system-out>
@@ -464,7 +506,7 @@ Test Successfully Finished  FillMailWithSpecialCarecters
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillMailWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="2.114">
+  <testcase name="FillMailWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="1.458">
     <system-out><![CDATA[New Test Started FillMailWithHebrewCarecters
 Test Successfully Finished  FillMailWithHebrewCarecters
 ]]></system-out>
@@ -473,7 +515,7 @@ Test Successfully Finished  FillMailWithHebrewCarecters
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillNameWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.051">
+  <testcase name="FillNameWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.179">
     <system-out><![CDATA[New Test Started FillNameWithSpecialCarecters
 Test Successfully Finished  FillNameWithSpecialCarecters
 ]]></system-out>
@@ -482,7 +524,7 @@ Test Successfully Finished  FillNameWithSpecialCarecters
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillNameWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="2.211">
+  <testcase name="FillNameWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="2.139">
     <system-out><![CDATA[New Test Started FillNameWithHebrewCarecters
 name may only contain letters, whitespace, and the ' or - special characters
 Test Successfully Finished  FillNameWithHebrewCarecters
@@ -492,7 +534,7 @@ Test Successfully Finished  FillNameWithHebrewCarecters
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="FillNameWithOutLastName" classname="TestsObjects.SignUpTest" time="1.253">
+  <testcase name="FillNameWithOutLastName" classname="TestsObjects.SignUpTest" time="1.036">
     <system-out><![CDATA[New Test Started FillNameWithOutLastName
 Test Successfully Finished  FillNameWithOutLastName
 ]]></system-out>
@@ -501,7 +543,7 @@ Test Successfully Finished  FillNameWithOutLastName
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="DoSignUp" classname="TestsObjects.SignUpTest" time="2.913">
+  <testcase name="DoSignUp" classname="TestsObjects.SignUpTest" time="3.129">
     <system-out><![CDATA[New Test Started DoSignUp
 LET'S GET STYLING
 Test Successfully Finished  DoSignUp
@@ -511,7 +553,7 @@ Test Successfully Finished  DoSignUp
 [TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
 ]]></system-err>
   </testcase>
-  <testcase name="CreateUser" classname="TestsObjects.SignUpTest" time="4.873">
+  <testcase name="CreateUser" classname="TestsObjects.SignUpTest" time="4.601">
     <system-out><![CDATA[New Test Started CreateUser
 Request method:	POST
 Request URI:	https://api-stage.wishi.me/api/slim/user/signup/email
@@ -526,14 +568,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "freez+700@wishitest.me241421",
+    "email": "freez+700@wishitest.me150464",
     "full_name": "nadav Carmel",
     "first_name": "Erased",
     "last_name": "Caramel",
     "password": "q1w2easd3r4!"
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jun 2021 14:48:58 GMT
+Date: Wed, 23 Jun 2021 05:01:09 GMT
 Server: Apache/2.2.22 (Debian)
 X-Powered-By: PHP/5.6.30-1~dotdeb+7.1
 Content-Length: 207
@@ -543,18 +585,18 @@ Content-Type: application/json
 
 {
     "message": "success",
-    "user_uuid": "cf320ea1-d29f-11eb-a",
-    "token": "bec1b3181dacacc7ed067716f23a94b0",
-    "user_name": "erasedcaramel41",
+    "user_uuid": "0669f8a3-d3e0-11eb-a",
+    "token": "b37891d298a226ece2e13cb1b21b57fc",
+    "user_name": "erasedcaramel89",
     "first_name": "Erased",
     "last_name": "Caramel",
     "first_booking": true,
     "brand": null
 }
-uuid is cf320ea1-d29f-11eb-a
-api getUser is  https://api-stage.wishi.me/api/slim/user/cf320ea1-d29f-11eb-a
+uuid is 0669f8a3-d3e0-11eb-a
+api getUser is  https://api-stage.wishi.me/api/slim/user/0669f8a3-d3e0-11eb-a
 Request method:	GET
-Request URI:	https://api-stage.wishi.me/api/slim/user/cf320ea1-d29f-11eb-a
+Request URI:	https://api-stage.wishi.me/api/slim/user/0669f8a3-d3e0-11eb-a
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -566,7 +608,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 21 Jun 2021 14:49:01 GMT
+Date: Wed, 23 Jun 2021 05:01:12 GMT
 Server: Apache/2.2.22 (Debian)
 X-Powered-By: PHP/5.6.30-1~dotdeb+7.1
 Content-Length: 1756
@@ -579,7 +621,7 @@ Content-Type: application/json
     "height": null,
     "phone_number": null,
     "device_id": null,
-    "user_uuid": "cf320ea1-d29f-11eb-a",
+    "user_uuid": "0669f8a3-d3e0-11eb-a",
     "first_name": "Erased",
     "last_name": "Caramel",
     "followers_cnt": "0",
@@ -589,8 +631,8 @@ Content-Type: application/json
     "city": null,
     "location": "",
     "age": 0,
-    "user_name": "erasedcaramel41",
-    "email": "freez+700@wishitest.me241421",
+    "user_name": "erasedcaramel89",
+    "email": "freez+700@wishitest.me150464",
     "campaign": null,
     "birthday_permission": [
         ""

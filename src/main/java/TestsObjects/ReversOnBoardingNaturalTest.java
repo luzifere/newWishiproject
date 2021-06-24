@@ -1,5 +1,6 @@
 package TestsObjects;
 
+import PageObjects.BookingsPage;
 import PageObjects.OnBoardingPage;
 import PageObjects.SignUpPage;
 import io.qameta.allure.Attachment;
@@ -135,6 +136,8 @@ public class ReversOnBoardingNaturalTest extends setup {
         System.out.println(actual);
         Assert.assertEquals(actual, expected);
         Assert.assertEquals(actual, expected);
+        BookingsPage bookings = new BookingsPage(driver);
+        bookings.SearchStylist("test");
 
     }
 
