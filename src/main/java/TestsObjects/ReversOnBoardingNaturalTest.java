@@ -136,8 +136,6 @@ public class ReversOnBoardingNaturalTest extends setup {
         System.out.println(actual);
         Assert.assertEquals(actual, expected);
         Assert.assertEquals(actual, expected);
-        BookingsPage bookings = new BookingsPage(driver);
-        bookings.SearchStylist("test");
 
     }
 

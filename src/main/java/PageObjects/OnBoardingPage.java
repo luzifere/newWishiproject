@@ -177,9 +177,6 @@ public class OnBoardingPage extends BasePage {
     }
 
     public void SelectBodyType(String text) {
-        System.out.println(text);
-        System.out.println(bodytype.size());
-        System.out.println(bodytype);
 
         for (WebElement element : bodytype) {
             //System.out.println(element);
