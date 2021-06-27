@@ -28,18 +28,36 @@ public class BookingsPage extends BasePage
     WebElement stylistnameplan;
     @FindBy(xpath = "//div//label[@for='closet_cleanout']")
     WebElement cleanout;
-    @FindBy(xpath = "//div//label[@for='mini']")//div//input[@id='mini']
+    @FindBy(xpath = "//div//label[@for='mini']")
     WebElement mini;
     @FindBy(xpath = "//div//label[@for='major']")
     WebElement major;
     @FindBy(xpath = "//div[@class='chat-row row']")
     WebElement chatrowCOut;
+    @FindBy(xpath = "(//div[@class='card-header'])[1]")
+    WebElement plancardmini;
+    @FindBy(xpath = "(//div[@class='card-header'])[2]")
+    WebElement plancardmajor;
     @FindBy(xpath = "//div[@class='card-header']")
-    WebElement plancard;
-    @FindBy(xpath = "//div[@class='price']")
-    WebElement planprice;
+    WebElement plancardcleanout;
+    @FindBy(xpath = "(//div[@class='price'][contains(text(), '40')])[1]")
+    WebElement planpricemini;
+    @FindBy(xpath = "(//div[@class='price'][contains(text(), '90')])[1]")
+    WebElement planpricemajor;
     @FindBy(xpath = "(//div//button[contains(text(), 'Select Wishi Major')])[1]")
     WebElement selectmajor;
+    @FindBy(xpath = "(//div//button[contains(text(), 'Select Wishi Mini')])[1]")
+    WebElement selectmini;
+    @FindBy(xpath = "//div[@class='card-header'][contains(text(), 'YOUR ORDER SUMMARY')]")
+    WebElement cardheadersummary;
+    @FindBy(xpath = "//div[@class='col'][contains(text(), 'Closet clean out package')]")
+    WebElement cleanoutpackage;
+    @FindBy(xpath = "//div[@class='col'][contains(text(), 'Wishi Mini package')]")
+    WebElement minipackage;
+    @FindBy(xpath = "//div[@class='col'][contains(text(), 'Wishi Major package')]")
+    WebElement majorpackage;
+    @FindBy(xpath = "//div[@class='price-summary row']//div[contains(text(), '$')]")
+    WebElement planprice;
 
 
     public void SearchStylist (String text)
@@ -120,19 +138,57 @@ public class BookingsPage extends BasePage
         WaitElementDosplayed(chatrowCOut);
         return getText(chatrowCOut);
     }
-    public String PlanCardDisplayed() {
-        WaitElementDosplayed(plancard);
-        return getText(plancard);
+    public String PlanCardMiniDisplayed() {
+        WaitElementDosplayed(plancardmini);
+        return getText(plancardmini);
     }
-    public String PlanPriceDisplayed() {
-        WaitElementDosplayed(planprice);
-        return getText(planprice);
+    public String PlanPriceMiniDisplayed() {
+        WaitElementDosplayed(planpricemini);
+        return getText(planpricemini);
+    }
+    public String PlanCardMajorDisplayed() {
+        WaitElementDosplayed(plancardmajor);
+        return getText(plancardmajor);
+    }
+    public String PlanPriceMajorDisplayed() {
+        WaitElementDosplayed(planpricemajor);
+        return getText(planpricemajor);
+    }
+    public String PlanCardCleanOutDisplayed() {
+        WaitElementDosplayed(plancardcleanout);
+        return getText(plancardcleanout);
     }
     public void SelectMajorButton()
     {
         WaitElementDosplayed(selectmajor);
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", selectmajor);
         click(selectmajor);
+    }
+    public void SelectMiniButton()
+    {
+        WaitElementDosplayed(selectmini);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", selectmini);
+        click(selectmini);
+    }
+    public String CardHaederSummaryDisplayed() {
+        WaitElementDosplayed(cardheadersummary);
+        return getText(cardheadersummary);
+    }
+    public String CleanPacegeDisplayed() {
+        WaitElementDosplayed(cleanoutpackage);
+        return getText(cleanoutpackage);
+    }
+    public String MiniPacegeDisplayed() {
+        WaitElementDosplayed(minipackage);
+        return getText(minipackage);
+    }
+    public String MajorPacegeDisplayed() {
+        WaitElementDosplayed(majorpackage);
+        return getText(majorpackage);
+    }
+    public String CleanPriceDisplayed() {
+        WaitElementDosplayed(planprice);
+        return getText(planprice);
     }
 
 }

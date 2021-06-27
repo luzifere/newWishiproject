@@ -10,7 +10,7 @@ import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BookingsTests extends setup
+public class BookingsMiniTests extends setup
 {
     String stylist = "leo stylist";
 
@@ -63,20 +63,40 @@ public class BookingsTests extends setup
         Assert.assertTrue(bookings.CleanOutDisplayed(), "Clean not disaplayed");
         Assert.assertTrue(bookings.MiniDisplayed(),"Mini not displayed" );
         Assert.assertTrue(bookings.MajorDisplayed(),"Majot not displayed" );
-        bookings.ClickCleanOut();
-        String expectedCO = "It’s perfect for a closet clean out.";
-        String expectedPC = "Major";
-        String expectedPP = "90";
-        String actualCO = bookings.ChatRowCODisplayed();
-        String actualPC = bookings.PlanCardDisplayed();
-        String actualPP = bookings.PlanPriceDisplayed();
-        Assert.assertEquals(expectedCO, expectedCO);
-        Assert.assertEquals(expectedPC, expectedPC);
+        bookings.ClickMini();
+        String expectedCOMINI = "Wishi Mini.";
+        String expectedPCMAJOR = "Major";
+        String expectedPPMAJOR = "90";
+        String expectedPCMINI = "Mini";
+        String expectedPPMINI = "40";
+        String actualCOMINI = bookings.ChatRowCODisplayed();
+        String actualPCMAJOR = bookings.PlanCardMajorDisplayed();
+        String actualPPMAJOR = bookings.PlanPriceMajorDisplayed();
+        String actualPCMINI = bookings.PlanCardMiniDisplayed();
+        String actualPPMINI = bookings.PlanPriceMiniDisplayed();
+        Assert.assertEquals(expectedCOMINI, expectedCOMINI);
+        Assert.assertEquals(expectedPCMINI, expectedPCMINI);
+        Assert.assertEquals(expectedPPMINI, expectedPPMINI);
+        Assert.assertEquals(expectedPCMAJOR, expectedPCMAJOR);
+        Assert.assertEquals(expectedPPMAJOR, expectedPPMAJOR);
+        bookings.SelectMiniButton();
+        String expectedCHS = "YOUR ORDER SUMMARY";
+        String actualCHS = bookings.CardHaederSummaryDisplayed();
+        Assert.assertEquals(expectedCHS, expectedCHS);
+    }
+    @Attachment
+    @Story("CheckOut")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 4,groups={"sanity-group"})
+    public void CheckOut()
+    {
+        BookingsPage bookings = new BookingsPage(driver);
+        String expectedPP = "Wishi Mini package";
+        String actualCOP = bookings.MiniPacegeDisplayed();
         Assert.assertEquals(expectedPP, expectedPP);
-        bookings.SelectMajorButton();
-
-
-
+        String expectedPPR = "40";
+        String actualPPR = bookings.CleanPriceDisplayed();
+        Assert.assertEquals(expectedPPR, expectedPPR);
 
 
     }
