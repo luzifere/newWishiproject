@@ -100,6 +100,23 @@ public abstract class BasePage {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
+
+    public void WaitElementClicability(WebElement element)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+    public void WaitElementNotClicability(WebElement element)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.not(ExpectedConditions.elementToBeClickable(element)));
+    }
+
+    public void WaitElementInvisibility(WebElement element)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.invisibilityOf(element));
+    }
     public void scrollDown()
     {
         JavascriptExecutor jse = (JavascriptExecutor)driver;
@@ -118,5 +135,10 @@ public void PageLoaded( WebDriver driver)
             WebDriverWait wait = new WebDriverWait(driver, 30);
             wait.until(pageLoadCondition);
         }
+    }
+    public static void ExplicityWaitFraneToBeAvailable(By frameName)
+    {
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frameName));
     }
 }

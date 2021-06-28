@@ -56,6 +56,8 @@ public class BookingsCOTests extends setup
     {
         BookingsPage bookings = new BookingsPage(driver);
         bookings.ClickBookStylistButton();
+        bookings.ClickBackButton();
+        bookings.ClickBookStylistButton();
         String expectedS = stylist;
         String actualS = bookings.StylistNameDisplayed();
         System.out.println(actualS);
@@ -63,6 +65,8 @@ public class BookingsCOTests extends setup
         Assert.assertTrue(bookings.CleanOutDisplayed(), "Clean not disaplayed");
         Assert.assertTrue(bookings.MiniDisplayed(),"Mini not displayed" );
         Assert.assertTrue(bookings.MajorDisplayed(),"Majot not displayed" );
+        bookings.ClickCleanOut();
+        bookings.ClickBackButton();
         bookings.ClickCleanOut();
         String expectedCO = "It’s perfect for a closet clean out.";
         String expectedPC = "Major";
@@ -74,6 +78,9 @@ public class BookingsCOTests extends setup
         Assert.assertEquals(expectedPC, expectedPC);
         Assert.assertEquals(expectedPP, expectedPP);
         bookings.SelectMajorButton();
+        bookings.ClickBackButton();
+        bookings.SelectMajorButton();
+        Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
         String expectedCHS = "YOUR ORDER SUMMARY";
         String actualCHS = bookings.CardHaederSummaryDisplayed();
         Assert.assertEquals(expectedCHS, expectedCHS);
@@ -91,8 +98,13 @@ public class BookingsCOTests extends setup
         String expectedCOPR = "90";
         String actualCOPR = bookings.CleanPriceDisplayed();
         Assert.assertEquals(expectedCOPR, expectedCOPR);
-
-
+        bookings.ClickAddCode();
+        bookings.FilleCoupon("Wishitest");
+        bookings.ClickSubmit();
+        String expectedPPR0 = "0";
+        String actualPPR0 = bookings.CleanPriceDisplayed();
+        Assert.assertEquals(expectedPPR0, expectedPPR0);
+        Assert.assertTrue(bookings.ComplatBookingclicibilety(),"Complate Booking not clicibilety" );
     }
     }
 

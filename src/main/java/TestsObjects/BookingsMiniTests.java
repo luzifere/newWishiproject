@@ -56,6 +56,8 @@ public class BookingsMiniTests extends setup
     {
         BookingsPage bookings = new BookingsPage(driver);
         bookings.ClickBookStylistButton();
+        bookings.ClickBackButton();
+        bookings.ClickBookStylistButton();
         String expectedS = stylist;
         String actualS = bookings.StylistNameDisplayed();
         System.out.println(actualS);
@@ -64,6 +66,9 @@ public class BookingsMiniTests extends setup
         Assert.assertTrue(bookings.MiniDisplayed(),"Mini not displayed" );
         Assert.assertTrue(bookings.MajorDisplayed(),"Majot not displayed" );
         bookings.ClickMini();
+        bookings.ClickBackButton();
+        bookings.ClickMini();
+        Assert.assertTrue(bookings.MiniSelectedDisplayed(), "mini not selected");
         String expectedCOMINI = "Wishi Mini.";
         String expectedPCMAJOR = "Major";
         String expectedPPMAJOR = "90";
@@ -80,6 +85,8 @@ public class BookingsMiniTests extends setup
         Assert.assertEquals(expectedPCMAJOR, expectedPCMAJOR);
         Assert.assertEquals(expectedPPMAJOR, expectedPPMAJOR);
         bookings.SelectMiniButton();
+        bookings.ClickBackButton();
+        bookings.SelectMiniButton();
         String expectedCHS = "YOUR ORDER SUMMARY";
         String actualCHS = bookings.CardHaederSummaryDisplayed();
         Assert.assertEquals(expectedCHS, expectedCHS);
@@ -94,9 +101,20 @@ public class BookingsMiniTests extends setup
         String expectedPP = "Wishi Mini package";
         String actualCOP = bookings.MiniPacegeDisplayed();
         Assert.assertEquals(expectedPP, expectedPP);
-        String expectedPPR = "40";
+        String expectedPPR = "36";
         String actualPPR = bookings.CleanPriceDisplayed();
         Assert.assertEquals(expectedPPR, expectedPPR);
+        bookings.SelectOneTime();
+        Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
+        bookings.ClickAddCode();
+        bookings.FilleCoupon("Wishitest");
+        bookings.ClickSubmit();
+        String expectedPPR0 = "0";
+        String actualPPR0 = bookings.CleanPriceDisplayed();
+        Assert.assertEquals(expectedPPR0, expectedPPR0);
+        Assert.assertTrue(bookings.ComplatBookingclicibilety(),"Complate Booking not clicibilety" );
+        bookings.ClickComplateBooking();
+
 
 
     }
