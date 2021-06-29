@@ -15,7 +15,7 @@ import java.util.Random;
 
 public class BookingsCONewUserTests extends setup
 {
-    String stylist = "elad style";
+    String stylist = "Elad style";
 
     @Attachment
     @Story("Do correct signup")

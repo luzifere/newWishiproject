@@ -19,7 +19,7 @@ public class BookingsPage extends BasePage
     WebElement stylistbutton;
     @FindBy(xpath = "//div//button[@id='book']")
     WebElement bookstylistbutton;
-    @FindBy(xpath = "(//div[contains(text(), 'leo stylist')])[1]")
+    @FindBy(xpath = "(//div[contains(text(), 'Elad style')])[1]")
     WebElement stylistname;
     @FindBy(xpath = "//div[@class='name row']")
     WebElement stylistnameplan;

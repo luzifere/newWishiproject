@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class BookingsCOTests extends setup
 {
-    String stylist = "elad style";
+    String stylist = "Elad style";
 
     @Attachment
     @Story("DoLogin")
