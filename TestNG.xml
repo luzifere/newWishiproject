@@ -22,7 +22,15 @@
            <class name="TestsObjects.ReversOnBoardingNaturalTest"/>
            <class name="TestsObjects.BookingsMajorTests"/>
            <class name="TestsObjects.BookingsMiniTests"/>
-           <class name="TestsObjects.BookingsCOTests">
+           <class name="TestsObjects.BookingsCOTests"/>
+           <class name="TestsObjects.BookingsCONewUserCCTests"/>
+           <class name="TestsObjects.BookingsCONewUserTests"/>
+           <class name="TestsObjects.BookingsMajorNewUserSubscriptionTests"/>
+           <class name="TestsObjects.BookingsMajorNewUserTests"/>
+           <class name="TestsObjects.BookingsMajorSubscriptionTests"/>
+           <class name="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+           <class name="TestsObjects.BookingsMiniNewUserTests">
+
            </class>
        </classes>
     </test>

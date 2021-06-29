@@ -10,7 +10,7 @@ import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BookingsMiniTests extends setup
+public class BookingsMajorSubscriptionTests extends setup
 {
     String stylist = "elad style";
 
@@ -65,11 +65,11 @@ public class BookingsMiniTests extends setup
         Assert.assertTrue(bookings.CleanOutDisplayed(), "Clean not disaplayed");
         Assert.assertTrue(bookings.MiniDisplayed(),"Mini not displayed" );
         Assert.assertTrue(bookings.MajorDisplayed(),"Majot not displayed" );
-        bookings.ClickMini();
+        bookings.ClickMajor();
         bookings.ClickBackButton();
-        bookings.ClickMini();
-        Assert.assertTrue(bookings.MiniSelectedDisplayed(), "mini not selected");
-        String expectedCOMINI = "Wishi Mini.";
+        bookings.ClickMajor();
+        Assert.assertTrue(bookings.MajorSelectedDisplayed(), "major not selected");
+        String expectedCOMINI = "Wishi Major";
         String expectedPCMAJOR = "Major";
         String expectedPPMAJOR = "90";
         String expectedPCMINI = "Mini";
@@ -84,9 +84,9 @@ public class BookingsMiniTests extends setup
         Assert.assertEquals(expectedPPMINI, expectedPPMINI);
         Assert.assertEquals(expectedPCMAJOR, expectedPCMAJOR);
         Assert.assertEquals(expectedPPMAJOR, expectedPPMAJOR);
-        bookings.SelectMiniButton();
+        bookings.SelectMajorButton();
         bookings.ClickBackButton();
-        bookings.SelectMiniButton();
+        bookings.SelectMajorButton();
         String expectedCHS = "YOUR ORDER SUMMARY";
         String actualCHS = bookings.CardHaederSummaryDisplayed();
         Assert.assertEquals(expectedCHS, expectedCHS);
@@ -98,26 +98,17 @@ public class BookingsMiniTests extends setup
     public void CheckOut()
     {
         BookingsPage bookings = new BookingsPage(driver);
-        String expectedPP = "Wishi Mini package";
-        String actualCOP = bookings.MiniPacegeDisplayed();
+        String expectedPP = "Wishi Major package";
+        String actualCOP = bookings.MajorPacegeDisplayed();
         Assert.assertEquals(expectedPP, expectedPP);
-        String expectedPPR = "36";
+        String expectedPPR = "81";
         String actualPPR = bookings.CleanPriceDisplayed();
         Assert.assertEquals(expectedPPR, expectedPPR);
-        bookings.SelectOneTime();
-        Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
-        bookings.ClickAddCode();
-        bookings.FilleCoupon("Wishitest");
-        bookings.ClickSubmit();
-        String expectedPPR0 = "0";
-        String actualPPR0 = bookings.CleanPriceDisplayed();
-        Assert.assertEquals(expectedPPR0, expectedPPR0);
-        Assert.assertTrue(bookings.ComplatBookingclicibilety(),"Complate Booking not clicibilety" );
+        Assert.assertTrue(bookings.StartYourTrialNotClicibilety(),"startyourtrial clicibilety" );
+       bookings.FillPayment("42424242424242424222555");
+        Assert.assertTrue(bookings.StartYourTrialclicibilety(),"startyourtrial not clicibilety" );
         //bookings.ClickComplateBooking();
         //Assert.assertTrue(bookings.LetsGoButtonDisplayed(),"letsgo button not displayed");
-
-
-
     }
     }
 

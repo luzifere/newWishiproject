@@ -67,14 +67,21 @@ public class BookingsPage extends BasePage
     WebElement submit;
     @FindBy(xpath = "//div//button[contains(text(), 'complete booking')]")
     WebElement complatebooking;
-    @FindBy(xpath = "//div[@class='StripeElement stripe-card-element disabled']")
+    @FindBy(xpath = "//div//button[contains(text(), 'Start your free trial')]")
+    WebElement startyourtrial;
+    @FindBy(xpath = "(//div[@class='col'])[10]")
     WebElement paymentField;
+    @FindBy(css = "[name='cardnumber']")
+    WebElement CCfield;
     @FindBy(xpath = "//div[@class='back-btn no-text']")
     WebElement backbutton;
     @FindBy(xpath = "//div[@class='radio-button horizontal dark dot  form-check']")
     WebElement onetime;
     @FindBy(xpath = "//div[@class='radio-button horizontal dark dot checked form-check']")
     WebElement monthly;
+    @FindBy(xpath = "//a[@id='LetsGoQuiz']")
+    WebElement letsgo;
+
 
 
     public void SearchStylist (String text)
@@ -262,6 +269,16 @@ public class BookingsPage extends BasePage
         }
 
     }
+    public boolean StartYourTrialNotClicibilety()
+    {
+        try {
+            WaitElementNotClicability(startyourtrial);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+
+    }
     public boolean ComplatBookingclicibilety()
     {
         try {
@@ -271,10 +288,25 @@ public class BookingsPage extends BasePage
             return false;
         }
     }
+    public boolean StartYourTrialclicibilety()
+    {
+        try {
+            WaitElementDosplayed(startyourtrial);
+            WaitElementClicability(startyourtrial);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
     public void ClickComplateBooking()
     {
         WaitElementDosplayed(complatebooking);
         click(complatebooking);
+    }
+    public void ClickStartYourTrialButton()
+    {
+        WaitElementDosplayed(startyourtrial);
+        click(startyourtrial);
     }
     public void ClickBackButton()
     {
@@ -299,15 +331,26 @@ public class BookingsPage extends BasePage
 
     public void Switch_to_strype ()
     {
-        WebElement fr = driver.findElement(By.xpath("//iframe[@name='__privateStripeFrame35251']"));
+        WebElement fr = driver.findElement(By.xpath("(//iframe[@frameborder='0'])[1]"));
         driver.switchTo().frame(fr);
 
     }
     public void FillPayment(String text)
     {
-        Switch_to_strype();
         click(paymentField);
-        filltext(paymentField,text);
+        Switch_to_strype();
+        //click(paymentField);
+        filltext(CCfield,text);
+        driver.switchTo().defaultContent();
+    }
+    public boolean LetsGoButtonDisplayed()
+    {
+        try {
+            WaitElementClicability(letsgo);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
 }

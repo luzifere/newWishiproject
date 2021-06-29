@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class BookingsCOTests extends setup
 {
-    String stylist = "leo stylist";
+    String stylist = "elad style";
 
     @Attachment
     @Story("DoLogin")
@@ -105,6 +105,8 @@ public class BookingsCOTests extends setup
         String actualPPR0 = bookings.CleanPriceDisplayed();
         Assert.assertEquals(expectedPPR0, expectedPPR0);
         Assert.assertTrue(bookings.ComplatBookingclicibilety(),"Complate Booking not clicibilety" );
+       // bookings.ClickComplateBooking();
+       // Assert.assertTrue(bookings.LetsGoButtonDisplayed(),"letsgo button not displayed");
     }
     }
 

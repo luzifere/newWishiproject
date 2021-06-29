@@ -2,6 +2,7 @@ package TestsObjects;
 
 import PageObjects.BookingsPage;
 import PageObjects.LoginPage;
+import PageObjects.OnBoardingPage;
 import PageObjects.SignUpPage;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Severity;
@@ -10,37 +11,120 @@ import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BookingsMajorTests extends setup
+import java.util.Random;
+
+public class BookingsMajorNewUserTests extends setup
 {
     String stylist = "elad style";
 
     @Attachment
-    @Story("DoLogin")
-    @Severity(SeverityLevel.NORMAL)
-    @Test(priority = 1,groups={"sanity-group"})
-    public void DoLogin() {
-        LoginPage login = new LoginPage(driver);
-        login.ClickLoginButton();
-        login.Clearpassword();
-        login.Clearusername();
-        login.Fillusername("wishites111@wishi.com21181");
-        login.Fillpassword("123456");
-        login.Clickloginbuttonn();
-        login.LoginSucceeded();
-        BookingsPage bookings = new BookingsPage(driver);
-        bookings.ClickStylistButton();
+    @Story("Do correct signup")
+    @Severity(SeverityLevel.CRITICAL)
+    @Test(priority = 1, groups = {"sanity-group"})
+    public void DoSignUp() {
+
+        Random num = new Random();
+        int number = 1000000;
+        for (int counter = 5800000; counter <= 10000000; counter++)
+            number = num.nextInt(700000);
+        SignUpPage sign = new SignUpPage(driver);
+        sign.ClickSignUpButton();
+        sign.ClearFullName();
+        sign.FillFullName("test test");
+        sign.ClearEmail();
+        String newusermaile = this.configFileReader.getnewusermaile();
+        sign.FillEmail(newusermaile + number);
+        //sign.FillEmail("wishitestyinon@wishitest.com" + number);
+        sign.Clearpassword();
+        String password = this.configFileReader.getpassword();
+        sign.Fillpassword(password);
+        sign.ClickSignUpPUBtnButton();
+        String expected = "LET'S GET STYLING";
+        String actual = sign.LetsGetButtonDisplayed();
+        System.out.println(actual);
+        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(actual, expected);
+
+    }
+
+    @Attachment
+    @Story("Select Famale")
+    @Severity(SeverityLevel.CRITICAL)
+    @Test(priority = 2, groups = {"sanity-group"})
+    public void SelectFamale() {
+        OnBoardingPage ob = new OnBoardingPage(driver);
+        ob.LetsGet();
+        ob.SelectFamale();
+        ob.BodyTypePageLoaded();
+
+    }
+
+    @Attachment
+    @Story("Select Bodytype")
+    @Severity(SeverityLevel.CRITICAL)
+    @Test(priority = 3, groups = {"sanity-group"})
+    public void SelectBodytype() {
+        OnBoardingPage ob = new OnBoardingPage(driver);
+        ob.SelectBodyType("petite");
+        ob.SelectBodyType("fit");
+        ob.SelectBodyType("tall");
+        ob.SelectBodyType("petite");
+        ob.ClickNext();
     }
     @Attachment
-    @Story("Serch Stylist")
-    @Severity(SeverityLevel.NORMAL)
-    @Test(priority = 2,groups={"sanity-group"})
-    public void SerchStylist()
+    @Story("Select Bodytype")
+    @Severity(SeverityLevel.CRITICAL)
+    @Test(priority = 4, groups = {"sanity-group"})
+    public void SelctStyle() {
+        OnBoardingPage ob = new OnBoardingPage(driver);
+        ob.SelectHellNoChick();
+        ob.SelectLoveItBoho();
+        ob.SelectSomtimeClassic();
+        ob.SelectHellNoRock();
+        ob.SelectLoveItTrendy();
+        ob.SelectSomtimeStreetWear();
+        ob.SelectSomtimeSexy();
+        ob.SelectSomtimeElectic();
+        ob.SelectLoveItTomboy();
+        ob.SelectSomtimeMinimal();
+        ob.SelectHellNoFeminime();
+
+    }
+    @Attachment
+    @Story("Select Brands")
+    @Severity(SeverityLevel.CRITICAL)
+    @Test(priority = 5, groups = {"sanity-group"})
+    public void SelectBrands()
     {
-        SignUpPage sign = new SignUpPage(driver);
+        OnBoardingPage ob = new OnBoardingPage(driver);
+        ob.BrandsPageLoaded();
+        // ob.sleep(2000);
+        ob.SelectBrands("Acne Studios");
+        ob.SelectBrands("A.L.C");
+        ob.SelectBrands("Michael Kors");
+        ob.SelectBrands("Free People");
+        ob.SelectBrands("Rag & Bone");
+        ob.SelectBrands("Rag & Bone");
+        ob.SelectBrands("Rag & Bone");
+        ob.SelectBrands("Saint Laurent");
+        ob.SelectBrands("Nanushka");
+        ob.SelectBrands("Ulla Johnson");
+        ob.SelectBrands("NILI LOTAN");
+        ob.SelectBrands("Vince");
+        ob.ClickMeetMatch();
         String expected = "Your Stylists Match!";
+        SignUpPage sign= new SignUpPage(driver);
         String actual = sign.YourStylistsMatchDisplayed();
         System.out.println(actual);
         Assert.assertEquals(actual, expected);
+    }
+
+    @Attachment
+    @Story("Serch Stylist")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 6,groups={"sanity-group"})
+    public void SerchStylist()
+    {
         BookingsPage bookings = new BookingsPage(driver);
         bookings.SearchStylist(stylist);
         String expectedS = stylist;
@@ -51,7 +135,7 @@ public class BookingsMajorTests extends setup
     @Attachment
     @Story("Book Stylist")
     @Severity(SeverityLevel.NORMAL)
-    @Test(priority = 3,groups={"sanity-group"})
+    @Test(priority = 7,groups={"sanity-group"})
     public void BookStylist()
     {
         BookingsPage bookings = new BookingsPage(driver);
@@ -94,7 +178,7 @@ public class BookingsMajorTests extends setup
     @Attachment
     @Story("CheckOut")
     @Severity(SeverityLevel.NORMAL)
-    @Test(priority = 4,groups={"sanity-group"})
+    @Test(priority = 8,groups={"sanity-group"})
     public void CheckOut()
     {
         BookingsPage bookings = new BookingsPage(driver);
