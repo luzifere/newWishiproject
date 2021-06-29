@@ -178,10 +178,10 @@ public class BookingsCONewUserCCTests extends setup
         String expectedCOP = "Closet clean out package";
         String actualCOP = bookings.CleanPacegeDisplayed();
         Assert.assertEquals(expectedCOP, expectedCOP);
-        String expectedCOPR = "90";
+        String expectedCOPR = "$90";
         String actualPPR = bookings.CleanPriceDisplayed();
         Assert.assertEquals(expectedCOPR, actualPPR);
-        Assert.assertTrue(bookings.StartYourTrialNotClicibilety(),"startyourtrial clicibilety" );
+        Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
         bookings.FillPayment("42424242424242424222555");
         Assert.assertTrue(bookings.ComplatBookingclicibilety(),"Complate Booking not clicibilety" );
         //bookings.ClickComplateBooking();

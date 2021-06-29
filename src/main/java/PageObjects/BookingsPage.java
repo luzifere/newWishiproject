@@ -69,7 +69,7 @@ public class BookingsPage extends BasePage
     WebElement complatebooking;
     @FindBy(xpath = "//div//button[contains(text(), 'Start your free trial')]")
     WebElement startyourtrial;
-    @FindBy(xpath = "(//div[@class='col'])[10]")
+    @FindBy(xpath = "//div[@class='form-row']//div[@class='col']")
     WebElement paymentField;
     @FindBy(css = "[name='cardnumber']")
     WebElement CCfield;
