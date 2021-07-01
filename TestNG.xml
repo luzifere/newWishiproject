@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="utilitis.Listener"/>
     </listeners>
-    <test verbose="1" thread-count="1" preserve-order="true" name="Test" parallel="classes">
+    <test verbose="1" thread-count="1" name="Test" parallel="classes">
         <groups>
             <run>
                 <include name="sanity-group"/>
@@ -29,8 +29,8 @@
            <class name="TestsObjects.BookingsMajorNewUserTests"/>
            <class name="TestsObjects.BookingsMajorSubscriptionTests"/>
            <class name="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+           <class name="TestsObjects.BuyItemByNewUser"/>
            <class name="TestsObjects.BookingsMiniNewUserTests">
-
            </class>
        </classes>
     </test>
