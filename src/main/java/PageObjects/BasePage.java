@@ -4,10 +4,7 @@ import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -140,5 +137,19 @@ public void PageLoaded( WebDriver driver)
     {
         WebDriverWait wait = new WebDriverWait(driver,10);
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frameName));
+    }
+    public void SelectOptions(WebElement elemnt,int num)
+    {
+        WebElement testDropDown = elemnt;
+        Select dropdown = new Select(elemnt);
+        dropdown.selectByIndex(num);
+
+    }
+    public void SelectOptionsValue(WebElement elemnt,String value)
+    {
+        WebElement testDropDown = elemnt;
+        Select dropdown = new Select(elemnt);
+        dropdown.selectByValue(value);
+
     }
 }

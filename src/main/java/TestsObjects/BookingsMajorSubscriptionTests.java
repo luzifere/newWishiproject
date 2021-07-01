@@ -105,7 +105,8 @@ public class BookingsMajorSubscriptionTests extends setup
         String actualPPR = bookings.CleanPriceDisplayed();
         Assert.assertEquals(expectedPPR, expectedPPR);
         Assert.assertTrue(bookings.StartYourTrialNotClicibilety(),"startyourtrial clicibilety" );
-       bookings.FillPayment("42424242424242424222555");
+        String cardnumber = this.configFileReader.getCardNumber();
+        bookings.FillPayment(cardnumber);
         Assert.assertTrue(bookings.StartYourTrialclicibilety(),"startyourtrial not clicibilety" );
         //bookings.ClickComplateBooking();
         //Assert.assertTrue(bookings.LetsGoButtonDisplayed(),"letsgo button not displayed");

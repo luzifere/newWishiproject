@@ -335,12 +335,12 @@ public class BookingsPage extends BasePage
         driver.switchTo().frame(fr);
 
     }
-    public void FillPayment(String text)
+    public void FillPayment(String CC)
     {
         click(paymentField);
         Switch_to_strype();
         //click(paymentField);
-        filltext(CCfield,text);
+        filltext(CCfield,CC);
         driver.switchTo().defaultContent();
     }
     public boolean LetsGoButtonDisplayed()

@@ -182,7 +182,8 @@ public class BookingsCONewUserCCTests extends setup
         String actualPPR = bookings.CleanPriceDisplayed();
         Assert.assertEquals(expectedCOPR, actualPPR);
         Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
-        bookings.FillPayment("42424242424242424222555");
+        String cardnumber = this.configFileReader.getCardNumber();
+        bookings.FillPayment(cardnumber);
         Assert.assertTrue(bookings.ComplatBookingclicibilety(),"Complate Booking not clicibilety" );
         //bookings.ClickComplateBooking();
        // Assert.assertTrue(bookings.LetsGoButtonDisplayed(),"letsgo button not displayed");
