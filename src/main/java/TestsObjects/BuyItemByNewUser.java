@@ -131,5 +131,4 @@ public class BuyItemByNewUser extends setup
         Assert.assertTrue(feed.PlaceOrderButtonclicibilety(),"checkout button not clickable");
     }
 
-
 }
