@@ -59,6 +59,22 @@ public class Feed extends BasePage
     WebElement totalprice;
     @FindBy(xpath = "(//button[contains(text(), 'Place order')])[1]")
     WebElement placeorderbutton;
+    @FindBy(xpath = "//h1[contains(text(), 'Thank you for your order.')]")
+    WebElement thankyou;
+    @FindBy(xpath = "(//div[@class='billing-details']//p)[2]")
+    WebElement detailes1;
+    @FindBy(xpath = "(//div[@class='billing-details']//p)[3]")
+    WebElement detailes2;
+    @FindBy(xpath = "(//div[@class='billing-details']//p)[4]")
+    WebElement detailes3;
+    @FindBy(xpath = "(//div[@class='billing-details']//p)[1]")
+    WebElement firsdetailes1;
+    @FindBy(xpath = "(//div[@class='billing-details']//p)[2]")
+    WebElement firsdetailes2;
+    @FindBy(xpath = "(//div[@class='billing-details']//p)[3]")
+    WebElement firsdetailes3;
+    @FindBy(xpath = "//div[@class='edit-btn']")
+    WebElement editdetailedbutton;
 
 
 
@@ -240,6 +256,52 @@ public class Feed extends BasePage
         WaitElementDosplayed(placeorderbutton);
         click(placeorderbutton);
     }
-
+    public String ThankYouForYourOrderDisplayed()
+    {
+        WaitElementDosplayed(thankyou);
+        return getText(thankyou);
+        //Assert.assertTrue(ElementDisplay(EmaileRequired));
+    }
+    public String NameCODisplayed()
+    {
+        WaitElementDosplayed(detailes1);
+        return getText(detailes1);
+        //Assert.assertTrue(ElementDisplay(EmaileRequired));
+    }
+    public String CityCODisplayed()
+    {
+        WaitElementDosplayed(detailes2);
+        return getText(detailes2);
+        //Assert.assertTrue(ElementDisplay(EmaileRequired));
+    }
+    public String LastDetailesCODisplayed()
+    {
+        WaitElementDosplayed(detailes3);
+        return getText(detailes3);
+        //Assert.assertTrue(ElementDisplay(EmaileRequired));
+    }
+    public String FirstNameCODisplayed()
+    {
+        WaitElementDosplayed(firsdetailes1);
+        return getText(firsdetailes1);
+        //Assert.assertTrue(ElementDisplay(EmaileRequired));
+    }
+    public String FirstCityCODisplayed()
+    {
+        WaitElementDosplayed(firsdetailes2);
+        return getText(firsdetailes2);
+        //Assert.assertTrue(ElementDisplay(EmaileRequired));
+    }
+    public String FirstLastDetailesCODisplayed()
+    {
+        WaitElementDosplayed(firsdetailes3);
+        return getText(firsdetailes3);
+        //Assert.assertTrue(ElementDisplay(EmaileRequired));
+    }
+    public void ClickEditDetailed()
+    {
+        WaitElementDosplayed(editdetailedbutton);
+        click(editdetailedbutton);
+    }
 
 }

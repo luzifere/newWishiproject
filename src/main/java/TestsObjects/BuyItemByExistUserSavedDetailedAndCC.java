@@ -3,7 +3,6 @@ package TestsObjects;
 import PageObjects.BookingsPage;
 import PageObjects.Feed;
 import PageObjects.LoginPage;
-import PageObjects.SignUpPage;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -11,9 +10,7 @@ import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.Random;
-
-public class BuyItemByNewUser extends setup
+public class BuyItemByExistUserSavedDetailedAndCC extends setup
 {
     float priceitem;
     float pricecheckout;
@@ -25,13 +22,20 @@ public class BuyItemByNewUser extends setup
     String city ="rishon le zoin";
     String postal ="65465465";
     String phone ="546546546546";
-
     @Attachment
     @Story("DoLogin")
     @Severity(SeverityLevel.NORMAL)
     @Test(priority = 1,groups={"sanity-group"})
-    public void OpenFeed()
-    {
+    public void DoLogin() {
+
+        LoginPage login = new LoginPage(driver);
+        login.ClickLoginButton();
+        login.Clearpassword();
+        login.Clearusername();
+        login.Fillusername("wishitesTY@wishi.com114611");
+        login.Fillpassword("123456");
+        login.Clickloginbuttonn();
+        login.LoginSucceeded();
         Feed feed = new Feed(driver);
         feed.ClickFeedButton();
         Assert.assertTrue(feed.FeedContainerDisplayed(),"feed container not displayed");
@@ -67,51 +71,33 @@ public class BuyItemByNewUser extends setup
         feed.SelectSize();
         Assert.assertTrue(feed.CheckOutButtonclicibilety(), "checkout button not clickable");
         feed.ClickCheckOut();
-    }
-    @Attachment
-    @Story("signup")
-    @Severity(SeverityLevel.NORMAL)
-    @Test(priority = 5,groups={"sanity-group"})
-    public void Signup()
-    {
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
-        SignUpPage sign = new SignUpPage(driver);
-        sign.ClearFullName();
-        sign.FillFullName("test test");
-        sign.ClearEmail();
-        String newusermaile = this.configFileReader.getnewusermaile();
-        sign.FillEmail(newusermaile + number);
-        //sign.FillEmail("wishitestyinon@wishitest.com" + number);
-        sign.Clearpassword();
-        String password = this.configFileReader.getpassword();
-        sign.Fillpassword(password);
-        sign.ClickSignUpPUBtnButton();
-        Feed feed = new Feed(driver);
         Assert.assertTrue(feed.CheckOutPageDispalyed(),"checkout page not displayed");
         this.pricecheckout = Float.parseFloat(feed.GetPriceCheckOut().substring(1));
         Assert.assertEquals(this.priceitem,pricecheckout);
     }
+
     @Attachment
     @Story("Select Size")
     @Severity(SeverityLevel.NORMAL)
     @Test(priority = 6,groups={"sanity-group"})
-    public void FillDetails() {
+    public void ValidateDetails() {
         Feed feed = new Feed(driver);
-        Assert.assertTrue(feed.PlaceOrderButtonNotClicibilety(), "place oreder button clickable");
-        feed.FillFirstName(firstname);
-        feed.FillLastName(lastname);
-        feed.SelectCountry(35);
-        feed.SelectCountry(41);
-        feed.FillAddress(address);
-        feed.FillApt(apt);
-        feed.FillCity(city);
-        feed.SelectState(47);
-        feed.FillPOstalCode(postal);
-        feed.FillPhoneNumber(phone);
+        String expected = firstname+" "+lastname;
+        String actual = feed.FirstNameCODisplayed();
+        System.out.println(actual);
+        Assert.assertEquals(actual,expected);
+        String expected1 = address+" "+apt;
+        String actual1 = feed.FirstCityCODisplayed();
+        System.out.println(actual1);
+        Assert.assertEquals(actual1,expected1);
+        String expected2 = city+", WA "+postal;
+        String actual2 = feed.FirstLastDetailesCODisplayed();
+        System.out.println(actual2);
+        Assert.assertEquals(actual2,expected2);
+
     }
+
+
     @Attachment
     @Story("Place oreder")
     @Severity(SeverityLevel.NORMAL)
@@ -122,9 +108,6 @@ public class BuyItemByNewUser extends setup
         float total = (float) (pricecheckout*1.1);
         this.totalprice = Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
         Assert.assertEquals(this.totalprice,total);
-        String cardnumber = this.configFileReader.getCardNumber();
-        BookingsPage bookings = new BookingsPage(driver);
-        bookings.FillPayment(cardnumber);
         Assert.assertTrue(feed.PlaceOrderButtonclicibilety(),"checkout button not clickable");
         feed.ClickPlaceOrder();
         String expectedTY = "Thank you for your order.";

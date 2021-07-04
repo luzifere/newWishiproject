@@ -339,7 +339,7 @@ public class BookingsPage extends BasePage
     {
         click(paymentField);
         Switch_to_strype();
-        //click(paymentField);
+        clear(CCfield);
         filltext(CCfield,CC);
         driver.switchTo().defaultContent();
     }
