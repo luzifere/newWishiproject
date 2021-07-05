@@ -30,6 +30,10 @@
            <class name="TestsObjects.BookingsMajorSubscriptionTests"/>
            <class name="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
            <class name="TestsObjects.BuyItemByNewUser"/>
+           <class name="TestsObjects.BuyItemByExistUserEditCC"/>
+           <class name="TestsObjects.BuyItemByExistUserEditDetailed"/>
+           <class name="TestsObjects.BuyItemByExistUserSavedDetailedAndCC"/>
+           <class name="TestsObjects.BookingsMiniSabscriptionTests"/>
            <class name="TestsObjects.BookingsMiniNewUserTests">
            </class>
        </classes>

@@ -33,10 +33,10 @@ public class BuyItemByExistUserEditCC extends setup
 
         LoginPage login = new LoginPage(driver);
         login.ClickLoginButton();
-        login.Clearpassword();
-        login.Clearusername();
-        login.Fillusername("wishitesTY@wishi.com114611");
-        login.Fillpassword("123456");
+        String username = this.configFileReader.getnewusermaile();
+        login.Fillusername(username);
+        String password = this.configFileReader.getpassword();
+        login.Fillpassword(password);
         login.Clickloginbuttonn();
         login.LoginSucceeded();
         Feed feed = new Feed(driver);

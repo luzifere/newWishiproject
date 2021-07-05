@@ -129,10 +129,10 @@ public class LoginTest extends setup {
     {
         LoginPage login = new LoginPage(driver);
         login.ClickLoginButton();
-        login.Clearpassword();
-        login.Clearusername();
-        login.Fillusername("wishi.test@wishi.com");
-        login.Fillpassword("123456");
+        String username = this.configFileReader.getnewusermaile();
+        login.Fillusername(username);
+        String password = this.configFileReader.getpassword();
+        login.Fillpassword(password);
         login.Clickloginbuttonn();
         login.LoginSucceeded();
     }

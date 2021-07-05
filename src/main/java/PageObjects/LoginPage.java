@@ -50,7 +50,9 @@ public class LoginPage extends BasePage {
     }
 
     @Step("enter password:{password}")
-    public void Fillpassword(String pass) {
+    public void Fillpassword(String pass)
+    {
+        clear(password);
         filltext(password, pass);
     }
 
@@ -86,6 +88,7 @@ public class LoginPage extends BasePage {
     @Step("enter name:{name}")
     public void Fillusername(String user) {
         {
+            clear(userName);
             filltext(userName, user);
         }
     }

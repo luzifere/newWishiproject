@@ -29,7 +29,7 @@ public class BookingsPage extends BasePage
     WebElement mini;
     @FindBy(xpath = "//div//label[@for='major']")
     WebElement major;
-    @FindBy(xpath = "//div[@class='chat-row row']")
+    @FindBy(xpath = "//div[@class='chat-row row']//span")
     WebElement chatrowCOut;
     @FindBy(xpath = "(//div[@class='card-header'])[1]")
     WebElement plancardmini;
@@ -239,7 +239,7 @@ public class BookingsPage extends BasePage
         WaitElementDosplayed(majorpackage);
         return getText(majorpackage);
     }
-    public String CleanPriceDisplayed() {
+    public String PlanPriceDisplayed() {
         WaitElementDosplayed(planprice);
         return getText(planprice);
     }

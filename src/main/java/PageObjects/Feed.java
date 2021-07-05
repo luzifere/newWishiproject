@@ -167,6 +167,7 @@ public class Feed extends BasePage
     {
         WaitElementDosplayed(firstname);
         clear(firstname);
+        sleep(1000);
         filltext(firstname,text);
     }
 
@@ -174,6 +175,7 @@ public class Feed extends BasePage
     {
         WaitElementDosplayed(lastname);
         clear(lastname);
+        sleep(1000);
         filltext(lastname,text);
     }
     public void SelectCountry(int text)
@@ -187,18 +189,21 @@ public class Feed extends BasePage
     {
         WaitElementDosplayed(address);
         clear(address);
+        sleep(1000);
         filltext(address,text);
     }
     public void FillApt(String text)
     {
         WaitElementDosplayed(apt);
         clear(apt);
+        sleep(1000);
         filltext(apt,text);
     }
     public void FillCity(String text)
     {
         WaitElementDosplayed(city);
         clear(city);
+        sleep(1000);
         filltext(city,text);
     }
     public void SelectState(int text)
@@ -212,12 +217,14 @@ public class Feed extends BasePage
     {
         WaitElementDosplayed(postalcode);
         clear(postalcode);
+        sleep(1000);
         filltext(postalcode,text);
     }
     public void FillPhoneNumber(String text)
     {
         WaitElementDosplayed(phone);
         clear(phone);
+        sleep(1500);
         filltext(phone,text);
     }
     public String GetPriceItem() {

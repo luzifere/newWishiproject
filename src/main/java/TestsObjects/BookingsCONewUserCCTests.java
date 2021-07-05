@@ -151,22 +151,23 @@ public class BookingsCONewUserCCTests extends setup
         bookings.ClickCleanOut();
         bookings.ClickBackButton();
         bookings.ClickCleanOut();
-        String expectedCO = "It’s perfect for a closet clean out.";
+        String expectedCO = "Got it! I recommend to choose Wishi Major.\n" +
+                "It’s perfect for a closet clean out.";
         String expectedPC = "Major";
         String expectedPP = "90";
         String actualCO = bookings.ChatRowCODisplayed();
         String actualPC = bookings.PlanCardCleanOutDisplayed();
         String actualPP = bookings.PlanPriceMajorDisplayed();
-        Assert.assertEquals(expectedCO, expectedCO);
-        Assert.assertEquals(expectedPC, expectedPC);
-        Assert.assertEquals(expectedPP, expectedPP);
+        Assert.assertEquals(actualCO,expectedCO );
+        Assert.assertEquals(actualPC,expectedPC );
+        Assert.assertEquals(actualPP,expectedPP );
         bookings.SelectMajorButton();
         bookings.ClickBackButton();
         bookings.SelectMajorButton();
         Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
         String expectedCHS = "YOUR ORDER SUMMARY";
         String actualCHS = bookings.CardHaederSummaryDisplayed();
-        Assert.assertEquals(expectedCHS, expectedCHS);
+        Assert.assertEquals( actualCHS,expectedCHS);
     }
     @Attachment
     @Story("CheckOut")
@@ -177,10 +178,10 @@ public class BookingsCONewUserCCTests extends setup
         BookingsPage bookings = new BookingsPage(driver);
         String expectedCOP = "Closet clean out package";
         String actualCOP = bookings.CleanPacegeDisplayed();
-        Assert.assertEquals(expectedCOP, expectedCOP);
+        Assert.assertEquals(actualCOP,expectedCOP );
         String expectedCOPR = "$90";
-        String actualPPR = bookings.CleanPriceDisplayed();
-        Assert.assertEquals(expectedCOPR, actualPPR);
+        String actualCOPR = bookings.PlanPriceDisplayed();
+        Assert.assertEquals(actualCOPR,expectedCOPR );
         Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
         String cardnumber = this.configFileReader.getCardNumber();
         bookings.FillPayment(cardnumber);

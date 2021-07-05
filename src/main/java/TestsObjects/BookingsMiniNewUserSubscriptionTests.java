@@ -125,6 +125,7 @@ public class BookingsMiniNewUserSubscriptionTests extends setup
     public void SerchStylist()
     {
         BookingsPage bookings = new BookingsPage(driver);
+        String stylist = this.configFileReader.getStylistName();
         bookings.SearchStylist(stylist);
         String expectedS = stylist;
         String actualS = bookings.BookStylistPageDisplayed();
@@ -152,7 +153,8 @@ public class BookingsMiniNewUserSubscriptionTests extends setup
         bookings.ClickBackButton();
         bookings.ClickMini();
         Assert.assertTrue(bookings.MiniSelectedDisplayed(), "mini not selected");
-        String expectedCOMINI = "Wishi Mini.";
+        String expectedCOMINI = "Got it! I recommend to choose Wishi Mini.\n" +
+                "It’s perfect for a few looks or shop for some new items.";
         String expectedPCMAJOR = "Major";
         String expectedPPMAJOR = "90";
         String expectedPCMINI = "Mini";
@@ -162,17 +164,17 @@ public class BookingsMiniNewUserSubscriptionTests extends setup
         String actualPPMAJOR = bookings.PlanPriceMajorDisplayed();
         String actualPCMINI = bookings.PlanCardMiniDisplayed();
         String actualPPMINI = bookings.PlanPriceMiniDisplayed();
-        Assert.assertEquals(expectedCOMINI, expectedCOMINI);
-        Assert.assertEquals(expectedPCMINI, expectedPCMINI);
-        Assert.assertEquals(expectedPPMINI, expectedPPMINI);
-        Assert.assertEquals(expectedPCMAJOR, expectedPCMAJOR);
-        Assert.assertEquals(expectedPPMAJOR, expectedPPMAJOR);
+        Assert.assertEquals(actualCOMINI,expectedCOMINI);
+        Assert.assertEquals(actualPCMINI,expectedPCMINI);
+        Assert.assertEquals(actualPPMINI,expectedPPMINI);
+        Assert.assertEquals(actualPCMAJOR,expectedPCMAJOR );
+        Assert.assertEquals(actualPPMAJOR,expectedPPMAJOR );
         bookings.SelectMiniButton();
         bookings.ClickBackButton();
         bookings.SelectMiniButton();
         String expectedCHS = "YOUR ORDER SUMMARY";
         String actualCHS = bookings.CardHaederSummaryDisplayed();
-        Assert.assertEquals(expectedCHS, expectedCHS);
+        Assert.assertEquals( actualCHS,expectedCHS);
     }
     @Attachment
     @Story("CheckOut")
@@ -182,11 +184,11 @@ public class BookingsMiniNewUserSubscriptionTests extends setup
     {
         BookingsPage bookings = new BookingsPage(driver);
         String expectedPP = "Wishi Mini package";
-        String actualCOP = bookings.MiniPacegeDisplayed();
-        Assert.assertEquals(expectedPP, expectedPP);
-        String expectedPPR = "36";
-        String actualPPR = bookings.CleanPriceDisplayed();
-        Assert.assertEquals(expectedPPR, expectedPPR);
+        String actualPP = bookings.MiniPacegeDisplayed();
+        Assert.assertEquals(actualPP,expectedPP );
+        String expectedPPR = "$36";
+        String actualPPR = bookings.PlanPriceDisplayed();
+        Assert.assertEquals(actualPPR,expectedPPR );
         Assert.assertTrue(bookings.StartYourTrialNotClicibilety(),"startyourtrial clicibilety" );
         String cardnumber = this.configFileReader.getCardNumber();
         bookings.FillPayment(cardnumber);

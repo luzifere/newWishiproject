@@ -125,6 +125,7 @@ public class BookingsMajorNewUserSubscriptionTests extends setup
     public void SerchStylist()
     {
         BookingsPage bookings = new BookingsPage(driver);
+        String stylist = this.configFileReader.getStylistName();
         bookings.SearchStylist(stylist);
         String expectedS = stylist;
         String actualS = bookings.BookStylistPageDisplayed();
@@ -152,7 +153,8 @@ public class BookingsMajorNewUserSubscriptionTests extends setup
         bookings.ClickBackButton();
         bookings.ClickMajor();
         Assert.assertTrue(bookings.MajorSelectedDisplayed(), "major not selected");
-        String expectedCOMINI = "Wishi Major";
+        String expectedCOMINI = "Got it! I recommend to choose Wishi Major.\n" +
+                "It’s perfect for a style refresh.";
         String expectedPCMAJOR = "Major";
         String expectedPPMAJOR = "90";
         String expectedPCMINI = "Mini";
@@ -162,17 +164,17 @@ public class BookingsMajorNewUserSubscriptionTests extends setup
         String actualPPMAJOR = bookings.PlanPriceMajorDisplayed();
         String actualPCMINI = bookings.PlanCardMiniDisplayed();
         String actualPPMINI = bookings.PlanPriceMiniDisplayed();
-        Assert.assertEquals(expectedCOMINI, expectedCOMINI);
-        Assert.assertEquals(expectedPCMINI, expectedPCMINI);
-        Assert.assertEquals(expectedPPMINI, expectedPPMINI);
-        Assert.assertEquals(expectedPCMAJOR, expectedPCMAJOR);
-        Assert.assertEquals(expectedPPMAJOR, expectedPPMAJOR);
+        Assert.assertEquals(actualCOMINI,expectedCOMINI);
+        Assert.assertEquals(actualPCMINI,expectedPCMINI);
+        Assert.assertEquals(actualPPMINI,expectedPPMINI);
+        Assert.assertEquals(actualPCMAJOR,expectedPCMAJOR );
+        Assert.assertEquals(actualPPMAJOR,expectedPPMAJOR );
         bookings.SelectMajorButton();
         bookings.ClickBackButton();
         bookings.SelectMajorButton();
         String expectedCHS = "YOUR ORDER SUMMARY";
         String actualCHS = bookings.CardHaederSummaryDisplayed();
-        Assert.assertEquals(expectedCHS, expectedCHS);
+        Assert.assertEquals( actualCHS,expectedCHS);
     }
     @Attachment
     @Story("CheckOut")
@@ -182,11 +184,11 @@ public class BookingsMajorNewUserSubscriptionTests extends setup
     {
         BookingsPage bookings = new BookingsPage(driver);
         String expectedPP = "Wishi Major package";
-        String actualCOP = bookings.MajorPacegeDisplayed();
-        Assert.assertEquals(expectedPP, expectedPP);
-        String expectedPPR = "81";
-        String actualPPR = bookings.CleanPriceDisplayed();
-        Assert.assertEquals(expectedPPR, expectedPPR);
+        String actualPP = bookings.MajorPacegeDisplayed();
+        Assert.assertEquals(actualPP,expectedPP );
+        String expectedPPR = "$81";
+        String actualPPR = bookings.PlanPriceDisplayed();
+        Assert.assertEquals(actualPPR,expectedPPR );
         Assert.assertTrue(bookings.StartYourTrialNotClicibilety(),"startyourtrial clicibilety" );
         String cardnumber = this.configFileReader.getCardNumber();
         bookings.FillPayment(cardnumber);

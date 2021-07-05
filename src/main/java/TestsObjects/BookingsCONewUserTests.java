@@ -126,6 +126,7 @@ public class BookingsCONewUserTests extends setup
     public void SerchStylist()
     {
         BookingsPage bookings = new BookingsPage(driver);
+        String stylist = this.configFileReader.getStylistName();
         bookings.SearchStylist(stylist);
         String expectedS = stylist;
         String actualS = bookings.BookStylistPageDisplayed();
@@ -152,22 +153,23 @@ public class BookingsCONewUserTests extends setup
         bookings.ClickCleanOut();
         bookings.ClickBackButton();
         bookings.ClickCleanOut();
-        String expectedCO = "It’s perfect for a closet clean out.";
+        String expectedCO = "Got it! I recommend to choose Wishi Major.\n" +
+                "It’s perfect for a closet clean out.";
         String expectedPC = "Major";
         String expectedPP = "90";
         String actualCO = bookings.ChatRowCODisplayed();
         String actualPC = bookings.PlanCardCleanOutDisplayed();
         String actualPP = bookings.PlanPriceMajorDisplayed();
-        Assert.assertEquals(expectedCO, expectedCO);
-        Assert.assertEquals(expectedPC, expectedPC);
-        Assert.assertEquals(expectedPP, expectedPP);
+        Assert.assertEquals(actualCO,expectedCO );
+        Assert.assertEquals(actualPC,expectedPC );
+        Assert.assertEquals(actualPP,expectedPP );
         bookings.SelectMajorButton();
         bookings.ClickBackButton();
         bookings.SelectMajorButton();
         Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
         String expectedCHS = "YOUR ORDER SUMMARY";
         String actualCHS = bookings.CardHaederSummaryDisplayed();
-        Assert.assertEquals(expectedCHS, expectedCHS);
+        Assert.assertEquals( actualCHS,expectedCHS);
     }
     @Attachment
     @Story("CheckOut")
@@ -178,15 +180,15 @@ public class BookingsCONewUserTests extends setup
         BookingsPage bookings = new BookingsPage(driver);
         String expectedCOP = "Closet clean out package";
         String actualCOP = bookings.CleanPacegeDisplayed();
-        Assert.assertEquals(expectedCOP, expectedCOP);
-        String expectedCOPR = "90";
-        String actualCOPR = bookings.CleanPriceDisplayed();
-        Assert.assertEquals(expectedCOPR, expectedCOPR);
+        Assert.assertEquals(actualCOP,expectedCOP );
+        String expectedCOPR = "$90";
+        String actualCOPR = bookings.PlanPriceDisplayed();
+        Assert.assertEquals(actualCOPR,expectedCOPR );
         bookings.ClickAddCode();
         bookings.FilleCoupon("Wishitest");
         bookings.ClickSubmit();
         String expectedPPR0 = "0";
-        String actualPPR0 = bookings.CleanPriceDisplayed();
+        String actualPPR0 = bookings.PlanPriceDisplayed();
         Assert.assertEquals(expectedPPR0, expectedPPR0);
         Assert.assertTrue(bookings.ComplatBookingclicibilety(),"Complate Booking not clicibilety" );
         //bookings.ClickComplateBooking();

@@ -10,7 +10,7 @@ import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BookingsCOTests extends setup
+public class BookingsMiniSabscriptionTests extends setup
 {
     String stylist = "Elad style";
 
@@ -66,23 +66,29 @@ public class BookingsCOTests extends setup
         Assert.assertTrue(bookings.CleanOutDisplayed(), "Clean not disaplayed");
         Assert.assertTrue(bookings.MiniDisplayed(),"Mini not displayed" );
         Assert.assertTrue(bookings.MajorDisplayed(),"Majot not displayed" );
-        bookings.ClickCleanOut();
+        bookings.ClickMini();
         bookings.ClickBackButton();
-        bookings.ClickCleanOut();
-        String expectedCO = "Got it! I recommend to choose Wishi Major.\n" +
-                "It’s perfect for a closet clean out.";
-        String expectedPC = "Major";
-        String expectedPP = "90";
-        String actualCO = bookings.ChatRowCODisplayed();
-        String actualPC = bookings.PlanCardCleanOutDisplayed();
-        String actualPP = bookings.PlanPriceMajorDisplayed();
-        Assert.assertEquals(actualCO,expectedCO );
-        Assert.assertEquals(actualPC,expectedPC );
-        Assert.assertEquals(actualPP,expectedPP );
-        bookings.SelectMajorButton();
+        bookings.ClickMini();
+        Assert.assertTrue(bookings.MiniSelectedDisplayed(), "mini not selected");
+        String expectedCOMINI = "Got it! I recommend to choose Wishi Mini.\n" +
+                "It’s perfect for a few looks or shop for some new items.";
+        String expectedPCMAJOR = "Major";
+        String expectedPPMAJOR = "90";
+        String expectedPCMINI = "Mini";
+        String expectedPPMINI = "40";
+        String actualCOMINI = bookings.ChatRowCODisplayed();
+        String actualPCMAJOR = bookings.PlanCardMajorDisplayed();
+        String actualPPMAJOR = bookings.PlanPriceMajorDisplayed();
+        String actualPCMINI = bookings.PlanCardMiniDisplayed();
+        String actualPPMINI = bookings.PlanPriceMiniDisplayed();
+        Assert.assertEquals(actualCOMINI,expectedCOMINI);
+        Assert.assertEquals(actualPCMINI,expectedPCMINI);
+        Assert.assertEquals(actualPPMINI,expectedPPMINI);
+        Assert.assertEquals(actualPCMAJOR,expectedPCMAJOR );
+        Assert.assertEquals(actualPPMAJOR,expectedPPMAJOR );
+        bookings.SelectMiniButton();
         bookings.ClickBackButton();
-        bookings.SelectMajorButton();
-       // Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
+        bookings.SelectMiniButton();
         String expectedCHS = "YOUR ORDER SUMMARY";
         String actualCHS = bookings.CardHaederSummaryDisplayed();
         Assert.assertEquals( actualCHS,expectedCHS);
@@ -94,21 +100,18 @@ public class BookingsCOTests extends setup
     public void CheckOut()
     {
         BookingsPage bookings = new BookingsPage(driver);
-        String expectedCOP = "Closet clean out package";
-        String actualCOP = bookings.CleanPacegeDisplayed();
-        Assert.assertEquals(actualCOP,expectedCOP );
-        String expectedCOPR = "$90";
-        String actualCOPR = bookings.PlanPriceDisplayed();
-        Assert.assertEquals(actualCOPR,expectedCOPR );
-        bookings.ClickAddCode();
-        bookings.FilleCoupon("Wishitest");
-        bookings.ClickSubmit();
-        String expectedPPR0 = "0";
-        String actualPPR0 = bookings.PlanPriceDisplayed();
-        Assert.assertEquals(expectedPPR0, expectedPPR0);
-        Assert.assertTrue(bookings.ComplatBookingclicibilety(),"Complate Booking not clicibilety" );
-       // bookings.ClickComplateBooking();
-       // Assert.assertTrue(bookings.LetsGoButtonDisplayed(),"letsgo button not displayed");
+        String expectedPP = "Wishi Mini package";
+        String actualPP = bookings.MiniPacegeDisplayed();
+        Assert.assertEquals(actualPP,expectedPP );
+        String expectedPPR = "$36";
+        String actualPPR = bookings.PlanPriceDisplayed();
+        Assert.assertEquals(actualPPR,expectedPPR );
+        //Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
+        Assert.assertTrue(bookings.StartYourTrialclicibilety(),"startyourtrial not clicibilety" );        //bookings.ClickComplateBooking();
+        //Assert.assertTrue(bookings.LetsGoButtonDisplayed(),"letsgo button not displayed");
+
+
+
     }
     }
 
