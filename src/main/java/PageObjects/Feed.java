@@ -1,19 +1,23 @@
 package PageObjects;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Feed extends BasePage
-{
+import java.util.List;
+
+public class Feed extends BasePage {
     public Feed(WebDriver driver) {
         super(driver);
     }
+
     @FindBy(xpath = "(//a[contains(text(), 'Feed')])[1]")
     WebElement feed;
     @FindBy(xpath = "//div[@class='feed container-fluid']")
     WebElement feedcontainer;
-    @FindBy(xpath = "(//div[@class='prices'])[2]")
+    @FindBy(xpath = "(//div[@class='prices']//p[@class='price'])[2]")
     WebElement priceitem;
     @FindBy(xpath = "(//div[contains(text(), 'Subtotal (1 item)')]/following-sibling::div[@class='col'])[1]")
     WebElement pricecheckout;
@@ -75,14 +79,19 @@ public class Feed extends BasePage
     WebElement firsdetailes3;
     @FindBy(xpath = "//div[@class='edit-btn']")
     WebElement editdetailedbutton;
+    @FindBy(xpath = "//div[@class='navbar-collapse collapse']//div[@class='cart-icon']")
+    WebElement cart;
+    @FindBy(xpath = "//div[@class='cart-icon add']")
+    WebElement addcart;
+    @FindBy(xpath = "//a[@class='btn btn-dark']")
+    WebElement shopcartbutton;
 
 
+    public void ClickFeedButton() {
+        WaitElementDosplayed(feed);
+        click(feed);
+    }
 
-    public void ClickFeedButton()
-{
-    WaitElementDosplayed(feed);
-    click(feed);
-}
     public boolean FeedContainerDisplayed() {
 
         try {
@@ -92,13 +101,14 @@ public class Feed extends BasePage
             return false;
         }
     }
-    public  void SelectLook()
-    {
+
+    public void SelectLook() {
         sleep(1500);
         WaitElementDosplayed(outfit);
         WaitElementClicability(outfit);
         click(outfit);
     }
+
     public boolean OutfitRowDisplayed() {
 
         try {
@@ -108,11 +118,12 @@ public class Feed extends BasePage
             return false;
         }
     }
-    public  void SelectItem()
-    {
+
+    public void SelectItem() {
         WaitElementDosplayed(item);
         click(item);
     }
+
     public boolean ItemRowDisplayed() {
 
         try {
@@ -122,21 +133,22 @@ public class Feed extends BasePage
             return false;
         }
     }
-    public void SelectSize()
-    {
+
+    public void SelectSize() {
         WaitElementDosplayed(sizedropdwon);
         click(sizedropdwon);
         WaitElementDosplayed(selectclass);
-        SelectOptions(selectclass,2);
+        SelectOptions(selectclass, 2);
     }
-    public void ClickCheckOut()
-    {
+
+    public void ClickCheckOut() {
         WaitElementDosplayed(checkoutbutton);
         WaitElementClicability(checkoutbutton);
         click(checkoutbutton);
+        WaitElementDosplayed(totalprice);
     }
-    public boolean CheckOutButtonNotClicibilety()
-    {
+
+    public boolean CheckOutButtonNotClicibilety() {
         try {
             WaitElementNotClicability(checkoutbutton);
             return true;
@@ -145,8 +157,8 @@ public class Feed extends BasePage
         }
 
     }
-    public boolean CheckOutButtonclicibilety()
-    {
+
+    public boolean CheckOutButtonclicibilety() {
         try {
             WaitElementClicability(checkoutbutton);
             return true;
@@ -154,8 +166,8 @@ public class Feed extends BasePage
             return false;
         }
     }
-    public boolean CheckOutPageDispalyed()
-    {
+
+    public boolean CheckOutPageDispalyed() {
         try {
             WaitElementDosplayed(checkoutpage);
             return true;
@@ -163,84 +175,90 @@ public class Feed extends BasePage
             return false;
         }
     }
-    public void FillFirstName(String text)
-    {
+
+    public void FillFirstName(String text) {
         WaitElementDosplayed(firstname);
         clear(firstname);
         sleep(1000);
-        filltext(firstname,text);
+        filltext(firstname, text);
     }
 
-    public void FillLastName(String text)
-    {
+    public void FillLastName(String text) {
         WaitElementDosplayed(lastname);
         clear(lastname);
         sleep(1000);
-        filltext(lastname,text);
+        filltext(lastname, text);
     }
-    public void SelectCountry(int text)
-    {
+
+    public void SelectCountry(int text) {
         WaitElementDosplayed(countrybutton);
         WaitElementClicability(countrybutton);
         click(countrybutton);
-        SelectOptions(selectcountry,text);
+        SelectOptions(selectcountry, text);
     }
-    public void FillAddress(String text)
-    {
+
+    public void FillAddress(String text) {
         WaitElementDosplayed(address);
         clear(address);
         sleep(1000);
-        filltext(address,text);
+        filltext(address, text);
     }
-    public void FillApt(String text)
-    {
+
+    public void FillApt(String text) {
         WaitElementDosplayed(apt);
         clear(apt);
         sleep(1000);
-        filltext(apt,text);
+        filltext(apt, text);
     }
-    public void FillCity(String text)
-    {
+
+    public void FillCity(String text) {
         WaitElementDosplayed(city);
         clear(city);
         sleep(1000);
-        filltext(city,text);
+        filltext(city, text);
     }
-    public void SelectState(int text)
-    {
+
+    public void SelectState(int text) {
         WaitElementDosplayed(state);
         WaitElementClicability(state);
         click(state);
-        SelectOptions(selectstate,text);
+        SelectOptions(selectstate, text);
     }
-    public void FillPOstalCode(String text)
-    {
+
+    public void FillPOstalCode(String text) {
         WaitElementDosplayed(postalcode);
         clear(postalcode);
         sleep(1000);
-        filltext(postalcode,text);
+        filltext(postalcode, text);
     }
-    public void FillPhoneNumber(String text)
-    {
+
+    public void FillPhoneNumber(String text) {
         WaitElementDosplayed(phone);
         clear(phone);
         sleep(1500);
-        filltext(phone,text);
+        filltext(phone, text);
     }
+
     public String GetPriceItem() {
-        WaitElementDosplayed(priceitem);
+        sleep(1500);
+        //WaitElementDosplayed(priceitem);
         return getText(priceitem);
     }
+
     public String GetPriceCheckOut() {
         WaitElementDosplayed(pricecheckout);
-        return getText(pricecheckout);
+        String price = pricecheckout.getText();
+        System.out.println(price);
+        return price;
+
     }
+
     public String GetTotalPriceCheckOut() {
         WaitElementDosplayed(totalprice);
         return getText(totalprice);
     }
-    public boolean PlaceOrderButtonNotClicibilety()
-    {
+
+    public boolean PlaceOrderButtonNotClicibilety() {
         try {
             WaitElementNotClicability(placeorderbutton);
             return true;
@@ -249,8 +267,8 @@ public class Feed extends BasePage
         }
 
     }
-    public boolean PlaceOrderButtonclicibilety()
-    {
+
+    public boolean PlaceOrderButtonclicibilety() {
         try {
             WaitElementClicability(placeorderbutton);
             return true;
@@ -258,57 +276,90 @@ public class Feed extends BasePage
             return false;
         }
     }
-    public  void ClickPlaceOrder()
-    {
+
+    public void ClickPlaceOrder() {
         WaitElementDosplayed(placeorderbutton);
         click(placeorderbutton);
     }
-    public String ThankYouForYourOrderDisplayed()
-    {
+
+    public String ThankYouForYourOrderDisplayed() {
         WaitElementDosplayed(thankyou);
         return getText(thankyou);
         //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
-    public String NameCODisplayed()
-    {
+
+    public String NameCODisplayed() {
         WaitElementDosplayed(detailes1);
         return getText(detailes1);
         //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
-    public String CityCODisplayed()
-    {
+
+    public String CityCODisplayed() {
         WaitElementDosplayed(detailes2);
         return getText(detailes2);
         //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
-    public String LastDetailesCODisplayed()
-    {
+
+    public String LastDetailesCODisplayed() {
         WaitElementDosplayed(detailes3);
         return getText(detailes3);
         //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
-    public String FirstNameCODisplayed()
-    {
+
+    public String FirstNameCODisplayed() {
         WaitElementDosplayed(firsdetailes1);
         return getText(firsdetailes1);
         //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
-    public String FirstCityCODisplayed()
-    {
+
+    public String FirstCityCODisplayed() {
         WaitElementDosplayed(firsdetailes2);
         return getText(firsdetailes2);
         //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
-    public String FirstLastDetailesCODisplayed()
-    {
+
+    public String FirstLastDetailesCODisplayed() {
         WaitElementDosplayed(firsdetailes3);
         return getText(firsdetailes3);
         //Assert.assertTrue(ElementDisplay(EmaileRequired));
     }
-    public void ClickEditDetailed()
-    {
+
+    public void ClickEditDetailed() {
         WaitElementDosplayed(editdetailedbutton);
         click(editdetailedbutton);
     }
 
+    public void AddToCart(int num) {
+        WaitElementDosplayed(addcart);
+        List<WebElement> listaddbutton = driver.findElements(By.xpath("//div[@class='cart-icon add']"));
+        listaddbutton.get(num).click();
+
+
+    }
+
+    public void OpenCart() {
+        WaitElementDosplayed(cart);
+        click(cart);
+    }
+
+    public String CounterOfTheCart() {
+        sleep(1500);
+        return getText(cart);
+    }
+
+    public void ShopCartButton(int num) {
+        sleep(1500);
+        WaitElementDosplayed(shopcartbutton);
+        List<WebElement> listcountcart = driver.findElements(By.xpath("//a[@class='btn btn-dark']"));
+        listcountcart.get(num).click();
+    }
+
+    public int NumOfShopButtons() {
+        sleep(1500);
+        WaitElementDosplayed(shopcartbutton);
+        List<WebElement> listshop = driver.findElements(By.xpath("//a[@class='btn btn-dark']"));
+        int num = listshop.size();
+        return num;
+
+    }
 }
