@@ -122,8 +122,9 @@ public class BuyItemByNewUser extends setup
         float total = (float) (pricecheckout*1.1);
         this.totalprice = Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
         Assert.assertEquals(this.totalprice,total);
-        String cardnumber = this.configFileReader.getCardNumber();
+
         BookingsPage bookings = new BookingsPage(driver);
+        String cardnumber = this.configFileReader.getCardNumber();
         bookings.FillPayment(cardnumber);
         Assert.assertTrue(feed.PlaceOrderButtonclicibilety(),"checkout button not clickable");
         feed.ClickPlaceOrder();

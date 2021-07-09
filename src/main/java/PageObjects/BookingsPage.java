@@ -337,6 +337,7 @@ public class BookingsPage extends BasePage
     }
     public void FillPayment(String CC)
     {
+        sleep(1000);
         click(paymentField);
         Switch_to_strype();
         clear(CCfield);

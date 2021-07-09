@@ -145,7 +145,7 @@ public class Feed extends BasePage {
         WaitElementDosplayed(checkoutbutton);
         WaitElementClicability(checkoutbutton);
         click(checkoutbutton);
-        WaitElementDosplayed(totalprice);
+       sleep(1000);
     }
 
     public boolean CheckOutButtonNotClicibilety() {
