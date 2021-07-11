@@ -16,14 +16,19 @@ TestsObjects/BookingsMiniNewUserTests.class
 utilitis/AllureAttachments.class
 PageObjects/ChatPage.class
 PageObjects/OnBoardingPage.class
+TestsObjects/BuyItemByExistUserEditCC.class
 TestsObjects/SignUpTest.class
+TestsObjects/BookingsMiniSabscriptionTests.class
 TestsObjects/ReversOnBoardingNaturalTest.class
 dataProvider/ConfigFileReader.class
+TestsObjects/BuyItemByExistUserSavedDetailedAndCC.class
 TestsObjects/LoginTest.class
 TestsObjects/RestAssured.class
+TestsObjects/BuyItemByNewUserFromCart.class
 TestsObjects/BookingsMajorTests.class
 TestsObjects/OnBoardingFemaleTest.class
 TestsObjects/OnBoardingMaleTest.class
+TestsObjects/BuyItemByExistUserFromCart.class
 TestsObjects/BookingsCOTests.class
 PageObjects/BasePage.class
 PageObjects/SignUpPage.class
@@ -31,5 +36,6 @@ utilitis/Listener.class
 TestsObjects/BookingsMiniTests.class
 PageObjects/Feed.class
 TestsObjects/BookingsMajorNewUserSubscriptionTests.class
+TestsObjects/BuyItemByExistUserEditDetailed.class
 TestsObjects/BookingsMajorSubscriptionTests.class
 utilitis/AllureAttachments$AllureAttachment.class

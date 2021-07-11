@@ -340,6 +340,7 @@ public class BookingsPage extends BasePage
         sleep(1000);
         click(paymentField);
         Switch_to_strype();
+        WaitElementDosplayed(CCfield);
         clear(CCfield);
         filltext(CCfield,CC);
         driver.switchTo().defaultContent();

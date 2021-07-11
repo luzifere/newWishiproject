@@ -1,8 +1,11 @@
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsCOTests.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMajorSubscriptionTests.java
+/Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BuyItemByExistUserEditDetailed.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMajorTests.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/SignUpTest.java
+/Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BuyItemByExistUserEditCC.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/ReversOnBoardingFemaleTest.java
+/Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BuyItemByNewUserFromCart.java
 /Users/yinonwishi/newWishiproject/src/main/java/PageObjects/Feed.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BuyItemByNewUser.java
 /Users/yinonwishi/newWishiproject/src/main/java/PageObjects/ChatPage.java
@@ -18,6 +21,7 @@
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/ReversOnBoardingNaturalTest.java
 /Users/yinonwishi/newWishiproject/src/main/java/PageObjects/LoginPage.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/ReversOnBoardingMaleTest.java
+/Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMiniSabscriptionTests.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMiniTests.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/RestAssured.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/ChatTest.java
@@ -27,6 +31,8 @@
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/OnBoardingNaturalTest.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMajorNewUserTests.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMiniNewUserTests.java
+/Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BuyItemByExistUserFromCart.java
+/Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BuyItemByExistUserSavedDetailedAndCC.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMajorNewUserSubscriptionTests.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/OnBoardingMaleTest.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsCONewUserCCTests.java
