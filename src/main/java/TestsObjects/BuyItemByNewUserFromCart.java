@@ -12,9 +12,9 @@ import java.util.Random;
 
 public class BuyItemByNewUserFromCart extends setup
 {
-    float priceitem;
-    float pricecheckout;
-    float totalprice;
+    int priceitem;
+    int pricecheckout;
+    int totalprice;
     String firstname ="Yinon";
     String lastname ="test";
     String address ="tel-aviv";
@@ -181,14 +181,14 @@ public class BuyItemByNewUserFromCart extends setup
     @Test(priority = 9,groups={"sanity-group"})
     public void SelectSize() {
         Feed feed = new Feed(driver);
-        this.priceitem = Float.parseFloat(feed.GetPriceItem().substring(1));
+        this.priceitem = (int) Float.parseFloat(feed.GetPriceItem().substring(1));
         Assert.assertTrue(feed.ItemRowDisplayed(),"item row not displayed");
         Assert.assertTrue(feed.CheckOutButtonNotClicibilety(),"checkout button clickable");
         feed.SelectSize();
         Assert.assertTrue(feed.CheckOutButtonclicibilety(), "checkout button not clickable");
         feed.ClickCheckOut();
         Assert.assertTrue(feed.CheckOutPageDispalyed(),"checkout page not displayed");
-        this.pricecheckout = Float.parseFloat(feed.GetPriceCheckOut().substring(1));
+        this.pricecheckout = (int) Float.parseFloat(feed.GetPriceCheckOut().substring(1));
         Assert.assertEquals(this.priceitem,pricecheckout);
     }
     @Attachment
@@ -219,8 +219,8 @@ public class BuyItemByNewUserFromCart extends setup
     {
         Feed feed = new Feed(driver);
         Assert.assertTrue(feed.PlaceOrderButtonNotClicibilety(),"checkout button not clickable");
-        float total = (float) (pricecheckout*1.1);
-        this.totalprice = Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
+        int total = (int) (pricecheckout*1.1);
+        this.totalprice = (int) Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
         Assert.assertEquals(this.totalprice,total);
         String cardnumber = this.configFileReader.getCardNumber();
         BookingsPage bookings = new BookingsPage(driver);
@@ -259,14 +259,14 @@ public class BuyItemByNewUserFromCart extends setup
     @Test(priority = 12,groups={"sanity-group"})
     public void SelectSizenextitem() {
         Feed feed = new Feed(driver);
-        this.priceitem = Float.parseFloat(feed.GetPriceItem().substring(1));
+        this.priceitem = (int) Float.parseFloat(feed.GetPriceItem().substring(1));
         Assert.assertTrue(feed.ItemRowDisplayed(),"item row not displayed");
         Assert.assertTrue(feed.CheckOutButtonNotClicibilety(),"checkout button clickable");
         feed.SelectSize();
         Assert.assertTrue(feed.CheckOutButtonclicibilety(), "checkout button not clickable");
         feed.ClickCheckOut();
         Assert.assertTrue(feed.CheckOutPageDispalyed(),"checkout page not displayed");
-        this.pricecheckout = Float.parseFloat(feed.GetPriceCheckOut().substring(1));
+        this.pricecheckout = (int) Float.parseFloat(feed.GetPriceCheckOut().substring(1));
         Assert.assertEquals(this.priceitem,pricecheckout);
     }
 
@@ -298,8 +298,8 @@ public class BuyItemByNewUserFromCart extends setup
     {
         Feed feed = new Feed(driver);
         Assert.assertTrue(feed.PlaceOrderButtonclicibilety(),"checkout button not clickable");
-        float total = (float) (pricecheckout*1.1);
-        this.totalprice = Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
+        int total = (int) (pricecheckout*1.1);
+        this.totalprice = (int) Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
         Assert.assertEquals(this.totalprice,total);
         feed.ClickPlaceOrder();
         this.counter--;

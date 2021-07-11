@@ -119,7 +119,7 @@ public class BuyItemByNewUser extends setup
     public void PlaceOreder()
     {
         Feed feed = new Feed(driver);
-        float total = (float) (pricecheckout*1.1);
+        int total = (int) (pricecheckout*1.1);
         this.totalprice = Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
         Assert.assertEquals(this.totalprice,total);
 
