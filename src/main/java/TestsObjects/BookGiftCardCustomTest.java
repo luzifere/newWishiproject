@@ -1,7 +1,7 @@
 package TestsObjects;
 
 import PageObjects.BookingsPage;
-import PageObjects.LoginPage;
+import PageObjects.GiftPage;
 import PageObjects.OnBoardingPage;
 import PageObjects.SignUpPage;
 import io.qameta.allure.Attachment;
@@ -13,9 +13,15 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-public class BookingsMiniNewUserTests extends setup
+public class BookGiftCardCustomTest extends setup
 {
-    String stylist = "Elad style";
+    String newusermaile;
+    int number;
+    String firstname= "yinon";
+    String lastname= "Wishi";
+    String pricecard;
+    String custom;
+
 
     @Attachment
     @Story("Do correct signup")
@@ -24,18 +30,16 @@ public class BookingsMiniNewUserTests extends setup
     public void DoSignUp() {
 
         Random num = new Random();
-        int number = 1000000;
+        number = 1000000;
         for (int counter = 5800000; counter <= 10000000; counter++)
             number = num.nextInt(700000);
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
-        String username = this.configFileReader.getnewusername();
-        sign.FillFullName(username);
+        sign.FillFullName(firstname+" "+lastname);
         sign.ClearEmail();
-        String newusermaile = this.configFileReader.getnewusermaile();
+        this.newusermaile = this.configFileReader.getnewusermaile();
         sign.FillEmail(newusermaile + number);
-        //sign.FillEmail("wishitestyinon@wishitest.com" + number);
         sign.Clearpassword();
         String password = this.configFileReader.getpassword();
         sign.Fillpassword(password);
@@ -138,42 +142,79 @@ public class BookingsMiniNewUserTests extends setup
     @Story("Book Stylist")
     @Severity(SeverityLevel.NORMAL)
     @Test(priority = 7,groups={"sanity-group"})
-    public void BookStylist()
+    public void SelectGift() {
+        GiftPage gift = new GiftPage(driver);
+        gift.ClickGiftButton();
+        gift.GiftPageLoaded();
+        gift.MiniClicable();
+        gift.MajorClicable();
+        gift.unlimitedClicable();
+        gift.ClickMajorButton();
+        gift.ClickMiniButton();
+        gift.ClickCustom();
+       gift.FillCustomPrice("1000");
+        this.custom = gift.GetTextCustomPrice();
+        gift.FillRecipientName("Yinon");
+        gift.FillRecipientMail("Yinon@wishi.me");
+        String expected = firstname +" "+ lastname;
+        String actual = gift.GetSenderName();
+        System.out.println(actual);
+        Assert.assertEquals(actual, expected);
+        String expectedmail = this.newusermaile + number;
+        String actualmail = gift.GetSenderMail();
+        System.out.println(actualmail);
+        Assert.assertEquals(actualmail, expectedmail);
+        gift.FillComment("coment test");
+        gift.ClickContinue();
+
+    }
+    @Attachment
+    @Story("Check Out")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 8,groups={"sanity-group"})
+    public void CheckOut()
     {
+        GiftPage gift = new GiftPage(driver);
+        String totalgift = gift.GetTotalgiftPayment().substring(1);
+        String pricecardCO = gift.GetPriceCaerdCheckOut().substring(1);
+        Assert.assertEquals(custom, totalgift);
+        Assert.assertEquals(custom, pricecardCO);
+        String firstnameCO = gift.GetTextfirstname();
+        String lastnameCO = gift.GetTextlastname();
+        Assert.assertEquals(firstnameCO, firstname);
+        Assert.assertEquals(lastnameCO, lastname);
+        String cardnumber = this.configFileReader.getCardNumber();
         BookingsPage bookings = new BookingsPage(driver);
-        bookings.ClickBookStylistButton();
-        bookings.ClickBackButton();
-        bookings.ClickBookStylistButton();
-        String expectedS = stylist;
-        String actualS = bookings.StylistNameDisplayed();
-        System.out.println(actualS);
+        bookings.FillPayment(cardnumber);
+        gift.ClickBuyButton();
+        String pricecardConfirm = gift.GetPriceCaerdConfirm().substring(1);
+        Assert.assertEquals(pricecardCO, pricecardConfirm);
+    }
+
+
+
+        /*
         Assert.assertEquals(actualS, expectedS);
         Assert.assertTrue(bookings.CleanOutDisplayed(), "Clean not disaplayed");
         Assert.assertTrue(bookings.MiniDisplayed(),"Mini not displayed" );
         Assert.assertTrue(bookings.MajorDisplayed(),"Majot not displayed" );
-        bookings.ClickMini();
+        bookings.ClickCleanOut();
         bookings.ClickBackButton();
-        bookings.ClickMini();
-        Assert.assertTrue(bookings.MiniSelectedDisplayed(), "mini not selected");
-        String expectedCOMINI = "Got it! I recommend to choose Wishi Mini.\n" +
-                "It’s perfect for a few looks or shop for some new items.";
-        String expectedPCMAJOR = "Major";
-        String expectedPPMAJOR = "90";
-        String expectedPCMINI = "Mini";
-        String expectedPPMINI = "40";
-        String actualCOMINI = bookings.ChatRowCODisplayed();
-        String actualPCMAJOR = bookings.PlanCardMajorDisplayed();
-        String actualPPMAJOR = bookings.PlanPriceMajorDisplayed();
-        String actualPCMINI = bookings.PlanCardMiniDisplayed();
-        String actualPPMINI = bookings.PlanPriceMiniDisplayed();
-        Assert.assertEquals(actualCOMINI,expectedCOMINI);
-        Assert.assertEquals(actualPCMINI,expectedPCMINI);
-        Assert.assertEquals(actualPPMINI,expectedPPMINI);
-        Assert.assertEquals(actualPCMAJOR,expectedPCMAJOR );
-        Assert.assertEquals(actualPPMAJOR,expectedPPMAJOR );
-        bookings.SelectMiniButton();
+        bookings.ClickCleanOut();
+        String expectedCO = "Got it! I recommend to choose Wishi Major.\n" +
+                "It’s perfect for a closet clean out.";
+        String expectedPC = "Major";
+        String expectedPP = "90";
+        String actualCO = bookings.ChatRowCODisplayed();
+        String actualPC = bookings.PlanCardCleanOutDisplayed();
+        String actualPP = bookings.PlanPriceMajorDisplayed();
+        Assert.assertEquals(actualCO,expectedCO );
+        Assert.assertEquals(actualPC,expectedPC );
+        Assert.assertEquals(actualPP,expectedPP );
+        bookings.SelectMajorButton();
         bookings.ClickBackButton();
-        bookings.SelectMiniButton();
+        bookings.SelectMajorButton();
+        Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
         String expectedCHS = "YOUR ORDER SUMMARY";
         String actualCHS = bookings.CardHaederSummaryDisplayed();
         Assert.assertEquals( actualCHS,expectedCHS);
@@ -185,14 +226,12 @@ public class BookingsMiniNewUserTests extends setup
     public void CheckOut()
     {
         BookingsPage bookings = new BookingsPage(driver);
-        String expectedPP = "Wishi Mini package";
-        String actualPP = bookings.MiniPacegeDisplayed();
-        Assert.assertEquals(actualPP,expectedPP );
-        String expectedPPR = "$36";
-        String actualPPR = bookings.PlanPriceDisplayed();
-        Assert.assertEquals(actualPPR,expectedPPR );
-        bookings.SelectOneTime();
-        Assert.assertTrue(bookings.ComplatBookingNotClicibilety(),"Complate Booking clicibilety" );
+        String expectedCOP = "Closet clean out package";
+        String actualCOP = bookings.CleanPacegeDisplayed();
+        Assert.assertEquals(actualCOP,expectedCOP );
+        String expectedCOPR = "$90";
+        String actualCOPR = bookings.PlanPriceDisplayed();
+        Assert.assertEquals(actualCOPR,expectedCOPR );
         bookings.ClickAddCode();
         bookings.FilleCoupon("Wishitest");
         bookings.ClickSubmit();
@@ -202,6 +241,8 @@ public class BookingsMiniNewUserTests extends setup
         Assert.assertTrue(bookings.ComplatBookingclicibilety(),"Complate Booking not clicibilety" );
         //bookings.ClickComplateBooking();
         //Assert.assertTrue(bookings.LetsGoButtonDisplayed(),"letsgo button not displayed");
+
+         */
     }
-    }
+
 

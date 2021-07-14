@@ -36,6 +36,8 @@
            <class name="TestsObjects.BookingsMiniSabscriptionTests"/>
            <class name="TestsObjects.BuyItemByExistUserFromCart"/>
            <class name="TestsObjects.BuyItemByNewUserFromCart"/>
+           <class name="TestsObjects.BookGiftCardCustomTest"/>
+           <class name="TestsObjects.BookGiftCardTest"/>
            <class name="TestsObjects.BookingsMiniNewUserTests">
            </class>
        </classes>
