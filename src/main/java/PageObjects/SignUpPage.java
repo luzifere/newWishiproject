@@ -51,6 +51,7 @@ public class SignUpPage extends BasePage {
     public void ClickSignUpPUBtnButton() {
 
         ExplicityWaitIsClickable(SignUpPUBtn);
+
     }
 
     public void Clearpassword() {

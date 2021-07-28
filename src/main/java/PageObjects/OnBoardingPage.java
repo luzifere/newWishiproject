@@ -169,22 +169,20 @@ public class OnBoardingPage extends BasePage {
         WaitElementDosplayed(nextbutton);
         click(nextbutton);
     }
-    public void BodyTypePageLoaded() {
+    public void BodyTypePageLoaded()
+    {
         WaitElementDosplayed(bodyType);
     }
-    public void BrandsPageLoaded() {
+    public void BrandsPageLoaded()
+    {
         WaitElementDosplayed(brandslist);
     }
 
     public void SelectBodyType(String text) {
 
         for (WebElement element : bodytype) {
-            //System.out.println(element);
-            //System.out.println(element.getText());
             if (element.getText().toLowerCase().contains(text))
             {
-                //System.out.println(element.getText());
-                //System.out.println(element);
                 WaitElementDosplayed(element);
                 click(element);
             }

@@ -178,6 +178,7 @@ public class Feed extends BasePage {
 
     public void FillFirstName(String text) {
         WaitElementDosplayed(firstname);
+        sleep(1000);
         clear(firstname);
         sleep(1000);
         filltext(firstname, text);
@@ -185,6 +186,7 @@ public class Feed extends BasePage {
 
     public void FillLastName(String text) {
         WaitElementDosplayed(lastname);
+        sleep(1000);
         clear(lastname);
         sleep(1000);
         filltext(lastname, text);

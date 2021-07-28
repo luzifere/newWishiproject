@@ -1,4 +1,5 @@
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsCOTests.java
+/Users/yinonwishi/newWishiproject/src/main/java/PageObjects/GiftPage.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMajorSubscriptionTests.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BuyItemByExistUserEditDetailed.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMajorTests.java
@@ -29,8 +30,10 @@
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/OnBoardingFemaleTest.java
 /Users/yinonwishi/newWishiproject/src/main/java/utilitis/Listener.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/OnBoardingNaturalTest.java
+/Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookGiftCardCustomTest.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMajorNewUserTests.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMiniNewUserTests.java
+/Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookGiftCardTest.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BuyItemByExistUserFromCart.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BuyItemByExistUserSavedDetailedAndCC.java
 /Users/yinonwishi/newWishiproject/src/main/java/TestsObjects/BookingsMajorNewUserSubscriptionTests.java
