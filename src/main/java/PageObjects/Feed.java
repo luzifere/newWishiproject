@@ -334,8 +334,9 @@ public class Feed extends BasePage {
     public void AddToCart(int num) {
         WaitElementDosplayed(addcart);
         List<WebElement> listaddbutton = driver.findElements(By.xpath("//div[@class='cart-icon add']"));
-        listaddbutton.get(num).click();
-
+        if (addcart.isEnabled()) {
+            listaddbutton.get(num).click();
+        }
 
     }
 
