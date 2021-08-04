@@ -138,7 +138,7 @@ public class Feed extends BasePage {
         WaitElementDosplayed(sizedropdwon);
         click(sizedropdwon);
         WaitElementDosplayed(selectclass);
-        SelectOptions(selectclass, 2);
+        SelectOptions(selectclass, 1);
     }
 
     public void ClickCheckOut() {
