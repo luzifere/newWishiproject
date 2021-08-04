@@ -121,7 +121,7 @@ public class BuyItemByExistUserFromCart extends setup
     {
         Feed feed = new Feed(driver);
         Assert.assertTrue(feed.PlaceOrderButtonclicibilety(),"checkout button not clickable");
-        int total = (int) (pricecheckout*1.1);
+        int total = (int) Math.round(pricecheckout*1.1);
         this.totalprice = (int) Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
         Assert.assertEquals(this.totalprice,total);
         feed.ClickPlaceOrder();
@@ -197,7 +197,7 @@ public class BuyItemByExistUserFromCart extends setup
     {
         Feed feed = new Feed(driver);
         Assert.assertTrue(feed.PlaceOrderButtonclicibilety(),"checkout button not clickable");
-        int total = (int) (pricecheckout*1.1);
+        int total = (int) Math.round(pricecheckout*1.1);
         this.totalprice = (int) Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
         Assert.assertEquals(this.totalprice,total);
         feed.ClickPlaceOrder();

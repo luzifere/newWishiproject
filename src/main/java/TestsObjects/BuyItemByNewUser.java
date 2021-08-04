@@ -119,10 +119,9 @@ public class BuyItemByNewUser extends setup
     public void PlaceOreder()
     {
         Feed feed = new Feed(driver);
-        int total = (int) (pricecheckout*1.1);
+        int total = (int) Math.round(pricecheckout*1.1);
         this.totalprice = Float.parseFloat(feed.GetTotalPriceCheckOut().substring(1));
         Assert.assertEquals(this.totalprice,total);
-
         BookingsPage bookings = new BookingsPage(driver);
         String cardnumber = this.configFileReader.getCardNumber();
         bookings.FillPayment(cardnumber);
