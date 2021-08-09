@@ -3,6 +3,7 @@ package PageObjects;
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.*;
 
@@ -145,11 +146,15 @@ public void PageLoaded( WebDriver driver)
         dropdown.selectByIndex(num);
 
     }
-    public void SelectOptionsValue(WebElement elemnt,String value)
-    {
+    public void SelectOptionsValue(WebElement elemnt,String value) {
         WebElement testDropDown = elemnt;
         Select dropdown = new Select(elemnt);
         dropdown.selectByValue(value);
+    }
+    public void clickonmap(WebElement element,int x , int y){
+        Actions action = new Actions(driver);
+
+        action.moveToElement(element,x,y).click().perform();
 
     }
 }

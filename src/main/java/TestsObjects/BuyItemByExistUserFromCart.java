@@ -25,6 +25,15 @@ public class BuyItemByExistUserFromCart extends setup
     int shopbuttons;
     int counter= 0;
 
+    public int round(double number){
+        double rounded = Math.round(number);
+        double diff = rounded - number;
+        if(diff < 0.5){
+            return (int)rounded;
+        }else{
+            return (int)rounded-1;
+        }
+    }
 
     @Attachment
     @Story("DoLogin")
