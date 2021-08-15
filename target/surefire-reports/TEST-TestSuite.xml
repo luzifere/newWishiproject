@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="872.172" tests="177" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="webdriver.chrome.driver" value="/Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/yinonwishi/newWishiproject/target/test-classes:/Users/yinonwishi/newWishiproject/target/classes:/Users/yinonwishi/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-beta-2/selenium-java-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-beta-2/selenium-api-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/Users/yinonwishi/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/yinonwishi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/yinonwishi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/yinonwishi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/yinonwishi/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/yinonwishi/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/yinonwishi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-beta-2/selenium-devtools-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-beta-2/selenium-http-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-beta-2/selenium-json-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v86/4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v87/4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v88/4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v89/4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-buffer/4.1.58.Final/netty-buffer-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-http/4.1.58.Final/netty-codec-http-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec/4.1.58.Final/netty-codec-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler/4.1.58.Final/netty-handler-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-common/4.1.58.Final/netty-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.58.Final/netty-transport-native-kqueue-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.58.Final/netty-transport-native-unix-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport/4.1.58.Final/netty-transport-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-resolver/4.1.58.Final/netty-resolver-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api/1.0.0/opentelemetry-api-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-context/1.0.0/opentelemetry-context-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.0.0/opentelemetry-exporter-logging-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.0.0-alpha/opentelemetry-sdk-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.0.0/opentelemetry-sdk-common-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.0.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.0.0/opentelemetry-sdk-trace-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.0.0-alpha/opentelemetry-api-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.0.0/opentelemetry-sdk-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.0.0-alpha/opentelemetry-semconv-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client/2.12.2/async-http-client-2.12.2.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.2/async-http-client-netty-utils-2.12.2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-socks/4.1.53.Final/netty-codec-socks-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler-proxy/4.1.53.Final/netty-handler-proxy-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.53.Final/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar:/Users/yinonwishi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/yinonwishi/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/yinonwishi/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-beta-2/selenium-support-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/yinonwishi/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/yinonwishi/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/yinonwishi/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/yinonwishi/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/yinonwishi/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/yinonwishi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/yinonwishi/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/yinonwishi/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yinonwishi/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yinonwishi/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/yinonwishi/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yinonwishi/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yinonwishi/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yinonwishi/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yinonwishi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yinonwishi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/yinonwishi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/yinonwishi/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/yinonwishi/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IL"/>
+    <property name="allure.link.issue.pattern" value="https://example.org/issue/{}"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter1651398299633720712.jar /Users/yinonwishi/newWishiproject/target/surefire 2021-08-15T22-44-33_045-jvmRun1 surefire10433103592127470415tmp surefire_07457159362318582621tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/yinonwishi/newWishiproject/target/test-classes:/Users/yinonwishi/newWishiproject/target/classes:/Users/yinonwishi/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-beta-2/selenium-java-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-beta-2/selenium-api-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar:/Users/yinonwishi/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/Users/yinonwishi/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/yinonwishi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/yinonwishi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/yinonwishi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/yinonwishi/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/yinonwishi/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/yinonwishi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-beta-2/selenium-devtools-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-beta-2/selenium-http-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-beta-2/selenium-json-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v86/4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v87/4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v88/4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v89/4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-buffer/4.1.58.Final/netty-buffer-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-http/4.1.58.Final/netty-codec-http-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec/4.1.58.Final/netty-codec-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler/4.1.58.Final/netty-handler-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-common/4.1.58.Final/netty-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.58.Final/netty-transport-native-kqueue-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.58.Final/netty-transport-native-unix-common-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport/4.1.58.Final/netty-transport-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-resolver/4.1.58.Final/netty-resolver-4.1.58.Final.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api/1.0.0/opentelemetry-api-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-context/1.0.0/opentelemetry-context-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.0.0/opentelemetry-exporter-logging-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.0.0-alpha/opentelemetry-sdk-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.0.0/opentelemetry-sdk-common-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.0.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.0.0/opentelemetry-sdk-trace-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.0.0-alpha/opentelemetry-api-metrics-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.0.0/opentelemetry-sdk-1.0.0.jar:/Users/yinonwishi/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.0.0-alpha/opentelemetry-semconv-1.0.0-alpha.jar:/Users/yinonwishi/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client/2.12.2/async-http-client-2.12.2.jar:/Users/yinonwishi/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.2/async-http-client-netty-utils-2.12.2.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-codec-socks/4.1.53.Final/netty-codec-socks-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-handler-proxy/4.1.53.Final/netty-handler-proxy-4.1.53.Final.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar:/Users/yinonwishi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.53.Final/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar:/Users/yinonwishi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/yinonwishi/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/yinonwishi/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-beta-2/selenium-support-4.0.0-beta-2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/yinonwishi/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/yinonwishi/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/yinonwishi/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/yinonwishi/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/yinonwishi/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/yinonwishi/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/yinonwishi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/yinonwishi/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/yinonwishi/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yinonwishi/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yinonwishi/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/yinonwishi/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yinonwishi/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yinonwishi/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yinonwishi/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/yinonwishi/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yinonwishi/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yinonwishi/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yinonwishi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yinonwishi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yinonwishi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/yinonwishi/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/yinonwishi/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/yinonwishi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/yinonwishi/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/yinonwishi/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/yinonwishi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/yinonwishi/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/yinonwishi/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:"/>
+    <property name="allure.results.directory" value="/Users/yinonwishi/newWishiproject/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yinonwishi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="allure.link.tms.pattern" value="https://example.org/tms/{}"/>
+    <property name="basedir" value="/Users/yinonwishi/newWishiproject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/yinonwishi/newWishiproject/target/surefire/surefirebooter1651398299633720712.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="yinonwishi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/yinonwishi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/xz/jk5hy2jd3sb1_2b_tghyzylw0000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/yinonwishi/newWishiproject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/yinonwishi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="DoLogin" classname="TestsObjects.BookingsMajorTests" time="3.02">
+    <system-out><![CDATA[This is onStart method/Users/yinonwishi/newWishiproject/target/surefire-reports/Suite
+New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 8712
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:44:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:44:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:44:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsMajorTests" time="3.246">
+    <system-out><![CDATA[New Test Started SerchStylist
+Your Stylists Match!
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsMajorTests" time="3.096">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsMajorTests" time="2.695">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.BookingsMiniTests" time="2.142">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 43457
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:45:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:45:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:45:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsMiniTests" time="3.093">
+    <system-out><![CDATA[New Test Started SerchStylist
+Your Stylists Match!
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsMiniTests" time="3.136">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsMiniTests" time="2.453">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.BookingsCOTests" time="2.07">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 7529
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:45:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:45:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:45:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsCOTests" time="3.11">
+    <system-out><![CDATA[New Test Started SerchStylist
+Your Stylists Match!
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsCOTests" time="3.132">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsCOTests" time="1.137">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.BuyItemByExistUserEditCC" time="2.074">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 19820
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:46:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:46:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:46:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectLook" classname="TestsObjects.BuyItemByExistUserEditCC" time="1.65">
+    <system-out><![CDATA[New Test Started SelectLook
+Test Successfully Finished  SelectLook
+]]></system-out>
+  </testcase>
+  <testcase name="SelectItem" classname="TestsObjects.BuyItemByExistUserEditCC" time="2.269">
+    <system-out><![CDATA[New Test Started SelectItem
+Test Successfully Finished  SelectItem
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSize" classname="TestsObjects.BuyItemByExistUserEditCC" time="2.261">
+    <system-out><![CDATA[New Test Started SelectSize
+$290
+Test Successfully Finished  SelectSize
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateDetails" classname="TestsObjects.BuyItemByExistUserEditCC" time="0.15">
+    <system-out><![CDATA[New Test Started ValidateDetails
+Yinon test
+tel-aviv valy
+rishon le zoin, WA 65465465
+Test Successfully Finished  ValidateDetails
+]]></system-out>
+  </testcase>
+  <testcase name="PlaceOreder" classname="TestsObjects.BuyItemByExistUserEditCC" time="4.345">
+    <system-out><![CDATA[New Test Started PlaceOreder
+Thank you for your order.
+Yinon test
+tel-aviv
+rishon le zoin, WA 65465465
+Test Successfully Finished  PlaceOreder
+]]></system-out>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.BuyItemByExistUserFromCart" time="1.987">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 37432
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:46:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectLook" classname="TestsObjects.BuyItemByExistUserFromCart" time="1.654">
+    <system-out><![CDATA[New Test Started SelectLook
+Test Successfully Finished  SelectLook
+]]></system-out>
+  </testcase>
+  <testcase name="SelectItem" classname="TestsObjects.BuyItemByExistUserFromCart" time="5.522">
+    <system-out><![CDATA[New Test Started SelectItem
+Test Successfully Finished  SelectItem
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSize" classname="TestsObjects.BuyItemByExistUserFromCart" time="4.086">
+    <system-out><![CDATA[New Test Started SelectSize
+$520
+Test Successfully Finished  SelectSize
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateDetails" classname="TestsObjects.BuyItemByExistUserFromCart" time="0.115">
+    <system-out><![CDATA[New Test Started ValidateDetails
+Yinon test
+tel-aviv valy
+rishon le zoin, WA 65465465
+Test Successfully Finished  ValidateDetails
+]]></system-out>
+  </testcase>
+  <testcase name="PlaceOreder" classname="TestsObjects.BuyItemByExistUserFromCart" time="7.729">
+    <system-out><![CDATA[New Test Started PlaceOreder
+Thank you for your order.
+Yinon test
+tel-aviv
+rishon le zoin, WA 65465465
+Test Successfully Finished  PlaceOreder
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSizenextitem" classname="TestsObjects.BuyItemByExistUserFromCart" time="3.777">
+    <system-out><![CDATA[New Test Started SelectSizenextitem
+$290
+Test Successfully Finished  SelectSizenextitem
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateDetailsnextItem" classname="TestsObjects.BuyItemByExistUserFromCart" time="0.108">
+    <system-out><![CDATA[New Test Started ValidateDetailsnextItem
+Yinon test
+tel-aviv valy
+rishon le zoin, WA 65465465
+Test Successfully Finished  ValidateDetailsnextItem
+]]></system-out>
+  </testcase>
+  <testcase name="PlaceOrederNextItem" classname="TestsObjects.BuyItemByExistUserFromCart" time="2.314">
+    <system-out><![CDATA[New Test Started PlaceOrederNextItem
+Thank you for your order.
+Yinon test
+tel-aviv
+rishon le zoin, WA 65465465
+Test Successfully Finished  PlaceOrederNextItem
+]]></system-out>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.BuyItemByExistUserEditDetailed" time="1.845">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 21222
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:47:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:47:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:47:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectLook" classname="TestsObjects.BuyItemByExistUserEditDetailed" time="1.655">
+    <system-out><![CDATA[New Test Started SelectLook
+Test Successfully Finished  SelectLook
+]]></system-out>
+  </testcase>
+  <testcase name="SelectItem" classname="TestsObjects.BuyItemByExistUserEditDetailed" time="2.237">
+    <system-out><![CDATA[New Test Started SelectItem
+Test Successfully Finished  SelectItem
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSize" classname="TestsObjects.BuyItemByExistUserEditDetailed" time="2.24">
+    <system-out><![CDATA[New Test Started SelectSize
+$290
+Test Successfully Finished  SelectSize
+]]></system-out>
+  </testcase>
+  <testcase name="FillDetails" classname="TestsObjects.BuyItemByExistUserEditDetailed" time="13.686">
+    <system-out><![CDATA[New Test Started FillDetails
+Test Successfully Finished  FillDetails
+]]></system-out>
+  </testcase>
+  <testcase name="PlaceOreder" classname="TestsObjects.BuyItemByExistUserEditDetailed" time="2.328">
+    <system-out><![CDATA[New Test Started PlaceOreder
+Thank you for your order.
+Yinon test
+tel-aviv
+rishon le zoin, WA 65465465
+Test Successfully Finished  PlaceOreder
+]]></system-out>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.BookingsMajorSubscriptionTests" time="1.854">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 1058
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:47:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:47:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:47:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsMajorSubscriptionTests" time="3.049">
+    <system-out><![CDATA[New Test Started SerchStylist
+Your Stylists Match!
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsMajorSubscriptionTests" time="2.919">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsMajorSubscriptionTests" time="0.686">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.BuyItemByExistUserSavedDetailedAndCC" time="1.894">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 10836
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:48:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:48:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:48:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectLook" classname="TestsObjects.BuyItemByExistUserSavedDetailedAndCC" time="1.651">
+    <system-out><![CDATA[New Test Started SelectLook
+Test Successfully Finished  SelectLook
+]]></system-out>
+  </testcase>
+  <testcase name="SelectItem" classname="TestsObjects.BuyItemByExistUserSavedDetailedAndCC" time="2.764">
+    <system-out><![CDATA[New Test Started SelectItem
+Test Successfully Finished  SelectItem
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSize" classname="TestsObjects.BuyItemByExistUserSavedDetailedAndCC" time="2.194">
+    <system-out><![CDATA[New Test Started SelectSize
+$290
+Test Successfully Finished  SelectSize
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateDetails" classname="TestsObjects.BuyItemByExistUserSavedDetailedAndCC" time="0.118">
+    <system-out><![CDATA[New Test Started ValidateDetails
+Yinon test
+tel-aviv valy
+rishon le zoin, WA 65465465
+Test Successfully Finished  ValidateDetails
+]]></system-out>
+  </testcase>
+  <testcase name="PlaceOreder" classname="TestsObjects.BuyItemByExistUserSavedDetailedAndCC" time="2.312">
+    <system-out><![CDATA[New Test Started PlaceOreder
+Thank you for your order.
+Yinon test
+tel-aviv
+rishon le zoin, WA 65465465
+Test Successfully Finished  PlaceOreder
+]]></system-out>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.BookingsMiniSabscriptionTests" time="1.912">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 24273
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:48:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:48:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:48:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsMiniSabscriptionTests" time="2.939">
+    <system-out><![CDATA[New Test Started SerchStylist
+Your Stylists Match!
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsMiniSabscriptionTests" time="3.058">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsMiniSabscriptionTests" time="0.686">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.BookingsMiniNewUserTests" time="3.648">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 42393
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:49:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:49:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:49:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.BookingsMiniNewUserTests" time="0.749">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.BookingsMiniNewUserTests" time="0.525">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.BookingsMiniNewUserTests" time="1.913">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.BookingsMiniNewUserTests" time="2.01">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsMiniNewUserTests" time="2.85">
+    <system-out><![CDATA[New Test Started SerchStylist
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsMiniNewUserTests" time="3.053">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsMiniNewUserTests" time="3.346">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.BookGiftCardTest" time="3.391">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 5815
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:49:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:49:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:49:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.BookGiftCardTest" time="0.721">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.BookGiftCardTest" time="0.508">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.BookGiftCardTest" time="1.4">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.BookGiftCardTest" time="2.161">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookGiftCardTest" time="2.86">
+    <system-out><![CDATA[New Test Started SerchStylist
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="SelectGift" classname="TestsObjects.BookGiftCardTest" time="1.264">
+    <system-out><![CDATA[New Test Started SelectGift
+yinon Wishi
+wishitesTY@wishi.com320190688228
+Test Successfully Finished  SelectGift
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookGiftCardTest" time="3.236">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.BookingsMiniNewUserSubscriptionTests" time="3.085">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 33101
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:50:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:50:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:50:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.BookingsMiniNewUserSubscriptionTests" time="0.813">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.BookingsMiniNewUserSubscriptionTests" time="0.506">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.BookingsMiniNewUserSubscriptionTests" time="1.896">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.BookingsMiniNewUserSubscriptionTests" time="2.017">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsMiniNewUserSubscriptionTests" time="2.866">
+    <system-out><![CDATA[New Test Started SerchStylist
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsMiniNewUserSubscriptionTests" time="2.833">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsMiniNewUserSubscriptionTests" time="1.479">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.BookGiftCardCustomTest" time="3.397">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 23568
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:50:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:50:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:50:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.BookGiftCardCustomTest" time="0.888">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.BookGiftCardCustomTest" time="0.524">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.BookGiftCardCustomTest" time="1.997">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.BookGiftCardCustomTest" time="2.012">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookGiftCardCustomTest" time="2.879">
+    <system-out><![CDATA[New Test Started SerchStylist
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="SelectGift" classname="TestsObjects.BookGiftCardCustomTest" time="1.428">
+    <system-out><![CDATA[New Test Started SelectGift
+yinon Wishi
+wishitesTY@wishi.com320190527887
+Test Successfully Finished  SelectGift
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookGiftCardCustomTest" time="3.239">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.BookingsMajorNewUserTests" time="3.643">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 25878
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:51:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:51:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:51:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.BookingsMajorNewUserTests" time="0.707">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.BookingsMajorNewUserTests" time="0.459">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.BookingsMajorNewUserTests" time="1.85">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.BookingsMajorNewUserTests" time="2.048">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsMajorNewUserTests" time="2.979">
+    <system-out><![CDATA[New Test Started SerchStylist
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsMajorNewUserTests" time="3.03">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsMajorNewUserTests" time="3.529">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingFemaleTest" time="3.637">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 1936
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:52:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:52:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:52:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingFemaleTest" time="0.928">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.OnBoardingFemaleTest" time="0.941">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingFemaleTest" time="2.197">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingFemaleTest" time="1.581">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingMaleTest" time="3.12">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 5884
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:52:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:52:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:52:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.OnBoardingMaleTest" time="0.979">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingMaleTest" time="1.544">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingMaleTest" time="1.8">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.OnBoardingNaturalTest" time="3.608">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 22160
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:52:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:52:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:52:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectNatural" classname="TestsObjects.OnBoardingNaturalTest" time="1.42">
+    <system-out><![CDATA[New Test Started SelectNatural
+Test Successfully Finished  SelectNatural
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.OnBoardingNaturalTest" time="0.744">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.OnBoardingNaturalTest" time="2.932">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.OnBoardingNaturalTest" time="1.575">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.BookingsCONewUserCCTests" time="3.128">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 29897
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:53:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:53:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:53:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.BookingsCONewUserCCTests" time="0.818">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.BookingsCONewUserCCTests" time="0.51">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.BookingsCONewUserCCTests" time="1.884">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.BookingsCONewUserCCTests" time="2.029">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsCONewUserCCTests" time="2.857">
+    <system-out><![CDATA[New Test Started SerchStylist
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsCONewUserCCTests" time="3.138">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsCONewUserCCTests" time="1.383">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.BookingsCONewUserTests" time="3.619">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 23284
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:53:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:53:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:53:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.BookingsCONewUserTests" time="0.735">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.BookingsCONewUserTests" time="0.504">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.BookingsCONewUserTests" time="1.976">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.BookingsCONewUserTests" time="2.019">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsCONewUserTests" time="2.924">
+    <system-out><![CDATA[New Test Started SerchStylist
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsCONewUserTests" time="2.901">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsCONewUserTests" time="2.139">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.BookingsMajorNewUserSubscriptionTests" time="3.115">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 5389
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:54:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:54:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:54:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.BookingsMajorNewUserSubscriptionTests" time="0.834">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.BookingsMajorNewUserSubscriptionTests" time="0.52">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.BookingsMajorNewUserSubscriptionTests" time="1.943">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.BookingsMajorNewUserSubscriptionTests" time="2.145">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="SerchStylist" classname="TestsObjects.BookingsMajorNewUserSubscriptionTests" time="2.863">
+    <system-out><![CDATA[New Test Started SerchStylist
+Elad style
+Test Successfully Finished  SerchStylist
+]]></system-out>
+  </testcase>
+  <testcase name="BookStylist" classname="TestsObjects.BookingsMajorNewUserSubscriptionTests" time="3.111">
+    <system-out><![CDATA[New Test Started BookStylist
+Elad style
+Test Successfully Finished  BookStylist
+]]></system-out>
+  </testcase>
+  <testcase name="CheckOut" classname="TestsObjects.BookingsMajorNewUserSubscriptionTests" time="1.506">
+    <system-out><![CDATA[New Test Started CheckOut
+Test Successfully Finished  CheckOut
+]]></system-out>
+  </testcase>
+  <testcase name="FillPasswordWithOutToFillEmail" classname="TestsObjects.LoginTest" time="0.664">
+    <system-out><![CDATA[New Test Started FillPasswordWithOutToFillEmail
+Test Successfully Finished  FillPasswordWithOutToFillEmail
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 34166
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:54:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:54:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:54:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillEmailWithOutToFillPassword" classname="TestsObjects.LoginTest" time="0.728">
+    <system-out><![CDATA[New Test Started FillEmailWithOutToFillPassword
+Test Successfully Finished  FillEmailWithOutToFillPassword
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+]]></system-err>
+  </testcase>
+  <testcase name="ClickLoginwWithOutToFillAnyFields" classname="TestsObjects.LoginTest" time="0.617">
+    <system-out><![CDATA[New Test Started ClickLoginwWithOutToFillAnyFields
+Test Successfully Finished  ClickLoginwWithOutToFillAnyFields
+]]></system-out>
+  </testcase>
+  <testcase name="FillCorrectEmailWithWrongPassword" classname="TestsObjects.LoginTest" time="1.924">
+    <system-out><![CDATA[New Test Started FillCorrectEmailWithWrongPassword
+Test Successfully Finished  FillCorrectEmailWithWrongPassword
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillCorrectPasswordWithWrongEmail" classname="TestsObjects.LoginTest" time="1.784">
+    <system-out><![CDATA[New Test Started FillCorrectPasswordWithWrongEmail
+Test Successfully Finished  FillCorrectPasswordWithWrongEmail
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillHebLettersEmail" classname="TestsObjects.LoginTest" time="1.772">
+    <system-out><![CDATA[New Test Started FillHebLettersEmail
+Test Successfully Finished  FillHebLettersEmail
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="DoLogin" classname="TestsObjects.LoginTest" time="1.617">
+    <system-out><![CDATA[New Test Started DoLogin
+Test Successfully Finished  DoLogin
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter name
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="OpenFeed" classname="TestsObjects.BuyItemByNewUser" time="0.198">
+    <system-out><![CDATA[New Test Started OpenFeed
+Test Successfully Finished  OpenFeed
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 20979
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:55:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:55:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:55:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="SelectLook" classname="TestsObjects.BuyItemByNewUser" time="1.724">
+    <system-out><![CDATA[New Test Started SelectLook
+Test Successfully Finished  SelectLook
+]]></system-out>
+  </testcase>
+  <testcase name="SelectItem" classname="TestsObjects.BuyItemByNewUser" time="2.257">
+    <system-out><![CDATA[New Test Started SelectItem
+Test Successfully Finished  SelectItem
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSize" classname="TestsObjects.BuyItemByNewUser" time="1.814">
+    <system-out><![CDATA[New Test Started SelectSize
+Test Successfully Finished  SelectSize
+]]></system-out>
+  </testcase>
+  <testcase name="Signup" classname="TestsObjects.BuyItemByNewUser" time="4.276">
+    <system-out><![CDATA[New Test Started Signup
+$290
+Test Successfully Finished  Signup
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillDetails" classname="TestsObjects.BuyItemByNewUser" time="13.519">
+    <system-out><![CDATA[New Test Started FillDetails
+Test Successfully Finished  FillDetails
+]]></system-out>
+  </testcase>
+  <testcase name="PlaceOreder" classname="TestsObjects.BuyItemByNewUser" time="5.165">
+    <system-out><![CDATA[New Test Started PlaceOreder
+Thank you for your order.
+Yinon test
+tel-aviv
+rishon le zoin, WA 65465465
+Test Successfully Finished  PlaceOreder
+]]></system-out>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.ReversOnBoardingFemaleTest" time="1.537">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 16679
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:56:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:56:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:56:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.ReversOnBoardingFemaleTest" time="0.748">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.ReversOnBoardingFemaleTest" time="2.628">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.ReversOnBoardingFemaleTest" time="1.052">
+    <system-out><![CDATA[New Test Started SelectBrands
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.ReversOnBoardingFemaleTest" time="3.022">
+    <system-out><![CDATA[New Test Started DoSignUp
+Your Stylists Match!
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectMale" classname="TestsObjects.ReversOnBoardingMaleTest" time="1.534">
+    <system-out><![CDATA[New Test Started SelectMale
+Test Successfully Finished  SelectMale
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 14161
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:56:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:56:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:56:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.ReversOnBoardingMaleTest" time="1.664">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.ReversOnBoardingMaleTest" time="1.282">
+    <system-out><![CDATA[New Test Started SelectBrands
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.ReversOnBoardingMaleTest" time="2.962">
+    <system-out><![CDATA[New Test Started DoSignUp
+Your Stylists Match!
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectNatural" classname="TestsObjects.ReversOnBoardingNaturalTest" time="1.491">
+    <system-out><![CDATA[New Test Started SelectNatural
+Test Successfully Finished  SelectNatural
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 37793
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:56:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:56:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:56:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.ReversOnBoardingNaturalTest" time="0.772">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.ReversOnBoardingNaturalTest" time="3.699">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.ReversOnBoardingNaturalTest" time="1.678">
+    <system-out><![CDATA[New Test Started SelectBrands
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.ReversOnBoardingNaturalTest" time="2.863">
+    <system-out><![CDATA[New Test Started DoSignUp
+Your Stylists Match!
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="openFeed" classname="TestsObjects.BuyItemByNewUserFromCart" time="0.188">
+    <system-out><![CDATA[New Test Started openFeed
+Test Successfully Finished  openFeed
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 22928
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:57:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:57:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:57:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="SelectLook" classname="TestsObjects.BuyItemByNewUserFromCart" time="1.746">
+    <system-out><![CDATA[New Test Started SelectLook
+Test Successfully Finished  SelectLook
+]]></system-out>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.BuyItemByNewUserFromCart" time="3.265">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="SelectFamale" classname="TestsObjects.BuyItemByNewUserFromCart" time="0.692">
+    <system-out><![CDATA[New Test Started SelectFamale
+Test Successfully Finished  SelectFamale
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBodytype" classname="TestsObjects.BuyItemByNewUserFromCart" time="0.492">
+    <system-out><![CDATA[New Test Started SelectBodytype
+Test Successfully Finished  SelectBodytype
+]]></system-out>
+  </testcase>
+  <testcase name="SelctStyle" classname="TestsObjects.BuyItemByNewUserFromCart" time="1.381">
+    <system-out><![CDATA[New Test Started SelctStyle
+Test Successfully Finished  SelctStyle
+]]></system-out>
+  </testcase>
+  <testcase name="SelectBrands" classname="TestsObjects.BuyItemByNewUserFromCart" time="2.127">
+    <system-out><![CDATA[New Test Started SelectBrands
+Your Stylists Match!
+Test Successfully Finished  SelectBrands
+]]></system-out>
+  </testcase>
+  <testcase name="SelectItem" classname="TestsObjects.BuyItemByNewUserFromCart" time="7.036">
+    <system-out><![CDATA[New Test Started SelectItem
+Test Successfully Finished  SelectItem
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSize" classname="TestsObjects.BuyItemByNewUserFromCart" time="3.874">
+    <system-out><![CDATA[New Test Started SelectSize
+$290
+Test Successfully Finished  SelectSize
+]]></system-out>
+  </testcase>
+  <testcase name="FillDetails" classname="TestsObjects.BuyItemByNewUserFromCart" time="13.742">
+    <system-out><![CDATA[New Test Started FillDetails
+Test Successfully Finished  FillDetails
+]]></system-out>
+  </testcase>
+  <testcase name="PlaceOreder" classname="TestsObjects.BuyItemByNewUserFromCart" time="10.657">
+    <system-out><![CDATA[New Test Started PlaceOreder
+Thank you for your order.
+Yinon test
+tel-aviv
+rishon le zoin, WA 65465465
+Test Successfully Finished  PlaceOreder
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSizenextitem" classname="TestsObjects.BuyItemByNewUserFromCart" time="3.883">
+    <system-out><![CDATA[New Test Started SelectSizenextitem
+$520
+Test Successfully Finished  SelectSizenextitem
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateDetailsnextItem" classname="TestsObjects.BuyItemByNewUserFromCart" time="0.099">
+    <system-out><![CDATA[New Test Started ValidateDetailsnextItem
+Yinon test
+tel-aviv valy
+rishon le zoin, WA 65465465
+Test Successfully Finished  ValidateDetailsnextItem
+]]></system-out>
+  </testcase>
+  <testcase name="PlaceOrederNextItem" classname="TestsObjects.BuyItemByNewUserFromCart" time="2.316">
+    <system-out><![CDATA[New Test Started PlaceOrederNextItem
+Thank you for your order.
+Yinon test
+tel-aviv
+rishon le zoin, WA 65465465
+Test Successfully Finished  PlaceOrederNextItem
+]]></system-out>
+  </testcase>
+  <testcase name="FillEmailWitoutShtudel" classname="TestsObjects.SignUpTest" time="1.053">
+    <system-out><![CDATA[New Test Started FillEmailWitoutShtudel
+Test Successfully Finished  FillEmailWitoutShtudel
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[TestNG-test=Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/yinonwishi/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 5931
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 15, 2021 10:58:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2021 10:58:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 89
+Aug 15, 2021 10:58:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 89
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillEmailWithoutDotCom" classname="TestsObjects.SignUpTest" time="2.277">
+    <system-out><![CDATA[New Test Started FillEmailWithoutDotCom
+Test Successfully Finished  FillEmailWithoutDotCom
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillPsswordWithLessthan6Characters" classname="TestsObjects.SignUpTest" time="1.161">
+    <system-out><![CDATA[New Test Started FillPsswordWithLessthan6Characters
+Test Successfully Finished  FillPsswordWithLessthan6Characters
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillMailWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.117">
+    <system-out><![CDATA[New Test Started FillMailWithSpecialCarecters
+Test Successfully Finished  FillMailWithSpecialCarecters
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillMailWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="1.589">
+    <system-out><![CDATA[New Test Started FillMailWithHebrewCarecters
+Test Successfully Finished  FillMailWithHebrewCarecters
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillNameWithSpecialCarecters" classname="TestsObjects.SignUpTest" time="1.016">
+    <system-out><![CDATA[New Test Started FillNameWithSpecialCarecters
+Test Successfully Finished  FillNameWithSpecialCarecters
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillNameWithHebrewCarecters" classname="TestsObjects.SignUpTest" time="2.011">
+    <system-out><![CDATA[New Test Started FillNameWithHebrewCarecters
+name may only contain letters, whitespace, and the ' or - special characters
+Test Successfully Finished  FillNameWithHebrewCarecters
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="FillNameWithOutLastName" classname="TestsObjects.SignUpTest" time="1.101">
+    <system-out><![CDATA[New Test Started FillNameWithOutLastName
+Test Successfully Finished  FillNameWithOutLastName
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="DoSignUp" classname="TestsObjects.SignUpTest" time="3.06">
+    <system-out><![CDATA[New Test Started DoSignUp
+LET'S GET STYLING
+Test Successfully Finished  DoSignUp
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter fullname
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter Email
+[TestNG-test=Test-1] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter password
+]]></system-err>
+  </testcase>
+  <testcase name="CreateUser" classname="TestsObjects.SignUpTest" time="4.596">
+    <system-out><![CDATA[New Test Started CreateUser
+Request method:	POST
+Request URI:	https://api-stage.wishi.me/api/slim/user/signup/email
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "freez+700@wishitest.me1964230",
+    "full_name": "nadav Carmel",
+    "first_name": "Erased",
+    "last_name": "Caramel",
+    "password": "q1w2easd3r4!"
+}
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 19:59:03 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.6.30-1~dotdeb+7.1
+Content-Length: 207
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "message": "success",
+    "user_uuid": "3d508d72-fe03-11eb-a",
+    "token": "c1a3463cb6d727817508a6ce625b015e",
+    "user_name": "erasedcaramel12",
+    "first_name": "Erased",
+    "last_name": "Caramel",
+    "first_booking": true,
+    "brand": null
+}
+uuid is 3d508d72-fe03-11eb-a
+api getUser is  https://api-stage.wishi.me/api/slim/user/3d508d72-fe03-11eb-a
+Request method:	GET
+Request URI:	https://api-stage.wishi.me/api/slim/user/3d508d72-fe03-11eb-a
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 19:59:05 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.6.30-1~dotdeb+7.1
+Content-Length: 1804
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "level": null,
+    "height": null,
+    "phone_number": null,
+    "device_id": null,
+    "user_uuid": "3d508d72-fe03-11eb-a",
+    "first_name": "Erased",
+    "last_name": "Caramel",
+    "followers_cnt": "0",
+    "following_cnt": "0",
+    "type": "user",
+    "country": null,
+    "city": null,
+    "location": "",
+    "age": 0,
+    "user_name": "erasedcaramel12",
+    "email": "freez+700@wishitest.me1964230",
+    "campaign": null,
+    "birthday_permission": [
+        ""
+    ],
+    "birthday": null,
+    "push_notification_types": "like_outfit,like_outfit_you_styled,following_you,styled_you,sent_you_feedback,kept_your_outfit,commented_outfit,commented_outfit_you_styled,commented_item,commented_comment,like_item,passed_on_your_outfit,requested_styling",
+    "gender": null,
+    "is_admin": false,
+    "first_booking": true,
+    "bookings_count": "0",
+    "isAppInstalled": false,
+    "has_payment_method": false,
+    "zodiac_sign": null,
+    "picture_large": "",
+    "picture_normal": "",
+    "picture_small": "",
+    "picture_medium": "",
+    "user_photos_count": "0",
+    "has_password": true,
+    "is_stylist": 0,
+    "keeps_cnt": 0,
+    "tags": [
+        
+    ],
+    "style_tags": [
+        
+    ],
+    "notifications": {
+        "like_outfit": 1,
+        "like_outfit_you_styled": 1,
+        "following_you": 1,
+        "styled_you": 1,
+        "sent_you_feedback": 1,
+        "kept_your_outfit": 1,
+        "commented_outfit": 1,
+        "commented_outfit_you_styled": 1,
+        "commented_item": 1,
+        "commented_comment": 1,
+        "like_item": 1,
+        "passed_on_your_outfit": 1,
+        "requested_styling": 1
+    },
+    "push_notifications": {
+        "like_outfit": 1,
+        "like_outfit_you_styled": 1,
+        "following_you": 1,
+        "styled_you": 1,
+        "sent_you_feedback": 1,
+        "kept_your_outfit": 1,
+        "commented_outfit": 1,
+        "commented_outfit_you_styled": 1,
+        "commented_item": 1,
+        "commented_comment": 1,
+        "like_item": 1,
+        "passed_on_your_outfit": 1,
+        "requested_styling": 1
+    },
+    "brand": null,
+    "stylist_level": null,
+    "brands_level": null,
+    "has_active_sessions": false,
+    "session_with_incomplete_quiz": null,
+    "channel_with_incomplete_quiz": null,
+    "has_vip_sessions": false,
+    "counters": {
+        "cart": 7,
+        "closet": 10,
+        "collections": 5,
+        "looks": 3,
+        "photos": 100,
+        "purchases": 24
+    }
+}
+Test Successfully Finished  CreateUser
+]]></system-out>
+  </testcase>
+</testsuite>

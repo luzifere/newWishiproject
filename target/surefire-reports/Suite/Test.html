@@ -1,0 +1,964 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>177/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 15 22:44:35 IDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>870 seconds (870269 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>sanity-group </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestsObjects.BookingsMajorTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsMajorTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMajorTests@9976b27</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsMiniTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMiniTests@4fe9a396</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCOTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsCOTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsCOTests@462b239f</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorSubscriptionTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsMajorSubscriptionTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMajorSubscriptionTests@3bf40c74</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniSabscriptionTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsMiniSabscriptionTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMiniSabscriptionTests@62159fd</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsMiniNewUserTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMiniNewUserTests@44117b0d</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserSubscriptionTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsMiniNewUserSubscriptionTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsMajorNewUserTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMajorNewUserTests@30811f91</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserCCTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsCONewUserCCTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsCONewUserCCTests@1fa29b9e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsCONewUserTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsCONewUserTests@2d5e051e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserSubscriptionTests.BookStylist()'><b>BookStylist</b><br>Test class: TestsObjects.BookingsMajorNewUserSubscriptionTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsMajorTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMajorTests@9976b27</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsMiniTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMiniTests@4fe9a396</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCOTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsCOTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsCOTests@462b239f</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorSubscriptionTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsMajorSubscriptionTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMajorSubscriptionTests@3bf40c74</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniSabscriptionTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsMiniSabscriptionTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMiniSabscriptionTests@62159fd</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsMiniNewUserTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMiniNewUserTests@44117b0d</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardTest.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookGiftCardTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookGiftCardTest@2ae08750</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserSubscriptionTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsMiniNewUserSubscriptionTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardCustomTest.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookGiftCardCustomTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookGiftCardCustomTest@2682cccc</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsMajorNewUserTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMajorNewUserTests@30811f91</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserCCTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsCONewUserCCTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsCONewUserCCTests@1fa29b9e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsCONewUserTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsCONewUserTests@2d5e051e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserSubscriptionTests.CheckOut()'><b>CheckOut</b><br>Test class: TestsObjects.BookingsMajorNewUserSubscriptionTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630</td></tr>
+<tr>
+<td title='TestsObjects.LoginTest.ClickLoginwWithOutToFillAnyFields()'><b>ClickLoginwWithOutToFillAnyFields</b><br>Test class: TestsObjects.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.LoginTest@54087bdb</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.CreateUser()'><b>CreateUser</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>4</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorTests.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.BookingsMajorTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMajorTests@9976b27</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniTests.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.BookingsMiniTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMiniTests@4fe9a396</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCOTests.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.BookingsCOTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsCOTests@462b239f</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditCC.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.BuyItemByExistUserEditCC</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserEditCC@3ee200ae</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserFromCart.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.BuyItemByExistUserFromCart</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserFromCart@28e8dee7</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditDetailed.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.BuyItemByExistUserEditDetailed</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorSubscriptionTests.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.BookingsMajorSubscriptionTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsMajorSubscriptionTests@3bf40c74</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserSavedDetailedAndCC.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.BuyItemByExistUserSavedDetailedAndCC</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniSabscriptionTests.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.BookingsMiniSabscriptionTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMiniSabscriptionTests@62159fd</td></tr>
+<tr>
+<td title='TestsObjects.LoginTest.DoLogin()'><b>DoLogin</b><br>Test class: TestsObjects.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.LoginTest@54087bdb</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserTests.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.BookingsMiniNewUserTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMiniNewUserTests@44117b0d</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardTest.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.BookGiftCardTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookGiftCardTest@2ae08750</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserSubscriptionTests.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.BookingsMiniNewUserSubscriptionTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardCustomTest.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.BookGiftCardCustomTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookGiftCardCustomTest@2682cccc</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserTests.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.BookingsMajorNewUserTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMajorNewUserTests@30811f91</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingFemaleTest.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.OnBoardingFemaleTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.OnBoardingFemaleTest@587f6634</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingMaleTest.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.OnBoardingMaleTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.OnBoardingMaleTest@4d7c9b42</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingNaturalTest.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.OnBoardingNaturalTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.OnBoardingNaturalTest@4ef28dc4</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserCCTests.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.BookingsCONewUserCCTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsCONewUserCCTests@1fa29b9e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserTests.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.BookingsCONewUserTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsCONewUserTests@2d5e051e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserSubscriptionTests.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.BookingsMajorNewUserSubscriptionTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingFemaleTest.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.ReversOnBoardingFemaleTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.ReversOnBoardingFemaleTest@59b3f162</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingMaleTest.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.ReversOnBoardingMaleTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.ReversOnBoardingMaleTest@7ade62a6</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingNaturalTest.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.ReversOnBoardingNaturalTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.ReversOnBoardingNaturalTest@53d15034</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.DoSignUp()'><b>DoSignUp</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.LoginTest.FillCorrectEmailWithWrongPassword()'><b>FillCorrectEmailWithWrongPassword</b><br>Test class: TestsObjects.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.LoginTest@54087bdb</td></tr>
+<tr>
+<td title='TestsObjects.LoginTest.FillCorrectPasswordWithWrongEmail()'><b>FillCorrectPasswordWithWrongEmail</b><br>Test class: TestsObjects.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.LoginTest@54087bdb</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditDetailed.FillDetails()'><b>FillDetails</b><br>Test class: TestsObjects.BuyItemByExistUserEditDetailed</td>
+<td></td>
+<td>13</td>
+<td>TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUser.FillDetails()'><b>FillDetails</b><br>Test class: TestsObjects.BuyItemByNewUser</td>
+<td></td>
+<td>13</td>
+<td>TestsObjects.BuyItemByNewUser@6a7ea7c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.FillDetails()'><b>FillDetails</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>13</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.LoginTest.FillEmailWithOutToFillPassword()'><b>FillEmailWithOutToFillPassword</b><br>Test class: TestsObjects.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.LoginTest@54087bdb</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.FillEmailWithoutDotCom()'><b>FillEmailWithoutDotCom</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.FillEmailWitoutShtudel()'><b>FillEmailWitoutShtudel</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.LoginTest.FillHebLettersEmail()'><b>FillHebLettersEmail</b><br>Test class: TestsObjects.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.LoginTest@54087bdb</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.FillMailWithHebrewCarecters()'><b>FillMailWithHebrewCarecters</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.FillMailWithSpecialCarecters()'><b>FillMailWithSpecialCarecters</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.FillNameWithHebrewCarecters()'><b>FillNameWithHebrewCarecters</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.FillNameWithOutLastName()'><b>FillNameWithOutLastName</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.FillNameWithSpecialCarecters()'><b>FillNameWithSpecialCarecters</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.LoginTest.FillPasswordWithOutToFillEmail()'><b>FillPasswordWithOutToFillEmail</b><br>Test class: TestsObjects.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.LoginTest@54087bdb</td></tr>
+<tr>
+<td title='TestsObjects.SignUpTest.FillPsswordWithLessthan6Characters()'><b>FillPsswordWithLessthan6Characters</b><br>Test class: TestsObjects.SignUpTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.SignUpTest@41d84abb</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUser.OpenFeed()'><b>OpenFeed</b><br>Test class: TestsObjects.BuyItemByNewUser</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BuyItemByNewUser@6a7ea7c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditCC.PlaceOreder()'><b>PlaceOreder</b><br>Test class: TestsObjects.BuyItemByExistUserEditCC</td>
+<td></td>
+<td>4</td>
+<td>TestsObjects.BuyItemByExistUserEditCC@3ee200ae</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserFromCart.PlaceOreder()'><b>PlaceOreder</b><br>Test class: TestsObjects.BuyItemByExistUserFromCart</td>
+<td></td>
+<td>7</td>
+<td>TestsObjects.BuyItemByExistUserFromCart@28e8dee7</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditDetailed.PlaceOreder()'><b>PlaceOreder</b><br>Test class: TestsObjects.BuyItemByExistUserEditDetailed</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserSavedDetailedAndCC.PlaceOreder()'><b>PlaceOreder</b><br>Test class: TestsObjects.BuyItemByExistUserSavedDetailedAndCC</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUser.PlaceOreder()'><b>PlaceOreder</b><br>Test class: TestsObjects.BuyItemByNewUser</td>
+<td></td>
+<td>5</td>
+<td>TestsObjects.BuyItemByNewUser@6a7ea7c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.PlaceOreder()'><b>PlaceOreder</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>10</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserFromCart.PlaceOrederNextItem()'><b>PlaceOrederNextItem</b><br>Test class: TestsObjects.BuyItemByExistUserFromCart</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserFromCart@28e8dee7</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.PlaceOrederNextItem()'><b>PlaceOrederNextItem</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserTests.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.BookingsMiniNewUserTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsMiniNewUserTests@44117b0d</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardTest.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.BookGiftCardTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookGiftCardTest@2ae08750</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserSubscriptionTests.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.BookingsMiniNewUserSubscriptionTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardCustomTest.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.BookGiftCardCustomTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookGiftCardCustomTest@2682cccc</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserTests.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.BookingsMajorNewUserTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsMajorNewUserTests@30811f91</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingFemaleTest.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.OnBoardingFemaleTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.OnBoardingFemaleTest@587f6634</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingMaleTest.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.OnBoardingMaleTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.OnBoardingMaleTest@4d7c9b42</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingNaturalTest.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.OnBoardingNaturalTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.OnBoardingNaturalTest@4ef28dc4</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserCCTests.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.BookingsCONewUserCCTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsCONewUserCCTests@1fa29b9e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserTests.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.BookingsCONewUserTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsCONewUserTests@2d5e051e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserSubscriptionTests.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.BookingsMajorNewUserSubscriptionTests</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingFemaleTest.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.ReversOnBoardingFemaleTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.ReversOnBoardingFemaleTest@59b3f162</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingMaleTest.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.ReversOnBoardingMaleTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.ReversOnBoardingMaleTest@7ade62a6</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingNaturalTest.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.ReversOnBoardingNaturalTest</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.ReversOnBoardingNaturalTest@53d15034</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.SelctStyle()'><b>SelctStyle</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserTests.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.BookingsMiniNewUserTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMiniNewUserTests@44117b0d</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardTest.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.BookGiftCardTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookGiftCardTest@2ae08750</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserSubscriptionTests.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.BookingsMiniNewUserSubscriptionTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardCustomTest.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.BookGiftCardCustomTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookGiftCardCustomTest@2682cccc</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserTests.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.BookingsMajorNewUserTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMajorNewUserTests@30811f91</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingFemaleTest.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.OnBoardingFemaleTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.OnBoardingFemaleTest@587f6634</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingNaturalTest.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.OnBoardingNaturalTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.OnBoardingNaturalTest@4ef28dc4</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserCCTests.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.BookingsCONewUserCCTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsCONewUserCCTests@1fa29b9e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserTests.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.BookingsCONewUserTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsCONewUserTests@2d5e051e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserSubscriptionTests.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.BookingsMajorNewUserSubscriptionTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingFemaleTest.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.ReversOnBoardingFemaleTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.ReversOnBoardingFemaleTest@59b3f162</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingNaturalTest.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.ReversOnBoardingNaturalTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.ReversOnBoardingNaturalTest@53d15034</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.SelectBodytype()'><b>SelectBodytype</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserTests.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.BookingsMiniNewUserTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMiniNewUserTests@44117b0d</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardTest.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.BookGiftCardTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookGiftCardTest@2ae08750</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserSubscriptionTests.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.BookingsMiniNewUserSubscriptionTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardCustomTest.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.BookGiftCardCustomTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookGiftCardCustomTest@2682cccc</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserTests.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.BookingsMajorNewUserTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMajorNewUserTests@30811f91</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingFemaleTest.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.OnBoardingFemaleTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.OnBoardingFemaleTest@587f6634</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingMaleTest.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.OnBoardingMaleTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.OnBoardingMaleTest@4d7c9b42</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingNaturalTest.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.OnBoardingNaturalTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.OnBoardingNaturalTest@4ef28dc4</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserCCTests.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.BookingsCONewUserCCTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsCONewUserCCTests@1fa29b9e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserTests.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.BookingsCONewUserTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsCONewUserTests@2d5e051e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserSubscriptionTests.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.BookingsMajorNewUserSubscriptionTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingFemaleTest.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.ReversOnBoardingFemaleTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.ReversOnBoardingFemaleTest@59b3f162</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingMaleTest.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.ReversOnBoardingMaleTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.ReversOnBoardingMaleTest@7ade62a6</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingNaturalTest.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.ReversOnBoardingNaturalTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.ReversOnBoardingNaturalTest@53d15034</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.SelectBrands()'><b>SelectBrands</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserTests.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.BookingsMiniNewUserTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMiniNewUserTests@44117b0d</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardTest.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.BookGiftCardTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookGiftCardTest@2ae08750</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserSubscriptionTests.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.BookingsMiniNewUserSubscriptionTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardCustomTest.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.BookGiftCardCustomTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookGiftCardCustomTest@2682cccc</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserTests.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.BookingsMajorNewUserTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMajorNewUserTests@30811f91</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingFemaleTest.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.OnBoardingFemaleTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.OnBoardingFemaleTest@587f6634</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingMaleTest.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.OnBoardingMaleTest</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.OnBoardingMaleTest@4d7c9b42</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserCCTests.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.BookingsCONewUserCCTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsCONewUserCCTests@1fa29b9e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserTests.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.BookingsCONewUserTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsCONewUserTests@2d5e051e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserSubscriptionTests.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.BookingsMajorNewUserSubscriptionTests</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingFemaleTest.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.ReversOnBoardingFemaleTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.ReversOnBoardingFemaleTest@59b3f162</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.SelectFamale()'><b>SelectFamale</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardTest.SelectGift()'><b>SelectGift</b><br>Test class: TestsObjects.BookGiftCardTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookGiftCardTest@2ae08750</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardCustomTest.SelectGift()'><b>SelectGift</b><br>Test class: TestsObjects.BookGiftCardCustomTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BookGiftCardCustomTest@2682cccc</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditCC.SelectItem()'><b>SelectItem</b><br>Test class: TestsObjects.BuyItemByExistUserEditCC</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserEditCC@3ee200ae</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserFromCart.SelectItem()'><b>SelectItem</b><br>Test class: TestsObjects.BuyItemByExistUserFromCart</td>
+<td></td>
+<td>5</td>
+<td>TestsObjects.BuyItemByExistUserFromCart@28e8dee7</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditDetailed.SelectItem()'><b>SelectItem</b><br>Test class: TestsObjects.BuyItemByExistUserEditDetailed</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserSavedDetailedAndCC.SelectItem()'><b>SelectItem</b><br>Test class: TestsObjects.BuyItemByExistUserSavedDetailedAndCC</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUser.SelectItem()'><b>SelectItem</b><br>Test class: TestsObjects.BuyItemByNewUser</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByNewUser@6a7ea7c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.SelectItem()'><b>SelectItem</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>7</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditCC.SelectLook()'><b>SelectLook</b><br>Test class: TestsObjects.BuyItemByExistUserEditCC</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByExistUserEditCC@3ee200ae</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserFromCart.SelectLook()'><b>SelectLook</b><br>Test class: TestsObjects.BuyItemByExistUserFromCart</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByExistUserFromCart@28e8dee7</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditDetailed.SelectLook()'><b>SelectLook</b><br>Test class: TestsObjects.BuyItemByExistUserEditDetailed</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserSavedDetailedAndCC.SelectLook()'><b>SelectLook</b><br>Test class: TestsObjects.BuyItemByExistUserSavedDetailedAndCC</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUser.SelectLook()'><b>SelectLook</b><br>Test class: TestsObjects.BuyItemByNewUser</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByNewUser@6a7ea7c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.SelectLook()'><b>SelectLook</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingMaleTest.SelectMale()'><b>SelectMale</b><br>Test class: TestsObjects.ReversOnBoardingMaleTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.ReversOnBoardingMaleTest@7ade62a6</td></tr>
+<tr>
+<td title='TestsObjects.OnBoardingNaturalTest.SelectNatural()'><b>SelectNatural</b><br>Test class: TestsObjects.OnBoardingNaturalTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.OnBoardingNaturalTest@4ef28dc4</td></tr>
+<tr>
+<td title='TestsObjects.ReversOnBoardingNaturalTest.SelectNatural()'><b>SelectNatural</b><br>Test class: TestsObjects.ReversOnBoardingNaturalTest</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.ReversOnBoardingNaturalTest@53d15034</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditCC.SelectSize()'><b>SelectSize</b><br>Test class: TestsObjects.BuyItemByExistUserEditCC</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserEditCC@3ee200ae</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserFromCart.SelectSize()'><b>SelectSize</b><br>Test class: TestsObjects.BuyItemByExistUserFromCart</td>
+<td></td>
+<td>4</td>
+<td>TestsObjects.BuyItemByExistUserFromCart@28e8dee7</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditDetailed.SelectSize()'><b>SelectSize</b><br>Test class: TestsObjects.BuyItemByExistUserEditDetailed</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserSavedDetailedAndCC.SelectSize()'><b>SelectSize</b><br>Test class: TestsObjects.BuyItemByExistUserSavedDetailedAndCC</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUser.SelectSize()'><b>SelectSize</b><br>Test class: TestsObjects.BuyItemByNewUser</td>
+<td></td>
+<td>1</td>
+<td>TestsObjects.BuyItemByNewUser@6a7ea7c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.SelectSize()'><b>SelectSize</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserFromCart.SelectSizenextitem()'><b>SelectSizenextitem</b><br>Test class: TestsObjects.BuyItemByExistUserFromCart</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BuyItemByExistUserFromCart@28e8dee7</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.SelectSizenextitem()'><b>SelectSizenextitem</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsMajorTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMajorTests@9976b27</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsMiniTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMiniTests@4fe9a396</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCOTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsCOTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsCOTests@462b239f</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorSubscriptionTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsMajorSubscriptionTests</td>
+<td></td>
+<td>3</td>
+<td>TestsObjects.BookingsMajorSubscriptionTests@3bf40c74</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniSabscriptionTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsMiniSabscriptionTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMiniSabscriptionTests@62159fd</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsMiniNewUserTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMiniNewUserTests@44117b0d</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardTest.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookGiftCardTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookGiftCardTest@2ae08750</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMiniNewUserSubscriptionTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsMiniNewUserSubscriptionTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1</td></tr>
+<tr>
+<td title='TestsObjects.BookGiftCardCustomTest.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookGiftCardCustomTest</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookGiftCardCustomTest@2682cccc</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsMajorNewUserTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMajorNewUserTests@30811f91</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserCCTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsCONewUserCCTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsCONewUserCCTests@1fa29b9e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsCONewUserTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsCONewUserTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsCONewUserTests@2d5e051e</td></tr>
+<tr>
+<td title='TestsObjects.BookingsMajorNewUserSubscriptionTests.SerchStylist()'><b>SerchStylist</b><br>Test class: TestsObjects.BookingsMajorNewUserSubscriptionTests</td>
+<td></td>
+<td>2</td>
+<td>TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUser.Signup()'><b>Signup</b><br>Test class: TestsObjects.BuyItemByNewUser</td>
+<td></td>
+<td>4</td>
+<td>TestsObjects.BuyItemByNewUser@6a7ea7c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserEditCC.ValidateDetails()'><b>ValidateDetails</b><br>Test class: TestsObjects.BuyItemByExistUserEditCC</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BuyItemByExistUserEditCC@3ee200ae</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserFromCart.ValidateDetails()'><b>ValidateDetails</b><br>Test class: TestsObjects.BuyItemByExistUserFromCart</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BuyItemByExistUserFromCart@28e8dee7</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserSavedDetailedAndCC.ValidateDetails()'><b>ValidateDetails</b><br>Test class: TestsObjects.BuyItemByExistUserSavedDetailedAndCC</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByExistUserFromCart.ValidateDetailsnextItem()'><b>ValidateDetailsnextItem</b><br>Test class: TestsObjects.BuyItemByExistUserFromCart</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BuyItemByExistUserFromCart@28e8dee7</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.ValidateDetailsnextItem()'><b>ValidateDetailsnextItem</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+<tr>
+<td title='TestsObjects.BuyItemByNewUserFromCart.openFeed()'><b>openFeed</b><br>Test class: TestsObjects.BuyItemByNewUserFromCart</td>
+<td></td>
+<td>0</td>
+<td>TestsObjects.BuyItemByNewUserFromCart@7c37ac3c</td></tr>
+</table><p>
+</body>
+</html>

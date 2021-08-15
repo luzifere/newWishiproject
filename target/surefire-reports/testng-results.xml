@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="177" passed="177" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-15T22:44:35 IDT" name="Suite" finished-at="2021-08-15T22:59:05 IDT" duration-ms="870269">
+    <groups>
+      <group name="sanity-group">
+        <method signature="BookGiftCardCustomTest.CheckOut()[pri:8, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" name="CheckOut" class="TestsObjects.BookGiftCardCustomTest"/>
+        <method signature="BookGiftCardCustomTest.DoSignUp()[pri:1, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" name="DoSignUp" class="TestsObjects.BookGiftCardCustomTest"/>
+        <method signature="BookGiftCardCustomTest.SelctStyle()[pri:4, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" name="SelctStyle" class="TestsObjects.BookGiftCardCustomTest"/>
+        <method signature="BookGiftCardCustomTest.SelectBodytype()[pri:3, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" name="SelectBodytype" class="TestsObjects.BookGiftCardCustomTest"/>
+        <method signature="BookGiftCardCustomTest.SelectBrands()[pri:5, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" name="SelectBrands" class="TestsObjects.BookGiftCardCustomTest"/>
+        <method signature="BookGiftCardCustomTest.SelectFamale()[pri:2, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" name="SelectFamale" class="TestsObjects.BookGiftCardCustomTest"/>
+        <method signature="BookGiftCardCustomTest.SelectGift()[pri:7, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" name="SelectGift" class="TestsObjects.BookGiftCardCustomTest"/>
+        <method signature="BookGiftCardCustomTest.SerchStylist()[pri:6, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" name="SerchStylist" class="TestsObjects.BookGiftCardCustomTest"/>
+        <method signature="BookGiftCardTest.CheckOut()[pri:8, instance:TestsObjects.BookGiftCardTest@2ae08750]" name="CheckOut" class="TestsObjects.BookGiftCardTest"/>
+        <method signature="BookGiftCardTest.DoSignUp()[pri:1, instance:TestsObjects.BookGiftCardTest@2ae08750]" name="DoSignUp" class="TestsObjects.BookGiftCardTest"/>
+        <method signature="BookGiftCardTest.SelctStyle()[pri:4, instance:TestsObjects.BookGiftCardTest@2ae08750]" name="SelctStyle" class="TestsObjects.BookGiftCardTest"/>
+        <method signature="BookGiftCardTest.SelectBodytype()[pri:3, instance:TestsObjects.BookGiftCardTest@2ae08750]" name="SelectBodytype" class="TestsObjects.BookGiftCardTest"/>
+        <method signature="BookGiftCardTest.SelectBrands()[pri:5, instance:TestsObjects.BookGiftCardTest@2ae08750]" name="SelectBrands" class="TestsObjects.BookGiftCardTest"/>
+        <method signature="BookGiftCardTest.SelectFamale()[pri:2, instance:TestsObjects.BookGiftCardTest@2ae08750]" name="SelectFamale" class="TestsObjects.BookGiftCardTest"/>
+        <method signature="BookGiftCardTest.SelectGift()[pri:7, instance:TestsObjects.BookGiftCardTest@2ae08750]" name="SelectGift" class="TestsObjects.BookGiftCardTest"/>
+        <method signature="BookGiftCardTest.SerchStylist()[pri:6, instance:TestsObjects.BookGiftCardTest@2ae08750]" name="SerchStylist" class="TestsObjects.BookGiftCardTest"/>
+        <method signature="BookingsCONewUserCCTests.BookStylist()[pri:7, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" name="BookStylist" class="TestsObjects.BookingsCONewUserCCTests"/>
+        <method signature="BookingsCONewUserCCTests.CheckOut()[pri:8, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" name="CheckOut" class="TestsObjects.BookingsCONewUserCCTests"/>
+        <method signature="BookingsCONewUserCCTests.DoSignUp()[pri:1, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" name="DoSignUp" class="TestsObjects.BookingsCONewUserCCTests"/>
+        <method signature="BookingsCONewUserCCTests.SelctStyle()[pri:4, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" name="SelctStyle" class="TestsObjects.BookingsCONewUserCCTests"/>
+        <method signature="BookingsCONewUserCCTests.SelectBodytype()[pri:3, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" name="SelectBodytype" class="TestsObjects.BookingsCONewUserCCTests"/>
+        <method signature="BookingsCONewUserCCTests.SelectBrands()[pri:5, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" name="SelectBrands" class="TestsObjects.BookingsCONewUserCCTests"/>
+        <method signature="BookingsCONewUserCCTests.SelectFamale()[pri:2, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" name="SelectFamale" class="TestsObjects.BookingsCONewUserCCTests"/>
+        <method signature="BookingsCONewUserCCTests.SerchStylist()[pri:6, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" name="SerchStylist" class="TestsObjects.BookingsCONewUserCCTests"/>
+        <method signature="BookingsCONewUserTests.BookStylist()[pri:7, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" name="BookStylist" class="TestsObjects.BookingsCONewUserTests"/>
+        <method signature="BookingsCONewUserTests.CheckOut()[pri:8, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" name="CheckOut" class="TestsObjects.BookingsCONewUserTests"/>
+        <method signature="BookingsCONewUserTests.DoSignUp()[pri:1, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" name="DoSignUp" class="TestsObjects.BookingsCONewUserTests"/>
+        <method signature="BookingsCONewUserTests.SelctStyle()[pri:4, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" name="SelctStyle" class="TestsObjects.BookingsCONewUserTests"/>
+        <method signature="BookingsCONewUserTests.SelectBodytype()[pri:3, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" name="SelectBodytype" class="TestsObjects.BookingsCONewUserTests"/>
+        <method signature="BookingsCONewUserTests.SelectBrands()[pri:5, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" name="SelectBrands" class="TestsObjects.BookingsCONewUserTests"/>
+        <method signature="BookingsCONewUserTests.SelectFamale()[pri:2, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" name="SelectFamale" class="TestsObjects.BookingsCONewUserTests"/>
+        <method signature="BookingsCONewUserTests.SerchStylist()[pri:6, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" name="SerchStylist" class="TestsObjects.BookingsCONewUserTests"/>
+        <method signature="BookingsCOTests.BookStylist()[pri:3, instance:TestsObjects.BookingsCOTests@462b239f]" name="BookStylist" class="TestsObjects.BookingsCOTests"/>
+        <method signature="BookingsCOTests.CheckOut()[pri:4, instance:TestsObjects.BookingsCOTests@462b239f]" name="CheckOut" class="TestsObjects.BookingsCOTests"/>
+        <method signature="BookingsCOTests.DoLogin()[pri:1, instance:TestsObjects.BookingsCOTests@462b239f]" name="DoLogin" class="TestsObjects.BookingsCOTests"/>
+        <method signature="BookingsCOTests.SerchStylist()[pri:2, instance:TestsObjects.BookingsCOTests@462b239f]" name="SerchStylist" class="TestsObjects.BookingsCOTests"/>
+        <method signature="BookingsMajorNewUserSubscriptionTests.BookStylist()[pri:7, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" name="BookStylist" class="TestsObjects.BookingsMajorNewUserSubscriptionTests"/>
+        <method signature="BookingsMajorNewUserSubscriptionTests.CheckOut()[pri:8, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" name="CheckOut" class="TestsObjects.BookingsMajorNewUserSubscriptionTests"/>
+        <method signature="BookingsMajorNewUserSubscriptionTests.DoSignUp()[pri:1, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" name="DoSignUp" class="TestsObjects.BookingsMajorNewUserSubscriptionTests"/>
+        <method signature="BookingsMajorNewUserSubscriptionTests.SelctStyle()[pri:4, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" name="SelctStyle" class="TestsObjects.BookingsMajorNewUserSubscriptionTests"/>
+        <method signature="BookingsMajorNewUserSubscriptionTests.SelectBodytype()[pri:3, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" name="SelectBodytype" class="TestsObjects.BookingsMajorNewUserSubscriptionTests"/>
+        <method signature="BookingsMajorNewUserSubscriptionTests.SelectBrands()[pri:5, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" name="SelectBrands" class="TestsObjects.BookingsMajorNewUserSubscriptionTests"/>
+        <method signature="BookingsMajorNewUserSubscriptionTests.SelectFamale()[pri:2, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" name="SelectFamale" class="TestsObjects.BookingsMajorNewUserSubscriptionTests"/>
+        <method signature="BookingsMajorNewUserSubscriptionTests.SerchStylist()[pri:6, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" name="SerchStylist" class="TestsObjects.BookingsMajorNewUserSubscriptionTests"/>
+        <method signature="BookingsMajorNewUserTests.BookStylist()[pri:7, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" name="BookStylist" class="TestsObjects.BookingsMajorNewUserTests"/>
+        <method signature="BookingsMajorNewUserTests.CheckOut()[pri:8, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" name="CheckOut" class="TestsObjects.BookingsMajorNewUserTests"/>
+        <method signature="BookingsMajorNewUserTests.DoSignUp()[pri:1, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" name="DoSignUp" class="TestsObjects.BookingsMajorNewUserTests"/>
+        <method signature="BookingsMajorNewUserTests.SelctStyle()[pri:4, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" name="SelctStyle" class="TestsObjects.BookingsMajorNewUserTests"/>
+        <method signature="BookingsMajorNewUserTests.SelectBodytype()[pri:3, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" name="SelectBodytype" class="TestsObjects.BookingsMajorNewUserTests"/>
+        <method signature="BookingsMajorNewUserTests.SelectBrands()[pri:5, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" name="SelectBrands" class="TestsObjects.BookingsMajorNewUserTests"/>
+        <method signature="BookingsMajorNewUserTests.SelectFamale()[pri:2, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" name="SelectFamale" class="TestsObjects.BookingsMajorNewUserTests"/>
+        <method signature="BookingsMajorNewUserTests.SerchStylist()[pri:6, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" name="SerchStylist" class="TestsObjects.BookingsMajorNewUserTests"/>
+        <method signature="BookingsMajorSubscriptionTests.BookStylist()[pri:3, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" name="BookStylist" class="TestsObjects.BookingsMajorSubscriptionTests"/>
+        <method signature="BookingsMajorSubscriptionTests.CheckOut()[pri:4, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" name="CheckOut" class="TestsObjects.BookingsMajorSubscriptionTests"/>
+        <method signature="BookingsMajorSubscriptionTests.DoLogin()[pri:1, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" name="DoLogin" class="TestsObjects.BookingsMajorSubscriptionTests"/>
+        <method signature="BookingsMajorSubscriptionTests.SerchStylist()[pri:2, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" name="SerchStylist" class="TestsObjects.BookingsMajorSubscriptionTests"/>
+        <method signature="BookingsMajorTests.BookStylist()[pri:3, instance:TestsObjects.BookingsMajorTests@9976b27]" name="BookStylist" class="TestsObjects.BookingsMajorTests"/>
+        <method signature="BookingsMajorTests.CheckOut()[pri:4, instance:TestsObjects.BookingsMajorTests@9976b27]" name="CheckOut" class="TestsObjects.BookingsMajorTests"/>
+        <method signature="BookingsMajorTests.DoLogin()[pri:1, instance:TestsObjects.BookingsMajorTests@9976b27]" name="DoLogin" class="TestsObjects.BookingsMajorTests"/>
+        <method signature="BookingsMajorTests.SerchStylist()[pri:2, instance:TestsObjects.BookingsMajorTests@9976b27]" name="SerchStylist" class="TestsObjects.BookingsMajorTests"/>
+        <method signature="BookingsMiniNewUserSubscriptionTests.BookStylist()[pri:7, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" name="BookStylist" class="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+        <method signature="BookingsMiniNewUserSubscriptionTests.CheckOut()[pri:8, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" name="CheckOut" class="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+        <method signature="BookingsMiniNewUserSubscriptionTests.DoSignUp()[pri:1, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" name="DoSignUp" class="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+        <method signature="BookingsMiniNewUserSubscriptionTests.SelctStyle()[pri:4, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" name="SelctStyle" class="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+        <method signature="BookingsMiniNewUserSubscriptionTests.SelectBodytype()[pri:3, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" name="SelectBodytype" class="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+        <method signature="BookingsMiniNewUserSubscriptionTests.SelectBrands()[pri:5, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" name="SelectBrands" class="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+        <method signature="BookingsMiniNewUserSubscriptionTests.SelectFamale()[pri:2, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" name="SelectFamale" class="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+        <method signature="BookingsMiniNewUserSubscriptionTests.SerchStylist()[pri:6, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" name="SerchStylist" class="TestsObjects.BookingsMiniNewUserSubscriptionTests"/>
+        <method signature="BookingsMiniNewUserTests.BookStylist()[pri:7, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" name="BookStylist" class="TestsObjects.BookingsMiniNewUserTests"/>
+        <method signature="BookingsMiniNewUserTests.CheckOut()[pri:8, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" name="CheckOut" class="TestsObjects.BookingsMiniNewUserTests"/>
+        <method signature="BookingsMiniNewUserTests.DoSignUp()[pri:1, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" name="DoSignUp" class="TestsObjects.BookingsMiniNewUserTests"/>
+        <method signature="BookingsMiniNewUserTests.SelctStyle()[pri:4, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" name="SelctStyle" class="TestsObjects.BookingsMiniNewUserTests"/>
+        <method signature="BookingsMiniNewUserTests.SelectBodytype()[pri:3, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" name="SelectBodytype" class="TestsObjects.BookingsMiniNewUserTests"/>
+        <method signature="BookingsMiniNewUserTests.SelectBrands()[pri:5, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" name="SelectBrands" class="TestsObjects.BookingsMiniNewUserTests"/>
+        <method signature="BookingsMiniNewUserTests.SelectFamale()[pri:2, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" name="SelectFamale" class="TestsObjects.BookingsMiniNewUserTests"/>
+        <method signature="BookingsMiniNewUserTests.SerchStylist()[pri:6, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" name="SerchStylist" class="TestsObjects.BookingsMiniNewUserTests"/>
+        <method signature="BookingsMiniSabscriptionTests.BookStylist()[pri:3, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" name="BookStylist" class="TestsObjects.BookingsMiniSabscriptionTests"/>
+        <method signature="BookingsMiniSabscriptionTests.CheckOut()[pri:4, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" name="CheckOut" class="TestsObjects.BookingsMiniSabscriptionTests"/>
+        <method signature="BookingsMiniSabscriptionTests.DoLogin()[pri:1, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" name="DoLogin" class="TestsObjects.BookingsMiniSabscriptionTests"/>
+        <method signature="BookingsMiniSabscriptionTests.SerchStylist()[pri:2, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" name="SerchStylist" class="TestsObjects.BookingsMiniSabscriptionTests"/>
+        <method signature="BookingsMiniTests.BookStylist()[pri:3, instance:TestsObjects.BookingsMiniTests@4fe9a396]" name="BookStylist" class="TestsObjects.BookingsMiniTests"/>
+        <method signature="BookingsMiniTests.CheckOut()[pri:4, instance:TestsObjects.BookingsMiniTests@4fe9a396]" name="CheckOut" class="TestsObjects.BookingsMiniTests"/>
+        <method signature="BookingsMiniTests.DoLogin()[pri:1, instance:TestsObjects.BookingsMiniTests@4fe9a396]" name="DoLogin" class="TestsObjects.BookingsMiniTests"/>
+        <method signature="BookingsMiniTests.SerchStylist()[pri:2, instance:TestsObjects.BookingsMiniTests@4fe9a396]" name="SerchStylist" class="TestsObjects.BookingsMiniTests"/>
+        <method signature="BuyItemByExistUserEditCC.DoLogin()[pri:1, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" name="DoLogin" class="TestsObjects.BuyItemByExistUserEditCC"/>
+        <method signature="BuyItemByExistUserEditCC.PlaceOreder()[pri:7, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" name="PlaceOreder" class="TestsObjects.BuyItemByExistUserEditCC"/>
+        <method signature="BuyItemByExistUserEditCC.SelectItem()[pri:3, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" name="SelectItem" class="TestsObjects.BuyItemByExistUserEditCC"/>
+        <method signature="BuyItemByExistUserEditCC.SelectLook()[pri:2, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" name="SelectLook" class="TestsObjects.BuyItemByExistUserEditCC"/>
+        <method signature="BuyItemByExistUserEditCC.SelectSize()[pri:4, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" name="SelectSize" class="TestsObjects.BuyItemByExistUserEditCC"/>
+        <method signature="BuyItemByExistUserEditCC.ValidateDetails()[pri:6, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" name="ValidateDetails" class="TestsObjects.BuyItemByExistUserEditCC"/>
+        <method signature="BuyItemByExistUserEditDetailed.DoLogin()[pri:1, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" name="DoLogin" class="TestsObjects.BuyItemByExistUserEditDetailed"/>
+        <method signature="BuyItemByExistUserEditDetailed.FillDetails()[pri:6, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" name="FillDetails" class="TestsObjects.BuyItemByExistUserEditDetailed"/>
+        <method signature="BuyItemByExistUserEditDetailed.PlaceOreder()[pri:7, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" name="PlaceOreder" class="TestsObjects.BuyItemByExistUserEditDetailed"/>
+        <method signature="BuyItemByExistUserEditDetailed.SelectItem()[pri:3, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" name="SelectItem" class="TestsObjects.BuyItemByExistUserEditDetailed"/>
+        <method signature="BuyItemByExistUserEditDetailed.SelectLook()[pri:2, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" name="SelectLook" class="TestsObjects.BuyItemByExistUserEditDetailed"/>
+        <method signature="BuyItemByExistUserEditDetailed.SelectSize()[pri:4, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" name="SelectSize" class="TestsObjects.BuyItemByExistUserEditDetailed"/>
+        <method signature="BuyItemByExistUserFromCart.DoLogin()[pri:1, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" name="DoLogin" class="TestsObjects.BuyItemByExistUserFromCart"/>
+        <method signature="BuyItemByExistUserFromCart.PlaceOreder()[pri:6, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" name="PlaceOreder" class="TestsObjects.BuyItemByExistUserFromCart"/>
+        <method signature="BuyItemByExistUserFromCart.PlaceOrederNextItem()[pri:9, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" name="PlaceOrederNextItem" class="TestsObjects.BuyItemByExistUserFromCart"/>
+        <method signature="BuyItemByExistUserFromCart.SelectItem()[pri:3, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" name="SelectItem" class="TestsObjects.BuyItemByExistUserFromCart"/>
+        <method signature="BuyItemByExistUserFromCart.SelectLook()[pri:2, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" name="SelectLook" class="TestsObjects.BuyItemByExistUserFromCart"/>
+        <method signature="BuyItemByExistUserFromCart.SelectSize()[pri:4, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" name="SelectSize" class="TestsObjects.BuyItemByExistUserFromCart"/>
+        <method signature="BuyItemByExistUserFromCart.SelectSizenextitem()[pri:7, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" name="SelectSizenextitem" class="TestsObjects.BuyItemByExistUserFromCart"/>
+        <method signature="BuyItemByExistUserFromCart.ValidateDetails()[pri:5, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" name="ValidateDetails" class="TestsObjects.BuyItemByExistUserFromCart"/>
+        <method signature="BuyItemByExistUserFromCart.ValidateDetailsnextItem()[pri:8, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" name="ValidateDetailsnextItem" class="TestsObjects.BuyItemByExistUserFromCart"/>
+        <method signature="BuyItemByExistUserSavedDetailedAndCC.DoLogin()[pri:1, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" name="DoLogin" class="TestsObjects.BuyItemByExistUserSavedDetailedAndCC"/>
+        <method signature="BuyItemByExistUserSavedDetailedAndCC.PlaceOreder()[pri:7, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" name="PlaceOreder" class="TestsObjects.BuyItemByExistUserSavedDetailedAndCC"/>
+        <method signature="BuyItemByExistUserSavedDetailedAndCC.SelectItem()[pri:3, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" name="SelectItem" class="TestsObjects.BuyItemByExistUserSavedDetailedAndCC"/>
+        <method signature="BuyItemByExistUserSavedDetailedAndCC.SelectLook()[pri:2, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" name="SelectLook" class="TestsObjects.BuyItemByExistUserSavedDetailedAndCC"/>
+        <method signature="BuyItemByExistUserSavedDetailedAndCC.SelectSize()[pri:4, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" name="SelectSize" class="TestsObjects.BuyItemByExistUserSavedDetailedAndCC"/>
+        <method signature="BuyItemByExistUserSavedDetailedAndCC.ValidateDetails()[pri:6, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" name="ValidateDetails" class="TestsObjects.BuyItemByExistUserSavedDetailedAndCC"/>
+        <method signature="BuyItemByNewUser.FillDetails()[pri:6, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" name="FillDetails" class="TestsObjects.BuyItemByNewUser"/>
+        <method signature="BuyItemByNewUser.OpenFeed()[pri:1, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" name="OpenFeed" class="TestsObjects.BuyItemByNewUser"/>
+        <method signature="BuyItemByNewUser.PlaceOreder()[pri:7, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" name="PlaceOreder" class="TestsObjects.BuyItemByNewUser"/>
+        <method signature="BuyItemByNewUser.SelectItem()[pri:3, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" name="SelectItem" class="TestsObjects.BuyItemByNewUser"/>
+        <method signature="BuyItemByNewUser.SelectLook()[pri:2, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" name="SelectLook" class="TestsObjects.BuyItemByNewUser"/>
+        <method signature="BuyItemByNewUser.SelectSize()[pri:4, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" name="SelectSize" class="TestsObjects.BuyItemByNewUser"/>
+        <method signature="BuyItemByNewUser.Signup()[pri:5, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" name="Signup" class="TestsObjects.BuyItemByNewUser"/>
+        <method signature="BuyItemByNewUserFromCart.DoSignUp()[pri:3, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="DoSignUp" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.FillDetails()[pri:10, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="FillDetails" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.PlaceOreder()[pri:11, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="PlaceOreder" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.PlaceOrederNextItem()[pri:14, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="PlaceOrederNextItem" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.SelctStyle()[pri:6, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="SelctStyle" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.SelectBodytype()[pri:5, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="SelectBodytype" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.SelectBrands()[pri:7, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="SelectBrands" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.SelectFamale()[pri:4, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="SelectFamale" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.SelectItem()[pri:8, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="SelectItem" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.SelectLook()[pri:2, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="SelectLook" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.SelectSize()[pri:9, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="SelectSize" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.SelectSizenextitem()[pri:12, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="SelectSizenextitem" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.ValidateDetailsnextItem()[pri:13, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="ValidateDetailsnextItem" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="BuyItemByNewUserFromCart.openFeed()[pri:1, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" name="openFeed" class="TestsObjects.BuyItemByNewUserFromCart"/>
+        <method signature="LoginTest.ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@54087bdb]" name="ClickLoginwWithOutToFillAnyFields" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.DoLogin()[pri:7, instance:TestsObjects.LoginTest@54087bdb]" name="DoLogin" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@54087bdb]" name="FillCorrectEmailWithWrongPassword" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@54087bdb]" name="FillCorrectPasswordWithWrongEmail" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@54087bdb]" name="FillEmailWithOutToFillPassword" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillHebLettersEmail()[pri:6, instance:TestsObjects.LoginTest@54087bdb]" name="FillHebLettersEmail" class="TestsObjects.LoginTest"/>
+        <method signature="LoginTest.FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@54087bdb]" name="FillPasswordWithOutToFillEmail" class="TestsObjects.LoginTest"/>
+        <method signature="OnBoardingFemaleTest.DoSignUp()[pri:1, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" name="DoSignUp" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingFemaleTest.SelctStyle()[pri:4, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" name="SelctStyle" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingFemaleTest.SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" name="SelectBodytype" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingFemaleTest.SelectBrands()[pri:5, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" name="SelectBrands" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingFemaleTest.SelectFamale()[pri:2, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" name="SelectFamale" class="TestsObjects.OnBoardingFemaleTest"/>
+        <method signature="OnBoardingMaleTest.DoSignUp()[pri:1, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" name="DoSignUp" class="TestsObjects.OnBoardingMaleTest"/>
+        <method signature="OnBoardingMaleTest.SelctStyle()[pri:3, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" name="SelctStyle" class="TestsObjects.OnBoardingMaleTest"/>
+        <method signature="OnBoardingMaleTest.SelectBrands()[pri:4, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" name="SelectBrands" class="TestsObjects.OnBoardingMaleTest"/>
+        <method signature="OnBoardingMaleTest.SelectFamale()[pri:2, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" name="SelectFamale" class="TestsObjects.OnBoardingMaleTest"/>
+        <method signature="OnBoardingNaturalTest.DoSignUp()[pri:1, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" name="DoSignUp" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="OnBoardingNaturalTest.SelctStyle()[pri:4, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" name="SelctStyle" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="OnBoardingNaturalTest.SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" name="SelectBodytype" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="OnBoardingNaturalTest.SelectBrands()[pri:5, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" name="SelectBrands" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="OnBoardingNaturalTest.SelectNatural()[pri:2, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" name="SelectNatural" class="TestsObjects.OnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingFemaleTest.DoSignUp()[pri:5, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" name="DoSignUp" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingFemaleTest.SelctStyle()[pri:3, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" name="SelctStyle" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingFemaleTest.SelectBodytype()[pri:2, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" name="SelectBodytype" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingFemaleTest.SelectBrands()[pri:4, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" name="SelectBrands" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingFemaleTest.SelectFamale()[pri:1, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" name="SelectFamale" class="TestsObjects.ReversOnBoardingFemaleTest"/>
+        <method signature="ReversOnBoardingMaleTest.DoSignUp()[pri:4, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" name="DoSignUp" class="TestsObjects.ReversOnBoardingMaleTest"/>
+        <method signature="ReversOnBoardingMaleTest.SelctStyle()[pri:2, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" name="SelctStyle" class="TestsObjects.ReversOnBoardingMaleTest"/>
+        <method signature="ReversOnBoardingMaleTest.SelectBrands()[pri:3, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" name="SelectBrands" class="TestsObjects.ReversOnBoardingMaleTest"/>
+        <method signature="ReversOnBoardingMaleTest.SelectMale()[pri:1, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" name="SelectMale" class="TestsObjects.ReversOnBoardingMaleTest"/>
+        <method signature="ReversOnBoardingNaturalTest.DoSignUp()[pri:5, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" name="DoSignUp" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingNaturalTest.SelctStyle()[pri:3, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" name="SelctStyle" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingNaturalTest.SelectBodytype()[pri:2, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" name="SelectBodytype" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingNaturalTest.SelectBrands()[pri:4, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" name="SelectBrands" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="ReversOnBoardingNaturalTest.SelectNatural()[pri:1, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" name="SelectNatural" class="TestsObjects.ReversOnBoardingNaturalTest"/>
+        <method signature="SignUpTest.CreateUser()[pri:11, instance:TestsObjects.SignUpTest@41d84abb]" name="CreateUser" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@41d84abb]" name="DoSignUp" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@41d84abb]" name="FillEmailWithoutDotCom" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@41d84abb]" name="FillEmailWitoutShtudel" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@41d84abb]" name="FillMailWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@41d84abb]" name="FillMailWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@41d84abb]" name="FillNameWithHebrewCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@41d84abb]" name="FillNameWithOutLastName" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@41d84abb]" name="FillNameWithSpecialCarecters" class="TestsObjects.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@41d84abb]" name="FillPsswordWithLessthan6Characters" class="TestsObjects.SignUpTest"/>
+      </group> <!-- sanity-group -->
+    </groups>
+    <test started-at="2021-08-15T22:44:35 IDT" name="Test" finished-at="2021-08-15T22:59:05 IDT" duration-ms="870269">
+      <class name="TestsObjects.BookingsCONewUserCCTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:18 IDT" name="setupCapability" finished-at="2021-08-15T22:53:35 IDT" duration-ms="16763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:35 IDT" name="DoSignUp" finished-at="2021-08-15T22:53:38 IDT" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:38 IDT" name="SelectFamale" finished-at="2021-08-15T22:53:39 IDT" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:39 IDT" name="SelectBodytype" finished-at="2021-08-15T22:53:39 IDT" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:39 IDT" name="SelctStyle" finished-at="2021-08-15T22:53:41 IDT" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:41 IDT" name="SelectBrands" finished-at="2021-08-15T22:53:43 IDT" duration-ms="2031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SerchStylist()[pri:6, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:43 IDT" name="SerchStylist" finished-at="2021-08-15T22:53:46 IDT" duration-ms="2857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:7, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:46 IDT" name="BookStylist" finished-at="2021-08-15T22:53:49 IDT" duration-ms="3139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:8, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:49 IDT" name="CheckOut" finished-at="2021-08-15T22:53:51 IDT" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsCONewUserCCTests@1fa29b9e]" started-at="2021-08-15T22:53:51 IDT" name="close" finished-at="2021-08-15T22:53:51 IDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsCONewUserCCTests -->
+      <class name="TestsObjects.BookingsCONewUserTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:53:51 IDT" name="setupCapability" finished-at="2021-08-15T22:54:04 IDT" duration-ms="12831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:54:04 IDT" name="DoSignUp" finished-at="2021-08-15T22:54:07 IDT" duration-ms="3622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:54:07 IDT" name="SelectFamale" finished-at="2021-08-15T22:54:08 IDT" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:54:08 IDT" name="SelectBodytype" finished-at="2021-08-15T22:54:08 IDT" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:54:08 IDT" name="SelctStyle" finished-at="2021-08-15T22:54:10 IDT" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:54:10 IDT" name="SelectBrands" finished-at="2021-08-15T22:54:12 IDT" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SerchStylist()[pri:6, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:54:12 IDT" name="SerchStylist" finished-at="2021-08-15T22:54:15 IDT" duration-ms="2924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:7, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:54:15 IDT" name="BookStylist" finished-at="2021-08-15T22:54:18 IDT" duration-ms="2901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:8, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:54:18 IDT" name="CheckOut" finished-at="2021-08-15T22:54:20 IDT" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsCONewUserTests@2d5e051e]" started-at="2021-08-15T22:54:20 IDT" name="close" finished-at="2021-08-15T22:54:21 IDT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsCONewUserTests -->
+      <class name="TestsObjects.BookingsCOTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsCOTests@462b239f]" started-at="2021-08-15T22:45:35 IDT" name="setupCapability" finished-at="2021-08-15T22:45:51 IDT" duration-ms="16714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoLogin()[pri:1, instance:TestsObjects.BookingsCOTests@462b239f]" started-at="2021-08-15T22:45:51 IDT" name="DoLogin" finished-at="2021-08-15T22:45:53 IDT" duration-ms="2077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="SerchStylist()[pri:2, instance:TestsObjects.BookingsCOTests@462b239f]" started-at="2021-08-15T22:45:53 IDT" name="SerchStylist" finished-at="2021-08-15T22:45:56 IDT" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:3, instance:TestsObjects.BookingsCOTests@462b239f]" started-at="2021-08-15T22:45:56 IDT" name="BookStylist" finished-at="2021-08-15T22:46:00 IDT" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:4, instance:TestsObjects.BookingsCOTests@462b239f]" started-at="2021-08-15T22:46:00 IDT" name="CheckOut" finished-at="2021-08-15T22:46:01 IDT" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsCOTests@462b239f]" started-at="2021-08-15T22:46:01 IDT" name="close" finished-at="2021-08-15T22:46:01 IDT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsCOTests -->
+      <class name="TestsObjects.BuyItemByNewUserFromCart">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:26 IDT" name="setupCapability" finished-at="2021-08-15T22:57:42 IDT" duration-ms="16013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="openFeed()[pri:1, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:42 IDT" name="openFeed" finished-at="2021-08-15T22:57:42 IDT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFeed -->
+        <test-method signature="SelectLook()[pri:2, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:42 IDT" name="SelectLook" finished-at="2021-08-15T22:57:44 IDT" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLook -->
+        <test-method signature="DoSignUp()[pri:3, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:44 IDT" name="DoSignUp" finished-at="2021-08-15T22:57:47 IDT" duration-ms="3265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:4, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:47 IDT" name="SelectFamale" finished-at="2021-08-15T22:57:47 IDT" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:5, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:47 IDT" name="SelectBodytype" finished-at="2021-08-15T22:57:48 IDT" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:6, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:48 IDT" name="SelctStyle" finished-at="2021-08-15T22:57:49 IDT" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:7, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:49 IDT" name="SelectBrands" finished-at="2021-08-15T22:57:51 IDT" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SelectItem()[pri:8, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:51 IDT" name="SelectItem" finished-at="2021-08-15T22:57:59 IDT" duration-ms="7036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItem -->
+        <test-method signature="SelectSize()[pri:9, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:57:59 IDT" name="SelectSize" finished-at="2021-08-15T22:58:02 IDT" duration-ms="3875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method signature="FillDetails()[pri:10, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:58:02 IDT" name="FillDetails" finished-at="2021-08-15T22:58:16 IDT" duration-ms="13743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillDetails -->
+        <test-method signature="PlaceOreder()[pri:11, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:58:16 IDT" name="PlaceOreder" finished-at="2021-08-15T22:58:27 IDT" duration-ms="10658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOreder -->
+        <test-method signature="SelectSizenextitem()[pri:12, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:58:27 IDT" name="SelectSizenextitem" finished-at="2021-08-15T22:58:31 IDT" duration-ms="3887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSizenextitem -->
+        <test-method signature="ValidateDetailsnextItem()[pri:13, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:58:31 IDT" name="ValidateDetailsnextItem" finished-at="2021-08-15T22:58:31 IDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDetailsnextItem -->
+        <test-method signature="PlaceOrederNextItem()[pri:14, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:58:31 IDT" name="PlaceOrederNextItem" finished-at="2021-08-15T22:58:33 IDT" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrederNextItem -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BuyItemByNewUserFromCart@7c37ac3c]" started-at="2021-08-15T22:58:33 IDT" name="close" finished-at="2021-08-15T22:58:33 IDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BuyItemByNewUserFromCart -->
+      <class name="TestsObjects.OnBoardingNaturalTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" started-at="2021-08-15T22:52:48 IDT" name="setupCapability" finished-at="2021-08-15T22:53:08 IDT" duration-ms="19309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" started-at="2021-08-15T22:53:08 IDT" name="DoSignUp" finished-at="2021-08-15T22:53:11 IDT" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectNatural()[pri:2, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" started-at="2021-08-15T22:53:11 IDT" name="SelectNatural" finished-at="2021-08-15T22:53:13 IDT" duration-ms="1421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectNatural -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" started-at="2021-08-15T22:53:13 IDT" name="SelectBodytype" finished-at="2021-08-15T22:53:13 IDT" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" started-at="2021-08-15T22:53:13 IDT" name="SelctStyle" finished-at="2021-08-15T22:53:16 IDT" duration-ms="2932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" started-at="2021-08-15T22:53:16 IDT" name="SelectBrands" finished-at="2021-08-15T22:53:18 IDT" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.OnBoardingNaturalTest@4ef28dc4]" started-at="2021-08-15T22:53:18 IDT" name="close" finished-at="2021-08-15T22:53:18 IDT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.OnBoardingNaturalTest -->
+      <class name="TestsObjects.BuyItemByExistUserFromCart">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:46:26 IDT" name="setupCapability" finished-at="2021-08-15T22:46:43 IDT" duration-ms="16167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoLogin()[pri:1, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:46:43 IDT" name="DoLogin" finished-at="2021-08-15T22:46:45 IDT" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="SelectLook()[pri:2, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:46:45 IDT" name="SelectLook" finished-at="2021-08-15T22:46:46 IDT" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLook -->
+        <test-method signature="SelectItem()[pri:3, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:46:46 IDT" name="SelectItem" finished-at="2021-08-15T22:46:52 IDT" duration-ms="5522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItem -->
+        <test-method signature="SelectSize()[pri:4, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:46:52 IDT" name="SelectSize" finished-at="2021-08-15T22:46:56 IDT" duration-ms="4087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method signature="ValidateDetails()[pri:5, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:46:56 IDT" name="ValidateDetails" finished-at="2021-08-15T22:46:56 IDT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDetails -->
+        <test-method signature="PlaceOreder()[pri:6, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:46:56 IDT" name="PlaceOreder" finished-at="2021-08-15T22:47:04 IDT" duration-ms="7729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOreder -->
+        <test-method signature="SelectSizenextitem()[pri:7, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:47:04 IDT" name="SelectSizenextitem" finished-at="2021-08-15T22:47:08 IDT" duration-ms="3779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSizenextitem -->
+        <test-method signature="ValidateDetailsnextItem()[pri:8, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:47:08 IDT" name="ValidateDetailsnextItem" finished-at="2021-08-15T22:47:08 IDT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDetailsnextItem -->
+        <test-method signature="PlaceOrederNextItem()[pri:9, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:47:08 IDT" name="PlaceOrederNextItem" finished-at="2021-08-15T22:47:10 IDT" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrederNextItem -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BuyItemByExistUserFromCart@28e8dee7]" started-at="2021-08-15T22:47:10 IDT" name="close" finished-at="2021-08-15T22:47:10 IDT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BuyItemByExistUserFromCart -->
+      <class name="TestsObjects.BookGiftCardTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:49:41 IDT" name="setupCapability" finished-at="2021-08-15T22:50:01 IDT" duration-ms="20157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:50:01 IDT" name="DoSignUp" finished-at="2021-08-15T22:50:04 IDT" duration-ms="3396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:50:04 IDT" name="SelectFamale" finished-at="2021-08-15T22:50:05 IDT" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:50:05 IDT" name="SelectBodytype" finished-at="2021-08-15T22:50:05 IDT" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:50:05 IDT" name="SelctStyle" finished-at="2021-08-15T22:50:07 IDT" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:50:07 IDT" name="SelectBrands" finished-at="2021-08-15T22:50:09 IDT" duration-ms="2163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SerchStylist()[pri:6, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:50:09 IDT" name="SerchStylist" finished-at="2021-08-15T22:50:12 IDT" duration-ms="2861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="SelectGift()[pri:7, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:50:12 IDT" name="SelectGift" finished-at="2021-08-15T22:50:13 IDT" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectGift -->
+        <test-method signature="CheckOut()[pri:8, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:50:13 IDT" name="CheckOut" finished-at="2021-08-15T22:50:16 IDT" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookGiftCardTest@2ae08750]" started-at="2021-08-15T22:50:16 IDT" name="close" finished-at="2021-08-15T22:50:17 IDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookGiftCardTest -->
+      <class name="TestsObjects.ReversOnBoardingMaleTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" started-at="2021-08-15T22:56:34 IDT" name="setupCapability" finished-at="2021-08-15T22:56:50 IDT" duration-ms="15717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="SelectMale()[pri:1, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" started-at="2021-08-15T22:56:50 IDT" name="SelectMale" finished-at="2021-08-15T22:56:52 IDT" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectMale -->
+        <test-method signature="SelctStyle()[pri:2, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" started-at="2021-08-15T22:56:52 IDT" name="SelctStyle" finished-at="2021-08-15T22:56:53 IDT" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:3, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" started-at="2021-08-15T22:56:53 IDT" name="SelectBrands" finished-at="2021-08-15T22:56:55 IDT" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="DoSignUp()[pri:4, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" started-at="2021-08-15T22:56:55 IDT" name="DoSignUp" finished-at="2021-08-15T22:56:58 IDT" duration-ms="2962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.ReversOnBoardingMaleTest@7ade62a6]" started-at="2021-08-15T22:56:58 IDT" name="close" finished-at="2021-08-15T22:56:58 IDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.ReversOnBoardingMaleTest -->
+      <class name="TestsObjects.BookingsMajorNewUserTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:51:26 IDT" name="setupCapability" finished-at="2021-08-15T22:51:42 IDT" duration-ms="15699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:51:42 IDT" name="DoSignUp" finished-at="2021-08-15T22:51:46 IDT" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:51:46 IDT" name="SelectFamale" finished-at="2021-08-15T22:51:47 IDT" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:51:47 IDT" name="SelectBodytype" finished-at="2021-08-15T22:51:47 IDT" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:51:47 IDT" name="SelctStyle" finished-at="2021-08-15T22:51:49 IDT" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:51:49 IDT" name="SelectBrands" finished-at="2021-08-15T22:51:51 IDT" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SerchStylist()[pri:6, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:51:51 IDT" name="SerchStylist" finished-at="2021-08-15T22:51:54 IDT" duration-ms="2979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:7, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:51:54 IDT" name="BookStylist" finished-at="2021-08-15T22:51:57 IDT" duration-ms="3031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:8, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:51:57 IDT" name="CheckOut" finished-at="2021-08-15T22:52:00 IDT" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsMajorNewUserTests@30811f91]" started-at="2021-08-15T22:52:00 IDT" name="close" finished-at="2021-08-15T22:52:01 IDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsMajorNewUserTests -->
+      <class name="TestsObjects.BookingsMajorSubscriptionTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" started-at="2021-08-15T22:47:51 IDT" name="setupCapability" finished-at="2021-08-15T22:48:06 IDT" duration-ms="15627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoLogin()[pri:1, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" started-at="2021-08-15T22:48:06 IDT" name="DoLogin" finished-at="2021-08-15T22:48:08 IDT" duration-ms="1858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="SerchStylist()[pri:2, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" started-at="2021-08-15T22:48:08 IDT" name="SerchStylist" finished-at="2021-08-15T22:48:11 IDT" duration-ms="3051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:3, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" started-at="2021-08-15T22:48:11 IDT" name="BookStylist" finished-at="2021-08-15T22:48:14 IDT" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:4, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" started-at="2021-08-15T22:48:14 IDT" name="CheckOut" finished-at="2021-08-15T22:48:15 IDT" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsMajorSubscriptionTests@3bf40c74]" started-at="2021-08-15T22:48:15 IDT" name="close" finished-at="2021-08-15T22:48:15 IDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsMajorSubscriptionTests -->
+      <class name="TestsObjects.BookingsMajorTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsMajorTests@9976b27]" started-at="2021-08-15T22:44:35 IDT" name="setupCapability" finished-at="2021-08-15T22:44:52 IDT" duration-ms="17160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoLogin()[pri:1, instance:TestsObjects.BookingsMajorTests@9976b27]" started-at="2021-08-15T22:44:52 IDT" name="DoLogin" finished-at="2021-08-15T22:44:55 IDT" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="SerchStylist()[pri:2, instance:TestsObjects.BookingsMajorTests@9976b27]" started-at="2021-08-15T22:44:56 IDT" name="SerchStylist" finished-at="2021-08-15T22:44:59 IDT" duration-ms="3246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:3, instance:TestsObjects.BookingsMajorTests@9976b27]" started-at="2021-08-15T22:44:59 IDT" name="BookStylist" finished-at="2021-08-15T22:45:02 IDT" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:4, instance:TestsObjects.BookingsMajorTests@9976b27]" started-at="2021-08-15T22:45:02 IDT" name="CheckOut" finished-at="2021-08-15T22:45:05 IDT" duration-ms="2695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsMajorTests@9976b27]" started-at="2021-08-15T22:45:05 IDT" name="close" finished-at="2021-08-15T22:45:05 IDT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsMajorTests -->
+      <class name="TestsObjects.BuyItemByExistUserSavedDetailedAndCC">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" started-at="2021-08-15T22:48:15 IDT" name="setupCapability" finished-at="2021-08-15T22:48:30 IDT" duration-ms="14595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoLogin()[pri:1, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" started-at="2021-08-15T22:48:30 IDT" name="DoLogin" finished-at="2021-08-15T22:48:31 IDT" duration-ms="1898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="SelectLook()[pri:2, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" started-at="2021-08-15T22:48:31 IDT" name="SelectLook" finished-at="2021-08-15T22:48:33 IDT" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLook -->
+        <test-method signature="SelectItem()[pri:3, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" started-at="2021-08-15T22:48:33 IDT" name="SelectItem" finished-at="2021-08-15T22:48:36 IDT" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItem -->
+        <test-method signature="SelectSize()[pri:4, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" started-at="2021-08-15T22:48:36 IDT" name="SelectSize" finished-at="2021-08-15T22:48:38 IDT" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method signature="ValidateDetails()[pri:6, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" started-at="2021-08-15T22:48:38 IDT" name="ValidateDetails" finished-at="2021-08-15T22:48:38 IDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDetails -->
+        <test-method signature="PlaceOreder()[pri:7, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" started-at="2021-08-15T22:48:38 IDT" name="PlaceOreder" finished-at="2021-08-15T22:48:40 IDT" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOreder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BuyItemByExistUserSavedDetailedAndCC@3fecb076]" started-at="2021-08-15T22:48:40 IDT" name="close" finished-at="2021-08-15T22:48:41 IDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BuyItemByExistUserSavedDetailedAndCC -->
+      <class name="TestsObjects.BuyItemByExistUserEditCC">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" started-at="2021-08-15T22:46:01 IDT" name="setupCapability" finished-at="2021-08-15T22:46:13 IDT" duration-ms="12499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoLogin()[pri:1, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" started-at="2021-08-15T22:46:13 IDT" name="DoLogin" finished-at="2021-08-15T22:46:16 IDT" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="SelectLook()[pri:2, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" started-at="2021-08-15T22:46:16 IDT" name="SelectLook" finished-at="2021-08-15T22:46:17 IDT" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLook -->
+        <test-method signature="SelectItem()[pri:3, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" started-at="2021-08-15T22:46:17 IDT" name="SelectItem" finished-at="2021-08-15T22:46:19 IDT" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItem -->
+        <test-method signature="SelectSize()[pri:4, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" started-at="2021-08-15T22:46:19 IDT" name="SelectSize" finished-at="2021-08-15T22:46:22 IDT" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method signature="ValidateDetails()[pri:6, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" started-at="2021-08-15T22:46:22 IDT" name="ValidateDetails" finished-at="2021-08-15T22:46:22 IDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDetails -->
+        <test-method signature="PlaceOreder()[pri:7, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" started-at="2021-08-15T22:46:22 IDT" name="PlaceOreder" finished-at="2021-08-15T22:46:26 IDT" duration-ms="4345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOreder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BuyItemByExistUserEditCC@3ee200ae]" started-at="2021-08-15T22:46:26 IDT" name="close" finished-at="2021-08-15T22:46:26 IDT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BuyItemByExistUserEditCC -->
+      <class name="TestsObjects.ReversOnBoardingNaturalTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" started-at="2021-08-15T22:56:58 IDT" name="setupCapability" finished-at="2021-08-15T22:57:15 IDT" duration-ms="16986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="SelectNatural()[pri:1, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" started-at="2021-08-15T22:57:15 IDT" name="SelectNatural" finished-at="2021-08-15T22:57:16 IDT" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectNatural -->
+        <test-method signature="SelectBodytype()[pri:2, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" started-at="2021-08-15T22:57:16 IDT" name="SelectBodytype" finished-at="2021-08-15T22:57:17 IDT" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:3, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" started-at="2021-08-15T22:57:17 IDT" name="SelctStyle" finished-at="2021-08-15T22:57:21 IDT" duration-ms="3699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:4, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" started-at="2021-08-15T22:57:21 IDT" name="SelectBrands" finished-at="2021-08-15T22:57:23 IDT" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="DoSignUp()[pri:5, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" started-at="2021-08-15T22:57:23 IDT" name="DoSignUp" finished-at="2021-08-15T22:57:25 IDT" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.ReversOnBoardingNaturalTest@53d15034]" started-at="2021-08-15T22:57:25 IDT" name="close" finished-at="2021-08-15T22:57:26 IDT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.ReversOnBoardingNaturalTest -->
+      <class name="TestsObjects.BuyItemByExistUserEditDetailed">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" started-at="2021-08-15T22:47:10 IDT" name="setupCapability" finished-at="2021-08-15T22:47:27 IDT" duration-ms="16218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoLogin()[pri:1, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" started-at="2021-08-15T22:47:27 IDT" name="DoLogin" finished-at="2021-08-15T22:47:28 IDT" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="SelectLook()[pri:2, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" started-at="2021-08-15T22:47:28 IDT" name="SelectLook" finished-at="2021-08-15T22:47:30 IDT" duration-ms="1657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLook -->
+        <test-method signature="SelectItem()[pri:3, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" started-at="2021-08-15T22:47:30 IDT" name="SelectItem" finished-at="2021-08-15T22:47:32 IDT" duration-ms="2237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItem -->
+        <test-method signature="SelectSize()[pri:4, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" started-at="2021-08-15T22:47:32 IDT" name="SelectSize" finished-at="2021-08-15T22:47:35 IDT" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method signature="FillDetails()[pri:6, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" started-at="2021-08-15T22:47:35 IDT" name="FillDetails" finished-at="2021-08-15T22:47:48 IDT" duration-ms="13686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillDetails -->
+        <test-method signature="PlaceOreder()[pri:7, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" started-at="2021-08-15T22:47:48 IDT" name="PlaceOreder" finished-at="2021-08-15T22:47:51 IDT" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOreder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BuyItemByExistUserEditDetailed@25ee3caa]" started-at="2021-08-15T22:47:51 IDT" name="close" finished-at="2021-08-15T22:47:51 IDT" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BuyItemByExistUserEditDetailed -->
+      <class name="TestsObjects.SignUpTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:33 IDT" name="setupCapability" finished-at="2021-08-15T22:58:46 IDT" duration-ms="13035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="FillEmailWitoutShtudel()[pri:2, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:46 IDT" name="FillEmailWitoutShtudel" finished-at="2021-08-15T22:58:47 IDT" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillEmailWitoutShtudel -->
+        <test-method signature="FillEmailWithoutDotCom()[pri:3, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:47 IDT" name="FillEmailWithoutDotCom" finished-at="2021-08-15T22:58:50 IDT" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillEmailWithoutDotCom -->
+        <test-method signature="FillPsswordWithLessthan6Characters()[pri:4, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:50 IDT" name="FillPsswordWithLessthan6Characters" finished-at="2021-08-15T22:58:51 IDT" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPsswordWithLessthan6Characters -->
+        <test-method signature="FillMailWithSpecialCarecters()[pri:5, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:51 IDT" name="FillMailWithSpecialCarecters" finished-at="2021-08-15T22:58:52 IDT" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillMailWithSpecialCarecters -->
+        <test-method signature="FillMailWithHebrewCarecters()[pri:6, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:52 IDT" name="FillMailWithHebrewCarecters" finished-at="2021-08-15T22:58:54 IDT" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillMailWithHebrewCarecters -->
+        <test-method signature="FillNameWithSpecialCarecters()[pri:7, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:54 IDT" name="FillNameWithSpecialCarecters" finished-at="2021-08-15T22:58:55 IDT" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillNameWithSpecialCarecters -->
+        <test-method signature="FillNameWithHebrewCarecters()[pri:8, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:55 IDT" name="FillNameWithHebrewCarecters" finished-at="2021-08-15T22:58:57 IDT" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillNameWithHebrewCarecters -->
+        <test-method signature="FillNameWithOutLastName()[pri:9, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:57 IDT" name="FillNameWithOutLastName" finished-at="2021-08-15T22:58:58 IDT" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillNameWithOutLastName -->
+        <test-method signature="DoSignUp()[pri:10, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:58:58 IDT" name="DoSignUp" finished-at="2021-08-15T22:59:01 IDT" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="CreateUser()[pri:11, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:59:01 IDT" name="CreateUser" finished-at="2021-08-15T22:59:05 IDT" duration-ms="4585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.SignUpTest@41d84abb]" started-at="2021-08-15T22:59:05 IDT" name="close" finished-at="2021-08-15T22:59:05 IDT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.SignUpTest -->
+      <class name="TestsObjects.BookingsMiniNewUserTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:04 IDT" name="setupCapability" finished-at="2021-08-15T22:49:22 IDT" duration-ms="18037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:22 IDT" name="DoSignUp" finished-at="2021-08-15T22:49:26 IDT" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:26 IDT" name="SelectFamale" finished-at="2021-08-15T22:49:27 IDT" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:27 IDT" name="SelectBodytype" finished-at="2021-08-15T22:49:27 IDT" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:27 IDT" name="SelctStyle" finished-at="2021-08-15T22:49:29 IDT" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:29 IDT" name="SelectBrands" finished-at="2021-08-15T22:49:31 IDT" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SerchStylist()[pri:6, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:31 IDT" name="SerchStylist" finished-at="2021-08-15T22:49:34 IDT" duration-ms="2850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:7, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:34 IDT" name="BookStylist" finished-at="2021-08-15T22:49:37 IDT" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:8, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:37 IDT" name="CheckOut" finished-at="2021-08-15T22:49:41 IDT" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsMiniNewUserTests@44117b0d]" started-at="2021-08-15T22:49:41 IDT" name="close" finished-at="2021-08-15T22:49:41 IDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsMiniNewUserTests -->
+      <class name="TestsObjects.BookingsMajorNewUserSubscriptionTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:21 IDT" name="setupCapability" finished-at="2021-08-15T22:54:40 IDT" duration-ms="18980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:40 IDT" name="DoSignUp" finished-at="2021-08-15T22:54:43 IDT" duration-ms="3119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:43 IDT" name="SelectFamale" finished-at="2021-08-15T22:54:44 IDT" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:44 IDT" name="SelectBodytype" finished-at="2021-08-15T22:54:44 IDT" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:44 IDT" name="SelctStyle" finished-at="2021-08-15T22:54:46 IDT" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:46 IDT" name="SelectBrands" finished-at="2021-08-15T22:54:48 IDT" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SerchStylist()[pri:6, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:48 IDT" name="SerchStylist" finished-at="2021-08-15T22:54:51 IDT" duration-ms="2863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:7, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:51 IDT" name="BookStylist" finished-at="2021-08-15T22:54:54 IDT" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:8, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:54 IDT" name="CheckOut" finished-at="2021-08-15T22:54:56 IDT" duration-ms="1506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsMajorNewUserSubscriptionTests@2f29e630]" started-at="2021-08-15T22:54:56 IDT" name="close" finished-at="2021-08-15T22:54:56 IDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsMajorNewUserSubscriptionTests -->
+      <class name="TestsObjects.BookingsMiniSabscriptionTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" started-at="2021-08-15T22:48:41 IDT" name="setupCapability" finished-at="2021-08-15T22:48:56 IDT" duration-ms="14900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoLogin()[pri:1, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" started-at="2021-08-15T22:48:56 IDT" name="DoLogin" finished-at="2021-08-15T22:48:58 IDT" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="SerchStylist()[pri:2, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" started-at="2021-08-15T22:48:58 IDT" name="SerchStylist" finished-at="2021-08-15T22:49:01 IDT" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:3, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" started-at="2021-08-15T22:49:01 IDT" name="BookStylist" finished-at="2021-08-15T22:49:04 IDT" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:4, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" started-at="2021-08-15T22:49:04 IDT" name="CheckOut" finished-at="2021-08-15T22:49:04 IDT" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsMiniSabscriptionTests@62159fd]" started-at="2021-08-15T22:49:04 IDT" name="close" finished-at="2021-08-15T22:49:04 IDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsMiniSabscriptionTests -->
+      <class name="TestsObjects.ReversOnBoardingFemaleTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" started-at="2021-08-15T22:56:10 IDT" name="setupCapability" finished-at="2021-08-15T22:56:25 IDT" duration-ms="15293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="SelectFamale()[pri:1, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" started-at="2021-08-15T22:56:25 IDT" name="SelectFamale" finished-at="2021-08-15T22:56:27 IDT" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:2, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" started-at="2021-08-15T22:56:27 IDT" name="SelectBodytype" finished-at="2021-08-15T22:56:28 IDT" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:3, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" started-at="2021-08-15T22:56:28 IDT" name="SelctStyle" finished-at="2021-08-15T22:56:30 IDT" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:4, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" started-at="2021-08-15T22:56:30 IDT" name="SelectBrands" finished-at="2021-08-15T22:56:31 IDT" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="DoSignUp()[pri:5, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" started-at="2021-08-15T22:56:31 IDT" name="DoSignUp" finished-at="2021-08-15T22:56:34 IDT" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.ReversOnBoardingFemaleTest@59b3f162]" started-at="2021-08-15T22:56:34 IDT" name="close" finished-at="2021-08-15T22:56:34 IDT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.ReversOnBoardingFemaleTest -->
+      <class name="TestsObjects.LoginTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.LoginTest@54087bdb]" started-at="2021-08-15T22:54:56 IDT" name="setupCapability" finished-at="2021-08-15T22:55:13 IDT" duration-ms="17737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="FillPasswordWithOutToFillEmail()[pri:1, instance:TestsObjects.LoginTest@54087bdb]" started-at="2021-08-15T22:55:13 IDT" name="FillPasswordWithOutToFillEmail" finished-at="2021-08-15T22:55:14 IDT" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPasswordWithOutToFillEmail -->
+        <test-method signature="FillEmailWithOutToFillPassword()[pri:2, instance:TestsObjects.LoginTest@54087bdb]" started-at="2021-08-15T22:55:14 IDT" name="FillEmailWithOutToFillPassword" finished-at="2021-08-15T22:55:15 IDT" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillEmailWithOutToFillPassword -->
+        <test-method signature="ClickLoginwWithOutToFillAnyFields()[pri:3, instance:TestsObjects.LoginTest@54087bdb]" started-at="2021-08-15T22:55:15 IDT" name="ClickLoginwWithOutToFillAnyFields" finished-at="2021-08-15T22:55:16 IDT" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLoginwWithOutToFillAnyFields -->
+        <test-method signature="FillCorrectEmailWithWrongPassword()[pri:4, instance:TestsObjects.LoginTest@54087bdb]" started-at="2021-08-15T22:55:16 IDT" name="FillCorrectEmailWithWrongPassword" finished-at="2021-08-15T22:55:18 IDT" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillCorrectEmailWithWrongPassword -->
+        <test-method signature="FillCorrectPasswordWithWrongEmail()[pri:5, instance:TestsObjects.LoginTest@54087bdb]" started-at="2021-08-15T22:55:18 IDT" name="FillCorrectPasswordWithWrongEmail" finished-at="2021-08-15T22:55:19 IDT" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillCorrectPasswordWithWrongEmail -->
+        <test-method signature="FillHebLettersEmail()[pri:6, instance:TestsObjects.LoginTest@54087bdb]" started-at="2021-08-15T22:55:19 IDT" name="FillHebLettersEmail" finished-at="2021-08-15T22:55:21 IDT" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillHebLettersEmail -->
+        <test-method signature="DoLogin()[pri:7, instance:TestsObjects.LoginTest@54087bdb]" started-at="2021-08-15T22:55:21 IDT" name="DoLogin" finished-at="2021-08-15T22:55:23 IDT" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.LoginTest@54087bdb]" started-at="2021-08-15T22:55:23 IDT" name="close" finished-at="2021-08-15T22:55:23 IDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.LoginTest -->
+      <class name="TestsObjects.OnBoardingFemaleTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" started-at="2021-08-15T22:52:01 IDT" name="setupCapability" finished-at="2021-08-15T22:52:14 IDT" duration-ms="13273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" started-at="2021-08-15T22:52:14 IDT" name="DoSignUp" finished-at="2021-08-15T22:52:18 IDT" duration-ms="3639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" started-at="2021-08-15T22:52:18 IDT" name="SelectFamale" finished-at="2021-08-15T22:52:18 IDT" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" started-at="2021-08-15T22:52:18 IDT" name="SelectBodytype" finished-at="2021-08-15T22:52:19 IDT" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" started-at="2021-08-15T22:52:19 IDT" name="SelctStyle" finished-at="2021-08-15T22:52:22 IDT" duration-ms="2199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" started-at="2021-08-15T22:52:22 IDT" name="SelectBrands" finished-at="2021-08-15T22:52:23 IDT" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.OnBoardingFemaleTest@587f6634]" started-at="2021-08-15T22:52:23 IDT" name="close" finished-at="2021-08-15T22:52:23 IDT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.OnBoardingFemaleTest -->
+      <class name="TestsObjects.BookingsMiniNewUserSubscriptionTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:17 IDT" name="setupCapability" finished-at="2021-08-15T22:50:34 IDT" duration-ms="17554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:34 IDT" name="DoSignUp" finished-at="2021-08-15T22:50:37 IDT" duration-ms="3089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:37 IDT" name="SelectFamale" finished-at="2021-08-15T22:50:38 IDT" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:38 IDT" name="SelectBodytype" finished-at="2021-08-15T22:50:38 IDT" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:38 IDT" name="SelctStyle" finished-at="2021-08-15T22:50:40 IDT" duration-ms="1897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:40 IDT" name="SelectBrands" finished-at="2021-08-15T22:50:42 IDT" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SerchStylist()[pri:6, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:42 IDT" name="SerchStylist" finished-at="2021-08-15T22:50:45 IDT" duration-ms="2866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:7, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:45 IDT" name="BookStylist" finished-at="2021-08-15T22:50:48 IDT" duration-ms="2833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:8, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:48 IDT" name="CheckOut" finished-at="2021-08-15T22:50:50 IDT" duration-ms="1481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsMiniNewUserSubscriptionTests@665f88e1]" started-at="2021-08-15T22:50:50 IDT" name="close" finished-at="2021-08-15T22:50:50 IDT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsMiniNewUserSubscriptionTests -->
+      <class name="TestsObjects.BookingsMiniTests">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookingsMiniTests@4fe9a396]" started-at="2021-08-15T22:45:05 IDT" name="setupCapability" finished-at="2021-08-15T22:45:24 IDT" duration-ms="18720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoLogin()[pri:1, instance:TestsObjects.BookingsMiniTests@4fe9a396]" started-at="2021-08-15T22:45:24 IDT" name="DoLogin" finished-at="2021-08-15T22:45:26 IDT" duration-ms="2153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="SerchStylist()[pri:2, instance:TestsObjects.BookingsMiniTests@4fe9a396]" started-at="2021-08-15T22:45:26 IDT" name="SerchStylist" finished-at="2021-08-15T22:45:29 IDT" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="BookStylist()[pri:3, instance:TestsObjects.BookingsMiniTests@4fe9a396]" started-at="2021-08-15T22:45:29 IDT" name="BookStylist" finished-at="2021-08-15T22:45:32 IDT" duration-ms="3138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookStylist -->
+        <test-method signature="CheckOut()[pri:4, instance:TestsObjects.BookingsMiniTests@4fe9a396]" started-at="2021-08-15T22:45:32 IDT" name="CheckOut" finished-at="2021-08-15T22:45:34 IDT" duration-ms="2453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookingsMiniTests@4fe9a396]" started-at="2021-08-15T22:45:34 IDT" name="close" finished-at="2021-08-15T22:45:35 IDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookingsMiniTests -->
+      <class name="TestsObjects.OnBoardingMaleTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" started-at="2021-08-15T22:52:23 IDT" name="setupCapability" finished-at="2021-08-15T22:52:41 IDT" duration-ms="17384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" started-at="2021-08-15T22:52:41 IDT" name="DoSignUp" finished-at="2021-08-15T22:52:44 IDT" duration-ms="3123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" started-at="2021-08-15T22:52:44 IDT" name="SelectFamale" finished-at="2021-08-15T22:52:45 IDT" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelctStyle()[pri:3, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" started-at="2021-08-15T22:52:45 IDT" name="SelctStyle" finished-at="2021-08-15T22:52:46 IDT" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:4, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" started-at="2021-08-15T22:52:46 IDT" name="SelectBrands" finished-at="2021-08-15T22:52:48 IDT" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.OnBoardingMaleTest@4d7c9b42]" started-at="2021-08-15T22:52:48 IDT" name="close" finished-at="2021-08-15T22:52:48 IDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.OnBoardingMaleTest -->
+      <class name="TestsObjects.BookGiftCardCustomTest">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:50:50 IDT" name="setupCapability" finished-at="2021-08-15T22:51:10 IDT" duration-ms="20025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="DoSignUp()[pri:1, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:51:10 IDT" name="DoSignUp" finished-at="2021-08-15T22:51:13 IDT" duration-ms="3558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="SelectFamale()[pri:2, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:51:13 IDT" name="SelectFamale" finished-at="2021-08-15T22:51:14 IDT" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFamale -->
+        <test-method signature="SelectBodytype()[pri:3, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:51:14 IDT" name="SelectBodytype" finished-at="2021-08-15T22:51:15 IDT" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodytype -->
+        <test-method signature="SelctStyle()[pri:4, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:51:15 IDT" name="SelctStyle" finished-at="2021-08-15T22:51:17 IDT" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctStyle -->
+        <test-method signature="SelectBrands()[pri:5, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:51:17 IDT" name="SelectBrands" finished-at="2021-08-15T22:51:19 IDT" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SerchStylist()[pri:6, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:51:19 IDT" name="SerchStylist" finished-at="2021-08-15T22:51:22 IDT" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerchStylist -->
+        <test-method signature="SelectGift()[pri:7, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:51:22 IDT" name="SelectGift" finished-at="2021-08-15T22:51:23 IDT" duration-ms="1428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectGift -->
+        <test-method signature="CheckOut()[pri:8, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:51:23 IDT" name="CheckOut" finished-at="2021-08-15T22:51:26 IDT" duration-ms="3240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BookGiftCardCustomTest@2682cccc]" started-at="2021-08-15T22:51:26 IDT" name="close" finished-at="2021-08-15T22:51:26 IDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BookGiftCardCustomTest -->
+      <class name="TestsObjects.BuyItemByNewUser">
+        <test-method is-config="true" signature="setupCapability(org.testng.ITestContext)[pri:0, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" started-at="2021-08-15T22:55:23 IDT" name="setupCapability" finished-at="2021-08-15T22:55:41 IDT" duration-ms="18068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716eae1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCapability -->
+        <test-method signature="OpenFeed()[pri:1, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" started-at="2021-08-15T22:55:41 IDT" name="OpenFeed" finished-at="2021-08-15T22:55:41 IDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFeed -->
+        <test-method signature="SelectLook()[pri:2, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" started-at="2021-08-15T22:55:41 IDT" name="SelectLook" finished-at="2021-08-15T22:55:43 IDT" duration-ms="1724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLook -->
+        <test-method signature="SelectItem()[pri:3, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" started-at="2021-08-15T22:55:43 IDT" name="SelectItem" finished-at="2021-08-15T22:55:45 IDT" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItem -->
+        <test-method signature="SelectSize()[pri:4, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" started-at="2021-08-15T22:55:45 IDT" name="SelectSize" finished-at="2021-08-15T22:55:47 IDT" duration-ms="1814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method signature="Signup()[pri:5, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" started-at="2021-08-15T22:55:47 IDT" name="Signup" finished-at="2021-08-15T22:55:51 IDT" duration-ms="4277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+        <test-method signature="FillDetails()[pri:6, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" started-at="2021-08-15T22:55:51 IDT" name="FillDetails" finished-at="2021-08-15T22:56:05 IDT" duration-ms="13519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillDetails -->
+        <test-method signature="PlaceOreder()[pri:7, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" started-at="2021-08-15T22:56:05 IDT" name="PlaceOreder" finished-at="2021-08-15T22:56:10 IDT" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOreder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestsObjects.BuyItemByNewUser@6a7ea7c]" started-at="2021-08-15T22:56:10 IDT" name="close" finished-at="2021-08-15T22:56:10 IDT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestsObjects.BuyItemByNewUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
