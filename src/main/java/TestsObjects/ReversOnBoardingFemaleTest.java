@@ -115,10 +115,8 @@ public class ReversOnBoardingFemaleTest extends setup {
     @Test(priority = 5, groups = {"sanity-group"})
     public void DoSignUp() {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClearFullName();
         sign.FillFullName("test test");

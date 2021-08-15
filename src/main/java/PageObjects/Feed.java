@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
+import java.util.Random;
 
 public class Feed extends BasePage {
     public Feed(WebDriver driver) {
@@ -365,4 +366,5 @@ public class Feed extends BasePage {
         return num;
 
     }
+
 }

@@ -53,12 +53,8 @@ public class BuyItemByNewUserFromCart extends setup
     @Test(priority = 3, groups = {"sanity-group"})
     public void DoSignUp()
     {
-        Feed feed = new Feed(driver);
-        feed.AddToCart(0);
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();

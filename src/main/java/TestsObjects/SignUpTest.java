@@ -30,10 +30,8 @@ public class SignUpTest extends setup
     @Test(priority = 2,groups={"sanity-group"})
     public void FillEmailWitoutShtudel()
     {
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
@@ -56,10 +54,8 @@ public class SignUpTest extends setup
     public void FillEmailWithoutDotCom()
     {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
@@ -81,10 +77,8 @@ public class SignUpTest extends setup
     public void FillPsswordWithLessthan6Characters()
     {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
@@ -106,10 +100,8 @@ public class SignUpTest extends setup
     public void FillMailWithSpecialCarecters()
     {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
@@ -131,10 +123,8 @@ public class SignUpTest extends setup
     public void FillMailWithHebrewCarecters()
     {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
@@ -156,10 +146,8 @@ public class SignUpTest extends setup
     public void FillNameWithSpecialCarecters()
     {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
@@ -181,10 +169,8 @@ public class SignUpTest extends setup
     public void FillNameWithHebrewCarecters()
     {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
@@ -207,10 +193,8 @@ public class SignUpTest extends setup
     public void FillNameWithOutLastName()
     {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
@@ -234,10 +218,8 @@ public class SignUpTest extends setup
     public void DoSignUp()
     {
 
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter<=10000000;counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
@@ -262,10 +244,8 @@ public class SignUpTest extends setup
     public void CreateUser()
 
     {
-        Random num = new Random();
-        int number = 1000000;
-        for (int counter = 5800000; counter <= 10000000; counter++)
-            number = num.nextInt(700000);
+        Random random = new Random();
+        int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         String uuid = given()
                 .body("""
                         {
