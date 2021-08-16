@@ -30,10 +30,7 @@ public class BookGiftCardCustomTest extends setup
     public void DoSignUp() {
 
         Random num = new Random();
-          int number = num.nextInt(2000000 -
-                  1000000 +
-                  1)
-                  + 1000000;
+          int number = num.nextInt(2000000 - 1000000 + 1) + 1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
         sign.ClearFullName();
