@@ -22,7 +22,8 @@ public class BookingsMajorNewUserSubscriptionTests extends setup
     @Test(priority = 1, groups = {"sanity-group"})
     public void DoSignUp() {
 
-        Random random = new Random();
+        Random random =
+                new Random();
         int number = random.nextInt(2000000 - 1000000 + 1) +1000000;
         SignUpPage sign = new SignUpPage(driver);
         sign.ClickSignUpButton();
